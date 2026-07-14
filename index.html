@@ -1,20 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Morning Briefing</title>
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 640px;
-           margin: 80px auto; padding: 0 24px; color: #222; }
-    h1   { font-size: 1.6rem; }
-    p    { color: #555; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Morning Line — Briefing Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --paper: #E7E2D3;
+    --paper-card: #F7F4EC;
+    --ink: #1E2230;
+    --ink-soft: #565C6B;
+    --brass: #A97638;
+    --brass-soft: #C99B5E;
+    --teal: #33594F;
+    --rule: rgba(30,34,48,0.14);
+    --rail-w: 240px;
+    --content-w: 700px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--teal);}
+
+  /* ---------- Shell ---------- */
+  .shell{
+    display:flex;
+    min-height:100vh;
+    align-items:flex-start;
+  }
+
+  /* ---------- Rail (signature element) ---------- */
+  .rail{
+    width:var(--rail-w);
+    flex-shrink:0;
+    padding:48px 20px 48px 36px;
+    position:sticky;
+    top:0;
+    height:100vh;
+    overflow-y:auto;
+    border-right:1px solid var(--rule);
+  }
+  .rail-title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:22px;
+    letter-spacing:-0.01em;
+    margin:0 0 2px 0;
+  }
+  .rail-sub{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin:0 0 36px 0;
+  }
+  .timeline{
+    position:relative;
+    padding-left:22px;
+  }
+  .timeline::before{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:6px;
+    bottom:6px;
+    width:1px;
+    background:var(--rule);
+  }
+  .stamp{
+    position:relative;
+    padding:0 0 26px 0;
+    cursor:pointer;
+    display:block;
+    background:none;
+    border:none;
+    text-align:left;
+    width:100%;
+    font-family:inherit;
+  }
+  .stamp::before{
+    content:"";
+    position:absolute;
+    left:-22px;
+    top:3px;
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    background:var(--paper);
+    border:1.5px solid var(--ink-soft);
+    transition:all .15s ease;
+  }
+  .stamp.active::before{
+    background:var(--brass);
+    border-color:var(--brass);
+    box-shadow:0 0 0 3px rgba(169,118,56,0.18);
+  }
+  .stamp:hover::before{ border-color:var(--brass); }
+  .stamp-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    display:block;
+  }
+  .stamp.active .stamp-date{ color:var(--ink); font-weight:500; }
+  .stamp-label{
+    font-size:13px;
+    color:var(--ink-soft);
+    display:block;
+    margin-top:1px;
+  }
+  .stamp.active .stamp-label{ color:var(--ink); }
+
+  /* ---------- Main ---------- */
+  .main{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    padding:56px 32px 120px 32px;
+  }
+  .issue{
+    width:100%;
+    max-width:var(--content-w);
+  }
+  .issue-eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--brass);
+    margin:0 0 10px 0;
+  }
+  .issue-title{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:44px;
+    line-height:1.05;
+    letter-spacing:-0.015em;
+    margin:0 0 14px 0;
+  }
+  .issue-meta{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    margin:0 0 44px 0;
+    display:flex;
+    gap:18px;
+  }
+  section.topic{
+    margin:0 0 52px 0;
+    padding-top:36px;
+    border-top:1px solid var(--rule);
+  }
+  section.topic:first-of-type{
+    border-top:none;
+    padding-top:0;
+  }
+  .topic-name{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:15px;
+    color:var(--teal);
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    margin:0 0 14px 0;
+  }
+  .topic-summary p{
+    font-size:16.5px;
+    line-height:1.65;
+    margin:0 0 14px 0;
+    color:var(--ink);
+  }
+  .chart-wrap{
+    background:var(--paper-card);
+    border:1px solid var(--rule);
+    border-radius:4px;
+    padding:20px 22px 12px 22px;
+    margin:18px 0 10px 0;
+  }
+  .chart-title{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    margin:0 0 12px 0;
+  }
+  .chart-canvas-box{ height:220px; }
+  .chart-source{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin:10px 0 0 0;
+  }
+  .topic-image{
+    width:100%;
+    border-radius:4px;
+    margin:16px 0 8px 0;
+    display:block;
+  }
+  .topic-image-caption{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin:0 0 6px 0;
+    font-style:italic;
+  }
+  .sources{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin-top:12px;
+  }
+  .sources a{ margin-right:12px; }
+
+  .empty-state{
+    font-family:'Fraunces', serif;
+    font-size:20px;
+    color:var(--ink-soft);
+    padding-top:80px;
+  }
+
+  @media (max-width: 760px){
+    .rail{ position:relative; height:auto; width:100%; border-right:none; border-bottom:1px solid var(--rule); padding:28px 24px; }
+    .shell{ flex-direction:column; }
+    .issue-title{ font-size:32px; }
+  }
+</style>
 </head>
 <body>
-  <h1>Morning Briefing</h1>
-  <p>Your daily briefing will appear here after the first scheduled run
-     (weekdays at 7 AM ET). Check back tomorrow morning!</p>
-  <p style="font-size:.85rem;color:#aaa">Powered by Cowork + GitHub Pages</p>
+
+<div class="shell">
+  <nav class="rail">
+    <p class="rail-title">The Morning Line</p>
+    <p class="rail-sub">Briefing archive &middot; updated 4 AM ET</p>
+    <div class="timeline" id="timeline"></div>
+  </nav>
+  <main class="main">
+    <div class="issue" id="issue"></div>
+  </main>
+</div>
+
+<script>
+/* NEWSLETTER_DATA_START */
+const newsletters = [
+  {
+    "date": "2026-07-13",
+    "displayDate": "Monday, July 13, 2026",
+    "title": "Morning Briefing",
+    "wordCount": 480,
+    "readMinutes": 3,
+    "sections": [
+      {
+        "topic": "AI & Technology",
+        "summary": [
+          "Apple filed suit against OpenAI in federal court in Northern California, alleging trade secret theft tied to the hiring of more than 400 former Apple employees, many from its chip design and on-device AI teams. The filing centers on two named individuals accused of using confidential project code names during recruiting and retaining Apple technical documents after moving to OpenAI.",
+          "Meta's stock rose sharply after an internal memo outlined plans to roughly double the company's total computing power by 2027, alongside a new $10 billion data center in Alberta, Canada — its 33rd worldwide. Meta is also developing its own AI processor with Broadcom, manufactured by TSMC, entering production in September, joining a broader trend of AI labs building custom chips to reduce reliance on Nvidia.",
+          "Separately, enterprise adoption of generative AI keeps climbing: McKinsey's surveys put the share of organizations using generative AI in at least one business function at roughly 71% by 2024, up from about 33% in 2023, with adoption continuing to rise into 2026 as companies move from pilot projects into core workflows like finance, support, and code review."
+        ],
+        "chart": {
+          "type": "bar",
+          "title": "Share of organizations using generative AI in at least one business function",
+          "labels": ["2023", "2024"],
+          "data": [33, 71],
+          "unit": "%",
+          "sourceNote": "Source: McKinsey global surveys"
+        },
+        "sources": [
+          { "name": "Unrot — Top 10 AI News", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-12-2026" },
+          { "name": "ZoneTechify", "url": "https://www.zonetechify.com/blog/latest-ai-news-july-13-2026" }
+        ]
+      },
+      {
+        "topic": "Markets & Economy",
+        "summary": [
+          "U.S. futures were mixed Monday morning: the Dow advanced while the Nasdaq 100 and S&P 500 slipped, with the S&P's cash index down about 0.31% from the prior session, though still up over 20% year-over-year. Markets are bracing for a heavy week — big bank earnings (JPMorgan, Goldman Sachs, Wells Fargo, Citigroup, Bank of America) and June inflation data both land this week.",
+          "Commodities moved more than equities. Crude oil rose about 2.1% amid renewed U.S.–Iran tension near the Strait of Hormuz, while gold fell roughly 1.1% and Bitcoin slipped about 1.3% to just over $63,100, as investors continued unwinding some safe-haven positioning built up earlier in the year.",
+          "The bigger structural story analysts are watching: this earnings season is expected to show a second straight quarter of S&P 500 profit growth above 20%, which Yardeni Research and others argue means the current bull market is being driven by real earnings growth rather than rising valuations alone."
+        ],
+        "chart": {
+          "type": "bar",
+          "title": "Monday morning moves (%)",
+          "labels": ["S&P 500 (index)", "Crude Oil", "Gold", "Bitcoin"],
+          "data": [-0.31, 2.13, -1.13, -1.25],
+          "unit": "%",
+          "sourceNote": "Source: Trading Economics, Benzinga — July 13, 2026"
+        },
+        "sources": [
+          { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/07/60408205/stock-market-today-dow-futures-gain-sp-500-slips-as-us-and-iran-exchange-strikes-saratoga-exxon-mobil-levi-strauss-in-focus" },
+          { "name": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market" }
+        ]
+      }
+    ]
+  }
+];
+/* NEWSLETTER_DATA_END */
+
+let activeIndex = 0;
+const chartInstances = [];
+
+function fmtChange(v){
+  const sign = v > 0 ? "+" : "";
+  return sign + v + "%";
+}
+
+function renderTimeline(){
+  const el = document.getElementById('timeline');
+  el.innerHTML = '';
+  newsletters.forEach((n, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'stamp' + (i === activeIndex ? ' active' : '');
+    const d = new Date(n.date + "T00:00:00");
+    const label = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    btn.innerHTML = `<span class="stamp-date">${label}</span><span class="stamp-label">${n.title}</span>`;
+    btn.onclick = () => { activeIndex = i; window.location.hash = n.date; render(); };
+    el.appendChild(btn);
+  });
+}
+
+function renderIssue(){
+  chartInstances.forEach(c => c.destroy());
+  chartInstances.length = 0;
+
+  const container = document.getElementById('issue');
+  if(!newsletters.length){
+    container.innerHTML = '<p class="empty-state">No briefings yet — the first run will appear here.</p>';
+    return;
+  }
+  const n = newsletters[activeIndex];
+  let html = `
+    <p class="issue-eyebrow">Issue · ${n.displayDate}</p>
+    <h1 class="issue-title">${n.title}</h1>
+    <div class="issue-meta"><span>${n.wordCount} words</span><span>~${n.readMinutes} min read</span><span>${n.sections.length} topics</span></div>
+  `;
+  n.sections.forEach((s, si) => {
+    html += `<section class="topic"><h2 class="topic-name">${s.topic}</h2><div class="topic-summary">`;
+    s.summary.forEach(p => { html += `<p>${p}</p>`; });
+    html += `</div>`;
+    if(s.image){
+      html += `<img class="topic-image" src="${s.image.url}" alt="${s.image.caption || ''}">`;
+      if(s.image.caption) html += `<p class="topic-image-caption">${s.image.caption}</p>`;
+    }
+    if(s.chart){
+      html += `
+        <div class="chart-wrap">
+          <p class="chart-title">${s.chart.title}</p>
+          <div class="chart-canvas-box"><canvas id="chart-${activeIndex}-${si}"></canvas></div>
+          ${s.chart.sourceNote ? `<p class="chart-source">${s.chart.sourceNote}</p>` : ''}
+        </div>`;
+    }
+    if(s.sources && s.sources.length){
+      html += `<p class="sources">Sources: `;
+      html += s.sources.map(src => `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`).join('');
+      html += `</p>`;
+    }
+    html += `</section>`;
+  });
+  container.innerHTML = html;
+
+  n.sections.forEach((s, si) => {
+    if(!s.chart) return;
+    const ctx = document.getElementById(`chart-${activeIndex}-${si}`);
+    const isPercentDiverging = s.chart.data.some(v => v < 0);
+    const inst = new Chart(ctx, {
+      type: s.chart.type || 'bar',
+      data: {
+        labels: s.chart.labels,
+        datasets: [{
+          data: s.chart.data,
+          backgroundColor: s.chart.data.map(v => v < 0 ? '#B4573F' : '#33594F'),
+          borderRadius: 3,
+          maxBarThickness: 46
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => ` ${ctx.formattedValue}${s.chart.unit || ''}`
+            }
+          }
+        },
+        scales: {
+          y: {
+            grid: { color: 'rgba(30,34,48,0.08)' },
+            ticks: { font: { family: 'IBM Plex Mono', size: 10 }, callback: v => v + (s.chart.unit || '') }
+          },
+          x: {
+            grid: { display: false },
+            ticks: { font: { family: 'IBM Plex Mono', size: 10 } }
+          }
+        }
+      }
+    });
+    chartInstances.push(inst);
+  });
+}
+
+function render(){
+  renderTimeline();
+  renderIssue();
+}
+
+function resolveInitialIndex(){
+  const hash = window.location.hash.replace('#', '').trim();
+  if(!hash) return 0;
+  const found = newsletters.findIndex(n => n.date === hash);
+  return found >= 0 ? found : 0;
+}
+
+window.addEventListener('hashchange', () => {
+  activeIndex = resolveInitialIndex();
+  render();
+});
+
+activeIndex = resolveInitialIndex();
+render();
+</script>
 </body>
 </html>
