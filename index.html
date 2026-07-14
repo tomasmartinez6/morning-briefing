@@ -6,7 +6,7 @@
 <title>The Morning Line — Briefing Archive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root{
     --paper: #E7E2D3;
@@ -29,15 +29,11 @@
     -webkit-font-smoothing:antialiased;
   }
   a{color:var(--teal);}
-
-  /* ---------- Shell ---------- */
   .shell{
     display:flex;
     min-height:100vh;
     align-items:flex-start;
   }
-
-  /* ---------- Rail (signature element) ---------- */
   .rail{
     width:var(--rail-w);
     flex-shrink:0;
@@ -119,8 +115,6 @@
     margin-top:1px;
   }
   .stamp.active .stamp-label{ color:var(--ink); }
-
-  /* ---------- Main ---------- */
   .main{
     flex:1;
     display:flex;
@@ -217,14 +211,12 @@
     margin-top:12px;
   }
   .sources a{ margin-right:12px; }
-
   .empty-state{
     font-family:'Fraunces', serif;
     font-size:20px;
     color:var(--ink-soft);
     padding-top:80px;
   }
-
   @media (max-width: 760px){
     .rail{ position:relative; height:auto; width:100%; border-right:none; border-bottom:1px solid var(--rule); padding:28px 24px; }
     .shell{ flex-direction:column; }
@@ -237,7 +229,7 @@
 <div class="shell">
   <nav class="rail">
     <p class="rail-title">The Morning Line</p>
-    <p class="rail-sub">Briefing archive &middot; updated 4 AM ET</p>
+    <p class="rail-sub">Briefing archive</p>
     <div class="timeline" id="timeline"></div>
   </nav>
   <main class="main">
@@ -249,6 +241,225 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
   {
+    "date": "2026-07-14",
+    "displayDate": "Tuesday, July 14, 2026",
+    "title": "Morning Briefing",
+    "wordCount": 1905,
+    "readMinutes": 9,
+    "sections": [
+      {
+        "topic": "AI & Technology",
+        "kind": "news",
+        "summary": [
+          "OpenAI made an unusual political overture this week: the company proposed giving the U.S. government a 5 percent equity stake worth roughly $42.6 billion — based on OpenAI’s $852 billion valuation — with Sam Altman pitching the idea directly to President Trump, Commerce Secretary Howard Lutnick, and Treasury Secretary Scott Bessent. The move is widely read as an attempt to deepen the company’s ties with Washington at a moment of heightened AI competition.",
+          "Simultaneously, OpenAI launched the GPT-5.6 family: three models named Sol, Terra, and Luna, tiered by cost and capability, covering everything from high-performance science and coding tasks to cost-efficient everyday use. The company also lifted the five-hour usage window it had briefly imposed on Plus and Pro subscribers after the rollout. GPT-5.6’s flagship Sol became the default model in Microsoft 365 Copilot — though Microsoft this week also announced it is replacing OpenAI and Anthropic models with its own in-house AI in some Copilot applications, signaling that the enterprise AI supply chain is consolidating. Google used Cloud Next ‘26 to unveil an expanded Gemini Enterprise platform: a unified toolkit for companies to deploy fleets of AI agents that run multi-step workflows, connect to enterprise data, and stay under IT governance. The message from all three companies: agents, not chatbots, are where the next wave of value will land."
+        ],
+        "sources": [
+          {
+            "name": "Build Fast With AI",
+            "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"
+          },
+          {
+            "name": "Bloomberg — Microsoft/OpenAI",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps"
+          }
+        ]
+      },
+      {
+        "topic": "Stock Market",
+        "kind": "news",
+        "summary": [
+          "Tuesday was a rough session on Wall Street despite a banner morning for bank earnings. The S&P 500 fell 0.79%, the Nasdaq dropped 1.55%, and the Dow gave back 0.26% — all three indices declining as investors absorbed the implications of a worsening Strait of Hormuz situation.",
+          "The earnings themselves were exceptional. JPMorgan Chase reported Q2 earnings per share of $7.70, against a FactSet consensus estimate of $5.59 — a massive beat driven by investment banking strength and surging trading revenue. Goldman Sachs came in similarly strong, with analysts projecting a 13% revenue jump for the quarter largely powered by the SpaceX IPO: that single listing generated an estimated $500 million in underwriting fees, with Goldman and Morgan Stanley splitting the largest share. Investment banking revenue across major banks is tracking toward a 26% surge versus the year-ago quarter.",
+          "The paradox of the session is clarifying: markets are no longer trading on earnings alone. They are trading on whether the Hormuz blockade — formally announced at 4 PM ET Tuesday — turns into a prolonged energy crisis. Strong Q2 bank results simply were not strong enough to offset the risk that the global economy is about to absorb a sustained energy supply shock."
+        ],
+        "chart": {
+          "type": "bar",
+          "title": "U.S. index moves, July 14 2026 (% change)",
+          "labels": [
+            "S&P 500",
+            "Dow Jones",
+            "Nasdaq"
+          ],
+          "data": [
+            -0.79,
+            -0.26,
+            -1.55
+          ],
+          "unit": "%",
+          "sourceNote": "Source: Yahoo Finance — July 14, 2026 close"
+        },
+        "sources": [
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-july-14-231302282.html"
+          },
+          {
+            "name": "MarketScreener — JPM Flash",
+            "url": "https://www.marketscreener.com/news/earnings-flash-jpm-jpmorgan-posts-q2-eps-7-70-vs-factset-est-of-5-59-ce7f5edcd188fe2d"
+          },
+          {
+            "name": "IBTimes — SpaceX Banks",
+            "url": "https://www.ibtimes.com/wall-street-banks-q2-earnings-spacex-ipo-trading-revenue-3805244"
+          }
+        ]
+      },
+      {
+        "topic": "Markets & Economy",
+        "kind": "news",
+        "summary": [
+          "The June CPI report landed Tuesday morning, and the headline looked reassuring: consumer prices fell 0.1% on the month, pulling the year-over-year rate down to roughly 3.9% from 4.2% in May. Analysts immediately flagged the problem with that number.",
+          "The improvement came almost entirely from a 10% drop in gasoline prices during June — itself a product of a brief Hormuz ceasefire that has now ended, with the U.S. formally blockading Iranian shipping as of Tuesday evening. Strip out energy, and core CPI held at approximately 2.9% year-over-year, still nearly a percentage point above the Fed’s 2% target. Services prices, shelter costs, and non-energy goods all remain sticky.",
+          "This is the last major inflation print before the FOMC’s July meeting, and the signal it sends is uncomfortable: headline inflation looks better because of a geopolitical lull that is already over. If crude oil prices spike as the Hormuz blockade takes hold, the June number may look like an anomaly by August. Markets responded by pricing out near-term rate cuts, with expectations now locked on a prolonged Fed pause through at least September."
+        ],
+        "chart": {
+          "type": "bar",
+          "title": "U.S. CPI year-over-year — headline vs. core (%)",
+          "labels": [
+            "Headline (May)",
+            "Headline (June est.)",
+            "Core (May)",
+            "Core (June est.)"
+          ],
+          "data": [
+            4.2,
+            3.9,
+            2.9,
+            2.9
+          ],
+          "unit": "%",
+          "sourceNote": "Source: BLS / Cleveland Fed Nowcast — June 2026 preliminary"
+        },
+        "sources": [
+          {
+            "name": "IndexBox — CPI Preview",
+            "url": "https://www.indexbox.io/blog/june-cpi-report-preview-inflation-data-release-on-july-14-2026/"
+          },
+          {
+            "name": "Kiplinger",
+            "url": "https://www.kiplinger.com/investing/economy/june-cpi-preview-dont-let-a-negative-headline-fool-you"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/economy/policy/articles/latest-inflation-data-drop-july-143801630.html"
+          }
+        ]
+      },
+      {
+        "topic": "World / Geopolitics",
+        "kind": "news",
+        "summary": [
+          "At 4 PM ET on Tuesday, the United States military began formally blockading Iranian ships from transiting the Strait of Hormuz, escalating what has become the most consequential confrontation over a single waterway in decades. Iran declared it would assert its own control over the Strait — and it had already provided a preview, striking two UAE crude tankers with cruise missiles on Monday, killing one crew member.",
+          "The scale of the disruption is already historic. Ship crossings through the Strait fell to just 22 last week, down nearly 85% from pre-crisis traffic levels. Roughly 20% of the world’s total energy supply moves through this passage, which explains why crude oil spiked 2.1% on Monday before the blockade was even formally announced.",
+          "President Trump has proposed something with no real precedent in the postwar energy order: a 20% toll on cargo from any country relying on American military protection to move oil through the Strait. The countries that consume most of that oil — South Korea, Japan, China, and several European importers — would effectively be charged for naval services. How they respond, whether through diplomatic accommodation or by exploring alternative routes and suppliers, may be the defining foreign-policy development of the second half of 2026."
+        ],
+        "sources": [
+          {
+            "name": "NPR",
+            "url": "https://www.npr.org/2026/07/14/nx-s1-5893257/us-iran-updates"
+          },
+          {
+            "name": "CNN",
+            "url": "https://edition.cnn.com/2026/07/13/world/live-news/iran-war-trump"
+          },
+          {
+            "name": "Wikipedia — 2026 Strait of Hormuz Crisis",
+            "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+          }
+        ]
+      },
+      {
+        "topic": "Venezuela",
+        "kind": "news",
+        "summary": [
+          "Six months after U.S. forces captured Nicolás Maduro in January 2026, Venezuela is in an ambiguous but cautiously improving position. Oil production has reached a seven-year high, and exports to the United States have surged 192% compared to the 2025 average, now averaging roughly 330,000 barrels per day. The economy, which contracted approximately 80% between 2013 and 2025, is showing early stabilization signs — though triple-digit inflation remains the baseline forecast for the year.",
+          "The political picture is unresolved. Delcy Rodríguez, Maduro’s former vice president, continues to govern as acting president. Opposition leaders Edmundo González and María Corina Machado — recognized internationally as the legitimate winners of the 2024 election — are calling for a democratic transition. But the judiciary, military, and core state institutions remain largely staffed by Chavista holdovers. No election date has been set. The oil revenue windfall is the lever that could either fund a real reconstruction or entrench the same networks that have governed the country for twenty years."
+        ],
+        "sources": [
+          {
+            "name": "NPR — Venezuela Oil",
+            "url": "https://www.npr.org/2026/06/07/nx-s1-5846935/venezuela-is-exporting-more-oil-after-the-u-s-captured-maduro"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/1/8/venezuelas-economy-plunged-into-uncertainty-after-maduro-abduction"
+          },
+          {
+            "name": "Americas Quarterly",
+            "url": "https://www.americasquarterly.org/article/venezuela-the-post-maduro-oil-gas-and-mining-outlook/"
+          }
+        ]
+      },
+      {
+        "topic": "Venezuelan History",
+        "kind": "education",
+        "seriesKey": "venezuela-history",
+        "seriesMeta": {
+          "period": "Chávez-to-Maduro Transition, 2012–2013",
+          "angle": "Chávez’s final designation of Maduro as successor and the razor-thin 2013 election that gave him the presidency"
+        },
+        "summary": [
+          "Hugo Chávez knew he was dying. In December 2012, facing a recurrence of the cancer he had been treating in Cuba since mid-2011, Venezuela’s president made what would become his final television address. He spoke with unusual gravity: “My firm opinion, irrevocable, total and absolute, is that you elect Nicolás Maduro as president.” It was one of the most deliberate succession rituals in recent Latin American history — a leader who had built an entire political movement around his own personality, trying to transfer that spell to someone else.",
+          "Maduro was an unlikely vessel for that inheritance. He had been a bus driver and union organizer in Caracas before entering politics through the labor movement in the 1980s. What he had, above all, was loyalty and proximity: he had served as Chávez’s foreign minister since 2006 and was serving as vice president at the time of Chávez’s final speech. He lacked the theatrical magnetism and military credential that Chávez had used to hold together a coalition of the poor, the nationalist military, and the ideological left. But he was the man Chávez named, and in a movement built on loyalty to a person, that designation carried enormous weight.",
+          "Chávez died on March 5, 2013. The Venezuelan constitution required a new election within thirty days. The opposition fielded Henrique Capriles, who had lost to Chávez by eleven points just six months earlier but believed the political landscape had shifted fundamentally. Chávez was gone, and with him the emotional gravity that had drawn millions to the ballot box.",
+          "The result stunned both camps. Maduro won 50.6% of the vote against Capriles’s 49.1% — a margin of fewer than 235,000 votes out of more than 14.9 million cast. It was the narrowest result in Venezuelan presidential history. Capriles immediately demanded a full manual recount, alleging widespread irregularities. The National Electoral Council — closely aligned with the ruling party — agreed to audit the voting machines but rejected a complete manual recount. The official result stood.",
+          "What the margin revealed was something Maduro’s camp was not ready to acknowledge publicly: the Chávez coalition had not automatically transferred to its inheritor. A significant portion of Venezuelan voters had supported Chávez not as an ideological choice but as a personal one — for his story, his connection to the poor, his ability to make people feel that the state belonged to them for the first time. Maduro was the executor of an estate he had not built.",
+          "In his first year in power, Maduro confronted annual inflation already exceeding 56%, growing shortages of basic consumer goods, and a reinvigorated opposition emboldened by the near-miss. His response was to double down on what had worked for Chávez: blame the United States and domestic ‘economic saboteurs,’ and use state resources to reward supporters. It bought time. But the structural dysfunction it reinforced — price controls, currency distortions, underinvestment in oil infrastructure — would eventually produce the worst peacetime economic collapse in modern Latin American history. The narrow 2013 election was the first sign that the edifice was more fragile than it looked."
+        ],
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Hugo_Chavez.jpg/440px-Hugo_Chavez.jpg",
+          "caption": "Hugo Chávez, who designated Maduro as his successor before his death in March 2013 (Wikimedia Commons)"
+        },
+        "sources": [
+          {
+            "name": "Wikipedia — Nicolás Maduro",
+            "url": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro"
+          },
+          {
+            "name": "Britannica",
+            "url": "https://www.britannica.com/biography/Nicolas-Maduro"
+          },
+          {
+            "name": "CFR — Venezuela’s Chávez Era",
+            "url": "https://www.cfr.org/timelines/venezuelas-chavez-era"
+          }
+        ]
+      },
+      {
+        "topic": "American History Through Business",
+        "kind": "education",
+        "seriesKey": "american-business-history",
+        "seriesMeta": {
+          "era": "Era 1 — The Gilded Age & J.P. Morgan",
+          "weekOf": "2026-07-13",
+          "angle": "The Panic of 1907 — how Morgan locked bankers in his private library and stopped a financial collapse, making the case for the Federal Reserve he never asked for"
+        },
+        "summary": [
+          "In the fall of 1907, J.P. Morgan locked a group of bankers inside his Manhattan library and refused to let them leave until they agreed to save the American financial system. It is one of the most remarkable episodes in the history of American capitalism, and the fact that it worked tells you almost everything you need to know about how power operated in the Gilded Age.",
+          "The crisis began in October of that year, when the Knickerbocker Trust Company — one of New York’s most prominent financial institutions — came under suspicion of having made imprudent loans. Depositors lined up to withdraw their money. Other trust companies followed. The stock market fell sharply. The United States had no central bank. The Federal Reserve would not exist for another six years. There was no institutional mechanism to stop a cascading collapse of confidence.",
+          "Morgan was 70 years old and attending a church convention in Richmond, Virginia, when the news reached him. His partners summoned him back. He made the overnight trip in a private Pullman car attached to a locomotive, arriving in New York on Sunday, October 20th, and immediately began running what amounted to a private central bank out of his home on 34th Street. He reviewed the books of failing institutions, decided which ones were solvent enough to save, and arranged emergency lending from stronger banks to weaker ones.",
+          "The defining moment came on the night of November 2nd. Morgan summoned the presidents of the city’s trust companies to his private library — a building next to his mansion, filled with rare manuscripts and old master paintings — announced that he had a rescue plan, and locked the front doors. He told them they were not leaving until they agreed to contribute $25 million to an emergency pool. They stayed until nearly 5 AM. They signed.",
+          "The panic subsided within weeks. On Wall Street, Morgan was celebrated as a man who had saved the republic single-handedly. But outside financial circles, the episode had a different resonance. The stability of the entire American economy had depended on the private decision of one unelected 70-year-old man. What happened if the next crisis arrived when Morgan wasn’t around — or if his interests and the country’s interests diverged?",
+          "Those questions drove a decade of reform debates that produced the Aldrich-Vreeland Act, a national monetary commission, and ultimately the Federal Reserve Act, signed into law in December 1913 — eight months after Morgan died. He had saved American banking in 1907 and, by his sheer indispensability, made the case for why American banking needed a government backstop instead. The man who locked the doors became the argument for building a door that the public controlled."
+        ],
+        "sources": [
+          {
+            "name": "Smithsonian Magazine",
+            "url": "https://www.smithsonianmag.com/history/the-financial-panic-of-1907-running-from-history-82176328/"
+          },
+          {
+            "name": "Gotham Center",
+            "url": "https://www.gothamcenter.org/blog/the-panic-of-1907-how-jp-morgan-took-over-wall-street"
+          },
+          {
+            "name": "Wikipedia — Panic of 1907",
+            "url": "https://en.wikipedia.org/wiki/Panic_of_1907"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "displayDate": "Monday, July 13, 2026",
     "title": "Morning Briefing",
@@ -259,40 +470,68 @@ const newsletters = [
         "topic": "AI & Technology",
         "summary": [
           "Apple filed suit against OpenAI in federal court in Northern California, alleging trade secret theft tied to the hiring of more than 400 former Apple employees, many from its chip design and on-device AI teams. The filing centers on two named individuals accused of using confidential project code names during recruiting and retaining Apple technical documents after moving to OpenAI.",
-          "Meta's stock rose sharply after an internal memo outlined plans to roughly double the company's total computing power by 2027, alongside a new $10 billion data center in Alberta, Canada — its 33rd worldwide. Meta is also developing its own AI processor with Broadcom, manufactured by TSMC, entering production in September, joining a broader trend of AI labs building custom chips to reduce reliance on Nvidia.",
-          "Separately, enterprise adoption of generative AI keeps climbing: McKinsey's surveys put the share of organizations using generative AI in at least one business function at roughly 71% by 2024, up from about 33% in 2023, with adoption continuing to rise into 2026 as companies move from pilot projects into core workflows like finance, support, and code review."
+          "Meta’s stock rose sharply after an internal memo outlined plans to roughly double the company’s total computing power by 2027, alongside a new $10 billion data center in Alberta, Canada — its 33rd worldwide. Meta is also developing its own AI processor with Broadcom, manufactured by TSMC, entering production in September, joining a broader trend of AI labs building custom chips to reduce reliance on Nvidia.",
+          "Separately, enterprise adoption of generative AI keeps climbing: McKinsey’s surveys put the share of organizations using generative AI in at least one business function at roughly 71% by 2024, up from about 33% in 2023, with adoption continuing to rise into 2026 as companies move from pilot projects into core workflows like finance, support, and code review."
         ],
         "chart": {
           "type": "bar",
           "title": "Share of organizations using generative AI in at least one business function",
-          "labels": ["2023", "2024"],
-          "data": [33, 71],
+          "labels": [
+            "2023",
+            "2024"
+          ],
+          "data": [
+            33,
+            71
+          ],
           "unit": "%",
           "sourceNote": "Source: McKinsey global surveys"
         },
         "sources": [
-          { "name": "Unrot — Top 10 AI News", "url": "https://unrot.co/blogs/today-top-10-ai-news-july-12-2026" },
-          { "name": "ZoneTechify", "url": "https://www.zonetechify.com/blog/latest-ai-news-july-13-2026" }
+          {
+            "name": "Unrot — Top 10 AI News",
+            "url": "https://unrot.co/blogs/today-top-10-ai-news-july-12-2026"
+          },
+          {
+            "name": "ZoneTechify",
+            "url": "https://www.zonetechify.com/blog/latest-ai-news-july-13-2026"
+          }
         ]
       },
       {
         "topic": "Markets & Economy",
         "summary": [
-          "U.S. futures were mixed Monday morning: the Dow advanced while the Nasdaq 100 and S&P 500 slipped, with the S&P's cash index down about 0.31% from the prior session, though still up over 20% year-over-year. Markets are bracing for a heavy week — big bank earnings (JPMorgan, Goldman Sachs, Wells Fargo, Citigroup, Bank of America) and June inflation data both land this week.",
+          "U.S. futures were mixed Monday morning: the Dow advanced while the Nasdaq 100 and S&P 500 slipped, with the S&P’s cash index down about 0.31% from the prior session, though still up over 20% year-over-year. Markets are bracing for a heavy week — big bank earnings (JPMorgan, Goldman Sachs, Wells Fargo, Citigroup, Bank of America) and June inflation data both land this week.",
           "Commodities moved more than equities. Crude oil rose about 2.1% amid renewed U.S.–Iran tension near the Strait of Hormuz, while gold fell roughly 1.1% and Bitcoin slipped about 1.3% to just over $63,100, as investors continued unwinding some safe-haven positioning built up earlier in the year.",
           "The bigger structural story analysts are watching: this earnings season is expected to show a second straight quarter of S&P 500 profit growth above 20%, which Yardeni Research and others argue means the current bull market is being driven by real earnings growth rather than rising valuations alone."
         ],
         "chart": {
           "type": "bar",
           "title": "Monday morning moves (%)",
-          "labels": ["S&P 500 (index)", "Crude Oil", "Gold", "Bitcoin"],
-          "data": [-0.31, 2.13, -1.13, -1.25],
+          "labels": [
+            "S&P 500 (index)",
+            "Crude Oil",
+            "Gold",
+            "Bitcoin"
+          ],
+          "data": [
+            -0.31,
+            2.13,
+            -1.13,
+            -1.25
+          ],
           "unit": "%",
           "sourceNote": "Source: Trading Economics, Benzinga — July 13, 2026"
         },
         "sources": [
-          { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/07/60408205/stock-market-today-dow-futures-gain-sp-500-slips-as-us-and-iran-exchange-strikes-saratoga-exxon-mobil-levi-strauss-in-focus" },
-          { "name": "Trading Economics", "url": "https://tradingeconomics.com/united-states/stock-market" }
+          {
+            "name": "Benzinga",
+            "url": "https://www.benzinga.com/markets/equities/26/07/60408205/stock-market-today-dow-futures-gain-sp-500-slips-as-us-and-iran-exchange-strikes-saratoga-exxon-mobil-levi-strauss-in-focus"
+          },
+          {
+            "name": "Trading Economics",
+            "url": "https://tradingeconomics.com/united-states/stock-market"
+          }
         ]
       }
     ]
@@ -302,11 +541,6 @@ const newsletters = [
 
 let activeIndex = 0;
 const chartInstances = [];
-
-function fmtChange(v){
-  const sign = v > 0 ? "+" : "";
-  return sign + v + "%";
-}
 
 function renderTimeline(){
   const el = document.getElementById('timeline');
@@ -365,7 +599,6 @@ function renderIssue(){
   n.sections.forEach((s, si) => {
     if(!s.chart) return;
     const ctx = document.getElementById(`chart-${activeIndex}-${si}`);
-    const isPercentDiverging = s.chart.data.some(v => v < 0);
     const inst = new Chart(ctx, {
       type: s.chart.type || 'bar',
       data: {
