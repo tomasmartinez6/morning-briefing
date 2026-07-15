@@ -10,6 +10,49 @@ task, most recent entry first. It is also what the education series
 (Venezuelan History, American History Through Business) should be checked
 against for continuity, in addition to the host site archive.
 
+## 2026-07-15 -- Wednesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-15
+
+**AI & Technology** -- TSMC posted all-time records: June revenue +68% YoY, Q2 at $39.6B,
+N3 sold out through year-end. Anthropic in early talks with Samsung for custom Claude
+inference chips (addressing $1.25B/month compute bill). China's anthropomorphic AI
+rules took effect July 15 -- ByteDance/Alibaba must disable humanlike agent features
+Western labs face no restrictions on.
+
+**Stock Market** -- Nasdaq futures led higher Wednesday on TSMC blowout + CPI beat.
+Polymarket: 73% probability S&P opens higher. Recovery from Tuesday's Hormuz selloff.
+Brent crude at $85.22, rising for 3rd consecutive session.
+
+**Markets & Economy** -- June CPI: headline -0.4% MoM, YoY down to 3.5% (vs. 3.8%
+expected). Core CPI held at ~2.9% YoY -- still ~1pt above Fed target. Win driven
+by temporary energy dip now reversed as Hormuz blockade tightens. Fed rate 3.50-3.75%;
+year-end median projection 3.8%, hike back on table. July 28-29 FOMC next inflection.
+
+**World / Geopolitics** -- 5th day of US-Iran escalation. US reimposed naval blockade
+on Iranian ports; Iran struck US bases in Kuwait, Bahrain, Jordan. IRGC threatened
+to halt ALL regional energy exports ("for everyone or no one"). Trump: US will become
+"Guardian of the Strait," charge China/South Korea/Japan toll. Brent $85.22.
+
+**Venezuela** -- Oil wildcatters pouring in faster than Big Oil. New 29-page oil
+rulebook published -- never uses word "PDVSA." BP, Chevron, Eni, Maurel & Prom,
+Repsol, Shell all licensed. Production ~1M bpd (~1% global demand), exports to
+US Gulf refineries and India.
+
+**Venezuelan History (education)** -- Period: Chavez Presidency, 2011-2012. Angle:
+Chavez's June 2011 cancer revelation (secret surgery 20 days prior); Cuba treatment;
+solidarity effect -- approval ratings rose, not fell; Petrocaribe context; Oct 2012
+re-election by 11pts over Capriles despite visible illness; Dec 2012 recurrence
+announcement where he named Maduro as successor.
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan.
+Week of 2026-07-13. Angle: U.S. Steel deal (1901) -- Schwab's Dec 1900 University
+Club dinner speech; Morgan's immediate pursuit; Carnegie's $480M asking price on
+a slip of paper; Morgan's "I accept" with no negotiation; $1.4B capitalization =
+7% of US GNP; 60% of US steel industry; world's first billion-dollar corporation;
+Carnegie's $226M share, all donated; Roosevelt's initial non-challenge; Taft's
+1911 antitrust suit; Supreme Court 1920 ruling.
+
 ---
 
 ## 2026-07-14 — Tuesday
@@ -82,19 +125,23 @@ land this week.
 
 ## Series continuity trackers
 
-**Venezuelan History** (`venezuela-history`) — Most recent entry: 2026-07-14.
-- Period: "Chavez-to-Maduro Transition, 2012-2013"
-- Angle covered: "Chavez's final designation of Maduro as successor and the razor-thin 2013 election that gave him the presidency"
-- Next issue: Stay in same period or move earlier — options include Chavez's
-  cancer diagnosis (2011-2012), the 2012 re-election campaign, or Maduro's
-  early consolidation of power (2013-2014 protests). Do NOT repeat the
-  succession announcement or 2013 election.
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-15.
+- Period: "Chavez Presidency 2011-2012"
+- Angle covered: "Chavez's cancer diagnosis, Cuba treatment, the solidarity effect, and his Dec 2012 naming of Maduro as successor"
+- Prior angle (2026-07-14): "Chavez's final designation of Maduro as successor and the razor-thin 2013 election"
+- Next issue: Move earlier -- options include the 2012 presidential re-election campaign
+  (how Chavez ran despite visible illness), the Petrocaribe arrangement (2005-onward),
+  or the 2002 coup attempt and its aftermath. Do NOT repeat cancer diagnosis, Cuba
+  treatment, or 2013 election succession.
 
-**American History Through Business** (`american-business-history`) — Most recent entry: 2026-07-14.
-- Era: "Era 1 — The Gilded Age & J.P. Morgan"
-- Week of: 2026-07-13 (stay in Era 1 through end of this week)
-- Angle covered this week: "The Panic of 1907 — how Morgan locked bankers in his private library and stopped a financial collapse, making the case for the Federal Reserve he never asked for"
-- Next issue (same week): Stay in Era 1. Options: the U.S. Steel deal (1901),
-  Morgan's railroad consolidations, Northern Securities antitrust case.
-  Do NOT repeat the Panic of 1907.
-- Next era (week of 2026-07-20): Era 2 — Rockefeller & Standard Oil.
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-15.
+- Era: "Era 1 -- The Gilded Age & J.P. Morgan"
+- Week of: 2026-07-13 (stay in Era 1 through end of this week, Sun Jul 19)
+- Angles covered this week:
+  - 2026-07-14: "The Panic of 1907 -- Morgan's library lockdown of trust company presidents"
+  - 2026-07-15: "The U.S. Steel deal of 1901 -- world's first billion-dollar corporation"
+- Next issue (same week, Thu Jul 17): Stay in Era 1. Options: Morgan's railroad
+  consolidations (Northern Pacific / the 'Morganization' campaigns), the Northern
+  Securities antitrust case (1902), or Morgan's role in financing US entry into WWI.
+  Do NOT repeat Panic of 1907 or U.S. Steel deal.
+- Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil.
