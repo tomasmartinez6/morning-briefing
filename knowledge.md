@@ -10,6 +10,26 @@ task, most recent entry first. It is also what the education series
 (Venezuelan History, American History Through Business) should be checked
 against for continuity, in addition to the host site archive.
 
+## 2026-07-16 -- Thursday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-16
+
+**AI & Technology** -- Anthropic extended Fable 5 free access to July 19 (3rd extension in 5 weeks). GPT-5.6 Sol (July 9 launch) runs on Cerebras WSE-3 at 750 tokens/sec; priced at $5/$30 per million tokens vs Fable 5's $10/$50 -- benchmarks show near-parity at half the cost. Alibaba Qwen confirmed for Apple Intelligence in China; AAPL +4% to all-time high, Alibaba ADR +5%. Chip stocks retreating Thursday (Nvidia -1.6%, AMD/Micron each -3.4%). TSMC, GE Aerospace, UnitedHealth earnings due today.
+
+**Stock Market** -- Wed July 15 close: S&P 500 +0.38% to 7,572; Nasdaq +0.62% to 26,269; Dow +0.29% to 52,659. AAPL all-time high. SpaceX dipped below IPO price for first time. Thursday futures: S&P -0.17%, Nasdaq 100 -0.52% as chip stocks pull back.
+
+**Markets & Economy** -- June CPI annual 3.5% (from 4.2% May); core 2.6% (from 2.9%, below 2.8% forecast). Energy component +15.7% YoY (down from 23.5% in May) -- driven by brief Hormuz ceasefire now over. Fed at 3.50-3.75%; rate cuts pushed to 2027-2028. July 28-29 FOMC: hold expected, tightening language watched. Futures pricing ~4% by year-end.
+
+**World / Geopolitics** -- US launched new wave of strikes on Iran's southern coast July 15, targeting Hormuz attack capacity. Naval blockade of Iranian ports reimposed same day. Iran hitting US regional bases. June ceasefire MOU effectively dead. Analysts warning of "forever war." ~20% of global oil trade through Strait remains disrupted.
+
+**Venezuela** -- Twin June 24 earthquakes (M7.2, M7.5): 4,800+ dead, 16,700 injured, ~80% of La Guaira buildings collapsed. US committed $150M relief (Samaritan's Purse, CRS, WFP, OCHA). UN seeking $296M for 1.3M people over 6 months. Acting president Delcy Rodriguez facing slow-response criticism. Infectious disease outbreaks in shelters.
+
+**Venezuelan History (education)** -- Period: Chavez Presidency, 2002. Angle: The April 2002 coup attempt -- 49 decrees in Nov 2001 (Hydrocarbons Law, land reform) triggered business/military opposition; April 11 march redirected to Miraflores, 19 killed in disputed sniper fire; private TV aired edited footage; Chavez detained, flown to La Orchila; Carmona sworn in and immediately dissolved National Assembly + Supreme Court + constitution; military loyalists mobilized + barrio crowds poured out; Carmona resigned within 24 hours; Chavez restored by 4 AM April 14. Aftermath: media crackdown intensified, US initial endorsement became anti-imperialism staple, April 13 declared "day the people saved the revolution."
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. Week of 2026-07-13. Angle: Northern Securities antitrust case (1902) -- Morgan-Harriman NP share war (May 1901 Northern Pacific Corner, stock to $1,000); Northern Securities holding company formed Nov 1901; Roosevelt filed suit Feb 1902 without private warning; Morgan's White House visit ("send your man to my man"); Knox: "We don't want to fix it up, we want to stop it"; Supreme Court 5-4 dissolution ruling March 1904 (Harlan majority); 44 antitrust suits under Roosevelt; established Sherman Act as active federal tool; start of Progressive Era enforcement.
+
+---
+
 ## 2026-07-15 -- Wednesday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-15
@@ -125,23 +145,23 @@ land this week.
 
 ## Series continuity trackers
 
-**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-15.
-- Period: "Chavez Presidency 2011-2012"
-- Angle covered: "Chavez's cancer diagnosis, Cuba treatment, the solidarity effect, and his Dec 2012 naming of Maduro as successor"
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-16.
+- Period: "Chavez Presidency, 2002"
+- Angle covered: "The April 2002 coup attempt -- overthrow and restoration within 48 hours"
+- Prior angle (2026-07-15): "Chavez's cancer diagnosis, Cuba treatment, solidarity effect, Oct 2012 re-election, Dec 2012 naming of Maduro"
 - Prior angle (2026-07-14): "Chavez's final designation of Maduro as successor and the razor-thin 2013 election"
-- Next issue: Move earlier -- options include the 2012 presidential re-election campaign
-  (how Chavez ran despite visible illness), the Petrocaribe arrangement (2005-onward),
-  or the 2002 coup attempt and its aftermath. Do NOT repeat cancer diagnosis, Cuba
-  treatment, or 2013 election succession.
+- Next issue: Move earlier -- options include the Petrocaribe arrangement (2005-onward), the
+  2002-2004 PDVSA strike and recall referendum, or the 1998 election campaign and Chavez's rise.
+  Do NOT repeat coup attempt, cancer/succession, or 2013 election.
 
-**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-15.
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-16.
 - Era: "Era 1 -- The Gilded Age & J.P. Morgan"
 - Week of: 2026-07-13 (stay in Era 1 through end of this week, Sun Jul 19)
 - Angles covered this week:
   - 2026-07-14: "The Panic of 1907 -- Morgan's library lockdown of trust company presidents"
   - 2026-07-15: "The U.S. Steel deal of 1901 -- world's first billion-dollar corporation"
-- Next issue (same week, Thu Jul 17): Stay in Era 1. Options: Morgan's railroad
-  consolidations (Northern Pacific / the 'Morganization' campaigns), the Northern
-  Securities antitrust case (1902), or Morgan's role in financing US entry into WWI.
-  Do NOT repeat Panic of 1907 or U.S. Steel deal.
+  - 2026-07-16: "The Northern Securities antitrust case (1902) -- Roosevelt vs. Morgan, 5-4 dissolution ruling"
+- Next issue (Fri Jul 17, same week): Stay in Era 1. Option: Morgan's role in financing WWI
+  (the 1915 Anglo-French loan, largest private loan in history at $500M), or Morgan's 1895
+  gold rescue of the US Treasury. Do NOT repeat Panic of 1907, U.S. Steel, or Northern Securities.
 - Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil.
