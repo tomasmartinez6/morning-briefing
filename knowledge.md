@@ -145,14 +145,82 @@ land this week.
 
 ## Series continuity trackers
 
+### News continuity
+
+Tracks recent angles per topic so the briefing actively varies coverage.
+Update the "last 7 angles" list each run (drop the oldest, add the newest).
+
+**AI & Technology** -- Most recent angle (2026-07-16):
+"GPT-5.6 Sol price war with Fable 5; Alibaba Qwen in Apple Intelligence China; chip stocks retreating"
+- Last 7 angles:
+  - 2026-07-16: Price war (Sol vs Fable 5 pricing/speed); Alibaba-Apple China deal; chip stocks
+  - 2026-07-15: TSMC all-time revenue records; Anthropic-Samsung chip talks; China AI humanlike rules
+  - 2026-07-14: OpenAI gov equity pitch; GPT-5.6 launch; Microsoft replacing OpenAI; Gemini Enterprise
+  - 2026-07-13: Apple sues OpenAI; Meta $10B Alberta data center; enterprise AI adoption 71%
+- Next: vary away from model releases if no major new launch. Options: AI policy/regulation,
+  infrastructure buildout story, a specific research finding, enterprise adoption data.
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-16):
+"Wed close S&P +0.38%/Nasdaq +0.62%; AAPL all-time high; Thursday futures soft; TSMC earnings day;
+June CPI 3.5% annual / core 2.6%; Fed hold; July 28-29 FOMC; rate cuts pushed to 2027-2028"
+- Last 7 angles:
+  - 2026-07-16: Wed recovery rally; AAPL ATH; chip pullback; TSMC/GE/UNH earnings; CPI 3.5%/2.6% core
+  - 2026-07-15: Nasdaq futures higher on TSMC+CPI beat; Brent $85.22 rising 3rd session
+  - 2026-07-14: S&P -0.79%/Nasdaq -1.55%; bank earnings strong (JPM EPS $7.70); Hormuz selloff
+  - 2026-07-13: Mixed open; crude +2.1% on Iran tension; gold/BTC down; bank earnings week ahead
+- Next: if market moves are minor, zoom out to macro story (Fed path, labor market, housing, consumer
+  spending). If TSMC earnings land big, cover that. Vary between market moves and economic narrative.
+
+**World / Geopolitics** -- Most recent angle (2026-07-16):
+"US new wave of strikes on Iran southern coast July 15; naval blockade reimposed; June ceasefire dead;
+Iran hitting US bases; forever war risk; Hormuz disrupts ~20% global oil"
+- Last 7 angles:
+  - 2026-07-16: New US strikes July 15; blockade reimposed; ceasefire dead; forever war framing
+  - 2026-07-15: Day 5 US-Iran; US reimposed naval blockade; Iran struck US bases Kuwait/Bahrain/Jordan
+  - 2026-07-14: US formally blockaded Iranian shipping 4 PM ET; Iran struck UAE tankers; 20% toll proposal
+  - 2026-07-13: US-Iran tension near Hormuz; strait crossings -85%
+- FATIGUE ALERT: Iran/Hormuz has run 4 consecutive days. Next run should pivot unless major new
+  development (ceasefire signed, military escalation to new theater, etc.). Options: Ukraine drone
+  innovations and Moscow attacks, China-Taiwan tensions, Middle East diplomacy, European security,
+  a non-Hormuz global story.
+
+**Venezuela** -- Most recent angle (2026-07-16):
+"June 24 earthquakes (M7.2+7.5): 4,800+ dead, La Guaira 80% collapsed; US $150M aid; UN seeks $296M;
+Delcy Rodriguez slow-response criticism; disease outbreaks in shelters"
+- Last 7 angles:
+  - 2026-07-16: Earthquake recovery week 4: death toll 4,800+, US aid $150M, UN $296M appeal
+  - 2026-07-15: Oil wildcatters; new 29-page oil rulebook (never says PDVSA); production ~1M bpd
+  - 2026-07-14: Post-Maduro 6 months: oil production 7-yr high, US exports +192%; Delcy acting president
+  - 2026-07-13: (no standalone Venezuela section this day)
+- Next: earthquake recovery is the dominant story -- cover if new developments (aid delivery, health
+  crisis, political fallout, reconstruction). If plateau, look at: Gonzalez/Machado transition push,
+  oil sector news, economic indicators, regional response to the quake.
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Not yet started.
+- Topics covered: none yet
+- Next issue: Pick from any category. Good first topics:
+  - How neural networks learn (backpropagation, gradient descent -- conceptual)
+  - SQL vs NoSQL: when to use each and what the tradeoffs are
+  - What is RAG and why it matters for AI applications
+  - How DNS works (the internet's phone book)
+  - What are AI agents and how do they differ from chatbots
+
+---
+
+### History series continuity
+
 **Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-16.
 - Period: "Chavez Presidency, 2002"
 - Angle covered: "The April 2002 coup attempt -- overthrow and restoration within 48 hours"
 - Prior angle (2026-07-15): "Chavez's cancer diagnosis, Cuba treatment, solidarity effect, Oct 2012 re-election, Dec 2012 naming of Maduro"
 - Prior angle (2026-07-14): "Chavez's final designation of Maduro as successor and the razor-thin 2013 election"
-- Next issue: Move earlier -- options include the Petrocaribe arrangement (2005-onward), the
-  2002-2004 PDVSA strike and recall referendum, or the 1998 election campaign and Chavez's rise.
-  Do NOT repeat coup attempt, cancer/succession, or 2013 election.
+- Next issue: Move earlier -- options: the 2002-2004 PDVSA general strike and recall referendum,
+  the Petrocaribe arrangement (2005-onward), or Chavez's 1998 election campaign and rise to power.
+  Do NOT repeat coup attempt, cancer/succession, 2013 election.
 
 **American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-16.
 - Era: "Era 1 -- The Gilded Age & J.P. Morgan"
@@ -160,8 +228,9 @@ land this week.
 - Angles covered this week:
   - 2026-07-14: "The Panic of 1907 -- Morgan's library lockdown of trust company presidents"
   - 2026-07-15: "The U.S. Steel deal of 1901 -- world's first billion-dollar corporation"
-  - 2026-07-16: "The Northern Securities antitrust case (1902) -- Roosevelt vs. Morgan, 5-4 dissolution ruling"
-- Next issue (Fri Jul 17, same week): Stay in Era 1. Option: Morgan's role in financing WWI
-  (the 1915 Anglo-French loan, largest private loan in history at $500M), or Morgan's 1895
-  gold rescue of the US Treasury. Do NOT repeat Panic of 1907, U.S. Steel, or Northern Securities.
+  - 2026-07-16: "The Northern Securities antitrust case (1902) -- Roosevelt vs. Morgan, 5-4 dissolution"
+- Next issue (Fri Jul 17, same week): Stay in Era 1. Options: Morgan's 1895 gold rescue of the US
+  Treasury (the secret bond deal with Grover Cleveland), or Morgan's role in financing the Allied
+  powers in WWI (the 1915 Anglo-French loan at $500M). Do NOT repeat Panic of 1907, U.S. Steel,
+  or Northern Securities.
 - Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil.

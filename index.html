@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <style>
   :root{
     --paper: #E7E2D3;
@@ -193,6 +194,23 @@
     color:var(--ink-soft);
     margin:10px 0 0 0;
   }
+  .diagram-wrap{
+    margin:20px 0 8px 0;
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    border-radius:6px;
+    padding:16px 20px 12px 20px;
+  }
+  .diagram-title{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-soft);
+    margin:0 0 12px 0;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+  .mermaid{ font-size:13px; }
   .topic-image{
     width:100%;
     border-radius:4px;
@@ -960,6 +978,13 @@ function renderIssue(){
           ${s.chart.sourceNote ? `<p class="chart-source">${s.chart.sourceNote}</p>` : ''}
         </div>`;
     }
+    if(s.diagram){
+      const diagId = `diag-${activeIndex}-${si}`;
+      html += `<div class="diagram-wrap">`;
+      if(s.diagram.title) html += `<p class="diagram-title">${s.diagram.title}</p>`;
+      html += `<div class="mermaid" id="${diagId}">${s.diagram.code}</div>`;
+      html += `</div>`;
+    }
     if(s.sources && s.sources.length){
       html += `<p class="sources">Sources: `;
       html += s.sources.map(src => `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`).join('');
@@ -968,6 +993,7 @@ function renderIssue(){
     html += `</section>`;
   });
   container.innerHTML = html;
+  mermaid.run();
 
   n.sections.forEach((s, si) => {
     if(!s.chart) return;
@@ -1014,6 +1040,8 @@ function render(){
   renderTimeline();
   renderIssue();
 }
+
+mermaid.initialize({ startOnLoad: false, theme: 'neutral', themeVariables: { fontSize: '13px' } });
 
 function resolveInitialIndex(){
   const hash = window.location.hash.replace('#', '').trim();
