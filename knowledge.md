@@ -10,6 +10,30 @@ task, most recent entry first. It is also what the education series
 (Venezuelan History, American History Through Business) should be checked
 against for continuity, in addition to the host site archive.
 
+## 2026-07-17 -- Friday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-17
+
+**AI & Technology** -- Pivoted from model releases to governance. UN Global Dialogue on AI Governance (Geneva, Jul 6-7): ~200 nations, focus on closing the AI divide and ensuring safety oversight. Independent UN Scientific Panel (40 global experts, Jul 1 report) warned AI advancement outpacing policy, risks of "catastrophic harm." FTC proposed policy statement (Jul 1) compelling AI makers to disclose biases; comment deadline Jul 31.
+
+**Stock Market & US Economy** -- Thu Jul 16 close: S&P -0.51% to 7,533.77; Nasdaq -1.47% to 25,881.95; Dow -0.20% to 52,552.97. TSMC raised capex guidance to $60-64B (from $52-56B) despite earnings beat; chip stocks sold off. Earnings season tracking 20%+ S&P growth second consecutive quarter. June retail sales +0.2% MoM (below 0.3% est.); Atlanta Fed GDPNow Q2 GDP at 1.3%.
+
+**World / Geopolitics** -- Pivoted from Hormuz to Ukraine shadow fleet campaign. Jul 6-16: Ukraine struck 147 vessels (117 Azov + 30 Black Sea); Jul 15 single night = 20 ships. Ukrainian divers destroyed Russian Su-24M at Saky Airfield, Crimea. Zelensky fired Defense Minister Fedorov; protests July 16. Hungary opened investigation into former FM Szijjarto's Russia ties.
+
+**Venezuela** -- Earthquake recovery overshadowing democratic transition. Rodriguez's interim mandate expired this week; Trump admin backing Rodriguez, sidelining Machado. Venezuela formally requested $4.85B from IMF ($4.2B in SDRs + $650M RFI). UN pegs total damage at $37B.
+
+**Learning Series (education)** -- First issue. Category: Agentic & AI Workflows. Topic: Retrieval-Augmented Generation (RAG). Covered: what problem RAG solves (knowledge cutoff, hallucination), the three stages (retrieve/augment/generate), vector embeddings and semantic search, why RAG beat fine-tuning (updateable, auditable, cheaper), and chunking strategy as the key engineering challenge.
+
+**Venezuelan History (education)** -- Period: "Chavez Presidency, 2002-2004." Angle: The PDVSA general strike -- Pilin Leon tanker blockade Dec 4, 2002; 64-day oil shutdown; production fell from ~3M to under 200K bpd; Chavez fired 18,000 employees (40% of workforce); PDVSA permanently politicized. Recall referendum: CNE challenged signatures, finally held Aug 2004, Chavez won 59-41. Opposition broken for years.
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. Week of 2026-07-13. Angle: The 1895 gold rescue -- Treasury reserve fell to $45M, Morgan's Feb 5 White House meeting, Civil War statute used for direct gold purchase, 3.5M oz at $17.80/oz for $62.3M in 30-yr bonds, Morgan's private gold-outflow guarantee, ~$1.5M profit, Cleveland's political destruction, populist backlash fueling Bryan 1896, and the episode as the public argument for a central bank.
+
+---
+
+---
+
+---
+
 ## 2026-07-16 -- Thursday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-16
@@ -198,39 +222,92 @@ Delcy Rodriguez slow-response criticism; disease outbreaks in shelters"
 
 ---
 
+### Series continuity trackers
+
+### News continuity
+
+Tracks recent angles per topic so the briefing actively varies coverage.
+Update the "last 7 angles" list each run (drop the oldest, add the newest).
+
+**AI & Technology** -- Most recent angle (2026-07-17):
+"UN Global Dialogue on AI Governance (Jul 6-7, ~200 nations); UN Scientific Panel catastrophic-harm warning; FTC AI bias disclosure proposal (comment deadline Jul 31)"
+- Last 7 angles:
+  - 2026-07-17: UN AI governance dialogue; UN scientific panel catastrophic-harm report; FTC AI accuracy policy
+  - 2026-07-16: Price war (Sol vs Fable 5 pricing/speed); Alibaba-Apple China deal; chip stocks
+  - 2026-07-15: TSMC all-time revenue records; Anthropic-Samsung chip talks; China AI humanlike rules
+  - 2026-07-14: OpenAI gov equity pitch; GPT-5.6 launch; Microsoft replacing OpenAI; Gemini Enterprise
+  - 2026-07-13: Apple sues OpenAI; Meta $10B Alberta data center; enterprise AI adoption 71%
+- Next: check for major model or product news; if none, continue governance/policy angle or pivot to
+  infrastructure (data center buildout, energy demand for AI, chip supply chain).
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-17):
+"Thu Jul 16 close: S&P -0.51% (7,533); Nasdaq -1.47% (25,881); TSMC capex raised $60-64B; June retail sales +0.2% miss; GDPNow Q2 1.3%; earnings season 20%+ growth"
+- Last 7 angles:
+  - 2026-07-17: Thu close; TSMC capex surprise; chip selloff; retail sales miss; GDPNow Q2 1.3%
+  - 2026-07-16: Wed recovery rally; AAPL ATH; chip pullback; TSMC/GE/UNH earnings; CPI 3.5%/2.6% core
+  - 2026-07-15: Nasdaq futures higher on TSMC+CPI beat; Brent $85.22 rising 3rd session
+  - 2026-07-14: S&P -0.79%/Nasdaq -1.55%; bank earnings strong (JPM EPS $7.70); Hormuz selloff
+  - 2026-07-13: Mixed open; crude +2.1% on Iran tension; gold/BTC down; bank earnings week ahead
+- Next: Friday close + housing/industrial data + UMich sentiment. If market quiet, zoom to macro:
+  Fed path, consumer spending trends, or labor market.
+
+**World / Geopolitics** -- Most recent angle (2026-07-17):
+"Ukraine shadow fleet drone campaign: 147 vessels struck Jul 6-16 (117 Azov + 30 Black Sea); Su-24M destroyed at Saky; Fedorov firing triggers protests; Hungary-Russia probe"
+- Last 7 angles:
+  - 2026-07-17: Ukraine shadow fleet campaign (147 vessels); Crimea bomber strike; Fedorov firing protests; Hungary probe
+  - 2026-07-16: New US strikes on Iran Jul 15; blockade reimposed; ceasefire dead; forever war framing
+  - 2026-07-15: Day 5 US-Iran; US reimposed naval blockade; Iran struck US bases Kuwait/Bahrain/Jordan
+  - 2026-07-14: US formally blockaded Iranian shipping; Iran struck UAE tankers; 20% toll proposal
+  - 2026-07-13: US-Iran tension near Hormuz; strait crossings -85%
+- Next: check Iran/Hormuz for major new developments (if ceasefire or major escalation, return);
+  otherwise continue Ukraine (front-line updates, Fedorov replacement, diplomatic track) or pivot to
+  China-Taiwan, European security, or a non-conflict story.
+
+**Venezuela** -- Most recent angle (2026-07-17):
+"Rodriguez mandate expired; Trump backing Rodriguez while sidelining Machado; IMF $4.85B request ($4.2B SDRs + $650M RFI); UN pegs damage at $37B; democratic transition stalled"
+- Last 7 angles:
+  - 2026-07-17: Rodriguez mandate expiry; IMF $4.85B request; democratic transition sidelined; Machado return attempt
+  - 2026-07-16: Earthquake recovery week 4: death toll 4,800+, US aid $150M, UN $296M appeal
+  - 2026-07-15: Oil wildcatters; new 29-page oil rulebook (never says PDVSA); production ~1M bpd
+  - 2026-07-14: Post-Maduro 6 months: oil production 7-yr high, US exports +192%; Delcy acting president
+- Next: IMF SDR approval/denial; Rodriguez legal authority question; Machado's return; health crisis
+  in shelters; or oil sector if major development.
+
+---
+
 ### Learning Series continuity
 
-**Learning Series** (`learning-series`) -- Not yet started.
-- Topics covered: none yet
-- Next issue: Pick from any category. Good first topics:
-  - How neural networks learn (backpropagation, gradient descent -- conceptual)
-  - SQL vs NoSQL: when to use each and what the tradeoffs are
-  - What is RAG and why it matters for AI applications
-  - How DNS works (the internet's phone book)
-  - What are AI agents and how do they differ from chatbots
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-17.
+- Topics covered: Retrieval-Augmented Generation (RAG) [Category: Agentic & AI Workflows]
+- Next issue: Pick from a different category. Good options:
+  - How neural networks learn (backpropagation, gradient descent -- conceptual) [Category: AI/ML Concepts]
+  - SQL vs NoSQL: when to use each and what the tradeoffs really are [Category: Software Architecture]
+  - How DNS works -- the internet's address book [Category: Infrastructure & Internet]
+  - What are embeddings -- the numbers behind semantic meaning [Category: AI/ML Concepts]
+  - Message queues and event-driven architecture [Category: Software Architecture]
 
 ---
 
 ### History series continuity
 
-**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-16.
-- Period: "Chavez Presidency, 2002"
-- Angle covered: "The April 2002 coup attempt -- overthrow and restoration within 48 hours"
-- Prior angle (2026-07-15): "Chavez's cancer diagnosis, Cuba treatment, solidarity effect, Oct 2012 re-election, Dec 2012 naming of Maduro"
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-17.
+- Period: "Chavez Presidency, 2002-2004"
+- Angle covered: "PDVSA general strike and oil lockout (Dec 2002 - Feb 2003) -- Pilin Leon anchoring, 64-day shutdown, 18,000 firings; recall referendum Aug 2004 (Chavez 59-41)"
+- Prior angle (2026-07-16): "The April 2002 coup attempt -- overthrow and restoration within 48 hours"
+- Prior angle (2026-07-15): "Chavez's cancer diagnosis, Cuba treatment, solidarity effect, Oct 2012 re-election"
 - Prior angle (2026-07-14): "Chavez's final designation of Maduro as successor and the razor-thin 2013 election"
-- Next issue: Move earlier -- options: the 2002-2004 PDVSA general strike and recall referendum,
-  the Petrocaribe arrangement (2005-onward), or Chavez's 1998 election campaign and rise to power.
-  Do NOT repeat coup attempt, cancer/succession, 2013 election.
+- Next issue: Move backward -- options: Petrocaribe (2005), Chavez's 1998 election campaign and rise
+  from Yare prison, or the 1992 coup attempt that made him famous. Do NOT repeat coup attempt,
+  cancer/succession, 2013 election, or PDVSA strike.
 
-**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-16.
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-17.
 - Era: "Era 1 -- The Gilded Age & J.P. Morgan"
-- Week of: 2026-07-13 (stay in Era 1 through end of this week, Sun Jul 19)
+- Week of: 2026-07-13 (final day of this era week -- next run moves to Era 2)
 - Angles covered this week:
   - 2026-07-14: "The Panic of 1907 -- Morgan's library lockdown of trust company presidents"
   - 2026-07-15: "The U.S. Steel deal of 1901 -- world's first billion-dollar corporation"
   - 2026-07-16: "The Northern Securities antitrust case (1902) -- Roosevelt vs. Morgan, 5-4 dissolution"
-- Next issue (Fri Jul 17, same week): Stay in Era 1. Options: Morgan's 1895 gold rescue of the US
-  Treasury (the secret bond deal with Grover Cleveland), or Morgan's role in financing the Allied
-  powers in WWI (the 1915 Anglo-French loan at $500M). Do NOT repeat Panic of 1907, U.S. Steel,
-  or Northern Securities.
-- Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil.
+  - 2026-07-17: "The 1895 gold rescue -- Morgan's private bailout of the US Treasury, Civil War statute, Cleveland's political destruction, and the case for a central bank"
+- Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil. Start fresh with new angles.
+  Good opening angles: the Standard Oil origin story (1870 Cleveland refinery consolidation), the
+  railroad rebate system, or the 1882 trust structure invention.

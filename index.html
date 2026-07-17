@@ -259,6 +259,186 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-07-17",
+  "displayDate": "Friday, July 17, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 2100,
+  "readMinutes": 10,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "This week the focus in AI shifted from model benchmarks to governance. The UN convened its first Global Dialogue on AI Governance in Geneva on July 6 and 7, drawing representatives from nearly 200 nations around a central question: who writes the rules for a technology that no single government can fully track? The meeting came one week after an independent UN scientific panel -- 40 experts drawn from every world region -- published its inaugural report warning that AI development is outpacing both scientific understanding and governmental policy, and that unresolved risks of catastrophic harm demand faster international cooperation. In the US, the FTC released a proposed policy statement on July 1 that would compel AI developers to disclose known biases in their models, on the grounds that undisclosed bias constitutes deceptive practice. Public comments close July 31."
+      ],
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/07/1167862"
+        },
+        {
+          "name": "FTC",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+        }
+      ]
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "Thursday ended in the red. The S&P 500 dropped 0.51% to 7,533.77 and the Nasdaq fell 1.47% to 25,881.95 as chip stocks sold off despite a strong TSMC earnings report. The market's reaction was to TSMC's revised capital expenditure guidance -- raised from a $52-56 billion range to $60-64 billion -- a signal that AI infrastructure buildout is accelerating faster than near-term returns can support. The Dow shed 0.20% to 52,552.97. Stepping back, the broader earnings season remains healthy: the S&P 500 is tracking toward a second consecutive quarter of growth above 20%. Friday's calendar brings housing starts, industrial production, and the University of Michigan's preliminary consumer sentiment reading. One soft spot: June retail sales rose just 0.2% month over month, below the 0.3% consensus, and the Atlanta Fed's GDPNow estimate puts Q2 GDP growth at 1.3%."
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates"
+        }
+      ]
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "Pivoting away from Hormuz, the most active military front this week is the Black Sea. Ukraine's Unmanned Systems Forces have launched a sustained drone campaign against Russia's shadow fleet -- the network of sanctioned and unregistered tankers that hauls Russian crude past Western embargoes. Between July 6 and 16, Ukrainian forces struck 147 vessels: 117 in the Sea of Azov and 30 in the Black Sea, including an overnight operation on July 15 that hit 20 ships in a single sortie. Separately, Ukrainian special forces divers destroyed a Russian Su-24M bomber at Saky Airfield in occupied Crimea. On the political side, President Zelensky's dismissal of Defense Minister Fedorov -- widely viewed as one of Ukraine's most effective officials -- triggered protests across major cities on July 16. Hungary announced an official investigation into its former foreign minister's reported ties to Moscow."
+      ],
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-expands-maritime-campaign-to-black-sea-hits-20-russian-vessels-including-oil-tankers-madyar-says/"
+        },
+        {
+          "name": "Euromaidan Press",
+          "url": "https://euromaidanpress.com/2026/07/15/the-azov-sea-wasnt-enough-ukraines-drones-followed-russias-oil-fleet-into-the-black-sea/"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Ukraine Shadow Fleet Drone Strikes by Theater (Jul 6-16, 2026)",
+        "labels": [
+          "Sea of Azov",
+          "Black Sea"
+        ],
+        "data": [
+          117,
+          30
+        ],
+        "unit": "vessels struck",
+        "sourceNote": "Ukraine Unmanned Systems Forces / Kyiv Independent"
+      }
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "Venezuela's path toward a democratic transition is losing ground to the earthquake. Three weeks after the June 24 tremors killed more than 4,800 people and displaced 17,000, the humanitarian emergency is consuming the political calendar. Acting President Delcy Rodriguez's interim mandate expired this week, raising unresolved questions about her legal authority to govern. The Trump administration has backed Rodriguez, praising her oil-sector reforms, while sidelining opposition leader Maria Corina Machado, who attempted a return home in the aftermath of the quakes but found little traction in Washington. On the financing front, Venezuela's government formally asked the IMF for $4.85 billion -- $4.2 billion in long-unaccessed Special Drawing Rights plus $650 million in emergency relief funds -- to begin reconstruction against a UN damage estimate of $37 billion."
+      ],
+      "sources": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/07/14/nx-s1-5893438/venezuelas-democracy-delayed"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-25/venezuela-to-tap-its-money-at-imf-for-quake-reconstruction"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/07/1167899"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "Agentic & AI Workflows",
+        "topic": "Retrieval-Augmented Generation (RAG)"
+      },
+      "summary": [
+        "RAG stands for Retrieval-Augmented Generation, and to understand why it matters, start with the problem it solves. A language model learns everything it knows during training -- and that knowledge is frozen the moment training ends. Ask an LLM about something that happened after its cutoff, or about a document that was never in its training data, and it has two options: confess ignorance or make something up. It often does the latter, generating plausible-sounding text that is factually wrong. RAG addresses this by changing the architecture: instead of asking the model to answer from memory, you give it a retrieval system. Think of the difference between a closed-book exam and an open-book one. The model's job shifts from recall to reasoning -- it reads the documents you hand it and synthesizes an answer from them. The knowledge lives outside the model, in a database you control, which means it can be updated, corrected, or replaced without touching the model itself.",
+        "The three stages of RAG match its name. Retrieve: when a user sends a query, the system converts it into a vector embedding -- a list of numbers encoding the query's meaning -- and searches a vector database for stored document chunks whose embeddings are closest to it. This is semantic search rather than keyword search: a query about raising venture capital will match documents about startup funding even if those exact words never appear. Augment: the retrieved chunks are inserted into the context window alongside the original question. The model now has both the question and the relevant source material in front of it. Generate: the model reads both and produces a response grounded in what it just retrieved. A well-implemented system can cite its sources because those sources were literally part of the input.",
+        "RAG beat out fine-tuning as the dominant enterprise AI pattern for three practical reasons. First, it keeps knowledge external and updateable: fine-tuning bakes information into the model's weights, so stale data requires retraining; with RAG you update the document store and the model works with the new information automatically. Second, it is auditable: when a model answers from its weights, there is no trace of what evidence it used; when it answers from retrieved documents, you can show the user exactly which passages shaped the answer -- critical in law, medicine, and finance. Third, it is far cheaper: training large models costs millions of dollars; maintaining a vector database is engineering work but orders of magnitude less expensive. The meaningful tradeoff is retrieval quality. A RAG system is only as good as its search: if the retrieval step surfaces the wrong chunks, the model generates based on misleading context. How you split and index your documents -- the chunking strategy -- has become one of the most practically important problems in production AI systems."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "How RAG Works",
+        "code": "graph LR\n  A[User Query] --> B[Embedding Model]\n  B --> C[Vector Database]\n  C --> D[Retrieved Chunks]\n  A --> E[Augmented Prompt]\n  D --> E\n  E --> F[LLM]\n  F --> G[Grounded Answer]"
+      },
+      "sources": [
+        {
+          "name": "Anthropic Research",
+          "url": "https://www.anthropic.com/research"
+        },
+        {
+          "name": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/artificial-intelligence/2026/07/the-administrations-new-ai-framework-includes-something-the-government-hasnt-had-before/"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "Chavez Presidency, 2002-2004",
+        "angle": "The PDVSA general strike and oil lockout -- the 64-day confrontation that ended with 18,000 firings and the recall referendum that Chavez won 59-41"
+      },
+      "summary": [
+        "By the autumn of 2002, the April coup's collapse had not pacified Chavez's opponents -- it had organized them. The business federation Fedecámaras and the main labor confederation CTV joined forces and called a general strike for December 2, backed by PDVSA management. PDVSA, the state oil company that then generated roughly 80 percent of Venezuela's export revenue, became the central battlefield. On December 4, the captain of the tanker Pilin Leon anchored in the Lake Maracaibo shipping channel and simply refused to move. The rest of PDVSA's 13-ship lake fleet was quickly grounded in solidarity. Combined with a walkout by the company's management and technical staff, Venezuelan oil production collapsed from roughly three million barrels per day to under 200,000 -- a plunge so severe that Venezuela, an OPEC founding member, had to begin importing oil to meet basic domestic needs.",
+        "The strike ran 64 days and failed. Chavez refused every demand -- no resignation, no early elections. The government slowly restarted production using military crews, foreign technicians, and the fraction of PDVSA staff that remained loyal. Long lines at gas stations became the visible face of the standoff. When the strike collapsed in early February 2003, Chavez moved decisively: he fired 18,000 PDVSA employees, nearly 40 percent of the company's entire workforce, replacing them with politically aligned staff. It was the decisive transformation of PDVSA from a technically sophisticated near-independent institution into a direct instrument of the presidency. Production capacity never fully recovered. The fired engineers and managers scattered to Alberta, Texas, and other oil industries abroad, taking irreplaceable institutional knowledge with them.",
+        "The opposition's parallel gambit was the recall referendum. Venezuela's 1999 constitution provided in Article 72 that any elected official could be recalled by popular vote after serving half their term. The opposition gathered signatures in early 2003, but the government-aligned CNE challenged the process and rejected the first petition on technical grounds. After months of legal battles and international mediation by the OAS, the Carter Center, and a UN team, the CNE certified a second round of signatures and scheduled a vote for August 15, 2004. Chavez won 59 to 41 percent -- a margin his opponents contested but could not overturn. Having survived a coup, a 64-day oil shutdown, and a national referendum, Chavez entered the second half of his presidency with his authority consolidated and the organized opposition effectively broken for years to come."
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: 2002-2003 Venezuelan general strike",
+          "url": "https://en.wikipedia.org/wiki/2002%E2%80%932003_Venezuelan_general_strike"
+        },
+        {
+          "name": "Venezuelanalysis",
+          "url": "https://venezuelanalysis.com/analysis/7527/"
+        },
+        {
+          "name": "Caracas Chronicles",
+          "url": "https://www.caracaschronicles.com/2017/11/25/2003-smell-loss/"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 1 -- The Gilded Age & J.P. Morgan",
+        "weekOf": "2026-07-13",
+        "angle": "The 1895 gold rescue -- Morgan's private bailout of the US Treasury, the Civil War statute that made it possible, and the political cost to Cleveland"
+      },
+      "summary": [
+        "By January 1895, the US Treasury was days from default. The Panic of 1893 had triggered a sustained run on the government's gold reserve: holders of paper dollars had been converting them into gold coin and shipping the metal abroad, draining the reserve that the government was legally required to maintain. On January 24 the reserve fell to $68 million; a week later it stood at $45 million. Morgan's network in New York informed him that $12 million in drafts could be presented against the Treasury at any moment -- enough to push the reserve below its legal floor and set off a cascading collapse. Congress had already rejected two of Cleveland's proposals for bond sales to replenish gold; the political path was closed. Morgan boarded a train to Washington on February 5. The president's aides initially turned him away.",
+        "Morgan forced the meeting and told Cleveland the government could default that day -- but only he could prevent it, and only if Cleveland acted immediately. The deal drew on an obscure Civil War statute allowing the Treasury to purchase gold directly from private sources. Morgan and the Rothschilds would supply 3.5 million ounces of gold -- roughly half sourced from Europe -- at $17.80 per ounce, in exchange for $62.3 million in 30-year bonds at 4 percent. Crucially, Morgan personally pledged to use his banking network to prevent gold already in the Treasury from flowing out while the deal was in effect, essentially running a private monetary policy for the United States government. The reserve stabilized within days. Morgan cleared roughly $1.5 million in profit. Cleveland was savaged in the press, and the episode ended his political career: the populist wing of the Democratic Party, furious that the nation's finances had been rescued by a private banker on his own terms, abandoned him for William Jennings Bryan and the free-silver campaign of 1896. The deal worked perfectly -- and became, for those who opposed it, the clearest possible argument for why the country needed a central bank."
+      ],
+      "sources": [
+        {
+          "name": "Miller Center",
+          "url": "https://millercenter.org/the-presidency/presidential-speeches/february-8-1895-announcement-treasury-bond-sale"
+        },
+        {
+          "name": "Finaeon",
+          "url": "https://finaeon.com/how-the-united-states-avoided-default-with-only-hours-to-spare-in-1895/"
+        },
+        {
+          "name": "HistoryNet",
+          "url": "https://historynet.com/upside-down-bailout/"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-07-16",
   "displayDate": "Thursday, July 16, 2026",
   "title": "Morning Briefing",
