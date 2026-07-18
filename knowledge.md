@@ -1,5 +1,24 @@
 # Tomas's Newsletter Knowledge Base
 
+## 2026-07-18 -- Saturday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-18
+
+**AI & Technology** -- Microsoft unveiled Project Perception (multi-model AI security tool using Anthropic, OpenAI, and Microsoft's own models; marketed as cheaper Mythos 5 alternative). Oracle cutting up to 30,000 employees to fund $500B Stargate partnership. Anthropic Fable 5 free-access window closes Jul 19 11:59 PM PT; community split on Opus 5 launch vs extension vs credits.
+
+**Stock Market & US Economy** -- Fri Jul 17 close: S&P -1.01% to 7,457; Nasdaq -1.4% to 25,520; Dow -407pts to 52,146. Chip stocks led decline on AI hyperscaler spending ROI doubts. Netflix -8.6% on Q3 revenue guidance miss ($12.86B vs $13B est.). Week: S&P -1.6%, Nasdaq -2.9%, Dow -0.9%. Trump accused China of 2020 election interference; trade-war fears revived.
+
+**World / Geopolitics** -- US-Iran: 7th consecutive night of CENTCOM strikes (surveillance sites, military logistics, weapons storage, maritime infrastructure in Hormozgan including Bandar Khamir on the Strait). Iran struck US regional bases; threatened Gulf desalination plants. Jun 17 Versailles MOU effectively dead (Trump 48-hr ultimatum to open Strait; Iran refused). 50 killed, 500+ injured in Iran since Jun 27. Strait traffic "down to a trickle."
+
+**Venezuela** -- Quake death toll crossed 5,000. IMF released $346M from Venezuela's own SDR reserve (previously frozen; first major multilateral lifeline in ~a decade). 20,000 in camps with poor water/sanitation; disease risk rising. Machado still blocked from entering (Panama, Jun 29 video).
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: SQL vs NoSQL. Covered: SQL relational model + ACID guarantees + vertical scaling; NoSQL four models (document/MongoDB, key-value/Redis, wide-column/Cassandra, graph/Neo4j) + horizontal scaling + eventual consistency; CAP theorem; schema-first vs schema-last design as the real tradeoff; many modern systems use both (PostgreSQL for transactions, Redis for caching).
+
+**Venezuelan History (education)** -- Period: "Pre-Chavez Era / Rise to Power, 1989-1994." Angle: February 4, 1992 coup attempt -- Caracazo (1989) as trigger; 10% military loyalty; simultaneous five-unit attack on Caracas targeting Miraflores/defense ministry/La Carlota/Military Museum; failed because Perez escaped capture; dawn collapse; Chavez's 72-second "por ahora" TV speech accepting responsibility; Yare Prison 1992-1994; Caldera released him; 56.2% presidential win in 1998.
+
+**American Business History (education)** -- Era 2: Rockefeller & Standard Oil. Week of 2026-07-20. Angle: Origin story -- 1859 Drake well chaos; Rockefeller enters Cleveland refining 1863 (Clark/Andrews); buys out Clark 1865 for $72,500; Flagler joins; 1868 Lake Shore Railroad deal (1 cent/gallon, 71% discount, 60 carloads/day guarantee); Standard Oil Ohio incorporated Jan 1870 ($1M capital); South Improvement Company 1872 (secret railroad cartel with rebates AND drawbacks on competitors); Cleveland Massacre Jan-Mar 1872: 22 of 26 competitors bought out or shut in 3 months.
+
+
 This file is the running, condensed memory of every morning briefing. Each
 entry below is a compact summary — the full version (all sources, charts,
 images) lives in the host archive site; each entry links to its specific
@@ -229,9 +248,10 @@ Delcy Rodriguez slow-response criticism; disease outbreaks in shelters"
 Tracks recent angles per topic so the briefing actively varies coverage.
 Update the "last 7 angles" list each run (drop the oldest, add the newest).
 
-**AI & Technology** -- Most recent angle (2026-07-17):
-"UN Global Dialogue on AI Governance (Jul 6-7, ~200 nations); UN Scientific Panel catastrophic-harm warning; FTC AI bias disclosure proposal (comment deadline Jul 31)"
+**AI & Technology** -- Most recent angle (2026-07-18):
+"Microsoft Project Perception (multi-model security; cheaper Mythos 5 alternative); Oracle -30K employees for Stargate; Anthropic Fable 5 free access expires Jul 19"
 - Last 7 angles:
+  - 2026-07-18: Microsoft Project Perception launch; Oracle -30K for Stargate; Fable 5 deadline Jul 19
   - 2026-07-17: UN AI governance dialogue; UN scientific panel catastrophic-harm report; FTC AI accuracy policy
   - 2026-07-16: Price war (Sol vs Fable 5 pricing/speed); Alibaba-Apple China deal; chip stocks
   - 2026-07-15: TSMC all-time revenue records; Anthropic-Samsung chip talks; China AI humanlike rules
@@ -240,9 +260,10 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
 - Next: check for major model or product news; if none, continue governance/policy angle or pivot to
   infrastructure (data center buildout, energy demand for AI, chip supply chain).
 
-**Stock Market & US Economy** -- Most recent angle (2026-07-17):
-"Thu Jul 16 close: S&P -0.51% (7,533); Nasdaq -1.47% (25,881); TSMC capex raised $60-64B; June retail sales +0.2% miss; GDPNow Q2 1.3%; earnings season 20%+ growth"
+**Stock Market & US Economy** -- Most recent angle (2026-07-18):
+"Fri Jul 17 close: S&P -1.01% (7,457); Nasdaq -1.4% (25,520); Dow -407pts (52,146); chip stocks led by AI ROI doubts; Netflix -8.6% Q3 guidance miss; week S&P -1.6%/Nasdaq -2.9%/Dow -0.9%; Trump China 2020 election accusation"
 - Last 7 angles:
+  - 2026-07-18: Fri close S&P -1.01%/Nasdaq -1.4%/Dow -407pts; chip selloff on AI ROI doubts; Netflix -8.6%; weekly losses S&P -1.6%/Nasdaq -2.9%/Dow -0.9%
   - 2026-07-17: Thu close; TSMC capex surprise; chip selloff; retail sales miss; GDPNow Q2 1.3%
   - 2026-07-16: Wed recovery rally; AAPL ATH; chip pullback; TSMC/GE/UNH earnings; CPI 3.5%/2.6% core
   - 2026-07-15: Nasdaq futures higher on TSMC+CPI beat; Brent $85.22 rising 3rd session
@@ -251,9 +272,10 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
 - Next: Friday close + housing/industrial data + UMich sentiment. If market quiet, zoom to macro:
   Fed path, consumer spending trends, or labor market.
 
-**World / Geopolitics** -- Most recent angle (2026-07-17):
+**World / Geopolitics** -- Most recent angle (2026-07-18):
 "Ukraine shadow fleet drone campaign: 147 vessels struck Jul 6-16 (117 Azov + 30 Black Sea); Su-24M destroyed at Saky; Fedorov firing triggers protests; Hungary-Russia probe"
 - Last 7 angles:
+  - 2026-07-18: 7th night CENTCOM strikes (Bandar Khamir); Iran desalination threats; Versailles MOU dead; 50 killed/500+ injured; Strait trickle
   - 2026-07-17: Ukraine shadow fleet campaign (147 vessels); Crimea bomber strike; Fedorov firing protests; Hungary probe
   - 2026-07-16: New US strikes on Iran Jul 15; blockade reimposed; ceasefire dead; forever war framing
   - 2026-07-15: Day 5 US-Iran; US reimposed naval blockade; Iran struck US bases Kuwait/Bahrain/Jordan
@@ -263,9 +285,10 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   otherwise continue Ukraine (front-line updates, Fedorov replacement, diplomatic track) or pivot to
   China-Taiwan, European security, or a non-conflict story.
 
-**Venezuela** -- Most recent angle (2026-07-17):
-"Rodriguez mandate expired; Trump backing Rodriguez while sidelining Machado; IMF $4.85B request ($4.2B SDRs + $650M RFI); UN pegs damage at $37B; democratic transition stalled"
+**Venezuela** -- Most recent angle (2026-07-18):
+"Quake death toll 5,000+; IMF released $346M from Venezuela's own SDR reserve (first major multilateral lifeline ~decade); 20K in camps; Machado blocked (Panama); disease risk rising"
 - Last 7 angles:
+  - 2026-07-18: Quake toll 5,000+; IMF released $346M SDR; 20K in camps; Machado blocked; disease risk
   - 2026-07-17: Rodriguez mandate expiry; IMF $4.85B request; democratic transition sidelined; Machado return attempt
   - 2026-07-16: Earthquake recovery week 4: death toll 4,800+, US aid $150M, UN $296M appeal
   - 2026-07-15: Oil wildcatters; new 29-page oil rulebook (never says PDVSA); production ~1M bpd
@@ -278,8 +301,8 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
 ### Learning Series continuity
 
 **Learning Series** (`learning-series`) -- Most recent entry: 2026-07-17.
-- Topics covered: Retrieval-Augmented Generation (RAG) [Category: Agentic & AI Workflows]
-- Next issue: Pick from a different category. Good options:
+- Topics covered: Retrieval-Augmented Generation (RAG) [Category: Agentic & AI Workflows]; SQL vs NoSQL [Category: Software Architecture]
+- Next issue: Pick from a different category (not Agentic or Software Architecture recently). Good options:
   - How neural networks learn (backpropagation, gradient descent -- conceptual) [Category: AI/ML Concepts]
   - SQL vs NoSQL: when to use each and what the tradeoffs really are [Category: Software Architecture]
   - How DNS works -- the internet's address book [Category: Infrastructure & Internet]
@@ -291,23 +314,17 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
 ### History series continuity
 
 **Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-17.
-- Period: "Chavez Presidency, 2002-2004"
-- Angle covered: "PDVSA general strike and oil lockout (Dec 2002 - Feb 2003) -- Pilin Leon anchoring, 64-day shutdown, 18,000 firings; recall referendum Aug 2004 (Chavez 59-41)"
+- Period: "Pre-Chavez Era / Rise to Power, 1989-1994"
+- Angle covered: "Feb 4 1992 coup attempt -- Caracazo context; 10% military loyalty; five-unit Caracas attack; Perez escaped; 'por ahora' speech; Yare Prison 1992-94; Caldera release; 56.2% win 1998"
+- Prior angle (2026-07-17): "PDVSA general strike and oil lockout (Dec 2002 - Feb 2003); recall referendum Aug 2004 (Chavez 59-41)"
 - Prior angle (2026-07-16): "The April 2002 coup attempt -- overthrow and restoration within 48 hours"
 - Prior angle (2026-07-15): "Chavez's cancer diagnosis, Cuba treatment, solidarity effect, Oct 2012 re-election"
 - Prior angle (2026-07-14): "Chavez's final designation of Maduro as successor and the razor-thin 2013 election"
-- Next issue: Move backward -- options: Petrocaribe (2005), Chavez's 1998 election campaign and rise
-  from Yare prison, or the 1992 coup attempt that made him famous. Do NOT repeat coup attempt,
-  cancer/succession, 2013 election, or PDVSA strike.
+- Next issue: Move backward from 1989 Caracazo -- options: the 1980s Venezuela oil boom collapse and Black Friday (Feb 18, 1983 devaluation), the Punto Fijo pact (1958) and how it created the system Chavez rebelled against, or the 1973 oil nationalization. Do NOT repeat 1992 coup, Caracazo, PDVSA strike, cancer/succession, 2013 election.
 
 **American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-17.
-- Era: "Era 1 -- The Gilded Age & J.P. Morgan"
-- Week of: 2026-07-13 (final day of this era week -- next run moves to Era 2)
+- Era: "Era 2 -- Rockefeller & Standard Oil"
+- Week of: 2026-07-20
 - Angles covered this week:
-  - 2026-07-14: "The Panic of 1907 -- Morgan's library lockdown of trust company presidents"
-  - 2026-07-15: "The U.S. Steel deal of 1901 -- world's first billion-dollar corporation"
-  - 2026-07-16: "The Northern Securities antitrust case (1902) -- Roosevelt vs. Morgan, 5-4 dissolution"
-  - 2026-07-17: "The 1895 gold rescue -- Morgan's private bailout of the US Treasury, Civil War statute, Cleveland's political destruction, and the case for a central bank"
-- Next era (week of 2026-07-20): Era 2 -- Rockefeller & Standard Oil. Start fresh with new angles.
-  Good opening angles: the Standard Oil origin story (1870 Cleveland refinery consolidation), the
-  railroad rebate system, or the 1882 trust structure invention.
+  - 2026-07-18: "Origin story -- 1863 Cleveland refining entry; Flagler; 1868 Lake Shore Railroad deal (71% discount); Standard Oil Ohio Jan 1870; South Improvement Company 1872; Cleveland Massacre (22/26 competitors in 3 months)"
+- Next angles this era (do not repeat): railroad rebate political backlash and congressional exposure, the 1882 Ohio trust structure invention (first US trust), the 1890 Sherman Act context, the Ida Tarbell McClure's series (1902-1904), the 1911 dissolution ruling.
