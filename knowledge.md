@@ -1,3 +1,21 @@
+## 2026-07-24 -- Friday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-24
+
+**AI & Technology** -- Alphabet Q2 beat: $119.8B revenue (+24% YoY, est. $116.9B); Google Cloud +82% to $24.8B fastest growth in years; EPS $9.11 (includes $99B investment gain from Anthropic/SpaceX holdings). GOOGL fell after hours: 2026 capex raised to $205B (from ~$185-190B), signaling AI infrastructure spending is not moderating. Intel Q2 in-line: $14.4B revenue, $0.22 EPS; 18A foundry node at 85% yields confirms manufacturing comeback; INTC up 163% YTD heading in.
+
+**Stock Market & US Economy** -- Alphabet capex raise to $205B sank GOOGL after hours despite revenue beat; market asks when AI infrastructure pays off. Broader season: 88% beat rate, 24.7% blended EPS growth. FOMC Jul 28-29: rate hold at 3.50-3.75% expected; cuts pushed to 2027. Tension: exceptional corporate earnings vs. elevated rates and accelerating AI capex cycle.
+
+**World / Geopolitics** -- 10-day ceasefire proposal (Qatar/Egypt/Pakistan/Oman) unaccepted; regional diplomats shift from optimism to pessimism. Trump declared June ceasefire over (Jul 9); US strikes continue nightly. Hormuz shipping: 9 ships in past 24 hours vs. 130/day pre-conflict (93% drop). Iran striking US bases in Kuwait, Bahrain, Jordan. Asian energy importers under growing supply pressure.
+
+**Venezuela** -- Supreme Tribunal extends Rodriguez mandate to January 2031 using Chavez-era precedent, bypassing 90+90 constitutional clock; Rodriguez simultaneously packing Tribunal (mirrors Chavez 2004 court-packing). "Normalization without transition" strategy: Chavista consolidation + friendlier oil terms, no electoral path. Machado blocked; US focused on earthquake humanitarian relief, not political timeline.
+
+**Learning Series (education)** -- Category: Infrastructure & Internet. Topic: Containers, Docker, and Kubernetes. Covered: the "works on my machine" problem; VMs vs. containers (shared host kernel, seconds to start, megabytes not gigabytes); Dockerfile as recipe → Docker image → container; Linux namespaces and cgroups for isolation; Kubernetes as orchestration layer (control plane + worker nodes, Pods, desired-state config, rolling updates, autoscaling); Docker + K8s = cloud-native architecture; deploy thousands of microservices globally in minutes.
+
+**Venezuelan History (education)** -- Period: "Pre-Chavez Era -- The 1945 October Revolution." Angle: October 18 1945 coup: AD (Betancourt) + young military lodge (Delgado Chalbaud + Perez Jimenez) overthrow Medina Angarita after Diogenes Escalante candidate collapse; ~2,500 killed in 2-day Caracas fighting; Betancourt leads 7-member Revolutionary Junta; El Trienio Adeco 1945-1948: universal suffrage (first in Venezuelan history), Gallegos wins Dec 1947 (74%), 50/50 oil profit split, labor reform; same officers (Delgado Chalbaud + Perez Jimenez) who enabled coup overthrow Gallegos Nov 24 1948; democracy lost for a decade; 50/50 oil deal survives the coup.
+
+**American Business History (education)** -- Era 2: Rockefeller & Standard Oil. Week of 2026-07-20. Angle: Tidewater Pipeline war 1878-1879: Byron Benson builds 109-mile iron pipeline Bradford → Allegheny Mountains → Williamsport to bypass railroad lock; Rockefeller fights back (armed crews, fraudulent land claims, railroad refusals); May 1879 pipeline opens at 16.7 cents/barrel vs. high rail rates; PA legislature blocks acquisition 1883 → pooling agreement instead; Standard quietly accumulates Tidewater stock; gains effective control; within years becomes dominant pipeline operator with thousands of miles of trunk lines; same stranglehold over transport, new medium.
+
 ## 2026-07-23 -- Thursday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-23
@@ -365,3 +383,91 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-07-22: "Ida Tarbell McClure's exposé (Nov 1902 - May 1904) -- 19 installments; father ruined in Cleveland Massacre; Roosevelt DOJ 1906; 1911 dissolution"
   - 2026-07-23: "1911 Supreme Court dissolution (8-1, Chief Justice White): 34 companies by geography; NJ→Exxon, NY→Mobil, CA→Chevron, Indiana→Amoco/BP, Ohio→Sohio/BP; shareholders got shares in all 34; Rockefeller 25% stake -- combined values doubled → world's richest man AFTER breakup; antitrust paradox; philanthropy accelerated"
 - Next week (week of 2026-07-27): Advance to Era 3 -- Carnegie & the steel industry. Begin with Carnegie's early life and rise (Scottish immigrant, telegraph operator, railroad man, first steel investment). Do NOT repeat any Era 2 Rockefeller angle.
+
+---
+
+## Series continuity trackers (updated 2026-07-24)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-07-24):
+"Alphabet Q2 $119.8B (+24%), Cloud +82% to $24.8B; GOOGL sank after hours on $205B capex raise; Intel Q2 in-line $14.4B/$0.22, 18A at 85% yields"
+- Last 7 angles:
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex raise; Intel in-line $14.4B/$0.22; 18A at 85%
+  - 2026-07-23: Alphabet Q2 results night (AH +0.83%); EU fine $4.67B; Gemini delayed; Tesla margin question; Intel Thursday
+  - 2026-07-22: Alphabet/Tesla Q2 earnings day; Google Cloud 63% growth; Tesla record 480K deliveries; Intel Thursday
+  - 2026-07-21: Google Frozen v2 chip; Alphabet earnings setup; semiconductor revenue surge
+  - 2026-07-20: Fable 5 access ends/credits; SpaceX Colossus compute rental; Starship TF13
+  - 2026-07-18: Microsoft Project Perception launch; Oracle -30K for Stargate; Fable 5 deadline Jul 19
+  - 2026-07-17: UN AI governance dialogue; UN scientific panel catastrophic-harm report; FTC AI accuracy policy
+- Next: Alphabet stock reaction to capex; any AI capex ROI story emerging; FOMC and AI spending debate. Vary away from earnings recaps.
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-24):
+"Alphabet capex $205B sank GOOGL after hours; 88% beat rate/24.7% blended EPS growth; FOMC Jul 28-29 hold; rate cuts to 2027"
+- Last 7 angles:
+  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate; FOMC Jul 28-29 hold
+  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold; 88% beat rate
+  - 2026-07-22: S&P +0.89%/Nasdaq +1.29%; pre-earnings rally; Alphabet/Tesla after close
+  - 2026-07-21: Tue open recovery; chip stocks revive; ceasefire speculation eases oil
+  - 2026-07-20: Mon futures slightly higher; WTI $82.35/Brent $88.54; AI capex proof demanded
+  - 2026-07-18: Fri close S&P -1.01%/Nasdaq -1.4%/Dow -407pts; chip selloff; Netflix -8.6%
+  - 2026-07-17: Thu close; TSMC capex surprise; chip selloff; retail sales miss; GDPNow Q2 1.3%
+- Next: FOMC Jul 28-29 decision and statement; broader market reaction to AI capex cycle; macro data.
+
+**World / Geopolitics** -- Most recent angle (2026-07-24):
+"10-day ceasefire proposal unaccepted, diplomats pessimistic; Hormuz 9 ships/day vs. 130 pre-conflict (93% drop); Iran striking US bases; Asian energy importers under pressure"
+- Last 7 angles:
+  - 2026-07-24: Ceasefire unaccepted, pessimism rising; Hormuz 93% traffic drop (9 vs. 130 ships/day); Iran striking US bases
+  - 2026-07-23: Qatar/Pakistan 10-day proposal formal; White House cautious; Houthi Saudi embargo; dual choke-point; oil eased
+  - 2026-07-22: Houthi Saudi blockade threat (2.5M bpd); Qatar/Pakistan ceasefire; two choke-point risks
+  - 2026-07-21: 10th night US strikes; 10-day ceasefire proposal; Washington skeptical; Houthi threat
+  - 2026-07-20: New US strikes Sunday; 3rd service member killed; Qatar-mediated proposals; Brent briefly $90
+  - 2026-07-18: 7th night CENTCOM strikes; Iran desalination threats; Versailles MOU dead
+  - 2026-07-17: Ukraine shadow fleet campaign (147 vessels); Crimea bomber strike
+- Next: FOMC and oil impact; if ceasefire rejected, pivot to consequences; Ukraine developments; any diplomatic breakthrough.
+
+**Venezuela** -- Most recent angle (2026-07-24):
+"TSJ extends Rodriguez to 2031; Rodriguez packing Tribunal (Chavez 2004 mirror); normalization without transition; Machado blocked; US on earthquake relief only"
+- Last 7 angles:
+  - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing confirmed; normalization-without-transition; Machado blocked; US humanitarian focus
+  - 2026-07-23: Supreme Tribunal 2031 mandate ruling; Chavez precedent; constitutional clock bypassed; Americas Quarterly analysis
+  - 2026-07-22: Transition talks suspended; Machado return demand; polls: half say elections > rebuilding; constitutional clock
+  - 2026-07-21: OCHA $299M addendum; tent cities; illness in camps; Elections Now march
+  - 2026-07-20: Toll 5,200+; shelter health crisis; IMF SDR macro only; Machado blocked
+  - 2026-07-18: Quake toll 5,000+; IMF SDR $346M; 20K in camps; disease risk
+  - 2026-07-17: Rodriguez mandate expiry; IMF $4.85B request; democratic transition sidelined
+- Next: International/regional reaction to 2031 extension; any Machado move; oil sector news; US policy signal on political vs. humanitarian.
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-24.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]
+- Next issue: Pick from underrepresented categories. Good options:
+  - The Transformer architecture explained -- attention heads, layers, how it differs from RNNs [AI/ML Concepts]
+  - APIs: REST vs GraphQL vs gRPC -- what they are and when each fits [Software Architecture]
+  - Multi-agent systems: how AI agents coordinate [Agentic & AI Workflows]
+  - CDNs and edge computing -- how content gets served fast globally [Infrastructure & Internet] (but Infra has run twice recently, so maybe defer)
+
+---
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-24.
+- Period: "Pre-Chavez Era -- The 1945 October Revolution"
+- Angle covered: "October 18 1945 coup: AD (Betancourt) + military lodge (Delgado Chalbaud + Perez Jimenez) overthrow Medina Angarita; ~2,500 killed; Betancourt's 7-member junta; El Trienio Adeco: universal suffrage (first in VZ), Gallegos 74% Dec 1947, 50/50 oil split, labor reform; same military officers overthrow Gallegos Nov 24 1948; democracy lost decade; 50/50 oil deal survives"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution
+- Next issue: Continue moving backward. Options: Juan Vicente Gomez and the oil era (1908-1935) -- the dictator who signed Venezuela's first oil concessions and modernized the state on petroleum revenue; OR Antonio Guzman Blanco and the modernization era (1870-1888). Do NOT repeat 1945 or any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-24.
+- Era: "Era 2 -- Rockefeller & Standard Oil"
+- Week of: 2026-07-20
+- Angles covered this week:
+  - 2026-07-18: "Origin story -- 1863 Cleveland refining; Flagler; 1868 Lake Shore Railroad deal; Standard Oil Ohio Jan 1870; SIC 1872; Cleveland Massacre"
+  - 2026-07-20: "SIC exposed Spring 1872 -- producer rebellion; railroads capitulate; SIC dissolved; Rockefeller never repeated public cartel"
+  - 2026-07-21: "The 1882 Standard Oil Trust -- Dodd's invention; 41 shareholders; 9 trustees; 40 companies; 80% US refinery capacity + 90% pipelines; Ohio dissolution 1892; NJ reincorporation"
+  - 2026-07-22: "Ida Tarbell's McClure's exposé (Nov 1902-May 1904): 19 installments; father ruined; Roosevelt DOJ 1906; 1911 dissolution"
+  - 2026-07-23: "1911 Supreme Court dissolution: 34 companies by geography; ExxonMobil/Chevron/BP predecessors; Rockefeller 25% stake -- combined values doubled post-breakup; antitrust paradox; philanthropy"
+  - 2026-07-24: "Tidewater Pipeline war 1878-1879: Byron Benson's 109-mile pipeline bypasses railroad lock; Rockefeller sabotage fails; May 1879 pipeline opens; PA legislature blocks acquisition; pooling agreement; Standard becomes dominant pipeline operator"
+- Next week (week of 2026-07-27): Advance to Era 3 -- Carnegie & the steel industry. Begin with Carnegie's early life (Scottish immigrant, telegraph operator, railroad man, first steel investment). Do NOT repeat any Era 2 angle.
