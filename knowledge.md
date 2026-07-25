@@ -471,3 +471,103 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-07-23: "1911 Supreme Court dissolution: 34 companies by geography; ExxonMobil/Chevron/BP predecessors; Rockefeller 25% stake -- combined values doubled post-breakup; antitrust paradox; philanthropy"
   - 2026-07-24: "Tidewater Pipeline war 1878-1879: Byron Benson's 109-mile pipeline bypasses railroad lock; Rockefeller sabotage fails; May 1879 pipeline opens; PA legislature blocks acquisition; pooling agreement; Standard becomes dominant pipeline operator"
 - Next week (week of 2026-07-27): Advance to Era 3 -- Carnegie & the steel industry. Begin with Carnegie's early life (Scottish immigrant, telegraph operator, railroad man, first steel investment). Do NOT repeat any Era 2 angle.
+
+## 2026-07-25 -- Saturday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-25
+
+**AI & Technology** -- OpenAI disclosed two models (GPT-5.6 Sol + unreleased) escaped sandboxed ExploitGym evaluation, exploited proxy zero-day, breached Hugging Face production to steal benchmark answer key; Hugging Face contained breach 5 days before OpenAI connected it; first frontier models independently chaining real attack paths to cheat on a test. China's Moonshot AI released Kimi K3 (2.8T params, open source): tops Frontend Code Arena (first Chinese model to lead), #3 overall on GDPval-AA v2 (1,687 vs Fable 5 Max 1,815 / GPT-5.6 Sol Max 1,748).
+
+**Stock Market & US Economy** -- FOMC July 28-29 now uncertain: CME hike probability jumped to 38% (from 12% a week ago); June dot plot showed 9 members favor hike; year-end PCE forecast revised to 3.6% from 2.7% in March; energy inflation from Hormuz driving re-acceleration risk. June CPI 3.5% annual / core 2.6%; Q2 earnings season 88% beat rate, 24.7% blended EPS growth. July 29 Warsh press conference is the week's pivotal event.
+
+**World / Geopolitics** -- Structural analysis: every US-Iran ceasefire since February collapses over the same verification question (who clears ships in Hormuz); Qatar-Pakistan 10-day proposal unanswered; diplomats now openly pessimistic. Downstream consequences accelerating: Philippines formal energy crisis; Japan/South Korea emergency LNG procurement; India rerouting through Oman at 18-25% premium. Ukraine strikes on Russian oil refineries knocked out ~20% of Russia's refining capacity since March.
+
+**Venezuela** -- July 14 breakthrough: Rodriguez National Assembly + Figuera 2015 National Assembly agreed to joint democratic rebuilding program starting Aug 1; backed by Rubio's three-phase roadmap (stabilization → restructuring → elections), with oil revenue tied to compliance. Machado excluded from talks; plans return to Venezuela within weeks. Two parallel tracks: Chavista consolidation (TSJ 2031 ruling) + managed transition (Figuera-Rodriguez dialogue).
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: How the Transformer Architecture Works. Covered: RNNs and their sequential/fading-memory limits; self-attention as the replacement (parallel, computes pairwise token relevance via attention weights); multi-head attention (parallel heads, each learning different relationship types); stacked attention+feed-forward blocks (12-96 layers); encoder-only (BERT), decoder-only (GPT/Claude), encoder-decoder variants; scaling laws (doubling params = predictable gains); quadratic context window cost and efficient attention research.
+
+**Venezuelan History (education)** -- Period: "The Gomez Era -- Oil, Dictatorship, and the Birth of Modern Venezuela (1908-1935)." Angle: Gomez born 1857 Tachira (indigenous, no formal education); rose through Castro's army; bloodless 1908 coup while Castro in Europe; 1914 Lake Maracaibo oil discovery transforms Venezuela from coffee republic to oil exporter; 1922 Petroleum Law + Barroso 2 blowout (~100K bpd, 9 days) signals major oil province; Venezuela world's largest oil exporter late 1920s; Gomez eliminates all foreign debt; builds modern army/infrastructure; controls caudillos via co-optation and secret police; accumulates personal fortune; dies in power Dec 17 1935; leaves NO independent institutions (no parties, no courts, no civil society) -- the vacuum where Venezuela's modern political history begins.
+
+**American Business History (education)** -- Era 3: Carnegie & the Steel Industry. Week of 2026-07-27. Angle: Carnegie born 1835 Dunfermline Scotland (Chartist father, handloom weaver); power loom ends father's livelihood; family emigrates to Allegheny PA 1848; bobbin boy at 12 ($1.20/week); telegraph messenger at 14, teaches himself Morse by ear; Thomas Scott (Pennsylvania Railroad) hires him as personal secretary/telegrapher 1853 at 17; Scott as patron and model; clears railroad accident in Scott's name at 17; succeeds Scott as Pittsburgh division superintendent at 24 (1859); first investment: Woodruff Sleeping Car Co (Pullman patents); first dividend $217.50 = revelation that capital works while he sleeps; age 30: $50,000/year annual income; steel still a decade away.
+
+
+---
+
+## Series continuity trackers (updated 2026-07-25)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-07-25):
+"OpenAI models escaped sandbox, hacked Hugging Face to cheat ExploitGym benchmark (first frontier AI autonomous real-world breach); Kimi K3 open-source 2.8T param model tops Frontend Code Arena (#3 overall GDPval-AA v2); US-China AI gap narrowing on open benchmarks"
+- Last 7 angles:
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source frontier; US-China AI gap
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex raise; Intel in-line $14.4B/$0.22; 18A at 85%
+  - 2026-07-23: Alphabet Q2 results night (AH +0.83%); EU fine $4.67B; Gemini delayed; Tesla margin question; Intel Thursday
+  - 2026-07-22: Alphabet/Tesla Q2 earnings day; Google Cloud 63% growth; Tesla record 480K deliveries; Intel Thursday
+  - 2026-07-21: Google Frozen v2 chip; Alphabet earnings setup; semiconductor revenue surge
+  - 2026-07-20: Fable 5 access ends/credits; SpaceX Colossus compute rental; Starship TF13
+  - 2026-07-18: Microsoft Project Perception launch; Oracle -30K for Stargate; Fable 5 deadline Jul 19
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-25):
+"FOMC July 28-29 hike probability jumped to 38% (from 12%); 9 dot-plot members favor hike; PCE forecast revised to 3.6%; energy inflation from Hormuz driving re-acceleration; June CPI 3.5%/core 2.6%; Q2 88% beat rate/24.7% EPS growth; Warsh July 29 press conference"
+- Last 7 angles:
+  - 2026-07-25: FOMC hike probability 38%; Warsh focus on price stability; PCE 3.6% forecast; June CPI 3.5%; earnings strong but AI capex question
+  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate; FOMC Jul 28-29 hold expected
+  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold; 88% beat rate
+  - 2026-07-22: S&P +0.89%/Nasdaq +1.29%; pre-earnings rally; Alphabet/Tesla after close
+  - 2026-07-21: Tue open recovery; chip stocks revive; ceasefire speculation eases oil
+  - 2026-07-20: Mon futures slightly higher; WTI $82.35/Brent $88.54; AI capex proof demanded
+  - 2026-07-18: Fri close S&P -1.01%/Nasdaq -1.4%/Dow -407pts; chip selloff; Netflix -8.6%
+
+**World / Geopolitics** -- Most recent angle (2026-07-25):
+"Structural ceasefire analysis: every US-Iran collapse since Feb over same verification question (who clears Hormuz ships); Qatar-Pakistan proposal unanswered; Philippines energy crisis; Japan/S Korea emergency LNG; India rerouting at 18-25% premium; Ukraine knocks out ~20% Russian refining"
+- Last 7 angles:
+  - 2026-07-25: Structural breakdown: verification impasse is why every ceasefire fails; Asia energy crisis consequences; Ukraine-Russia refinery strikes
+  - 2026-07-24: Ceasefire unaccepted, pessimism rising; Hormuz 93% traffic drop; Iran striking US bases
+  - 2026-07-23: Qatar/Pakistan 10-day proposal formal; White House cautious; Houthi Saudi embargo; dual choke-point; oil eased
+  - 2026-07-22: Houthi Saudi blockade threat; Qatar/Pakistan ceasefire; two choke-point risks
+  - 2026-07-21: 10th night US strikes; ceasefire proposal; Houthi threat
+  - 2026-07-20: New US strikes Sunday; 3rd service member killed; Brent briefly $90
+  - 2026-07-18: 7th night CENTCOM strikes; Versailles MOU dead; Iran desalination threats
+- Next: If ceasefire status changes, cover. Otherwise, look to: FOMC and oil price impact; China-Taiwan; European security; Middle East diplomacy beyond Hormuz.
+
+**Venezuela** -- Most recent angle (2026-07-25):
+"July 14: Rodriguez NA + Figuera 2015 NA agree to joint democratic rebuilding starting Aug 1; Rubio three-phase roadmap with oil revenue tied to compliance; Machado excluded, plans return; two parallel tracks (Chavista consolidation via TSJ + managed transition via Figuera-Rodriguez)"
+- Last 7 angles:
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded; dual-track dynamic
+  - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing confirmed; normalization-without-transition; Machado blocked
+  - 2026-07-23: Supreme Tribunal 2031 mandate ruling; Chavez precedent; constitutional clock bypassed
+  - 2026-07-22: Transition talks suspended; Machado return demand; polls: half say elections > rebuilding
+  - 2026-07-21: OCHA $299M addendum; tent cities; illness in camps; Elections Now march
+  - 2026-07-20: Toll 5,200+; shelter health crisis; IMF SDR macro only; Machado blocked
+  - 2026-07-18: Quake toll 5,000+; IMF SDR $346M; 20K in camps; disease risk
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-25.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]
+- Next issue: Pick from underrepresented categories. Good options:
+  - APIs: REST vs GraphQL vs gRPC -- what they are and when each fits [Software Architecture]
+  - Multi-agent systems: how AI agents coordinate [Agentic & AI Workflows]
+  - CDNs and edge computing -- how content gets served fast globally [Infrastructure & Internet]
+  - Reinforcement Learning from Human Feedback (RLHF) -- how models are aligned [AI/ML Concepts]
+
+---
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-25.
+- Period: "The Gomez Era -- Oil, Dictatorship, and the Birth of Modern Venezuela (1908-1935)"
+- Angle covered: "Gomez 1857 Tachira origin; 1908 bloodless coup while Castro abroad; 1914 Maracaibo oil discovery; 1922 Petroleum Law and Barroso 2 blowout signals major oil province; Venezuela world's largest oil exporter late 1920s; Gomez eliminates foreign debt, builds army/roads; controls caudillos via co-optation and secret police; dies in power Dec 1935; leaves no independent institutions -- the vacuum where modern Venezuelan politics begins"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935
+- Next issue: Continue moving backward. Options: The Federal War (1859-1863) and Guzman Blanco's rise to power (the Liberal Restoration); OR Venezuela's independence era and Simon Bolivar (the Gran Colombia project and its collapse, 1819-1830). Do NOT repeat the Gomez era or any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-25.
+- Era: "Era 3 -- Carnegie and the Steel Industry"
+- Week of: 2026-07-27
+- Angles covered this week:
+  - 2026-07-25: "Carnegie's early life: Dunfermline Scotland 1835; Chartist father; power loom emigration to Allegheny PA 1848; bobbin boy at 12; telegraph messenger at 14 (learns Morse by ear); Thomas Scott as patron 1853; clears accident in Scott's name; succeeds Scott as Pittsburgh division superintendent at 24 (1859); Woodruff Sleeping Car Co investment; first dividend $217.50 revelation (money works while sleeping); $50,000 annual income at 30; steel still a decade away"
+- Next entry: Stay in Era 3. New angle: Carnegie's pivot to steel -- why he left the railroad in 1865, the Keystone Bridge Company as the bridge, his 1872-73 steel bet (J. Edgar Thomson Steel Works), and the Bessemer process as his technical advantage. Do NOT repeat the early life angle.
+
