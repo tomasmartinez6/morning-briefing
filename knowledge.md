@@ -571,3 +571,103 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-07-25: "Carnegie's early life: Dunfermline Scotland 1835; Chartist father; power loom emigration to Allegheny PA 1848; bobbin boy at 12; telegraph messenger at 14 (learns Morse by ear); Thomas Scott as patron 1853; clears accident in Scott's name; succeeds Scott as Pittsburgh division superintendent at 24 (1859); Woodruff Sleeping Car Co investment; first dividend $217.50 revelation (money works while sleeping); $50,000 annual income at 30; steel still a decade away"
 - Next entry: Stay in Era 3. New angle: Carnegie's pivot to steel -- why he left the railroad in 1865, the Keystone Bridge Company as the bridge, his 1872-73 steel bet (J. Edgar Thomson Steel Works), and the Bessemer process as his technical advantage. Do NOT repeat the early life angle.
 
+
+## 2026-07-26 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-26
+
+**AI & Technology** -- Claude Opus 5 launched July 24: Frontier-Bench v0.1 43.3% (vs GPT-5.6 Sol 37.5%, Fable 5 33.7%, Opus 4.8 18.7%); ARC-AGI 3 30.2% (~3x next-best); $5/$25 per million tokens unchanged, 1M context; near-Fable performance at half cost; most aligned model to date. Kimi K3 full open weights (1.4TB MXFP4) dropping midnight UTC tonight -- largest open-weight release in history.
+
+**Stock Market & US Economy** -- Consumer stress: personal savings at 2.6% (extreme low); gas prices up 1/3 since Feb 27 (Hormuz); mortgage rates up ~50bps → housing weakness. AI capex + FIFA World Cup supporting near-term. GDP projected 2.2%. Split economy: corporations investing heavily, consumers increasingly stretched. FOMC decision Tuesday is the week's pivot.
+
+**World / Geopolitics** -- Ukraine: Russia hit Kyiv with ballistic missiles overnight July 25; 7 civilians killed, 58 injured July 26; Zelensky warns of massive imminent attack; urging NATO air defense. Rubio-Lavrov met at ASEAN Manila summit -- no breakthrough, no optimism; Kremlin: arming Ukraine unacceptable. Zelensky-Witkoff/Kushner call described as "good and important." Russia: 1.44M+ cumulative casualties; no scaling back.
+
+**Venezuela** -- Aug 1 dialogue launches tomorrow: 2026 National Assembly (Jorge Rodriguez/Chavismo) + 2015 National Assembly (Figuera/opposition) begin structured talks on electoral reform, democratic institutions, political participation guarantees. Rubio "very engaged," oil revenue tied to three-phase roadmap. Earthquake: $37B damage, 5,000+ dead = urgency for reconstruction investment requiring political agreement. Machado absent but pushing for full oil privatization (5M bpd, $150B investment target). WPR: is Chavismo using dialogue as legitimacy without concessions?
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: APIs: REST vs GraphQL vs gRPC. Covered: REST (HTTP methods, resources as URLs, cacheable, over-fetching/under-fetching problem, GitHub/Stripe/Twitter); GraphQL (Facebook 2015, single endpoint, client specifies exact data needed, reduces round trips, server-side complexity); gRPC (Google, Protocol Buffers binary encoding 3-10x compact vs JSON, HTTP/2 multiplexing, .proto files, auto-generated client/server code, ideal for internal microservices, not browser-friendly natively). Decision rule: REST=public API; GraphQL=complex client-driven data; gRPC=internal high-throughput services.
+
+**Venezuelan History (education)** -- Period: "The Guzman Blanco Era -- The Liberal Restoration and Venezuela's First Modernization (1870-1888)." Angle: Guzman Blanco born 1829 (son of Liberal Party founder); rose through Federal War; April 1870 Regeneration march seizes Caracas; three periods (Septenio 1870-77, Quinquenio 1879-84, Bienio 1886-88); Decree of Public and Obligatory Instruction 1870 (first mandatory education); Caracas-La Guaira railroad (first in country); telegraph/telephone; bolivar currency; second national census; Venezuelan Academy of Language; rebuilt Caracas on Parisian model (Capitolio, Teatro Municipal, aqueduct, electricity); secularized marriage/registry/cemeteries; reduced Church power. BUT: autocrat, enormous personal enrichment, governed from Paris for long stretches. 1888: left for Europe permanently; Caraqueños tore down his statues while he lived. Died Paris 1899 never returned. Pattern: strong-man modernization built infrastructure but consumed independent institutions -- same template as Gomez.
+
+**American Business History (education)** -- Era 3: Carnegie & the Steel Industry. Week of 2026-07-27. Angle: 1865 Carnegie leaves railroad for Keystone Bridge Company (iron bridges); watches railroad demand shift to steel rails; summer 1872 UK trip: sees Bessemer converter (Henry Bessemer 1856: air blast through molten pig iron burns carbon → bulk steel in minutes); returns convinced all US railroads will need steel rails; builds J. Edgar Thomson Steel Works in Braddock PA (named after Pennsylvania Railroad president = strategic flattery/customer); opens 1875, one of first US Bessemer mills; hires Captain Bill Jones (best steelmaster); introduces cost-and-production accounting unprecedented in manufacturing; adopts every new technology if cheaper. Result: cheapest steel producer on earth by early 1880s.
+
+---
+
+## Series continuity trackers (updated 2026-07-26)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-07-26):
+"Claude Opus 5 launched: Frontier-Bench 43.3% (beats GPT-5.6 Sol 37.5% and Fable 5 33.7%); ARC-AGI 3 at 30.2% (~3x next-best); $5/$25 price unchanged; most aligned model. Kimi K3 full weights 1.4TB dropping midnight UTC tonight."
+- Last 7 angles:
+  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench, ARC-AGI 3); Kimi K3 full weights tonight
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source frontier; US-China AI gap
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex raise; Intel in-line
+  - 2026-07-23: Alphabet Q2 AH results; EU fine $4.67B; Gemini delayed; Tesla margin; Intel Thursday
+  - 2026-07-22: Alphabet/Tesla Q2 earnings day; Google Cloud 63%; Tesla 480K deliveries
+  - 2026-07-21: Google Frozen v2 chip; Alphabet earnings setup; semiconductor surge
+  - 2026-07-20: Fable 5 access ends; SpaceX Colossus compute rental; Starship TF13
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-26):
+"Split economy: consumer savings 2.6% (extreme low); gas +1/3 since Feb; mortgage rates +50bps (housing weakness); AI capex + FIFA World Cup supporting near-term; GDP 2.2%; FOMC Tuesday."
+- Last 7 angles:
+  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage rates up); housing weakness; AI capex offsetting; GDP 2.2%; FOMC Tuesday
+  - 2026-07-25: FOMC hike probability 38%; Warsh focus on price stability; PCE 3.6% forecast; June CPI 3.5%
+  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate; FOMC hold expected
+  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold; 88% beat rate
+  - 2026-07-22: S&P +0.89%/Nasdaq +1.29%; pre-earnings rally
+  - 2026-07-21: Tue open recovery; chip stocks revive; ceasefire speculation eases oil
+  - 2026-07-20: Mon futures slightly higher; WTI $82.35/Brent $88.54; AI capex proof demanded
+
+**World / Geopolitics** -- Most recent angle (2026-07-26):
+"Ukraine: Russia hit Kyiv with ballistic missiles July 25; 7 killed/58 injured July 26; Zelensky warns massive imminent attack; Rubio-Lavrov ASEAN Manila meeting -- no breakthrough; 1.44M+ Russian cumulative casualties."
+- Last 7 angles:
+  - 2026-07-26: Ukraine front: Kyiv missile attack, 7 killed, Zelensky massive attack warning; Rubio-Lavrov Manila no breakthrough
+  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis consequences; Ukraine refinery strikes
+  - 2026-07-24: Ceasefire unaccepted, pessimism rising; Hormuz 93% traffic drop; Iran striking US bases
+  - 2026-07-23: Qatar/Pakistan 10-day proposal formal; Houthi Saudi embargo; dual choke-point
+  - 2026-07-22: Houthi Saudi blockade threat; Qatar/Pakistan ceasefire; two choke-point risks
+  - 2026-07-21: 10th night US strikes; ceasefire proposal; Houthi threat
+  - 2026-07-20: New US strikes Sunday; 3rd service member killed; Brent briefly $90
+- Next: Ukraine peace talks or military escalation; FOMC and energy markets; China-Taiwan; Africa; European security. Iran/Hormuz only if concrete new development.
+
+**Venezuela** -- Most recent angle (2026-07-26):
+"Aug 1 dialogue launches tomorrow: Rodriguez 2026 NA + Figuera 2015 NA on electoral reform; Rubio engaged, oil revenue tied to three-phase roadmap; $37B earthquake reconstruction urgency; Machado absent, pushing full oil privatization (5M bpd/$150B); WPR asks if Chavismo using talks for legitimacy only."
+- Last 7 angles:
+  - 2026-07-26: Aug 1 dialogue preview; Figuera-Rodriguez framework; earthquake urgency; Machado oil privatization push; WPR legitimacy question
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded; dual-track
+  - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing; normalization-without-transition
+  - 2026-07-23: Supreme Tribunal 2031 ruling; Chavez precedent; constitutional clock bypassed
+  - 2026-07-22: Transition talks suspended; Machado return demand; polls split
+  - 2026-07-21: OCHA $299M addendum; tent cities; illness in camps; Elections Now march
+  - 2026-07-20: Toll 5,200+; shelter health crisis; IMF SDR macro only
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-26.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Multi-agent systems: how AI agents coordinate [Agentic & AI Workflows]
+  - CDNs and edge computing -- how content gets served fast globally [Infrastructure & Internet]
+  - Reinforcement Learning from Human Feedback (RLHF) -- how models are aligned [AI/ML Concepts]
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+
+---
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-26.
+- Period: "The Guzman Blanco Era -- The Liberal Restoration and Venezuela's First Modernization (1870-1888)"
+- Angle covered: "Guzman Blanco born 1829; son of Liberal Party founder; Federal War context; April 1870 Regeneration; three periods (Septenio/Quinquenio/Bienio); mandatory education 1870; Caracas-La Guaira railroad (first in country); telegraph, telephone, bolivar currency, national census; rebuilt Caracas on Paris model; secularized institutions; reduced Church. But: autocrat, personal enrichment, governed from Paris. 1888 departure: Caraqueños tear down his statues while he lives. Died Paris 1899 never returned. Pattern: infrastructure built, institutions consumed -- same as Gomez."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888
+- Next issue: Continue moving backward. Options: The Federal War itself (1859-1863) -- what caused it, how it was fought, and what it destroyed; OR Simon Bolivar and Gran Colombia (1819-1830) -- the liberation, the federation experiment, and why it collapsed. Do NOT repeat Guzman Blanco or any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-26.
+- Era: "Era 3 -- Carnegie and the Steel Industry"
+- Week of: 2026-07-27
+- Angles covered this week:
+  - 2026-07-25: "Early life: Dunfermline 1835; Chartist father; power loom emigration; bobbin boy at 12; telegraph messenger at 14; Thomas Scott as patron; superintendent at 24; Woodruff Sleeping Car dividend ($217.50 revelation); $50K/year at 30; steel still a decade away"
+  - 2026-07-26: "1872 pivot: leaves railroad 1865 for Keystone Bridge; 1872 UK trip sees Bessemer process (air blast burns carbon → bulk steel in minutes); returns convinced all US railroads need steel rails; J. Edgar Thomson Steel Works named after Pennsylvania Railroad president (strategic); Braddock PA 1875, one of first US Bessemer mills; Captain Bill Jones hired; cost-accounting obsession; cheapest producer by early 1880s"
+- Next entry: Stay in Era 3. New angle: Carnegie's vertical integration strategy -- how he bought coke fields, iron ore deposits (Mesabi Range), ships, and railroads to own the full supply chain from raw material to finished rail. The Henry Clay Frick partnership. Do NOT repeat early life or Bessemer pivot.
+

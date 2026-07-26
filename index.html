@@ -259,6 +259,218 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-07-26",
+  "displayDate": "Sunday, July 26, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 1810,
+  "readMinutes": 10,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "Anthropic shipped Claude Opus 5 on July 24, and the benchmark results are striking. On Frontier-Bench v0.1 -- a test of real agentic coding tasks -- Opus 5 scores 43.3%, beating both GPT-5.6 Sol (37.5%) and Fable 5 (33.7%), and more than doubling the previous Opus 4.8 (18.7%). On ARC-AGI 3, a novel reasoning benchmark, Opus 5 scores 30.2% -- roughly three times the next-best model. The pricing holds at $5/$25 per million input/output tokens (same as Opus 4.8), with a 1-million-token context window. Anthropic describes it as its most aligned model to date with the lowest rates of deceptive behavior. The practical upshot: near-Fable-5 performance on most tasks at half the cost per token -- a significant shift in the economics of frontier AI for enterprise applications.",
+        "Separately, Moonshot AI's Kimi K3 open weights -- 1.4 terabytes in MXFP4 quantization -- are scheduled to drop at midnight UTC tonight, making the 2.8-trillion-parameter model the largest open-weight release in history and freely available to any developer with sufficient storage and compute."
+      ],
+      "sources": [
+        {
+          "name": "MarkTechPost: Claude Opus 5 launch",
+          "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/"
+        },
+        {
+          "name": "Coursiv: Claude Opus 5 benchmarks and guide",
+          "url": "https://coursiv.io/blog/claude-opus-5"
+        },
+        {
+          "name": "Vellum: Claude Opus 5 benchmarks explained",
+          "url": "https://www.vellum.ai/blog/claude-opus-5-benchmarks-explained"
+        },
+        {
+          "name": "Build Fast with AI: AI news July 26 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Frontier-Bench v0.1 -- Agentic Coding Scores",
+        "labels": [
+          "Opus 5",
+          "GPT-5.6 Sol",
+          "Fable 5",
+          "Opus 4.8"
+        ],
+        "data": [
+          43.3,
+          37.5,
+          33.7,
+          18.7
+        ],
+        "unit": "%",
+        "sourceNote": "Anthropic / Vellum, July 2026"
+      }
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "The American consumer is showing stress beneath a resilient headline number. Personal savings fell to 2.6% of after-tax income in April -- an extreme low that leaves little cushion against further shocks. National gasoline prices have risen more than a third since February 27, when the Hormuz conflict escalated, squeezing household budgets directly. Mortgage rates are up roughly 50 basis points since the conflict began, adding clear downward pressure on housing and related spending.",
+        "What is keeping growth afloat is the business investment side: AI-related capital expenditure is running at historically high levels, and summer consumer spending has gotten a lift from the FIFA World Cup. Real GDP growth is projected at roughly 2.2% for 2026. The picture is a split economy -- corporations investing heavily, consumers increasingly stretched -- and how long those two dynamics can coexist is the central macro question heading into the FOMC decision on Tuesday."
+      ],
+      "sources": [
+        {
+          "name": "Guggenheim: July 2026 economic outlook",
+          "url": "https://www.guggenheiminvestments.com/perspectives/macroeconomic-research/july-2026-economic-outlook-and-key-themes/"
+        },
+        {
+          "name": "Deloitte: US economic forecast 2026",
+          "url": "https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html"
+        },
+        {
+          "name": "Deloitte: State of the US consumer June-July 2026",
+          "url": "https://www.deloitte.com/us/en/insights/topics/economy/consumer-pulse/state-of-the-us-consumer.html"
+        }
+      ]
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "Russia hit Kyiv with ballistic missiles overnight Saturday, killing at least seven civilians and injuring 58 across Ukraine through Sunday, according to regional authorities. President Zelensky warned publicly of a planned massive Russian attack within 48 hours and urged NATO allies to accelerate air defense deliveries.",
+        "On the diplomatic front, Secretary of State Marco Rubio met Russian Foreign Minister Sergei Lavrov on the sidelines of the ASEAN foreign ministers' summit in Manila -- the highest-level US-Russia contact in months. Both sides signaled no breakthroughs and little optimism. The Kremlin restated that further arming of Ukraine was unacceptable; Zelensky described a separate call with US envoys Steve Witkoff and Jared Kushner as 'good and important' but gave no specifics. The gap between diplomatic language and battlefield reality remains wide: Russia is absorbing significant losses -- over 1.44 million cumulative casualties since February 2022 -- while showing no sign of scaling back offensive operations."
+      ],
+      "sources": [
+        {
+          "name": "Euronews: Zelensky warns of massive Russian attack",
+          "url": "https://www.euronews.com/my-europe/2026/07/25/zelenskyy-warns-of-massive-russian-attack-within-48-hours"
+        },
+        {
+          "name": "Al Jazeera: Russia Ukraine attacks July 24",
+          "url": "https://www.aljazeera.com/news/2026/7/24/at-least-11-killed-in-ukraine-as-moscow-and-kyiv-continue-to-trade-attacks"
+        },
+        {
+          "name": "Global Security: Rubio Lavrov meeting no breakthroughs",
+          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/07/ukraine-260723-rferl01.htm"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "The formal August 1 dialogue between Venezuela's two rival parliaments launches tomorrow -- and the stakes are unusually high. The Chavismo-controlled 2026 National Assembly (led by Jorge Rodriguez, brother of acting president Delcy) and the opposition-led 2015 National Assembly (headed by Dinorah Figuera) will begin structured talks on electoral reform, democratic institutions, and guarantees for political participation. The US is 'very engaged,' in Rubio's words, and has tied oil revenue access and sanctions relief to compliance with a three-phase roadmap.",
+        "The context adds urgency: Venezuela's June earthquakes killed more than 5,000 people and caused an estimated $37 billion in damage, and broad-based political agreements are increasingly seen as a prerequisite for attracting the reconstruction investment the country desperately needs. Notably absent from the table is Maria Corina Machado, who continues pushing from the outside for full privatization of Venezuela's oil sector -- arguing the country could reach 5 million barrels per day with $150 billion in private investment over a decade. Analysts at World Politics Review are already asking the harder question: whether Chavismo is using the dialogue as a legitimizing exercise without intending real concessions."
+      ],
+      "sources": [
+        {
+          "name": "MercoPress: US-backed talks begin August 1",
+          "url": "https://en.mercopress.com/2026/07/14/us-backed-talks-between-venezuela-s-two-parliaments-to-begin-august-1"
+        },
+        {
+          "name": "Venezuelanalysis: Govt and opposition launch dialogue",
+          "url": "https://venezuelanalysis.com/news/venezuelan-govt-opposition-to-launch-us-supported-dialogue-for-electoral-reforms/"
+        },
+        {
+          "name": "Atlantic Council: Venezuela negotiations opportunity",
+          "url": "https://www.atlanticcouncil.org/dispatches/upcoming-venezuela-negotiations-are-an-opportunity-for-the-us-to-lock-in-a-victory/"
+        },
+        {
+          "name": "World Politics Review: Who is playing who in Venezuela",
+          "url": "https://www.worldpoliticsreview.com/venezuela-opposition-machado-rubio-rodriguez/"
+        },
+        {
+          "name": "CNBC: Machado calls for full oil privatization",
+          "url": "https://www.cnbc.com/2026/03/24/venezuela-oil-machado-maduro-trump.html"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "Software Architecture",
+        "topic": "APIs: REST vs GraphQL vs gRPC"
+      },
+      "summary": [
+        "When two pieces of software need to talk to each other -- a mobile app and a server, a microservice and a database, a company's platform and a third-party developer -- they communicate through an API (Application Programming Interface). The API defines what requests can be made and what responses come back. Three designs dominate modern software: REST, GraphQL, and gRPC. Each was built to solve a specific problem, and choosing the wrong one creates real engineering pain at scale.",
+        "REST (Representational State Transfer) is the oldest and most widespread. It maps operations onto HTTP methods -- GET to retrieve, POST to create, PUT to update, DELETE to remove -- and treats everything as a resource addressable by a URL. Want a user? GET /users/42. Want their posts? GET /users/42/posts. REST is simple, stateless, and cacheable, which is why it became the default for public APIs -- Twitter, GitHub, and Stripe all use it. The problem is over-fetching and under-fetching. If you need a user's name and their last three posts, REST typically requires either receiving the entire user object (more than you need) plus a separate round trip for posts, or the API team builds a custom endpoint just for your use case. At scale, this multiplies. GraphQL, introduced by Facebook in 2015 and open-sourced shortly after, was designed to fix exactly this. Instead of fixed endpoints, it exposes a single endpoint and lets the client describe precisely what data it wants. Need a name and three posts? One query, exactly those fields, nothing more. This is transformative for mobile apps where network efficiency matters and for complex UIs that need different data shapes on different screens. The tradeoff: GraphQL shifts complexity to the server (resolvers, schema management, caching all become harder), and it is overkill for simple APIs.",
+        "gRPC (Google Remote Procedure Call) solves a different problem: speed and type safety between services inside a system. Where REST and GraphQL communicate in human-readable JSON over HTTP/1.1, gRPC uses Protocol Buffers -- a binary encoding roughly 3-10x more compact than JSON -- over HTTP/2, which supports multiplexing many requests over a single connection. You define your API in a .proto file with strict data types; gRPC auto-generates client and server code in the language of your choice. The result is fast, strongly typed, and self-documenting -- ideal for internal microservice communication where you control both ends. The downside: browsers cannot call gRPC directly without a proxy, debugging binary traffic is harder, and the toolchain is more complex. The rough rule of thumb: REST for public APIs where developer experience and simplicity matter; GraphQL when clients have diverse and complex data needs; gRPC for high-throughput internal service-to-service communication."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "Choosing an API Style",
+        "code": "graph TD\n  A[Who calls this API?] --> B[External or public developers]\n  A --> C[Your own frontend or mobile app]\n  A --> D[Internal microservices you own]\n  B --> E[REST: simple, cacheable, widely understood]\n  C --> F{Complex or varied data needs?}\n  F -->|Yes| G[GraphQL: query exactly what you need]\n  F -->|No| E\n  D --> H[gRPC: fast binary, strongly typed, HTTP2]"
+      },
+      "sources": [
+        {
+          "name": "GraphQL.org: Introduction to GraphQL",
+          "url": "https://graphql.org/learn/"
+        },
+        {
+          "name": "gRPC.io: Introduction to gRPC",
+          "url": "https://grpc.io/docs/what-is-grpc/introduction/"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "The Guzman Blanco Era -- The Liberal Restoration and Venezuela's First Modernization (1870-1888)",
+        "angle": "Antonio Guzman Blanco's three-period rule: the April Revolution 1870, mandatory public education, the bolivar, Caracas rebuilt on a Parisian model, railroads and telegraph -- and how he built Venezuela's first modern state infrastructure while governing as an autocrat and enriching himself, only to have his statues toppled by Caraqueños while he was still living comfortably in Paris"
+      },
+      "summary": [
+        "Between Juan Vicente Gomez (died 1935) and Simon Bolivar (died 1830) stands a figure who shaped Venezuela's physical landscape more than almost anyone else and is remembered more ambivalently than either. Antonio Guzman Blanco was born in 1829, the son of Antonio Leocadio Guzman, one of the founders of Venezuela's Liberal Party. He grew up embedded in elite Caracas politics, studied law, served as a diplomat, and came of age during the savage Federal War (1859-1863), which killed an estimated 100,000 Venezuelans and left the country economically exhausted and politically fractured. He emerged from that conflict as a key lieutenant to the victorious Liberal caudillo Juan Falcon, spent the 1860s in a series of government roles that consistently failed to produce stable rule, and in April 1870 took matters into his own hands -- leading what he called the Regeneration, a march on Caracas that installed him as supreme leader.",
+        "What followed over the next 18 years -- in three non-consecutive periods known as the Septenio (1870-1877), the Quinquenio (1879-1884), and the Bienio (1886-1888) -- was the most concentrated burst of state-building Venezuela had ever seen. Guzman Blanco issued the Decree of Public and Obligatory Instruction in 1870, establishing free mandatory primary education for the first time in Venezuelan history. He built the first railroad in the country, linking Caracas to the port of La Guaira. He laid a national telegraph network, introduced telephone service between Caracas and La Guaira, created Venezuela's modern currency (the bolivar, named after the Liberator), commissioned the second national census, and founded the Venezuelan Academy of Language. He rebuilt central Caracas in the image of Paris -- new plazas, wide boulevards, the Capitolio Federal, the Teatro Municipal, an aqueduct, and eventually electric lighting. He curtailed the Catholic Church's power, introducing civil marriage and a civil registry, and establishing secular cemeteries. By most measures of institutional and physical modernization, Venezuela under Guzman Blanco advanced faster than it had in the 40 years since independence.",
+        "The contradiction is that he built all of this while governing as an autocrat who tolerated no rivals and enriched himself on a scale that rivaled the state he was supposedly building. He spent long stretches in his beloved Paris even while nominally in power, managing Venezuela through loyalists. That habit bred resentment among the elites he had sidelined. In 1888, when he left for Europe for what became a permanent stay, Caraqueños tore down his statues and renamed the streets and plazas he had named after himself -- a humiliation delivered while he was still alive and comfortable. He died in Paris in 1899 without ever returning. The pattern would repeat with Gomez and with every strong-man government that followed: modernization imposed from above built infrastructure while consuming the independent institutions that might have made it durable. Guzman Blanco's Venezuela had railroads, mandatory schools, and a modern currency -- but no functioning political parties, no independent judiciary, and no mechanism for peaceful transfer of power. Everything he built was personal to him, and fragile the moment he left."
+      ],
+      "sources": [
+        {
+          "name": "Britannica: Antonio Guzman Blanco",
+          "url": "https://www.britannica.com/biography/Antonio-Guzman-Blanco"
+        },
+        {
+          "name": "Encyclopedia.com: Guzman Blanco 1829-1899",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/guzman-blanco-antonio-leocadio-1829-1899"
+        },
+        {
+          "name": "Wikipedia: Guzmanato",
+          "url": "https://en.wikipedia.org/wiki/Guzmanato"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 3 -- Carnegie and the Steel Industry",
+        "weekOf": "2026-07-27",
+        "angle": "Carnegie's 1872 pivot to steel: the British trip where he saw the Bessemer process, the strategic naming of the J. Edgar Thomson Steel Works, and the cost-obsession that made him the cheapest steel producer in the world by the 1880s"
+      },
+      "summary": [
+        "After leaving the Pennsylvania Railroad in 1865 at age 29, Carnegie moved into bridge-building through the Keystone Bridge Company. Iron bridges were replacing wooden ones across America, and Keystone positioned him at the intersection of railroad expansion and materials supply -- an ownership stake in a physical product, something the railroad job never gave him. He was making good money. But he was also watching what the railroads themselves actually needed, and the answer was increasingly obvious: steel rails. Iron rails wore out fast under heavy freight loads. Steel rails lasted longer and were starting to come down in price as new production techniques matured in Britain.",
+        "In the summer of 1872, Carnegie visited steel mills in England and Scotland and watched the Bessemer converter at full scale. The process -- invented by Henry Bessemer in 1856 -- worked by blasting air through molten pig iron, burning off carbon impurities in minutes and producing bulk steel at a cost that made older methods obsolete. Carnegie returned to Pittsburgh convinced he was looking at the future of American industry. Every railroad in the country would eventually need steel rails, and whoever could produce them cheapest would own the market. He committed immediately to building a Bessemer plant. The strategic naming of his first mill was characteristically shrewd: he called it the J. Edgar Thomson Steel Works, after J. Edgar Thomson -- the late president of the Pennsylvania Railroad, Carnegie's old employer and the largest single potential customer for steel rails in America. The plant opened in Braddock, Pennsylvania in 1875, one of the first Bessemer mills in the United States. Carnegie's operating philosophy from day one was cost above everything: he hired Captain Bill Jones, the best steelmaster in America, introduced detailed cost-and-production accounting unprecedented in manufacturing, and adopted every new technology the moment it proved cheaper. By the early 1880s Carnegie Steel was producing rails at a cost no competitor in the world could match."
+      ],
+      "sources": [
+        {
+          "name": "Britannica Money: Carnegie Steel Company",
+          "url": "https://www.britannica.com/money/Carnegie-Steel-Company"
+        },
+        {
+          "name": "Steel Museum: Edgar Thomson Works 1875",
+          "url": "https://www.steelmuseum.org/pais300_exhibit_2017/edgar_thomson_works.cfm"
+        },
+        {
+          "name": "Alchetron: Edgar Thomson Steel Works",
+          "url": "https://alchetron.com/Edgar-Thomson-Steel-Works"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-07-25",
   "displayDate": "Saturday, July 25, 2026",
   "title": "Morning Briefing",
