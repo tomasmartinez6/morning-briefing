@@ -1,3 +1,103 @@
+## 2026-07-27 -- Monday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-27
+
+**AI & Technology** -- Kimi K3 open weights live on Hugging Face: 2.8T parameters, 1.4TB MXFP4, 1M context, Delta Attention (6.3x faster decoding in long-context), Modified MIT license. Nvidia in talks (WSJ) to provide $250B backstop for OpenAI 10GW Ohio data center + up to $350B in chip financing -- infrastructure race at unprecedented scale. EU DMA: ordered Google to open Android voice/screen/app-action layers to Claude and ChatGPT by July 2027.
+
+**Stock Market & US Economy** -- S&P flat Monday (7,413, +0.02%); oil fell 4.4% (Brent $87.64) on US-Iran war pause. 10-year Treasury hit 4.7% (2026 YTD high); Fed Funds upper bound 3.75% -- 95bp spread signals real-rate concern. FOMC Jul 28-29: hold expected, no dot plot, Warsh press conference tone is the only signal. Apple earnings Thursday.
+
+**World / Geopolitics** -- Ukraine: Russia struck Kyiv overnight Jul 25-26 (ballistic missiles, 7 killed, 58 injured); Zelensky warns of massive imminent offensive. Zelensky fired Gen. Syrsky (top commander), following Fedorov firing -- 3rd major military shakeup in 6 months. Rubio-Lavrov met ASEAN Manila: no breakthrough, Kremlin still calling Western arms deliveries unacceptable. Iran: US strikes paused, Oman-mediated talks ongoing, Brent fell 4.4%.
+
+**Venezuela** -- Aug 1 dialogue now fractured before it starts: Machado announced she will NOT participate in US-backed Rodriguez-Figuera talks (Jul 27); calls process insufficient. Figuera (2015 NA, opposition) will proceed with Jorge Rodriguez (2026 NA, Chavismo). Rubio: three-phase roadmap; US now $386M+ committed in earthquake aid, tied to political compliance. Earthquake: $37B damage, 5,000+ dead = urgency argument for governance deal.
+
+**Learning Series (education)** -- Category: Agentic & AI Workflows. Topic: Multi-Agent Systems -- How AI Agents Coordinate. Covered: why single agents hit ceilings (one context window, one tool queue); orchestrator LLM decomposes tasks, routes subtasks to specialist agents, assembles results; coordination protocols (MCP for tool access, A2A for inter-agent messaging); four patterns (sequential pipeline, parallel dispatch, hierarchical orchestrator-workers, experimental swarms); when MAS outperforms single agents (complex multi-domain workflows, parallelizable research) vs. when not (simple tasks where coordination overhead dominates); verification loop pattern (orchestrator checks intermediate outputs before passing on).
+
+**Venezuelan History (education)** -- Period: "The Federal War (1859-1863)." Angle: Conservative monopoly of land/posts triggers Liberal uprising March 1859; Zamora's peasant war framing (land redistribution); Battle of Santa Ines Dec 10 1859 (Zamora traps Conservative army in lowland savanna, decisive victory); Zamora killed Jan 10 1860 (bullet to head at San Carlos, origin disputed); Falcon takes command, converts to guerrilla campaign; Treaty of Coche May 1863 -- Federalist victory; federal constitution adopted; BUT land redistribution never came; Liberal caudillos took government posts, not the peasants; Guzman Blanco the political beneficiary; pattern: revolution in name of poor, new elite takes old positions.
+
+**American Business History (education)** -- Era 3: Carnegie & the Steel Industry. Week of 2026-07-27. Angle: Vertical integration: Henry Clay Frick partnership ~1882 (Connellsville coke -- best coking coal on continent; Frick becomes general manager; Homestead Strike 1892); Mesabi Range iron ore 1890s (Frick pushes acquisition; Minnesota deposits soft enough for steam shovels; Oliver mines, Hill's Great Northern hauls, Carnegie's lake steamers transport, Carnegie railroad to Braddock); by 1900 Carnegie Steel owns coal mines, coke ovens, ore deposits, ore boats, railroads; total supply chain control = cheapest steel on earth = reason Morgan bought it in 1901 for $480M.
+
+---
+
+## Series continuity trackers (updated 2026-07-27)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-07-27):
+"Kimi K3 2.8T open weights live on Hugging Face (1.4TB MXFP4, Modified MIT, 1M context, Delta Attention 6.3x faster); Nvidia-OpenAI $250-350B infrastructure financing talks; EU DMA orders Google to open Android to Claude/ChatGPT by July 2027."
+- Last 7 angles:
+  - 2026-07-27: Kimi K3 open weights (2.8T, 1.4TB, HuggingFace); Nvidia-OpenAI $250-350B infra financing; EU DMA Android ruling
+  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench 43.3%, ARC-AGI 3 30.2%); Kimi K3 weights imminent
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source; US-China AI gap
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex raise; Intel in-line
+  - 2026-07-23: Alphabet Q2 AH results; EU fine $4.67B; Gemini delayed; Tesla margin; Intel Thursday
+  - 2026-07-22: Alphabet/Tesla Q2 earnings day; Google Cloud 63%; Tesla 480K deliveries
+  - 2026-07-21: Google Frozen v2 chip; Alphabet earnings setup; semiconductor surge
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-27):
+"S&P flat (7,413, +0.02%); oil -4.4% (Brent $87.64) on Iran pause; 10-yr Treasury 4.7% (2026 high); FOMC Jul 28-29 hold expected, no dot plot, Warsh language key; Apple earnings Thursday."
+- Last 7 angles:
+  - 2026-07-27: S&P flat; oil -4.4% on Iran pause; 10-yr at 4.7%; FOMC tomorrow; Apple Thursday
+  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage rates up); housing weakness; FOMC Tuesday
+  - 2026-07-25: FOMC hike probability 38%; Warsh focus on price stability; PCE 3.6% forecast
+  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate
+  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold; 88% beat rate
+  - 2026-07-22: S&P +0.89%/Nasdaq +1.29%; pre-earnings rally
+  - 2026-07-21: Tue open recovery; chip stocks revive; ceasefire speculation eases oil
+
+**World / Geopolitics** -- Most recent angle (2026-07-27):
+"Ukraine: Kyiv ballistic missile strike Jul 25-26 (7 killed, 58 injured); Zelensky warns massive offensive; Zelensky fired Gen. Syrsky (3rd major military shakeup in 6 months); Rubio-Lavrov Manila no breakthrough; Iran: US strikes paused, Oman talks ongoing, Brent -4.4%."
+- Last 7 angles:
+  - 2026-07-27: Ukraine: Kyiv strike (7 killed), Zelensky warns massive attack, Syrsky fired; Rubio-Lavrov Manila no deal; Iran pause
+  - 2026-07-26: Ukraine Kyiv missile attack 7 killed/58 injured; Zelensky massive attack warning; Rubio-Lavrov no breakthrough
+  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis; Ukraine refinery strikes
+  - 2026-07-24: Ceasefire unaccepted, pessimism; Hormuz 93% traffic drop; Iran striking US bases
+  - 2026-07-23: Qatar/Pakistan 10-day proposal formal; Houthi Saudi embargo; dual choke-point
+  - 2026-07-22: Houthi Saudi blockade threat; Qatar/Pakistan ceasefire; two choke-point risks
+  - 2026-07-21: 10th night US strikes; ceasefire proposal; Houthi threat
+- Next: FOMC and its energy price impact; Ukraine military escalation update; China-Taiwan; African conflicts; European security/NATO; Middle East diplomacy beyond Hormuz.
+
+**Venezuela** -- Most recent angle (2026-07-27):
+"Machado announces she will NOT join Aug 1 Rodriguez-Figuera talks (Jul 27); dialogue fractured before starting; Figuera proceeding; Rubio three-phase roadmap; US $386M+ in earthquake aid tied to political compliance; $37B damage urgency."
+- Last 7 angles:
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed without her; split opposition; earthquake aid conditionality
+  - 2026-07-26: Aug 1 dialogue preview; earthquake urgency $37B; Machado oil privatization push
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded; dual-track
+  - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing; normalization-without-transition
+  - 2026-07-23: Supreme Tribunal 2031 ruling; Chavez precedent; constitutional clock bypassed
+  - 2026-07-22: Transition talks suspended; Machado return demand; polls split
+  - 2026-07-21: OCHA $299M addendum; tent cities; illness in camps; Elections Now march
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-27.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems: How AI Agents Coordinate [Agentic & AI Workflows]
+- Next issue: Pick from underrepresented categories. Good options:
+  - CDNs and edge computing -- how content gets served fast globally [Infrastructure & Internet]
+  - Reinforcement Learning from Human Feedback (RLHF) -- how models are aligned [AI/ML Concepts]
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Cloud computing fundamentals: VMs, serverless, containers in context [Infrastructure & Internet]
+
+---
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-27.
+- Period: "The Federal War (1859-1863)"
+- Angle covered: "Conservative land/post monopoly triggers Liberal uprising March 1859; Zamora's peasant war framing; Battle of Santa Ines Dec 10 1859 (decisive Federalist victory, lowland trap); Zamora killed Jan 10 1860 at San Carlos (disputed bullet origin); Falcon takes command, guerrilla campaign; Treaty of Coche May 1863 -- Federalist victory, federal constitution; BUT land redistribution never came; Liberal caudillos became new elite; Guzman Blanco the political beneficiary; pattern: revolution for the poor, new oligarchy takes power"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863
+- Next issue: Continue moving backward. Options: Simon Bolivar and Gran Colombia (1819-1830) -- the liberation campaign, the Gran Colombia federation experiment, and the collapse into separate nations; OR Venezuela's independence war itself (1810-1821) -- the July 5 1811 declaration, Miranda's failure, Bolivar's Admirable Campaign. Do NOT repeat the Federal War or any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-27.
+- Era: "Era 3 -- Carnegie and the Steel Industry"
+- Week of: 2026-07-27
+- Angles covered this week:
+  - 2026-07-25: "Early life: Dunfermline 1835; Chartist father; bobbin boy at 12; Thomas Scott patron; superintendent at 24; Woodruff dividend revelation; $50K/year at 30"
+  - 2026-07-26: "1872 pivot: Keystone Bridge → 1872 UK Bessemer trip → J. Edgar Thomson Works 1875 → cheapest producer by early 1880s"
+  - 2026-07-27: "Vertical integration: Frick coke partnership ~1882 (Connellsville); Mesabi Range 1890s (Oliver mines, Hill hauls, Carnegie ships); lake steamers + railroad spur; by 1900 owns full chain coal-to-rail; Morgan buys at $480M in 1901 because integrated empire too powerful to fight"
+- Next entry: Stay in Era 3. New angle: The Homestead Strike of 1892 -- what happened, Frick's role, Carnegie's absence in Scotland, the Pinkerton battle on the Monongahela, Carnegie's reputation never recovering, and what the episode reveals about the contradiction between Carnegie's public labor philosophy and his actual business conduct. Do NOT repeat early life, Bessemer pivot, or vertical integration.
+
 ## 2026-07-24 -- Friday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-24
