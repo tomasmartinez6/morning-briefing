@@ -1,3 +1,23 @@
+## 2026-07-29 -- Wednesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-29
+
+**AI & Technology** -- Nvidia invests $5B in Safe Superintelligence (SSI), Ilya Sutskever's secretive startup; total raise ~$8B; access to Vera Rubin GPU platform; 10x compute scale; SSI: no products/demos in 2 years, straight-shot to safe superintelligence. FCC issues first US import ban on Chinese humanoid/quadruped robots and connected power inverters (national security).
+
+**Stock Market & US Economy** -- FOMC holds at 3.50-3.75% (5th consecutive); hawkish projections: median policymaker expects rates higher by end 2026; inflation at 4.2%; 30% September hike probability; 10-yr at 4.7%. Apple reports Q3 tomorrow July 30 (Tim Cook final call as CEO); consensus $108.9B revenue (+16% YoY), EPS ~$1.89; iPhone 17 + Services strength; focus on AI infrastructure spending.
+
+**World / Geopolitics** -- EU-China steel/trade: duty-free quota cut 47% (33M -> 18.3M tonnes), out-of-quota tariff raised to 50% through 2031; melt-and-pour traceability rules vs. circumvention; EUR 3 flat duty on small parcels (targets Shein/Temu); EU steel output at historic low; Chinese EVs crossed 10% EU market share despite 35.3% tariffs.
+
+**Venezuela** -- ICC withdrawal: Rodriguez formal UN notification triggers 1-year countdown; Plasencia calls it firm and irrevocable; ICC bias claim (Africa/LatAm); ICC retains jurisdiction for pre-withdrawal crimes including 2021 investigation (crimes against humanity since 2017). US State Dept praises. Rubio-led broader ICC dismantling campaign. Rodriguez in power since Maduro ousted January 2026.
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: Reinforcement Learning from Human Feedback (RLHF). Covered: Three-stage pipeline (1: supervised fine-tuning on instruction data; 2: reward model trained on human preference pairs; 3: PPO RL to maximize reward with KL divergence penalty). Practical result: turns raw pretrained model into aligned assistant. Limitations: sycophancy, reward hacking, rater inconsistency. Alternatives: RLAIF, Constitutional AI (Anthropic), DPO (eliminates reward model, now dominant in open-source).
+
+**Venezuelan History (education)** -- Period: The Paez Era (1830-1848). Angle: Gran Colombia dissolution 1830 (Bolivar dies); Valencia Congress separates Venezuela; Paez (llanero caudillo, illiterate early career) elected first president; 1830 Constitution restricts voting to literate property owners; Conservative Oligarchy (landowners/Caracas merchants/clergy govern ~2 decades); Liberal Party 1840s under Antonio Leocadio Guzman (debt relief/federalism); Paez 2 terms (1831-35, 1839-43); Monagas elected as Paez ally, pivots to Liberals, arrests/exiles Paez 1848. Pattern: caudillo builds republic, institutions form, he becomes disposable.
+
+**American Business History (education)** -- Era 3: Carnegie and the Steel Industry. Week of 2026-07-27. Angle: Homestead Strike 1892: contract expires July 1; Frick proposes 22% wage cut + strips job classifications; lockout June 30; 300 Pinkertons on barges overnight July 5; 13-hour battle on Monongahela July 6; 7 workers + 3 Pinkertons killed; workers hold plant but lose war; 8,500 PA National Guard retakes town; Amalgamated Association collapses November; Carnegie in Scotland, privately endorses Frick strategy, publicly claims innocence; labor reputation destroyed permanently; philanthropy shadowed by Monongahela.
+
+---
+
 ## 2026-07-27 -- Monday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-27
@@ -692,76 +712,76 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
 
 ---
 
-## Series continuity trackers (updated 2026-07-26)
+## Series continuity trackers (updated 2026-07-29)
 
 ### News continuity
 
-**AI & Technology** -- Most recent angle (2026-07-26):
-"Claude Opus 5 launched: Frontier-Bench 43.3% (beats GPT-5.6 Sol 37.5% and Fable 5 33.7%); ARC-AGI 3 at 30.2% (~3x next-best); $5/$25 price unchanged; most aligned model. Kimi K3 full weights 1.4TB dropping midnight UTC tonight."
+**AI & Technology** -- Most recent angle (2026-07-29):
+"Nvidia $5B investment in Safe Superintelligence (SSI); total raise ~$8B; Vera Rubin GPU access; 10x compute scale; SSI 2 years no product. FCC first import ban on Chinese humanoid/quadruped robots and connected power inverters."
 - Last 7 angles:
-  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench, ARC-AGI 3); Kimi K3 full weights tonight
-  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source frontier; US-China AI gap
-  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex raise; Intel in-line
-  - 2026-07-23: Alphabet Q2 AH results; EU fine $4.67B; Gemini delayed; Tesla margin; Intel Thursday
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+  - 2026-07-27: Kimi K3 open weights (2.8T, 1.4TB MXFP4); Nvidia-OpenAI $250-350B infra financing; EU DMA Android ruling
+  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench 43.3%, ARC-AGI 3 30.2%); Kimi K3 full weights
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source; US-China AI gap
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex; Intel in-line
+  - 2026-07-23: Alphabet Q2 AH results; EU fine $4.67B; Gemini delayed; Tesla margin
   - 2026-07-22: Alphabet/Tesla Q2 earnings day; Google Cloud 63%; Tesla 480K deliveries
-  - 2026-07-21: Google Frozen v2 chip; Alphabet earnings setup; semiconductor surge
-  - 2026-07-20: Fable 5 access ends; SpaceX Colossus compute rental; Starship TF13
 
-**Stock Market & US Economy** -- Most recent angle (2026-07-26):
-"Split economy: consumer savings 2.6% (extreme low); gas +1/3 since Feb; mortgage rates +50bps (housing weakness); AI capex + FIFA World Cup supporting near-term; GDP 2.2%; FOMC Tuesday."
+**Stock Market & US Economy** -- Most recent angle (2026-07-29):
+"FOMC holds 3.50-3.75% (5th consecutive); hawkish projections -- median policymaker expects rates higher by end 2026; inflation 4.2%; 30% Sept hike probability; 10-yr 4.7%. Apple Q3 tomorrow (Cook final call), ~$108.9B rev est."
 - Last 7 angles:
-  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage rates up); housing weakness; AI capex offsetting; GDP 2.2%; FOMC Tuesday
-  - 2026-07-25: FOMC hike probability 38%; Warsh focus on price stability; PCE 3.6% forecast; June CPI 3.5%
-  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate; FOMC hold expected
-  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold; 88% beat rate
+  - 2026-07-29: FOMC hold (5th); hawkish projections; inflation 4.2%; Sept hike 30%; Apple Q3 preview ($108.9B/$1.89)
+  - 2026-07-27: S&P flat; oil -4.4% on Iran pause; 10-yr at 4.7%; FOMC tomorrow; Apple Thursday
+  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage rates up); housing weakness; FOMC Tuesday
+  - 2026-07-25: FOMC hike probability 38%; Warsh focus on price stability; PCE 3.6% forecast
+  - 2026-07-24: Alphabet after-hours selloff on $205B capex; Intel in-line; 88% beat rate
+  - 2026-07-23: Wed mixed; GOOGL AH +0.83%; Intel today; FOMC Jul 28-29 hold
   - 2026-07-22: S&P +0.89%/Nasdaq +1.29%; pre-earnings rally
-  - 2026-07-21: Tue open recovery; chip stocks revive; ceasefire speculation eases oil
-  - 2026-07-20: Mon futures slightly higher; WTI $82.35/Brent $88.54; AI capex proof demanded
 
-**World / Geopolitics** -- Most recent angle (2026-07-26):
-"Ukraine: Russia hit Kyiv with ballistic missiles July 25; 7 killed/58 injured July 26; Zelensky warns massive imminent attack; Rubio-Lavrov ASEAN Manila meeting -- no breakthrough; 1.44M+ Russian cumulative casualties."
+**World / Geopolitics** -- Most recent angle (2026-07-29):
+"EU-China trade: steel duty-free quota cut 47% (33M -> 18.3M tonnes), out-of-quota tariff to 50% through 2031; melt-and-pour traceability; EUR 3 parcel duty (targets Shein/Temu); EU steel at historic output low; Chinese EVs at 10% EU market share."
 - Last 7 angles:
-  - 2026-07-26: Ukraine front: Kyiv missile attack, 7 killed, Zelensky massive attack warning; Rubio-Lavrov Manila no breakthrough
-  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis consequences; Ukraine refinery strikes
-  - 2026-07-24: Ceasefire unaccepted, pessimism rising; Hormuz 93% traffic drop; Iran striking US bases
-  - 2026-07-23: Qatar/Pakistan 10-day proposal formal; Houthi Saudi embargo; dual choke-point
-  - 2026-07-22: Houthi Saudi blockade threat; Qatar/Pakistan ceasefire; two choke-point risks
-  - 2026-07-21: 10th night US strikes; ceasefire proposal; Houthi threat
-  - 2026-07-20: New US strikes Sunday; 3rd service member killed; Brent briefly $90
-- Next: Ukraine peace talks or military escalation; FOMC and energy markets; China-Taiwan; Africa; European security. Iran/Hormuz only if concrete new development.
+  - 2026-07-29: EU-China steel safeguards (quota cut 47%, out-of-quota tariff to 50%); EUR 3 parcel duty; Chinese EV 10% EU share
+  - 2026-07-27: Ukraine: Kyiv strike (7 killed), Zelensky massive attack warning, Syrsky fired; Rubio-Lavrov Manila no deal
+  - 2026-07-26: Ukraine: Kyiv missile attack 7 killed/58 injured; Zelensky warning; Rubio-Lavrov no breakthrough
+  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis; Ukraine refinery strikes
+  - 2026-07-24: Ceasefire pessimism; Hormuz 93% traffic drop; Iran striking US bases
+  - 2026-07-23: Qatar/Pakistan 10-day proposal; Houthi Saudi embargo; dual choke-point
+  - 2026-07-22: Houthi Saudi blockade; Qatar/Pakistan ceasefire; two choke-point risks
+- Next: Ukraine peace talks or escalation; Africa; China-Taiwan; Latin America. Iran/Hormuz only if concrete new development.
 
-**Venezuela** -- Most recent angle (2026-07-26):
-"Aug 1 dialogue launches tomorrow: Rodriguez 2026 NA + Figuera 2015 NA on electoral reform; Rubio engaged, oil revenue tied to three-phase roadmap; $37B earthquake reconstruction urgency; Machado absent, pushing full oil privatization (5M bpd/$150B); WPR asks if Chavismo using talks for legitimacy only."
+**Venezuela** -- Most recent angle (2026-07-29):
+"ICC withdrawal: Rodriguez formal UN notification (1-year countdown); ICC retains jurisdiction for pre-withdrawal crimes incl. 2021 investigation (crimes against humanity since 2017); Plasencia firm and irrevocable; US State Dept praises; Rubio ICC dismantling campaign; post-Maduro realignment."
 - Last 7 angles:
-  - 2026-07-26: Aug 1 dialogue preview; Figuera-Rodriguez framework; earthquake urgency; Machado oil privatization push; WPR legitimacy question
-  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded; dual-track
+  - 2026-07-29: ICC withdrawal (formal UN notification, 1-yr countdown, ICC retains prior jurisdiction); US praises; Rubio ICC campaign
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed; split opposition; earthquake aid conditionality
+  - 2026-07-26: Aug 1 dialogue preview; earthquake urgency $37B; Machado oil privatization push
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded
   - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing; normalization-without-transition
   - 2026-07-23: Supreme Tribunal 2031 ruling; Chavez precedent; constitutional clock bypassed
   - 2026-07-22: Transition talks suspended; Machado return demand; polls split
-  - 2026-07-21: OCHA $299M addendum; tent cities; illness in camps; Elections Now march
-  - 2026-07-20: Toll 5,200+; shelter health crisis; IMF SDR macro only
 
 ---
 
 ### Learning Series continuity
 
-**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-26.
-- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-29.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]
 - Next issue: Pick from underrepresented categories. Good options:
-  - Multi-agent systems: how AI agents coordinate [Agentic & AI Workflows]
-  - CDNs and edge computing -- how content gets served fast globally [Infrastructure & Internet]
-  - Reinforcement Learning from Human Feedback (RLHF) -- how models are aligned [AI/ML Concepts]
+  - CDNs and edge computing [Infrastructure & Internet]
   - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Diffusion models -- how image/video generators work [AI/ML Concepts]
+  - How TCP/IP works [Infrastructure & Internet]
 
 ---
 
 ### History series continuity
 
-**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-26.
-- Period: "The Guzman Blanco Era -- The Liberal Restoration and Venezuela's First Modernization (1870-1888)"
-- Angle covered: "Guzman Blanco born 1829; son of Liberal Party founder; Federal War context; April 1870 Regeneration; three periods (Septenio/Quinquenio/Bienio); mandatory education 1870; Caracas-La Guaira railroad (first in country); telegraph, telephone, bolivar currency, national census; rebuilt Caracas on Paris model; secularized institutions; reduced Church. But: autocrat, personal enrichment, governed from Paris. 1888 departure: Caraqueños tear down his statues while he lives. Died Paris 1899 never returned. Pattern: infrastructure built, institutions consumed -- same as Gomez."
-- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888
-- Next issue: Continue moving backward. Options: The Federal War itself (1859-1863) -- what caused it, how it was fought, and what it destroyed; OR Simon Bolivar and Gran Colombia (1819-1830) -- the liberation, the federation experiment, and why it collapsed. Do NOT repeat Guzman Blanco or any prior angle.
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-29.
+- Period: "The Paez Era (1830-1848)"
+- Angle covered: "Gran Colombia dissolution 1830; Paez (llanero caudillo) elected first president; 1830 Constitution restricts voting to literate property owners; Conservative Oligarchy; Liberal Party 1840s under Antonio Leocadio Guzman; Paez 2 terms (1831-35, 1839-43); Monagas exiles Paez 1848. Pattern: caudillo builds republic, institutions form, he becomes disposable."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848
+- Next issue: Simon Bolivar and Gran Colombia (1819-1830) -- the liberation campaigns, the Congress of Angostura, the federation project, and why it collapsed. Do NOT repeat any prior angle.
 
 **American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-26.
 - Era: "Era 3 -- Carnegie and the Steel Industry"
