@@ -1,3 +1,101 @@
+## 2026-07-31 -- Friday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-31
+
+**AI & Technology** -- Amazon AWS Q2 2026: $42.2B revenue (+37% YoY, fastest in 18 quarters); AWS homegrown chips + AI services each at $25B annual run rate; Amazon total Q2 $200.6B, op income +43% to $27.5B, AMZN +9.15% AH. Pentagon confirmed OpenAI models will run on classified military networks -- first frontier AI formally embedded in U.S. intelligence perimeter.
+
+**Stock Market & US Economy** -- July 31 close: S&P +1.66% to 7,437; Nasdaq +2.78%; Dow +1.19%; Amazon AWS blowout lifted tech broadly. Apple down 7.8%: Q3 $109.4B revenue beat (+16%), $2.02 EPS (+29%), BUT Q4 guidance weak, Services miss ($30.74B vs $31.22B est), Greater China miss ($18.8B vs $19.5B est). Q2 GDP 1.5% (below 1.8% consensus); June core PCE 3.29% (down from May's 3.41%, still well above 2% target). Fed holds 3.50-3.75%.
+
+**World / Geopolitics** -- Spain/Ceuta: ~60,000 migrants crossed from Morocco in a single day; 34 dead; military deployed; largest single-day crossing in Ceuta history; linked to court ruling barring sea returns and Spain-Morocco diplomatic rupture over Polisario Front leader medical treatment. Gaza: Trump announced Hamas disarmament deal; Hamas confirmed disarmament terms; Israel silent; 20-point framework (surrender weapons, destroy tunnels, technocratic Palestinian govt, international security force, reconstruction).
+
+**Venezuela** -- August 1 dialogue opens: Rodriguez 2026 NA + Figuera 2015 NA begin formal talks in Caracas; stated agenda: strengthen CNE, restore political participation guarantees, rebuild democratic institutions. Rubio: phase one of three-stage roadmap, sanctions relief contingent on verifiable progress. Machado: still blocked, rejects talks as insufficient, demands oil privatization + free elections as prerequisites.
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: How Diffusion Models Work. Covered: forward process (adding Gaussian noise 1000x until pure static, mathematical, no learning); reverse process (denoiser trained on image-noise pairs to subtract noise at each step); inference (start from pure noise, denoise 50-1000 steps guided by CLIP text embedding); latent diffusion (compress to latent space before noising = much cheaper, used by Stable Diffusion/Flux); video diffusion (spatial + temporal dimensions, why video is 10x harder than images); speed/quality trade-off (fast schedulers 20-50 steps vs original 1000); consistency models and flow matching as efficiency frontier.
+
+**Venezuelan History (education)** -- Period: "Colonial Venezuela -- The Guipuzcoan Company (1728-1784)." Angle: Real Compania Guipuzcoana de Caracas chartered 1728 (Basque monopoly on all Venezuela cacao in exchange for Caribbean naval patrol); Criollo hacendados forced to sell only to company at below-market prices; Juan Francisco de Leon rebellion 1749 (800 armed colonists march on Caracas, Captain-General briefly capitulates, Crown sends military, Leon dies in Cadiz prison); Coro rebellion 1795 (Chirino, Haitian Revolution inspiration); company dissolved 1784 under Bourbon reforms; 56 years of price suppression built the economic grievance that made the 1810-1811 planter class's push for independence feel like rational self-interest.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-07-27. Angle: LBO mechanics (80-90% debt against target's own assets, interest tax-deductible vs dividends not, tax code subsidizes structure); KKR founding 1976 (Kohlberg + Kravis + Roberts leave Bear Stearns); three 1980s conditions (conglomerate undervaluation + Milken junk bonds at Drexel + Reagan deregulation); Safeway $4.2B/Beatrice $6.2B as proof-of-scale; RJR Nabisco 1988 ($31B, largest ever at the time): Johnson MBO at $75, KKR wins at $109, financed with junk bonds; RJR crushed by debt service, broken apart; KKR returns strong; "Barbarians at the Gate" (Burrough/Helyar 1990) as defining account; tension between value extraction and debt load defines PE to this day.
+
+---
+
+## Series continuity trackers (updated 2026-07-31)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-07-31):
+"Amazon AWS Q2 $42.2B (+37% YoY, fastest in 18 quarters); AWS AI chips + AI services each at $25B ARR; AMZN total Q2 $200.6B/op income +43%; Pentagon confirms OpenAI models on classified military networks (first frontier AI in U.S. intelligence perimeter)"
+- Last 7 angles:
+  - 2026-07-31: Amazon AWS 37% growth ($42.2B, fastest 18 quarters); AMZN op income +43%; Pentagon-OpenAI classified network deal
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Dario Amodei/Anthropic endorse); Nvidia $5B SSI; FCC Chinese robot ban
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+  - 2026-07-27: Kimi K3 open weights (2.8T, 1.4TB MXFP4); Nvidia-OpenAI $250-350B infra financing; EU DMA Android ruling
+  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench 43.3%, ARC-AGI 3 30.2%); Kimi K3 full weights
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source; US-China AI gap
+  - 2026-07-24: Alphabet $119.8B revenue beat; Cloud +82%; GOOGL fell on $205B capex; Intel in-line
+
+**Stock Market & US Economy** -- Most recent angle (2026-07-31):
+"S&P +1.66% to 7,437; Nasdaq +2.78%; Dow +1.19% on Amazon AWS blowout. Apple -7.8% (Q3 beat $109.4B/+16% but Q4 guidance weak, Services $30.74B miss, China $18.8B miss). Q2 GDP 1.5% (below 1.8% est); June core PCE 3.29% (down from 3.41%); Fed holds 3.50-3.75%."
+- Last 7 angles:
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8% on guidance/Services/China miss; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%; Apple Q3 preview ($108.96B rev)
+  - 2026-07-29: FOMC holds (5th consecutive); hawkish; inflation 4.2%; 30% Sept hike; Apple Q3 tomorrow
+  - 2026-07-27: S&P flat; oil -4.4%; 10-yr at 4.7%; FOMC Jul 28-29; Apple Thursday
+  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage up); housing weak; FOMC Tuesday pivot
+  - 2026-07-25: FOMC hike prob 38%; Warsh price stability; PCE 3.6% forecast; June CPI 3.5%
+  - 2026-07-24: Alphabet AH selloff on $205B capex; Intel in-line; 88% beat rate
+
+**World / Geopolitics** -- Most recent angle (2026-07-31):
+"Spain/Ceuta: ~60K migrants from Morocco in one day, 34 dead, military deployed, largest single-day Ceuta crossing ever, court ruling + Spain-Morocco diplomatic rupture. Gaza: Trump announces Hamas disarmament deal (20-point framework); Hamas confirms disarmament terms; Israel silent."
+- Last 7 angles:
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead, military); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle for winter; France wildfire Bordeaux
+  - 2026-07-29: EU-China steel safeguards (quota cut 47%, out-of-quota tariff to 50%); EUR 3 parcel duty; Chinese EV 10% EU share
+  - 2026-07-27: Ukraine Kyiv strike (7 killed); Zelensky attack warning; Syrsky fired; Rubio-Lavrov Manila no deal
+  - 2026-07-26: Ukraine Kyiv missile attack 7 killed/58 injured; Zelensky warning; Rubio-Lavrov no breakthrough
+  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis; Ukraine refinery strikes
+  - 2026-07-24: Ceasefire pessimism; Hormuz 93% traffic drop; Iran striking US bases
+- Next: Iran/Hormuz only if concrete new development. Monitor: Ceuta/EU migration response; Gaza deal implementation; Ukraine; China-Taiwan; Africa.
+
+**Venezuela** -- Most recent angle (2026-07-31):
+"August 1 dialogue opens: Rodriguez 2026 NA + Figuera 2015 NA begin talks on CNE reform, political participation, democratic institutions; Rubio phase-one roadmap, sanctions conditional; Machado blocks, demands full prerequisites."
+- Last 7 angles:
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks on CNE/political guarantees; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1 (pro-transition 335 municipalities; Chavista); two parliaments, incompatible legitimacy
+  - 2026-07-29: ICC withdrawal formal (1-yr countdown, retains pre-withdrawal jurisdiction); US praises; Rubio ICC campaign
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed; split opposition; earthquake aid conditionality
+  - 2026-07-26: Aug 1 dialogue preview; earthquake urgency $37B; Machado oil privatization push
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded
+  - 2026-07-24: TSJ extends Rodriguez to 2031; court-packing; normalization-without-transition
+
+---
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-07-31.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems: How AI Agents Coordinate [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]
+- Next issue: Pick from underrepresented categories. Good options:
+  - How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Microservices architecture -- how and when to break a monolith [Software Architecture]
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+
+---
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-07-31.
+- Period: "Colonial Venezuela -- The Guipuzcoan Company (1728-1784)"
+- Angle covered: "Real Compania Guipuzcoana de Caracas chartered 1728 (Basque monopoly on cacao in exchange for Caribbean naval patrol); Criollo hacendados forced to sell at suppressed prices; Juan Francisco de Leon rebellion 1749 (800 armed colonists, Caracas march, Leon dies in Cadiz); Coro rebellion 1795 (Chirino, Haitian influence); company dissolved 1784 Bourbon reforms; 56 years of extraction built economic grievance that made 1810-1811 planter class's independence push feel like rational self-interest"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784
+- Next issue: Continue moving backward. Options: Simon Bolivar's precursors -- the Bourbon Reforms (1777 Captaincy General, Intendancy), the impact on colonial grievances; OR the encomienda system and early colonial economy (16th-17th century cacao and cattle); OR Francisco de Miranda's earlier life and the failed 1806 invasion before 1810. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-07-31.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-07-27
+- Angles covered this week:
+  - 2026-07-31: "KKR founding logic 1976 (Kohlberg/Kravis/Roberts leave Bear Stearns); LBO mechanics (80-90% debt, tax-deductibility advantage, assets as collateral); three 1980s conditions (conglomerate undervaluation + Milken junk bonds at Drexel + Reagan deregulation); Safeway/Beatrice as proof-of-scale; RJR Nabisco 1988 ($31B, Johnson MBO $75, KKR wins $109, junk bonds); RJR crushed by debt, broken apart; KKR returns strong; Barbarians at the Gate; PE tension: value extraction vs debt load"
+- Next entry: NEW WEEK (week of 2026-08-03). Stay in Era 4. New angle: How PE evolved from the 1990s to the 2000s -- the institutionalization of the asset class (pension funds become LPs), the move from hostile takeovers to negotiated deals, and the mega-fund era (Blackstone, Apollo, Carlyle as the new giants). Do NOT repeat the LBO mechanics or RJR angle.
+
 ## 2026-07-30 -- Thursday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-30
