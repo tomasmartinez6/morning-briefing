@@ -910,3 +910,96 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-07-25: "Early life: Dunfermline 1835; Chartist father; power loom emigration; bobbin boy at 12; telegraph messenger at 14; Thomas Scott as patron; superintendent at 24; Woodruff Sleeping Car dividend ($217.50 revelation); $50K/year at 30; steel still a decade away"
   - 2026-07-26: "1872 pivot: leaves railroad 1865 for Keystone Bridge; 1872 UK trip sees Bessemer process (air blast burns carbon → bulk steel in minutes); returns convinced all US railroads need steel rails; J. Edgar Thomson Steel Works named after Pennsylvania Railroad president (strategic); Braddock PA 1875, one of first US Bessemer mills; Captain Bill Jones hired; cost-accounting obsession; cheapest producer by early 1880s"
 - Next entry: Stay in Era 3. New angle: Carnegie's vertical integration strategy -- how he bought coke fields, iron ore deposits (Mesabi Range), ships, and railroads to own the full supply chain from raw material to finished rail. The Henry Clay Frick partnership. Do NOT repeat early life or Bessemer pivot.
+
+## 2026-08-01 -- Saturday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-01
+
+**AI & Technology** -- Microsoft FY26 Q4 earnings: Azure +43% YoY (fastest in 4 years), crossed $100B annual revenue; total revenue $90B (+18%, beat $87.7B est); Copilot 30M paid seats (from 20M in April); MSFT +15.5% Thursday, adding ~$492B market cap (largest single-day gain by any company ever, topping Nvidia's $440B in April 2025). Versus Meta: free cash flow -91% YoY to $784M; stock -20% over 11-session losing streak. Markets signaling: AI spending that converts to recurring cloud/software revenue rewarded; spending without near-term conversion punished. Big 4 collective capex ~$695B in 2026 (up ~70% from 2025).
+
+**Stock Market & US Economy** -- June payrolls: 57K (vs 115K est), labor force participation 61.5% (lowest since March 2021); April-May revised down 74K combined. Fed holds 3.50-3.75% with core PCE 3.29%. July payrolls report due August 7 (Barclays ~100K projection). Bifurcation: strong corporate earnings vs weakening labor market.
+
+**World / Geopolitics** -- EU fractures over Ceuta: Italy suspended Schengen travel rights with Spain (air/sea border controls for August), citing secondary migration risk after 60K+ crossing (67 dead). 22 European heads of state co-signed letter demanding emergency EU interior ministers meeting. Spain has not yet requested Frontex deployment. Tests EU collective action vs bilateral self-protection.
+
+**Venezuela** -- August 1 transition talks launched: Jorge Rodriguez (Chavista NA 2026) + Dinorah Figuera (2015 opposition NA) began formal conversations in Caracas; location/agenda/format undisclosed. Parallel protests: Machado supporters ("cannot exclude her, she is a fundamental leader"); Chavistas ("US imposition"). Analyst Benitez: govt is "not the result of the free will of Venezuelans, but of electoral fraud." Norway acknowledged start; no specifics. Elections not addressed day one.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Microservices Architecture -- How and When to Break a Monolith. Covered: monolith vs microservices tradeoff (independent deployability, scaling, team ownership); sync vs async communication (HTTP/gRPC vs message queues/Kafka); supporting components (API gateway, service registry, distributed tracing); data management challenges (each service owns its DB; event sourcing + saga pattern for distributed consistency); when NOT to use (small teams, early-stage; start with modular monolith, extract only when forced by concrete scaling/deployment problem).
+
+**Venezuelan History (education)** -- Period: "Colonial Venezuela -- The Encomienda System and Cacao Economy (16th-17th century)." Angle: Spanish arrived seeking gold/silver, found pearls off Cubagua (depleted mid-century); encomienda as personal service (not tribute, unlike Mexico/Peru); coastal encomiendas collapsed as European disease killed indigenous populations; replaced by enslaved Africans by 1630s; Criollo cacao variety dominated European chocolate market (luxury good); plantations in Lake of Valencia basin and Tuy valleys; cacao blight 1630s; Gran Cacao Mantuano class emerged -- descendants of Spanish nobility, built fortunes rivaling silver mining colonies; deeply resentful of trade restrictions; Guipuzcoan Company (1728) channeled their resentment into acute political grievance; 1810 independence = planter class asserting property/market rights, not democratic revolution; enslaved Africans absent from cause and its benefits.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-03. Angle: 1990s-2000s institutionalization: Drexel Burnham 1990 bankruptcy collapsed junk bond market, forced shift to conservative financing + operational focus; ERISA 1979 prudent man rule finally acted on at scale in 1990s (CalPERS, Yale endowment/Swensen 'endowment model'); stable long-duration LP capital from pension funds + endowments; mega-fund firms: Blackstone (1985, Schwarzman/Peterson), Apollo (1990, Black/Harris/Rowan, ex-Drexel), Carlyle (1987, Rubenstein/Conway/D'Aniello, DC-based, govt official strategy); mid-2000s fund sizes: Blackstone $21B, Carlyle $13B; high-profile deals: Hilton Hotels $26B (Blackstone 2007), Clear Channel $17.9B (club deal 2008), TXU $32B (largest LBO ever, 2007); 2008 crisis halted expansion but institutional infrastructure survived.
+
+---
+
+### News continuity tracker
+
+**AI & Technology** -- Most recent angle (2026-08-01):
+"Microsoft FY26 Q4: Azure +43% ($100B annual), MSFT +15.5% (+$492B market cap, largest single-day gain ever); Copilot 30M seats; Meta FCF -91%/-20% stock; AI ROI divergence story; big 4 collective capex ~$695B in 2026"
+- Last 7 angles:
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT record +$492B single-day gain; Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% growth ($42.2B, fastest 18 quarters); AMZN op income +43%; Pentagon-OpenAI classified network deal
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Dario Amodei/Anthropic endorse); Nvidia $5B SSI; FCC Chinese robot ban
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+  - 2026-07-27: Kimi K3 open weights (2.8T, 1.4TB MXFP4); Nvidia-OpenAI $250-350B infra financing; EU DMA Android ruling
+  - 2026-07-26: Opus 5 launch benchmarks (Frontier-Bench 43.3%, ARC-AGI 3 30.2%); Kimi K3 full weights
+  - 2026-07-25: OpenAI sandbox escape + Hugging Face breach; Kimi K3 open-source; US-China AI gap
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-01):
+"June payrolls 57K (vs 115K est); participation 61.5% (lowest since March 2021); April-May revised down 74K combined; Fed holds 3.50-3.75%; core PCE 3.29%; July jobs report due August 7 (~100K projection); bifurcation: strong earnings vs weakening labor"
+- Last 7 angles:
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision; July jobs report Aug 7
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8% on guidance/Services/China miss; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%; Apple Q3 preview
+  - 2026-07-29: FOMC holds (5th consecutive); hawkish; inflation 4.2%; 30% Sept hike; Apple Q3 tomorrow
+  - 2026-07-27: S&P flat; oil -4.4%; 10-yr at 4.7%; FOMC Jul 28-29; Apple Thursday
+  - 2026-07-26: Consumer stress (savings 2.6%, gas +33%, mortgage up); housing weak; FOMC Tuesday pivot
+  - 2026-07-25: FOMC hike prob 38%; Warsh price stability; PCE 3.6% forecast; June CPI 3.5%
+
+**World / Geopolitics** -- Most recent angle (2026-08-01):
+"EU fractures over Ceuta: Italy suspends Schengen with Spain (air/sea border controls August); 22 European leaders demand emergency interior ministers meeting; 60K+ migrants, 67 dead; Spain has not requested Frontex; test of EU collective action vs bilateral self-protection"
+- Last 7 angles:
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency ministers meeting; Frontex not yet requested
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead, military); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle for winter; France wildfire Bordeaux
+  - 2026-07-29: EU-China steel safeguards (quota cut 47%, out-of-quota tariff to 50%); EUR 3 parcel duty; Chinese EV 10% EU share
+  - 2026-07-27: Ukraine Kyiv strike (7 killed); Zelensky attack warning; Syrsky fired; Rubio-Lavrov Manila no deal
+  - 2026-07-26: Ukraine Kyiv missile attack 7 killed/58 injured; Zelensky warning; Rubio-Lavrov no breakthrough
+  - 2026-07-25: Iran/Hormuz structural analysis (verification impasse); Asia energy crisis; Ukraine refinery strikes
+- Next: Monitor: EU interior ministers emergency meeting outcome; Ceuta/Morocco diplomacy; Gaza deal implementation (200-350 day process, Israel yet to comment officially); Ukraine.
+
+**Venezuela** -- Most recent angle (2026-08-01):
+"August 1 talks launched: Rodriguez-Figuera formal conversations begin in Caracas; location/agenda undisclosed; parallel Machado and Chavista protests; legitimacy question (Benitez: 'not the result of free will of Venezuelans but electoral fraud'); Norway acknowledged start; elections not addressed day one"
+- Last 7 angles:
+  - 2026-08-01: Talks launched; Rodriguez-Figuera in Caracas; parallel protests; location/agenda secret; elections not addressed day one
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks on CNE/political guarantees; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1 (pro-transition 335 municipalities; Chavista); two parliaments, incompatible legitimacy
+  - 2026-07-29: ICC withdrawal formal (1-yr countdown); US praises; Rubio ICC campaign
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed; split opposition; earthquake aid conditionality
+  - 2026-07-26: Aug 1 dialogue preview; earthquake urgency $37B; Machado oil privatization push
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-01.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems: How AI Agents Coordinate [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture -- How and When to Break a Monolith [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+  - Prompt engineering patterns [Agentic & AI Workflows]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-01.
+- Period: "Colonial Venezuela -- The Encomienda System and Cacao Economy (16th-17th century)"
+- Angle covered: "Spanish found only pearls off Cubagua (depleted mid-century); encomienda as personal service; indigenous populations died from disease; replaced by enslaved Africans by 1630s in coastal cacao regions; Criollo cacao dominated European chocolate luxury trade; Lake of Valencia/Tuy valleys plantations; cacao blight 1630s; Gran Cacao/Mantuano class emerged; Guipuzcoan Company (1728) channeled their resentment; 1810 independence = planter class asserting market access, not democratic revolution; enslaved Africans absent from cause and benefits"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century
+- Next issue: Continue moving backward. Options: The earliest Spanish settlement and conquest of Venezuela (1498-1550) -- Columbus's third voyage sighting Venezuela's coast; Ojeda and Vespucci; the naming of Venezuela ('Little Venice'); the conquest of indigenous peoples (Caribs, Arawaks); Cubagua pearl fishery in depth; OR German Welsers -- the unusual 1528-1546 period when the Habsburgs leased Venezuela to a German banking family as debt repayment. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-01.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-03
+- Angles covered this week:
+  - 2026-08-01: "1990s-2000s institutionalization: Drexel collapse 1990 forced conservative shift; ERISA prudent man rule finally enacted at scale (CalPERS, Yale endowment/Swensen); pension funds and endowments as LPs; Blackstone (1985), Apollo (1990, ex-Drexel), Carlyle (1987, DC/govt strategy); mid-2000s: Blackstone $21B fund, Carlyle $13B; Hilton Hotels $26B (2007), Clear Channel $17.9B, TXU $32B club deals; 2008 crisis halted but institutional infrastructure survived"
+- Next entry: Stay in Era 4. New angle: The post-2008 recovery and the growth of PE to multi-trillion dollar AUM -- how low interest rates in the 2010s turbocharged the industry; the rise of secondary markets; PE firms going public (KKR 2010, Apollo 2011, Carlyle 2012); the move into retail and 401(k) markets. Do NOT repeat the 1990s-2000s institutionalization or RJR/LBO mechanics angles.
+
