@@ -1,3 +1,94 @@
+## 2026-08-02 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-02
+
+**AI & Technology** -- EU AI Act Article 50 transparency obligations went live today (Aug 2); chatbots must identify as machines, synthetic content must be labeled, deepfakes marked; EU AI Office active enforcement toolkit (fines up to EUR 15M/3% turnover). California SB 942 also went operative: C2PA-compatible provenance required for AI-generated content, free detection tool for providers with 1M+ CA users. Both laws converge on C2PA as de facto global watermarking standard. US federal government missed all three August 1 EO 14409 deadlines (classified AI benchmarking, voluntary frontier-model disclosure, federal cyber-workforce plan).
+
+**Stock Market & US Economy** -- Apple Q3 beat top line (revenue $109.4B +16%, EPS $2.02 vs $1.89 est) but missed services ($30.74B vs $31.22B est) and iPad; September guidance 9-11% (below Q3's 16%); shares -8.6% Friday (-$430B market cap). Big Tech 2026 combined capex ~$730B (+77% from 2025): Alphabet $205B, Amazon $200B, Microsoft $190B, Meta $135B. Q2 earnings split verdict: AWS/Azure validate cloud-AI thesis; Apple/Alphabet face capex-returns skepticism. Fed holds 3.50-3.75%; Q2 GDP 1.5%; July jobs report due August 7.
+
+**World / Geopolitics** -- Sudan: RSF drone strikes kill 22 civilians in El-Obeid (North Kordofan); MSF suspends Zalingei hospital (central Darfur) amid cholera outbreak after armed attack. Sudan is world's worst humanitarian crisis (UN): 24.6M facing acute hunger, 2M at famine risk, 6.8M IDP, 4.5M refugees, 80%+ of conflict-area hospitals closed, civilian drone deaths +600% 2024-2025. Fourth year of war between SAF and RSF.
+
+**Venezuela** -- August 1 dialogue was a phone call: Rodriguez (2026 Chavista NA) and Figuera (2015 opp NA) spoke, established three technical working groups (earthquake victims, democratic guarantees, political rights); in-person Caracas sessions expected next week. Norway facilitating; joint statement from Oslo. Machado base skeptical; Chavistas uneasy; structural tension: two parliaments claiming legitimacy, no agreed legal framework.
+
+**Venezuelan History (education)** -- Period: "Colonial Venezuela -- Early Colonial Economy, 16th-17th Century." Angle: Pearl-fishing backwater (Cubagua, indigenous divers exhausted by 1540s); encomienda as personal service (unlike Andean tribute model); Venezuela poorest corner of empire; cacao turnaround (Criollo variety, European luxury market by early 1600s, Caracas valley/Barquisimeto ideal); Criollo planter class built on cacao profits; labor shortage after indigenous population collapse; African slavery replaces encomienda on cacao haciendas by 1620s-1630s; Crown formally abolishes encomienda 1687; arc: backwater to plantation economy built on enslaved African labor; Criollo planter class (future 1810 independence leaders) product of this order.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-03. Angle: 1990s-2000s institutionalization: PE industry rebrands from hostile-takeover "corporate raiders" after RJR/S&L backlash; 1978 ERISA clarification enables pension funds (CalPERS, NY State Teachers) as LPs; industry grows from cottage to $1T asset class by 2000; three mega-fund firms: Blackstone (1985, Schwarzman/Peterson, $400K seed), Apollo (1990, Leon Black/Drexel alumni, distressed debt), Carlyle (1987, DC/defense angle); pre-crisis apex 2006-2007: Equity Office Properties $39B, TXU $45B, Hilton $26B (all-time largest LBOs); Blackstone 2007 IPO ($31B valuation, Schwarzman billionaire) marks PE market peak before financial crisis.
+
+---
+
+## Series continuity trackers (updated 2026-08-02)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-02):
+"EU AI Act Article 50 and California SB 942 both go live Aug 2; chatbot disclosure, synthetic content labeling, deepfake marking; C2PA as global standard; US government missed EO 14409 deadlines."
+- Last 7 angles:
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-07-31: Amazon AWS 37% growth ($42.2B, fastest 18 quarters); AMZN op income +43%; Pentagon-OpenAI classified network deal
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Dario Amodei/Anthropic endorse); Nvidia $5B SSI; FCC Chinese robot ban
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+  - 2026-07-27: Multi-Agent Systems article; SSI Nvidia coverage
+  - 2026-07-24: Alphabet Q2 beat ($119.8B, Google Cloud +82%); capex raised to $205B; Intel Q2 in-line, 18A foundry 85% yields
+  - 2026-07-23: AI Office vs. OpenAI training data dispute; EU AI Act provisional guidance
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-02):
+"Apple Q3 miss on services/iPad + slower Sept guidance (-8.6%/-$430B); Big Tech 2026 capex $730B (+77%); split Q2 earnings verdict; Fed holds; Q2 GDP 1.5%; July jobs report Aug 7."
+- Last 7 angles:
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict; jobs report Aug 7
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8% on guidance/Services/China miss; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%; Apple Q3 preview ($108.96B rev)
+  - 2026-07-29: Big Tech earnings preview; AWS/Azure focus
+  - 2026-07-27: Alphabet capex raise skepticism; broader 88% beat rate; FOMC hold expected; cuts to 2027
+  - 2026-07-24: Alphabet capex raise to $205B sank GOOGL after hours; 88% beat rate, 24.7% blended EPS growth; cuts to 2027
+  - 2026-07-23: Mag 7 mixed; Apple supply chain tension; Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-08-02):
+"Sudan: RSF drone strikes El-Obeid 22 killed; MSF suspends Zalingei hospital (Darfur cholera); world's worst humanitarian crisis (24.6M hungry, 6.8M IDP, hospitals 80% closed); SAF-RSF war year 4."
+- Last 7 angles:
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; worst global humanitarian crisis (24.6M hungry)
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead, military); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead, 62 injured); Ukraine cabinet reshuffle; France Bordeaux wildfire evacuations
+  - 2026-07-29: Iran-Hormuz ceasefire negotiations stalled; EU-Turkey migration deal
+  - 2026-07-27: Middle East: Iran-Hormuz tensions; NATO summit communique; India-Pakistan LoC
+  - 2026-07-24: Iran-Hormuz ceasefire proposal (10-day window); US carrier strike group repositioned; Kuwait/Bahrain evacuation advisories
+  - 2026-07-23: Ukraine frontline updates; France election results impact on EU cohesion
+
+**Venezuela** -- Most recent angle (2026-08-02):
+"Aug 1 dialogue was phone call; Rodriguez-Figuera established three working groups (earthquake, democratic guarantees, political rights); in-person Caracas next week; Norway facilitating; Machado base skeptical; two parliaments, no legal framework."
+- Last 7 angles:
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating; Machado base skeptical
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks on CNE/political guarantees; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; Figuera-Rodriguez talks; two parliaments, incompatible legitimacy; Machado absent
+  - 2026-07-29: Pre-dialogue positioning; Rubio roadmap details; sanctions conditionality
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed; split opposition; earthquake aid conditionality
+  - 2026-07-25: Figuera-Rodriguez dialogue Aug 1 start; Rubio three-phase roadmap; Machado excluded
+  - 2026-07-24: Supreme Tribunal extends Rodriguez mandate to Jan 2031; Machado blocked; normalization without transition
+
+### Learning Series continuity
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-02.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems: How AI Agents Coordinate [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices vs. Monolith: When to Break the Codebase Apart [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Caching strategies (Redis, CDN, cache invalidation) [Software Architecture]
+  - Prompt engineering deep dive -- few-shot, chain-of-thought, system prompts [Agentic & AI Workflows]
+
+### History series continuity
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-02.
+- Period covered: "Colonial Venezuela -- Early Colonial Economy, 16th-17th Century"
+- Angle covered: "Pearl-fishing backwater (Cubagua, indigenous divers, exhausted 1540s); encomienda as personal service; Venezuela poorest corner of empire; cacao as luxury good in Europe (Criollo variety, Caracas valley/Barquisimeto); Criollo planter class built on cacao profits; labor shortage after indigenous collapse; African slavery replaces encomienda by 1620s-1630s; Crown abolishes encomienda 1687; arc from backwater to slave-plantation economy; Criollo planter class = future 1810 independence leaders"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Early Colonial Economy 16th-17th C
+- Next issue: Continue moving backward. Options: The Spanish conquest and first settlements (Cumana 1521, Coro 1527, Caracas 1567); OR the pre-Columbian peoples (Caribs, Arawaks, Timoto-Cuicas in the Andes) and what the conquistadors encountered; OR the Bourbon Reforms of 1777 (Captaincy General of Venezuela, Intendancy system). Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-02.
+- Era: Era 4 -- The Rise of Private Equity
+- Week of: 2026-08-03
+- Angles covered this week:
+  - 2026-08-02: "PE rebranding 1990s (hostile to negotiated); ERISA 1978 pension fund LP clarification bears fruit by mid-1990s; CalPERS/NY State Teachers as early institutional LPs; industry $1T by 2000; Blackstone (1985, $400K seed), Apollo (1990, Leon Black/Drexel alumni), Carlyle (1987, DC/defense); pre-crisis apex 2006-2007: Equity Office $39B, TXU $45B, Hilton $26B; Blackstone 2007 IPO $31B valuation; Schwarzman billionaire; PE market peak before 2008 crisis"
+- Next entry: Continue week of 2026-08-03. Stay in Era 4. New angle: The 2008 financial crisis and PE -- how the mega-funds navigated the crisis (Hilton/TXU struggling under debt loads; Blackstone's post-IPO stock collapse; the frozen credit markets freezing buyouts); and the post-crisis PE recovery (2010-2015 vintage funds delivered exceptional returns as assets were cheap and credit recovered). Do NOT repeat the 1990s institutionalization or Blackstone IPO angle.
+
 ## 2026-07-31 -- Friday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-07-31
