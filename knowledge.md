@@ -1094,3 +1094,99 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-08-01: "1990s-2000s institutionalization: Drexel collapse 1990 forced conservative shift; ERISA prudent man rule finally enacted at scale (CalPERS, Yale endowment/Swensen); pension funds and endowments as LPs; Blackstone (1985), Apollo (1990, ex-Drexel), Carlyle (1987, DC/govt strategy); mid-2000s: Blackstone $21B fund, Carlyle $13B; Hilton Hotels $26B (2007), Clear Channel $17.9B, TXU $32B club deals; 2008 crisis halted but institutional infrastructure survived"
 - Next entry: Stay in Era 4. New angle: The post-2008 recovery and the growth of PE to multi-trillion dollar AUM -- how low interest rates in the 2010s turbocharged the industry; the rise of secondary markets; PE firms going public (KKR 2010, Apollo 2011, Carlyle 2012); the move into retail and 401(k) markets. Do NOT repeat the 1990s-2000s institutionalization or RJR/LBO mechanics angles.
 
+
+## 2026-08-04 -- Tuesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-04
+
+**AI & Technology** -- SpaceX (SPCX) reports first public earnings today after close: $6.9B Q2 revenue expected, adj. EBITDA $2B, adj. EPS loss -$0.24 (AI infrastructure drag); stock ~40% off post-IPO high, below $135 IPO price; Aug 6 lockup releases ~911.5M shares ($116B). Palantir Q2 reported Monday: revenue $1.94B (+93% YoY, beat $1.80B est); US commercial +149%, government +90%; 2026 guidance raised to $8.15B from $7.19B; PLTR +17% premarket. AMD also reports today. Three AI reality checks: software (PLTR), chips (AMD), infrastructure (SPCX).
+
+**Stock Market & US Economy** -- Monday session reversal: S&P +1.57% to ~7,607; Dow record 53,178; Nasdaq 100 +1.8%. Amazon +4.6% (crosses $3T), Meta +6%, MSFT +4.9%, Alphabet +4.9%, Tesla +3.5%, Nvidia +2.9%. Tuesday: Nasdaq 100 futures +0.9%, S&P +0.3%; June trade balance (-$76.5B est, 8:30 ET); factory orders MoM (-0.8% est, 10 ET); SpaceX after close. Friday July payrolls (87.5K est vs June 57K). Fed at 3.50-3.75%, 10-yr 4.7%.
+
+**World / Geopolitics** -- Concrete new Iran development: Trump confirmed talks resumed with Iran; Treasury Sec. Bessent on CNBC: "Hormuz deal is in sight." Iran says Oman talks "in final stages" for a managed new shipping lane that Iran would control (3-month arrangement, different from pre-conflict route). Trump demands full immediate reopening + end to nuclear threat. Gap between positions remains wide but shift from mutual recriminations to active talks is real; oil fell sharply on news.
+
+**Venezuela** -- First in-person Rodriguez-Figuera meeting expected in Caracas this week (announced Aug 2: agreed to meet "next week"). Aug 1 launch was just a phone call. Meeting agenda: earthquake reconstruction assistance, democratic institution reinforcement, political rights guarantees. Elections not yet formally on the agenda. Machado continues boycott; Gonzalez Urrutia coalition refuses participation. Norway observing. Rubio's three-phase roadmap and oil revenue conditionality still the US framework.
+
+**Learning Series (education)** -- Category: Infrastructure & Internet. Topic: How TCP/IP and the Internet Protocol Stack Work. Covered: TCP/IP as network-of-networks protocol suite; four-layer model (Application, Transport, Internet, Network Access); encapsulation principle (each layer wraps data in headers); IP as connectionless best-effort packet routing; routers forwarding hop-by-hop; TCP (three-way handshake, reliable ordered delivery, retransmit) vs UDP (no handshake, fast, lossy, used for video/gaming/DNS); Application layer protocols (HTTP/HTTPS, SMTP, DNS, SSH); modularity as the stack's genius -- layers can be swapped without touching neighbors.
+
+**Venezuelan History (education)** -- Period: "Klein-Venedig -- The German Welser Concession (1528-1546)." Angle: Charles V owed imperial election debts to Welser banking house of Augsburg; 1528 charter grants Welsers rights to colonize/govern Venezuela; Ehinger founds Maracaibo 1529, dies 1533 (poisoned arrow, Andean foothills); Hohermuth, Federmann, von Hutten pursue El Dorado via brutal raids; Federmann reaches Bogota 1539 to find Quesada and Belalcazar already there; no permanent towns, no gold, no evangelization; Carvajal executes von Hutten + Bartholomeus Welser VI 1546; Charles V revokes charter; Spain resumes direct control; lesson: outsourcing colonization = chaos without revenue.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-03. Angle: Post-2008 recovery and 2010s ZIRP boom: near-zero Fed rates 2008-2015 made LBO debt essentially free; PE firms go public (KKR 2010, Apollo 2011, Carlyle 2012) to gain permanent capital and founder liquidity; Blackstone crosses $1T AUM (from ~$60B at 2008 crisis); Hilton Hotels $26B (2007) returned ~$14B profit post-2013 IPO (most profitable PE deal in history); Dell $24.4B (2013, largest tech LBO); diversification into credit/infrastructure/insurance; push to open 401(k)/IRA access to retail investors.
+
+---
+
+## Series continuity trackers (updated 2026-08-04)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-04):
+"SpaceX first public earnings today (Q2: $6.9B rev est, adj EBITDA $2B, -$0.24 EPS est; stock 40% off post-IPO high; Aug 6 lockup $116B); Palantir Q2 blowout (+93% rev, US commercial +149%, guidance raised to $8.15B); AMD reports today; three AI reality checks: software/chips/infrastructure"
+- Last 7 angles:
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 enforcement live; simultaneous EU/non-EU transparency regime; AI governance milestone
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 qtrs); AMZN op income +43%; Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+  - 2026-07-27: Kimi K3 open weights (2.8T, 1.4TB MXFP4); Nvidia-OpenAI $250-350B infra financing; EU DMA Android ruling
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-04):
+"S&P +1.57% Monday (record Dow 53,178); megacap AI led (Amazon $3T +4.6%, Meta +6%, MSFT/Alphabet +4.9%); Tuesday: Nasdaq 100 futures +0.9%; June trade balance (-$76.5B est) and factory orders (-0.8% est); July payrolls Friday (~87.5K est); Fed 3.50-3.75%; 10-yr 4.7%"
+- Last 7 angles:
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; Tuesday futures up; trade/factory orders data; July payrolls Friday
+  - 2026-08-02: Apple Q3 $109.4B (+16%) beat but -7.8% on guidance/Services/China miss
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision; July jobs report Aug 7
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8% AH; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+  - 2026-07-29: FOMC holds (5th consecutive); hawkish; inflation 4.2%; 30% Sept hike; Apple Q3 preview
+  - 2026-07-27: S&P flat; oil -4.4%; 10-yr 4.7%; FOMC Jul 28-29; Apple Thursday
+
+**World / Geopolitics** -- Most recent angle (2026-08-04):
+"Concrete Iran development: Trump confirms talks resumed; Bessent on CNBC 'Hormuz deal in sight'; Iran says Oman talks 'final stages' for managed lane Iran controls (3-month, new route); Trump demands full immediate reopening + nuclear end; gap wide but active talks are real; oil fell"
+- Last 7 angles:
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks resume; Bessent 'deal in sight'; Iran wants managed lane it controls; gap wide but real diplomatic shift
+  - 2026-08-02: Sudan civil war 4th year; UN worst humanitarian crisis designation; 8M displaced; 25M food insecure; underreported
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency ministers meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead, military); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+  - 2026-07-29: EU-China steel safeguards (quota -47%, tariff to 50%); EUR 3 parcel duty; Chinese EV 10% EU share
+  - 2026-07-27: Ukraine Kyiv strike (7 killed); Zelensky attack warning; Syrsky fired; Rubio-Lavrov Manila no deal
+- Next: Iran talks outcome (watch for Hormuz reopening announcement vs collapse); EU interior ministers emergency meeting on Ceuta; Ukraine; Gaza deal implementation.
+
+**Venezuela** -- Most recent angle (2026-08-04):
+"First in-person Rodriguez-Figuera meeting expected this week (Aug 1 was just a phone call); agenda: earthquake relief, democratic institutions, political rights (no elections yet); Machado boycott continues; Gonzalez coalition refuses; Norway observing; Rubio framework still active"
+- Last 7 angles:
+  - 2026-08-04: First in-person meeting expected this week; Aug 1 was phone call; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue was a phone call; Rodriguez-Figuera agree to in-person 'next week'; first agenda items
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; location/agenda secret; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera on CNE/political guarantees; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1 (pro-transition 335 municipalities; Chavista); incompatible legitimacy
+  - 2026-07-29: ICC withdrawal formal (1-yr countdown); US praises; Rubio ICC campaign
+  - 2026-07-27: Machado boycotts Aug 1 talks; Figuera-Rodriguez proceed; split opposition; earthquake conditionality
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-04.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Fine-tuning vs RAG vs prompting -- when to use each [AI/ML Concepts]
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-04.
+- Period: "Klein-Venedig -- The German Welser Concession (1528-1546)"
+- Angle covered: "Charles V owes Welsers imperial election debt; 1528 charter grants Venezuela colonization rights; Ehinger founds Maracaibo 1529, dies 1533; Hohermuth/Federmann/von Hutten pursue El Dorado; Federmann arrives Bogota 1539 (three-conquistador absurdity); no towns/gold/evangelization; Carvajal executes von Hutten + Bartholomeus Welser VI 1546; charter revoked; Spain resumes direct control; lesson: outsourcing colonization = chaos without revenue"
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546
+- Next issue: Continue moving backward. Cover the earliest Spanish settlement and conquest of Venezuela (1498-1550): Columbus's third voyage sighting the coast (1498); Ojeda and Vespucci (1499); the naming of Venezuela ('Little Venice'/Venezuela from Venezziuola); the pearl fishery at Cubagua and Nueva Cadiz; conquest of the Carib and Arawak peoples. Do NOT repeat the Welser concession or any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-04.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-03
+- Angles covered this week:
+  - 2026-08-01: "1990s-2000s institutionalization: Drexel collapse; ERISA prudent man rule at scale; pension/endowment LPs; Blackstone/Apollo/Carlyle as mega-fund giants; Hilton $26B (2007), Clear Channel $17.9B, TXU $32B; 2008 crisis halted but infrastructure survived"
+  - 2026-08-04: "Post-2008 recovery + ZIRP boom: near-zero Fed rates make LBO debt free; KKR (2010), Apollo (2011), Carlyle (2012) go public; Blackstone $1T AUM (from $60B in 2008); Hilton returns ~$14B profit post-2013 IPO; Dell $24.4B LBO (2013); diversification into credit/infrastructure/insurance; push for retail/401(k) access"
+- Next entry: Stay in Era 4. New angle: The current state of PE in the 2020s -- the 'democratization' push (retail-accessible PE products, interval funds, feeder funds for 401(k)); the PE industry's role in healthcare (hospital chains, physician practices); PE's reputational challenges (stripping assets, 'financialization'); and what critics and defenders say about the industry's social impact. Do NOT repeat earlier Era 4 angles.
+
