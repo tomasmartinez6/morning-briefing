@@ -1190,3 +1190,97 @@ Update the "last 7 angles" list each run (drop the oldest, add the newest).
   - 2026-08-04: "Post-2008 recovery + ZIRP boom: near-zero Fed rates make LBO debt free; KKR (2010), Apollo (2011), Carlyle (2012) go public; Blackstone $1T AUM (from $60B in 2008); Hilton returns ~$14B profit post-2013 IPO; Dell $24.4B LBO (2013); diversification into credit/infrastructure/insurance; push for retail/401(k) access"
 - Next entry: Stay in Era 4. New angle: The current state of PE in the 2020s -- the 'democratization' push (retail-accessible PE products, interval funds, feeder funds for 401(k)); the PE industry's role in healthcare (hospital chains, physician practices); PE's reputational challenges (stripping assets, 'financialization'); and what critics and defenders say about the industry's social impact. Do NOT repeat earlier Era 4 angles.
 
+
+## 2026-08-11 -- Tuesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-11
+
+**AI & Technology** -- Anthropic launched Theseus Infrastructure (JV with Macquarie Asset Management + Singapore GIC) to build purpose-built US data centers; Anthropic = anchor tenant under long-term leases; Macquarie/GIC own and fund majority equity; Anthropic pledges 100% of grid-upgrade costs + covers consumer electricity price increases (first such pledge from any frontier AI lab). EU DMA binding orders (July 16) require Google to open 11 Android features (voice invocation, on-device app context, autonomous app control) to Claude/ChatGPT/Copilot by August 2027; search data sharing from January 2027; fines up to 10% global turnover.
+
+**Stock Market & US Economy** -- July nonfarm payrolls: -23,000 (vs +83K estimate); government -53K; May+June combined revision -103K; unemployment rate 4.1% (but participation rate 61.4%, lowest in 5+ years); avg hourly earnings +3.2% YoY (lowest since May 2021). September rate hike taken off table; DXY fell to ~99.40 (7-week low). S&P ~7,753 (-0.06%) Tuesday; Russell 2000 +0.4%. July CPI due Wednesday: consensus +3.4% YoY, +0.1% MoM; core +2.5%. NFIB Optimism 99.8 (best since Aug 2025).
+
+**World / Geopolitics** -- Iran/Hormuz June 17 MOU collapsed: Iran attacked tankers under US protection along Oman coast; Iran established Persian Gulf Strait Authority (PGSA) in May requiring passage through Iranian territorial waters; Rezaei states strait remains closed until US accepts Iran's conditions; Brent +4.99% to $87.72, WTI to $82.13. Syria: court sentenced Assad and brother Maher in absentia for murder, torture, crimes against humanity (first criminal judgment against regime). Turkey-Pakistan-Saudi Arabia mutual defense pact announced.
+
+**Venezuela** -- First in-person Rodriguez-Figuera session held Caracas August 6 (after Aug 1 was only a phone call); agenda: earthquake reconstruction + political rights; elections not yet formally tabled. Claver-Carone ("The Viceroy") departed/pushed out from US brokering role. Earthquake death toll: 6,125+, 61,000 hospitalized. US military buildup in southern Caribbean (official: counter-narcotics; analysts: pressure on Rodriguez government).
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: Fine-tuning vs RAG vs Prompting -- When to Use Each. Covered: prompting (cheapest, flexible, per-call instructions, limited by context window, cannot fix model's baked-in knowledge); RAG (retrieval step at runtime, semantic search over external DB, right tool for specific/current/large knowledge bases, retrieval failure risk); fine-tuning (updates model weights, right for consistent style/format/domain behavior, requires labeled data, produces snapshot). Decision rule: fine-tuning = how to behave; RAG = what to know; prompting = task orchestration. Production systems typically combine all three.
+
+**Venezuelan History (education)** -- Period: "The First European Contact and Conquest of Venezuela (1498-1521)." Angle: Columbus third voyage August 1498 sights Orinoco delta/Gulf of Paria (recognizes continent as Tierra de Gracia); Ojeda and Vespucci 1499 name Venezuela (stilt houses near Maracaibo = Venezziuola/Little Venice); Cubagua pearl rush (Guaiqueri divers pressed to death, Nueva Cadiz c.1515-1522 = earliest European town in Americas, beds exhausted/abandoned 1540s); conquest of Caribs/Arawaks (cannibal pretext for enslavement); Cumana 1521 first permanent European settlement on South American mainland (destroyed/rebuilt multiple times by Carib attacks); Timoto-Cuica of Andes reduced gradually; Caracas founded 1567 (Diego de Losada). Pattern: extraction without durable institution-building.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-10. Angle: PE in the 2020s -- democratization push (interval funds, feeder funds, retail access via Fidelity/Schwab platforms; Blackstone BREIT as pioneer; $12T AUM globally by 2024); healthcare acquisition wave (hospital chains, physician practices, emergency medicine, dental, behavioral health; PE buys, standardizes, extracts mgmt fees, exits in 10yr); studies find ER cost increases post-PE acquisition; state-level disclosure laws in CA/NY/MA; federal proposals pending. Critics: 10-yr exit horizon incompatible with healthcare mission. Defenders: PE brought capital/management to underinvested sector. Core tension: financial returns vs social mission.
+
+---
+
+## Series continuity trackers (updated 2026-08-11)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-11):
+"Anthropic Theseus Infrastructure JV (Macquarie + GIC); purpose-built US data centers; Anthropic anchor tenant; 100% grid-upgrade + electricity cost pledge (first from frontier AI lab). EU DMA: Google must open 11 Android features to Claude/ChatGPT by Aug 2027; search data sharing Jan 2027; fines 10% global turnover."
+- Last 7 angles:
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+  - 2026-07-29: Nvidia $5B SSI investment (Vera Rubin GPU, 10x compute); FCC Chinese robot import ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-11):
+"July payrolls -23K (vs +83K est); gov -53K; May+June revised -103K combined; unemployment 4.1%; participation 61.4% (5yr low); hourly earnings +3.2% (lowest since May 2021); Sept hike off table; DXY to 99.40 (7-week low). S&P ~7,753 (-0.06%); July CPI due Wed (+3.4% YoY expected). NFIB 99.8."
+- Last 7 angles:
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+  - 2026-07-29: FOMC holds (5th consecutive); hawkish; inflation 4.2%; 30% Sept hike
+
+**World / Geopolitics** -- Most recent angle (2026-08-11):
+"Iran/Hormuz: June 17 MOU collapsed (Iran attacked tankers under US protection); PGSA established May; Rezaei states strait closed until US accepts conditions; Brent +4.99% to $87.72. Syria: Assad + Maher Assad sentenced in absentia (murder, torture, crimes against humanity -- first criminal judgment). Turkey-Pakistan-Saudi mutual defense pact."
+- Last 7 angles:
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+  - 2026-07-29: EU-China steel safeguards (quota -47%, tariff to 50%); EUR 3 parcel duty; Chinese EV 10% EU share
+- Next: Iran/Hormuz -- watch for breakthrough or further escalation; Gaza deal implementation; Ukraine; EU Ceuta response.
+
+**Venezuela** -- Most recent angle (2026-08-11):
+"First in-person Rodriguez-Figuera session Caracas Aug 6; agenda earthquake + political rights; elections not tabled; Claver-Carone ('The Viceroy') departed/pushed out; earthquake toll 6,125+/61K hospitalized; US military buildup southern Caribbean (counter-narcotics/pressure)."
+- Last 7 angles:
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+  - 2026-07-29: ICC withdrawal formal (1-yr countdown); US praises; Rubio ICC campaign
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-11.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-11.
+- Period: "The First European Contact and Conquest of Venezuela (1498-1521)"
+- Angle covered: "Columbus third voyage 1498 sights Orinoco delta; Ojeda and Vespucci 1499 name Venezuela (stilt houses = Venezziuola/Little Venice); Cubagua pearl rush (Guaiqueri divers, Nueva Cadiz c.1515-1522, beds exhausted 1540s); Carib cannibal pretext for enslavement; Cumana 1521 first permanent European settlement on South American mainland; Timoto-Cuica Andean peoples; Caracas 1567 (de Losada). Pattern: extraction without institution-building."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521
+- Next issue: We have now reached the absolute beginning of Venezuelan history (pre-Columbian). Options: (1) Pre-Columbian Venezuela -- the Carib, Arawak, and Timoto-Cuica peoples: how they lived, their agriculture and trade networks, their cosmologies; OR (2) pivot and zoom in on a specific moment already in the canon -- e.g., the 1797 La Guaira Conspiracy (Francisco de Miranda's precursor revolutionary cells, the first organized independence plot). Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-11.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-10
+- Angles covered this week:
+  - 2026-08-11: "PE in the 2020s: democratization push (interval funds, feeder funds, retail access; Blackstone BREIT pioneer; $12T AUM globally); healthcare wave (hospital chains, physician practices, ER medicine, dental, behavioral health); state-level disclosure laws CA/NY/MA; critics (10-yr exit incompatible with healthcare mission) vs defenders (capital + management to underinvested sector)"
+- Next entry: Stay in Era 4 if week of 2026-08-10 is not yet complete (one angle covered so far this week). New angle: The PE industry's political power and lobbying -- how the carried interest tax provision (taxed at capital gains rate not income rate) became the most lobbied line in the tax code; the 2022 Inflation Reduction Act's failed attempt to close it; the industry's relationship with both parties; and the tension between PE's public-image problem and its political durability. Do NOT repeat the healthcare or democratization angles.
