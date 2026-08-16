@@ -259,6 +259,202 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-08-16",
+  "displayDate": "Sunday, August 16, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 1830,
+  "readMinutes": 10,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "Google released HEIR, an open-source compiler for fully homomorphic encryption (FHE) that makes private AI inference significantly more practical. The premise: today, when you send a query to an AI service, the server must see your input to compute on it. FHE flips that -- the server computes on encrypted data and never sees the underlying text. HEIR gives developers a Python-annotated workflow where they mark which variables are secret, and the compiler handles translating the program into FHE operations across multiple encryption schemes. Prior to compilers like HEIR, writing FHE code required deep expertise in the underlying math; the project abstracts that away. Meanwhile, Meta released Muse Glimmer, a 30B-parameter multimodal model under Apache 2.0, optimized for local agentic tool use, coding, and LLM-as-judge tasks with a 131K context window and support for over 100 languages."
+      ],
+      "sources": [
+        {
+          "name": "HEIR project",
+          "url": "https://heir.dev/"
+        },
+        {
+          "name": "Google Blog: Private AI with Homomorphic Encryption",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
+        },
+        {
+          "name": "LLM Stats: AI Updates August 2026",
+          "url": "https://llm-stats.com/llm-updates"
+        }
+      ]
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "July CPI came in at +3.4% year-over-year and +0.1% month-over-month, in line with consensus. Core (ex-food and energy) rose 0.2% MoM, marking a slight deceleration from June. The bigger surprise was retail sales, which fell 0.6% in July -- analysts had expected a +0.2% rise. Lower gasoline prices and weaker auto sales accounted for part of the drop, but the breadth of weakness was wider than the headline suggested. Stocks were little changed near record highs, and Treasury yields dipped initially on the data. Fed funds futures now price roughly a 60% probability the Fed holds its 3.50-3.75% target range at the September meeting. Between July payrolls (-23K reported last week), cooling CPI, and now soft retail, the data collectively suggest the economy is decelerating more broadly than the market expected a month ago."
+      ],
+      "sources": [
+        {
+          "name": "Charles Schwab Market Update",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "name": "Yahoo Finance: S&P, Nasdaq on CPI Data",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html"
+        },
+        {
+          "name": "Kraken Blog Economic Brief Aug 12",
+          "url": "https://blog.kraken.com/economic-brief/august-12-2026"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "US Retail Sales vs. Expectation, July 2026 (MoM %)",
+        "labels": [
+          "Consensus Forecast",
+          "Actual Result"
+        ],
+        "data": [
+          0.2,
+          -0.6
+        ],
+        "unit": "%",
+        "sourceNote": "Charles Schwab / Bloomberg consensus"
+      }
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "Russian forces captured a net 13 square miles of Ukrainian territory in the four weeks ending early August -- down sharply from 31 square miles in the prior four-week period. The deceleration is consistent with Ukraine's attrition strategy: long-range drone strikes on Russian logistics, fuel depots, and air defense nodes are degrading Moscow's ability to sustain offensive operations. Russian authorities reported 201 Ukrainian drones intercepted overnight in the Moscow region alone. On the ground, one civilian was killed and six wounded in a Russian aerial attack on Kryvyi Rih, and the last civilian family was evacuated from the village of Charivne in Kherson -- now in a combat zone. Cumulative Russian personnel losses since February 2022 now stand at approximately 1.47 million, per Ukrainian military figures. The conflict is grinding, but the pace of Russian advance has nearly halved in eight weeks."
+      ],
+      "sources": [
+        {
+          "name": "Russia Matters War Report Card Aug 5",
+          "url": "https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-aug-5-2026"
+        },
+        {
+          "name": "Ukrinform",
+          "url": "https://www.ukrinform.net/block-lastnews"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "Venezuela's first formal dialogue cycle concluded this week with two concrete agreements: a full overhaul of the Supreme Tribunal of Justice (TSJ) -- including a new magistrate nomination process and an independent credentials review council -- and a commitment to pursue access to the country's frozen foreign reserves to fund earthquake reconstruction. The TSJ has been the judicial instrument through which chavista governments annulled election results, jailed opponents, and blocked legal challenges; its reform, if implemented, would be the most significant institutional concession since Maduro's ouster. Negotiators were Jorge Rodriguez (National Assembly president, PSUV) and Dinorah Figuera (head of the 2015 democratically-elected opposition assembly), with Norway facilitating. The Trump administration backed the talks. Opposition leaders Machado and Gonzalez Urrutia are not at the table. Implementation, not signing, is the test."
+      ],
+      "sources": [
+        {
+          "name": "France 24: Venezuela Talks Agreement",
+          "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
+        },
+        {
+          "name": "Caracas Chronicles: Institutional Dialogue Start",
+          "url": "https://www.caracaschronicles.com/2026/08/03/venezuelas-new-institutional-dialogue-had-a-wobbly-start/"
+        },
+        {
+          "name": "CRS: Venezuela Post-Maduro Transition",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R49186/R49186.1.pdf"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "Software Architecture",
+        "topic": "Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation"
+      },
+      "summary": [
+        "A cache is a faster, closer copy of data that is expensive to produce. The expense can come from a database query (5-50ms), a network call, a complex computation, or plain physical distance -- reading from an in-memory cache like Redis takes under a millisecond. At scale, that difference is enormous: a service handling 100,000 requests per second that avoids half its database reads through caching can run on a fraction of the infrastructure and respond an order of magnitude faster. The core insight behind caching is temporal locality -- data accessed recently is likely to be accessed again soon. This makes it possible to serve the same result many times from a fast cache while only computing or fetching it once from the slower source.",
+        "Four patterns dominate how production systems read from and write to caches. Cache-aside (lazy loading): the application checks the cache first; on a miss, it queries the database, then writes the result into the cache for next time. This is the most common pattern -- straightforward, works for any data structure, and doesn't require infrastructure coupling. Its weakness is the cold-start problem: after a deploy or cache flush, every first request is a miss that hits the database. Write-through: every write goes to both the cache and the database simultaneously, keeping the cache perpetually fresh at the cost of write latency. Write-behind (write-back): writes go to the cache first and the database is updated asynchronously -- fast writes, but you risk data loss if the cache fails before the database sync. Read-through: the cache itself handles fetching from the database on a miss, abstracting that logic away from the application. Most teams use cache-aside in practice because it is least coupled to cache infrastructure.",
+        "The hard problem in caching is not reading -- it is knowing when to stop serving stale data. Two tools handle this. TTL (time-to-live) assigns a timer to every cached value; when the timer expires, the next request re-fetches from source. Short TTLs mean fresher data but more misses; long TTLs mean more hits but stale reads. Redis implements TTLs natively -- you set them per key. LRU (least recently used) eviction handles the second problem: what do you throw out when the cache is full? LRU evicts keys that have not been accessed for the longest time, betting that recently used data will be needed again. Redis exposes this as a configurable maxmemory policy. The hardest invalidation case is when data changes at the source and you need to proactively expire a cached copy immediately -- rather than wait for TTL to tick down. The standard solution is an invalidation event: when a record is updated in the database, publish a message (via Pub/Sub or a message queue) that triggers cache key deletion. The danger is forgetting to add invalidation logic whenever you add a new write path. The golden rule: never cache without either a TTL or explicit invalidation logic, or you will eventually serve stale data indefinitely."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "Cache-Aside Read Path",
+        "code": "graph LR\n  A[Client Request] --> B{Cache Hit?}\n  B -- Yes --> C[Return Cached Data]\n  B -- No --> D[Query Database]\n  D --> E[Write Result to Cache]\n  E --> F[Return Data to Client]"
+      },
+      "sources": [
+        {
+          "name": "Leapcell: Redis Cache Invalidation Strategies",
+          "url": "https://leapcell.io/blog/mastering-redis-cache-invalidation-strategies"
+        },
+        {
+          "name": "AI Wiki: Caching Strategies",
+          "url": "https://aiwikiproject.com/articles/caching-strategies"
+        },
+        {
+          "name": "Cal Paterson: Staying Out of TTL Hell",
+          "url": "https://calpaterson.com/ttl-hell.html"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "Pre-Columbian Venezuela (c. 1000 BCE - 1498 CE)",
+        "angle": "The three major indigenous civilizations before European contact: Timoto-Cuica (Andean highlands), Arawak (coasts and Orinoco), and Carib (Caribbean expansion) -- their economies, technologies, and conflicts that shaped the world Columbus encountered."
+      },
+      "summary": [
+        "Before Columbus arrived in 1498, the territory now called Venezuela was home to dozens of distinct peoples organized into loosely confederated communities rather than centralized empires. The most architecturally and agriculturally sophisticated were the Timoto-Cuica, a Chibchan-language group who inhabited the Andean highlands of western Venezuela -- roughly modern Merida and Trujillo states. Flourishing between approximately 1000 and 1500 CE, they built terraced hillside fields to extend farming into steep terrain, engineered irrigation systems to manage water through dry seasons, and cultivated potatoes, maize, and root crops at altitudes where most groups could not survive on agriculture alone. Their villages were dense by regional standards, with specialized production -- finely woven textiles, ceramics, metalwork -- and an economy oriented around inter-village trade rather than tribute or conquest. They were not a single unified polity but a cluster of related groups sharing technology and language.",
+        "The Arawak occupied the coastal strips, the Orinoco delta, and large swaths of the interior llanos. They were the dominant agricultural innovators of the region: they scaled cassava (yuca) cultivation across Venezuela and the Caribbean, including the painstaking process of detoxifying bitter cassava -- which contains cyanide precursors -- into flour and flatbread that could be stored and traded across seasons. This technique is what allowed large sedentary populations to exist in tropical lowlands where most calories were hard to preserve. Arawak trade networks stretched far up the Orinoco and into the Caribbean, and their language family eventually spread to become the most geographically extensive in pre-Columbian South America. Their settlements tended to be stable and sedentary, anchored by gardens and fishing.",
+        "The Carib (Karinya) were the newest arrivals, expanding from the Orinoco basin into the Caribbean islands and Venezuelan coast in the centuries just before European contact. They were maritime specialists -- skilled canoe builders and navigators who raided Arawak settlements for resources and captives. The Spanish later used the cannibal charge against the Carib as a legal pretext for enslavement: under a 1503 royal decree, peoples labeled cannibals could be enslaved without restriction. The word cannibal itself derives from Carib, via Columbus's garbled transcription Caniba. The reality was more complicated: Carib ritual practices did in some cases involve consuming small portions of slain enemies, but the scale was grossly exaggerated to justify a slave trade. When Columbus arrived, the coastal peoples he encountered were not isolated primitives -- they were products of centuries of Carib-Arawak conflict, trade, and intermixture. The conquest ended in two generations what had taken millennia to build."
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Timoto-Cuica People",
+          "url": "https://en.wikipedia.org/wiki/Timoto%E2%80%93Cuica_people"
+        },
+        {
+          "name": "History Rise: Venezuela in the Pre-Columbian Era",
+          "url": "https://historyrise.com/venezuela-in-the-pre-columbian-era-indigenous-cultures-and-societies/"
+        },
+        {
+          "name": "Brewminate: Ancient Peoples of Venezuela",
+          "url": "https://brewminate.com/from-stones-to-rivers-the-earliest-peoples-of-venezuela/"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 4 -- The Rise of Private Equity (1980s LBOs to today)",
+        "weekOf": "2026-08-10",
+        "angle": "The carried interest tax provision: how the most-lobbied line in the US tax code survived Obama, Biden, Trump, and the 2022 Inflation Reduction Act -- and what the 2026 fight looks like."
+      },
+      "summary": [
+        "Private equity's most durable political asset is a single provision in the tax code: carried interest, which allows fund managers to treat their share of investment profits as capital gains (taxed at a maximum 20%) rather than ordinary income (taxed at up to 37%). The industry's justification is that managers are at risk -- they only receive carried interest if the fund actually makes money. Critics respond that they contribute labor, not capital, and their compensation should be taxed like any other professional fee. On a $50 million annual payout, the difference is roughly $8-9 million per partner, per year. The provision costs the Treasury an estimated $14 billion over ten years -- modest by budget standards, but enormous as a per-beneficiary subsidy to some of the highest earners in the country.",
+        "Congressional hearings on carried interest date to 2007. Every president since has proposed eliminating it. Obama's proposals died in the Senate. Trump called hedge fund guys 'getting away with murder' on taxes in 2015, then dropped the issue once in office under industry pressure. The most dramatic defeat came in 2022: Democratic Senator Kyrsten Sinema of Arizona, a key swing vote for the Inflation Reduction Act, demanded that carried interest reform be stripped from the bill as her condition for support. The American Investment Council -- the PE industry's primary lobby -- took credit. In April 2026, Senators Wyden, Whitehouse, and King reintroduced the Ending the Carried Interest Loophole Act. It has no Republican co-sponsors. The provision survives. The pattern across 19 years is consistent: the reform is popular in polling, small in fiscal impact relative to the overall budget, but concentrated enough in benefit to generate enormous lobbying resources in defense."
+      ],
+      "sources": [
+        {
+          "name": "NOTUS: PE Spending to Save Carried Interest",
+          "url": "https://www.notus.org/money/private-equity-carried-interest-tax-break-trump-lobby"
+        },
+        {
+          "name": "DLA Piper: Carried Interest Reform Returns 2026",
+          "url": "https://www.dlapiper.com/en-us/insights/publications/2026/05/carried-interest-reform-returns-to-congress"
+        },
+        {
+          "name": "Senate Finance Committee: Wyden Bill April 2026",
+          "url": "https://www.finance.senate.gov/ranking-members-news/wyden-whitehouse-king-lead-introduction-of-bill-closing-carried-interest-tax-loophole"
+        },
+        {
+          "name": "CRS: Taxation of Carried Interest",
+          "url": "https://www.congress.gov/crs-product/R46447"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-08-11",
   "displayDate": "Tuesday, August 11, 2026",
   "title": "Morning Briefing",

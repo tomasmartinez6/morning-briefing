@@ -1,3 +1,98 @@
+## 2026-08-16 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-16
+
+**AI & Technology** -- Google released HEIR, an open-source compiler for fully homomorphic encryption (FHE) enabling private AI inference (server computes on encrypted inputs, never sees user data); developers annotate Python code with secret types and HEIR handles multi-scheme FHE compilation. Meta released Muse Glimmer (30B multimodal, Apache 2.0, 131K context, 100+ languages, local agentic use).
+
+**Stock Market & US Economy** -- July CPI +3.4% YoY / +0.1% MoM (in line with consensus); core +0.2% MoM. Retail sales -0.6% July (vs +0.2% expected) -- lower gas + auto sales partly explain gap. Stocks near record highs, little changed. Fed funds futures: ~60% probability Fed holds 3.50-3.75% at September. Three-data-point softening streak: July payrolls -23K, CPI in-line, retail miss.
+
+**World / Geopolitics** -- Ukraine: Russian forces gained net 13 sq mi in 4 weeks ending early Aug (down from 31 sq mi prior 4-week period); 201 Ukrainian drones intercepted near Moscow overnight; Kryvyi Rih airstrike killed 1. Cumulative Russian personnel losses ~1.47M. Russian advance rate nearly halved in 8 weeks.
+
+**Venezuela** -- First dialogue cycle concluded with agreements: TSJ (Supreme Tribunal of Justice) full overhaul (new magistrate nomination process, credentials review council); measures to unlock frozen reserves for earthquake reconstruction. Negotiators: Jorge Rodriguez (PSUV/National Assembly) and Dinorah Figuera (opposition 2015 assembly); Norway facilitation; Trump admin backing. Machado/Gonzalez Urrutia not participating.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Caching Strategies -- Cache-Aside, Write-Through, TTL, and Cache Invalidation. Covered: why caching exists (latency: Redis <1ms vs DB 5-50ms); four patterns (cache-aside/lazy loading most common, write-through, write-behind, read-through); TTL (expiry-based freshness); LRU eviction (Redis maxmemory policy); proactive invalidation via Pub/Sub; golden rule: never cache without TTL or explicit invalidation. Diagram: cache-aside read path flow.
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela (c. 1000 BCE - 1498 CE)." Angle: Three major pre-contact civilizations: Timoto-Cuica (Andean highlands, terraced agriculture, irrigation, potatoes/maize, craft production, trade economy); Arawak (coasts/Orinoco/llanos, cassava detoxification innovation, sedentary settlements, far-flung trade networks, most geographically extensive language family in pre-Columbian S. America); Carib (Orinoco expansion, maritime specialists, raided Arawak, "cannibal" label used as 1503 legal pretext for enslavement). When Columbus arrived, peoples were products of centuries of conflict and intermixture -- the conquest ended in two generations what took millennia to build.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-10. Angle: Carried interest tax provision -- managers taxed at capital gains rate (max 20%) not income rate (up to 37%); ~$14B/10yr cost; provision survived Obama, Biden, Trump, Sinema's IRA veto in 2022 (PE lobby/American Investment Council credited); April 2026 Ending the Carried Interest Loophole Act (Wyden/Whitehouse/King) reintroduced with no Republican co-sponsors. 19-year pattern: popular in polls, small fiscally, but concentrated benefit generates outsized lobbying resources.
+
+---
+
+## Series continuity trackers (updated 2026-08-16)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-16):
+"Google HEIR open-source FHE compiler for private AI inference (server computes on encrypted data, never sees inputs; Python annotation workflow; multi-scheme FHE). Meta Muse Glimmer (30B multimodal, Apache 2.0, 131K context, local agentic)."
+- Last 7 angles:
+  - 2026-08-16: Google HEIR (FHE compiler for private AI inference); Meta Muse Glimmer 30B multimodal Apache 2.0
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-16):
+"July CPI +3.4% YoY/+0.1% MoM (in line); core +0.2% MoM. Retail sales -0.6% July (vs +0.2% expected; gas + auto weakness). Stocks near record highs. Fed ~60% hold Sept (3.50-3.75%). Three-data-point softening: July payrolls -23K, CPI on-target, retail miss."
+- Last 7 angles:
+  - 2026-08-16: July CPI +3.4% in-line; retail -0.6% miss; Fed hold 60% Sept; three-data softening streak
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-08-16):
+"Ukraine: Russian net territorial gain slowed to 13 sq mi / 4 weeks (from 31 sq mi prior period); 201 Ukrainian drones intercepted near Moscow; Kryvyi Rih strike killed 1; cumulative Russian losses ~1.47M; advance rate nearly halved in 8 weeks."
+- Last 7 angles:
+  - 2026-08-16: Ukraine war: Russian advance rate halved (13 sq mi vs 31 sq mi prior 4 wks); drone campaign Moscow; cumulative losses 1.47M
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+- Next: Iran/Hormuz -- watch for breakthrough/escalation; Venezuela talks; EU migration crisis.
+
+**Venezuela** -- Most recent angle (2026-08-16):
+"First dialogue cycle concluded with agreements on TSJ overhaul (new magistrate nomination, credentials review council) and unlocking frozen reserves for earthquake reconstruction. Rodriguez-Figuera; Norway facilitating; Trump admin backing. Machado/Gonzalez Urrutia absent. Implementation is the test."
+- Last 7 angles:
+  - 2026-08-16: First dialogue cycle concludes with TSJ overhaul agreement + frozen reserves access deal; Machado/Gonzalez out
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-16.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - How cloud compute works: VMs, bare metal, spot instances [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-16.
+- Period: "Pre-Columbian Venezuela (c. 1000 BCE - 1498 CE)"
+- Angle covered: "Three pre-contact civilizations: Timoto-Cuica (Andean highlands, terraced farming, irrigation, potatoes/maize, craft trade economy); Arawak (coasts/Orinoco/llanos, cassava detoxification, sedentary settlements, most geographically extensive language family in S. America); Carib (Orinoco maritime specialists, raided Arawak, 'cannibal' label used as 1503 legal pretext for enslavement). Peoples were products of centuries of conflict and intermixture; conquest ended in two generations what took millennia."
+- Prior angles: Pre-Columbian (this issue); First European Contact/Conquest 1498-1521; Cubagua pearl rush; German Welsers 1528-1546; Encomienda/Cacao 16th-17th c; Guipuzcoan Company 1728-1784; Venezuelan Independence/First Republic 1810-1812; Paez Era 1830-1848; Federal War 1859-1863; Guzman Blanco 1870-1888; Gomez Era 1908-1935; 1945 October Revolution; 1948 Military Coup; Caracazo 1989; Chavez-Maduro succession/2013; Chavez cancer/2012 re-election; April 2002 coup; PDVSA oil lockout/recall; Feb 4 1992 coup; Viernes Negro 1983; Punto Fijo 1958
+- Next issue: We have now covered from pre-Columbian through post-Maduro transition. Options for next drift: (1) The Welser era and slave trade in more depth -- the Germans brought the first large-scale African slavery to Venezuela; OR (2) Zoom into the Cacao economy and the role of Caracas merchant families in the 18th century independence movement pre-conditions. Do NOT repeat any prior angle.
+
+**American Business History** (`american-business-history`) -- Most recent entry: 2026-08-16.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-10
+- Angles covered this week:
+  - 2026-08-11: "PE in the 2020s: democratization push (interval funds, feeder funds, retail access; Blackstone BREIT pioneer; $12T AUM globally); healthcare wave (hospital chains, physician practices, ER medicine, dental, behavioral health); state-level disclosure laws CA/NY/MA"
+  - 2026-08-16: "Carried interest tax provision: capital gains rate (max 20%) vs income rate (37%); ~$14B/10yr; survived Obama, Biden, Trump; Sinema killed IRA provision (2022); April 2026 Wyden/Whitehouse/King bill -- no Republican co-sponsors. 19-year pattern: popular in polls, small fiscally, enormous concentrated lobbying resources in defense."
+- Next entry: New week (week of 2026-08-17) -- advance to Era 1: The Gilded Age & J.P. Morgan. First angle could be: the Panic of 1893 and Morgan's railroad reorganizations ("Morganization") -- how a private banker with no government mandate effectively restructured the US rail network and extracted permanent control in exchange.
+
 ## 2026-08-02 -- Sunday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-02
