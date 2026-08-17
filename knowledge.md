@@ -1,3 +1,97 @@
+## 2026-08-17 -- Monday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-17
+
+**AI & Technology** -- Anthropic Q2 revenue $11.5B (up from $787M YoY, $4.73B in Q1); $47B annualized run rate surpassing OpenAI (~$40B run rate); first-ever positive adjusted operating income; IPO expected. Caveat: Anthropic counts cloud-reseller spend gross; OpenAI reports net. Nvidia cut OpenAI Ohio data center commitment from ~$250B to ~$120B under investor pressure. OpenAI opened limited Ultrafast mode API preview for GPT-5.6 Sol (Cerebras, ~750 tokens/sec).
+
+**Stock Market & US Economy** -- July CPI: 3.4% YoY / 0.1% MoM (both down 0.1pp from June, met consensus); core 2.5% YoY. July retail sales -0.6% MoM (missed +0.1% expected); autos -1.8%. Real wages still negative (wages +3.2%, inflation 3.4%). September rate hike odds trimmed to 42% on CME FedWatch. S&P 500 flat at 7,778; AI infrastructure names supported by Anthropic Q2.
+
+**World / Geopolitics** -- Ukraine drone strike on Novorossiysk Aug 12: 3 killed, two major grain terminals offline; Ukraine grain exports cut ~1/3, freight rates doubled. Ukraine offered Russia Black Sea truce (mutual halt on civilian ships/port attacks) via unnamed third-country intermediary. Iraq: PM Al-Zaidi Sept 30 ultimatum -- Iran-backed militias disarm or face terrorism charges/death penalty; Badr Organisation warns of civil war; Iran's Quds Force commander in Baghdad seeking settlement.
+
+**Venezuela** -- First round of transition talks concluded Aug 13; joint statement: judicial reform (Organic Law/STJ) + unlock frozen assets for earthquake recovery. Rodriguez-Figuera. Elections still not addressed. State Dept welcomed. Earthquake: 6,125 dead / 61,000 hospitalized. Second round expected.
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: Tokenization -- How LLMs See Text. Covered: BPE (Byte Pair Encoding) -- starts from bytes/characters, iteratively merges most frequent adjacent pairs; vocabulary sizes 32K-256K (GPT-4 ~100K, LLaMA 3 ~128K, Gemma ~256K); why not word-level (vocabulary too large) or character-level (sequences too long, attention scales quadratically); compression carries semantic weight (morphemes become tokens); quirks: 'strawberry problem' (word = single token, letters not visible to model); multilingual cost (Chinese chars = multiple tokens in older models, 2-3x more expensive); arithmetic errors from number tokenization; behavior always reflects training frequency distribution.
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela: Indigenous Peoples Before 1498." Angle: Three main groups -- Timoto-Cuica (Andean highlands, permanent villages, terraced fields, aqueducts, water storage, peaceful traders, peak 1000-1500 CE); Arawak (coastal/lowlands, farmers/fishers, largest linguistic family in Americas, stable kinship communities); Carib (Orinoco origin, expanding/maritime, Spanish weaponized 'cannibal' label for enslavement). No centralized state -- consequence for conquest: no single capital to fall, every chiefdom subdued separately, Caribs resisted into 17th century, no indigenous administration to co-opt (contrast Mexico), explains slow colonial development and extraction pattern.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-17. Angle: "The carried interest tax provision: PE's 20% profit share taxed at capital gains rate (15-20%) not income rate (37%); history of failed reform (H.R. 3996 2007 Senate strip; Build Back Better 2021 fail; IRA 2022 Sinema strip; 2017 TCJA 1yr->3yr holding only); PE lobbying $25M+ since 2020, $500M+ campaign contributions prior decade; bipartisan protection; extends to VC and real estate funds; PE only needs to block -- single senator sufficient; $14B/10yr revenue at stake."
+
+---
+
+## Series continuity trackers (updated 2026-08-17)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-17):
+"Anthropic Q2 revenue $11.5B ($47B run rate); first adjusted operating profit; surpasses OpenAI ($40B run rate, gross vs net caveat). Nvidia cuts OpenAI Ohio data center commitment from $250B to $120B. GPT-5.6 Sol Ultrafast mode preview (Cerebras, 750 tokens/sec)."
+- Last 7 angles:
+  - 2026-08-17: Anthropic Q2 $11.5B / $47B run rate / first operating profit; surpasses OpenAI; Nvidia cuts Ohio data center commitment; GPT-5.6 Sol Ultrafast preview
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-17):
+"July CPI 3.4% YoY / 0.1% MoM (down 0.1pp each from June, met consensus); core 2.5% YoY. July retail sales -0.6% MoM (missed, autos -1.8%). Real wages negative (wages 3.2% < inflation 3.4%). Sept rate hike odds 42%. S&P 500 flat at 7,778."
+- Last 7 angles:
+  - 2026-08-17: July CPI 3.4%/0.1%; retail sales -0.6% miss; Sept hike odds 42%; S&P flat 7,778
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-08-17):
+"Ukraine drone strike Novorossiysk Aug 12 (3 dead, two grain terminals offline, exports -1/3, freight doubled). Ukraine offered Russia Black Sea civilian-ship truce via third-country intermediary. Iraq: PM Al-Zaidi Sept 30 militia disarmament ultimatum; Badr Organisation warns civil war; Quds Force commander in Baghdad."
+- Last 7 angles:
+  - 2026-08-17: Ukraine strikes Novorossiysk grain terminals; Ukraine offers Black Sea truce; Iraq militia Sept 30 ultimatum / Badr civil war warning / Quds Force Baghdad visit
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+
+**Venezuela** -- Most recent angle (2026-08-17):
+"First round of talks concluded Aug 13; joint statement: judicial reform (STJ Organic Law) + frozen assets for earthquake recovery. Elections not addressed. State Dept welcomed. Earthquake 6,125 dead / 61,000 hospitalized. Second round expected."
+- Last 7 angles:
+  - 2026-08-17: First round concluded Aug 13; judicial reform + frozen assets agreement; elections not addressed; second round expected
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-17.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Context windows and attention: why 100K-token models behave differently at 1K vs 100K [Agentic & AI Workflows]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-17.
+- Period: "Pre-Columbian Venezuela: Indigenous Peoples Before 1498"
+- Angle covered: "Timoto-Cuica (Andean, terraced agriculture, aqueducts, peaceful traders, peak 1000-1500 CE); Arawak (coastal/lowlands, farmers/fishers, largest linguistic family Americas); Carib (Orinoco origin, maritime expansion, 'cannibal' pretext weaponized by Spanish for enslavement). No centralized state: every chiefdom subdued separately, Caribs resisted into 17th century, no indigenous administration to co-opt (contrast Mexico), explains slow colonial development and durable extraction pattern."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian Indigenous Peoples before 1498
+- Next issue: Having covered the three main peoples, good follow-up options: (1) The 1797 Gual y Espana / La Guaira Conspiracy -- the first organized independence plot in Venezuela, inspired by the French Revolution and Haitian Revolution; OR (2) The cacao economy and the Guipuzcoan Company in more depth -- how cacao monoculture shaped colonial Venezuelan society and fueled Creole resentment. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-17.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-17
+- Angles covered this week:
+  - 2026-08-17: "The carried interest tax provision: 20% profit share taxed at capital gains not income rate; history of failed reforms (2007, Build Back Better 2021, IRA 2022/Sinema strip, 2017 TCJA partial); PE lobbying $25M+/decade; $500M+ campaign contributions; bipartisan protection; extends to VC/real estate; PE only needs to block; $14B/10yr at stake."
+- Next entry: Stay in Era 4 (week of 2026-08-17 -- more angles to cover). Good options: PE's relationship with public pensions (CalPERS, state pension funds as major LP investors, the alignment-of-interest paradox), OR the history of PE-backed retail collapses (Toys R Us, Sears, Payless) and the emerging legal doctrine of fiduciary duty in LBO transactions.
+
+
 ## 2026-08-16 -- Sunday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-16

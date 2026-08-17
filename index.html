@@ -259,6 +259,190 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-08-17",
+  "displayDate": "Monday, August 17, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 2150,
+  "readMinutes": 10,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "Anthropic's Q2 revenue reached $11.5 billion -- up from $787 million in the same quarter a year ago and $4.73 billion in Q1 -- putting its annualized run rate at roughly $47 billion. The company also posted its first-ever positive adjusted operating income for the quarter, a milestone that accelerates an expected IPO. The figures put Anthropic ahead of OpenAI on revenue run rate (OpenAI stands near $40 billion), though the comparison requires a caveat: Anthropic counts cloud-reseller customer spend on a gross basis while OpenAI reports closer to net. Meanwhile, Nvidia cut its funding commitment for OpenAI's planned Ohio data center nearly in half -- from roughly $250 billion to around $120 billion -- after investors pushed back on the risk of Nvidia backing its own top customer with its own capital. Separately, OpenAI opened a limited API preview of Ultrafast mode for GPT-5.6 Sol, powered by Cerebras hardware and delivering roughly 750 output tokens per second."
+      ],
+      "sources": [
+        {
+          "name": "CNBC -- Anthropic Q2 Revenue",
+          "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
+        },
+        {
+          "name": "The Decoder -- Nvidia OpenAI Investment",
+          "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Anthropic Quarterly Revenue ($B)",
+        "labels": [
+          "Q1 2026",
+          "Q2 2026"
+        ],
+        "data": [
+          4.73,
+          11.5
+        ],
+        "unit": "$B",
+        "sourceNote": "CNBC, August 15, 2026"
+      }
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "July CPI came in at 3.4% year-over-year and 0.1% month-over-month -- each down a tenth of a percentage point from June and in line with forecasts. Core CPI held at 2.5% annually and 0.2% for the month. Retail sales disappointed alongside the CPI data: the headline fell 0.6% month-over-month, well below the 0.1% gain expected, with auto and parts dealers leading the drop at -1.8%. With wage growth running at 3.2% and inflation still above that pace, real purchasing power remains in negative territory. Traders trimmed September rate-hike odds to roughly 42% on the CME FedWatch gauge following the soft retail print. The S&P 500 opened Monday essentially flat at 7,778, following three consecutive weeks of gains; AI infrastructure names provided support after Anthropic's strong Q2 numbers, while broader macro sentiment stayed cautious."
+      ],
+      "sources": [
+        {
+          "name": "CNBC -- July CPI Inflation Report",
+          "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+        },
+        {
+          "name": "KPMG -- July Retail Sales",
+          "url": "https://kpmg.com/us/en/articles/2026/july-2026-retail-sales.html"
+        },
+        {
+          "name": "Yahoo Finance -- Stock Market Today",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html"
+        }
+      ]
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "Ukraine struck Russia's Black Sea port of Novorossiysk on August 12 with a large drone attack, killing three people and knocking two major grain terminals offline. Novorossiysk is Russia's last significant Black Sea naval hub -- prior strikes have already pushed most of the Russian fleet from Crimea -- and the attack cut Ukrainian grain export capacity roughly a third while doubling shipping freight rates. Ukraine then transmitted an offer to Moscow through an unnamed third-country intermediary: a mutual halt to attacks on civilian ships and port infrastructure in the Black Sea, echoing the 2022-2023 grain corridor arrangement. In Iraq, Prime Minister Al-Zaidi's September 30 ultimatum -- that Iran-backed militias disarm or face terrorism charges including the death penalty -- is straining the government's relationship with those groups. The Badr Organisation warned the deadline could trigger civil war, and Iran's Quds Force commander visited Baghdad this week seeking a settlement that would allow militias to retain their weapons."
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera -- Ukraine Novorossiysk Strike",
+          "url": "https://www.aljazeera.com/news/2026/8/12/three-killed-in-overnight-attacks-on-russian-ukrainian-port"
+        },
+        {
+          "name": "Kyiv Post -- Ukraine Black Sea Truce Offer",
+          "url": "https://www.kyivpost.com/post/82317"
+        },
+        {
+          "name": "The National -- Iraq Militia Ultimatum",
+          "url": "https://www.thenationalnews.com/news/mena/2026/08/14/iran-aligned-iraq-militia-warns-government-of-internal-strife-if-forcibly-disarmed/"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "Venezuela's first round of formal transition talks concluded on August 13 with a joint statement covering two areas of agreement: a commitment to reform the judiciary -- specifically the Organic Law governing the Supreme Tribunal of Justice -- and a joint push to unlock frozen Venezuelan assets abroad to fund earthquake reconstruction. National Assembly President Jorge Rodriguez led the government side; opposition platform head Dinorah Figuera led the other. The State Department welcomed the outcome and called the talks a step toward normalization. Elections remain unaddressed in the joint statement, reflecting both sides' reluctance to confront the question that divides them most. The earthquake death toll stands at 6,125, with 61,000 treated in hospitals. A second round of talks is expected in coming weeks."
+      ],
+      "sources": [
+        {
+          "name": "France 24 -- Venezuela Talks Agreement",
+          "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
+        },
+        {
+          "name": "ReliefWeb -- Venezuela Earthquake Situation Report",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-bolivarian-republic-earthquake-response-situation-report-22-11-13-august-2026"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "AI/ML Concepts",
+        "topic": "Tokenization -- How LLMs See Text"
+      },
+      "summary": [
+        "When you type a message to an LLM, the model doesn't read words -- it reads numbers. Tokenization is the step that converts raw text into those numbers, and the dominant method is Byte Pair Encoding (BPE), originally developed as a data compression algorithm and adapted for language models by OpenAI for GPT. BPE works by starting with individual bytes or characters and scanning a large training corpus to find the most frequently occurring adjacent pair. That pair is merged into a single new symbol, and the process repeats -- typically 30,000 to 50,000 times -- until the vocabulary reaches a target size. The result is a vocabulary where common English words become single tokens, while rare or novel words are split into multiple smaller pieces. GPT-4's tokenizer contains roughly 100,000 tokens; LLaMA 3 uses about 128,000; Gemma uses around 256,000. This means 'running' might be one token, while an obscure technical term or an uncommon proper noun appears as several fragments the model has to process together.",
+        "Why this approach rather than splitting on spaces or individual letters? Two reasons: vocabulary size and sequence length. A word-level tokenizer would need millions of entries to handle every word a model might encounter, and anything outside its vocabulary would be invisible. A character-level tokenizer keeps vocabulary small but makes sequences very long -- and since the attention mechanism that powers transformers scales quadratically with sequence length, longer sequences are dramatically more expensive to process. BPE finds the middle ground: frequent words and common subword units become dense single tokens, compressing text into shorter sequences without losing the ability to handle new words. The compression also carries semantic weight: morphemes like '-tion', '-ing', or 'un-' tend to become their own tokens, so the model can implicitly reason about word structure without it being programmed explicitly.",
+        "Tokenization creates quirks that explain behaviors that otherwise seem puzzling. The 'strawberry problem' -- an LLM's difficulty counting the letters r in 'strawberry' -- traces directly here: 'strawberry' is a single token (number 41,236 in GPT's vocabulary). The model processes that integer, not the characters inside it; asking it to count letters within a token is like asking someone to find individual letters inside the numeral 41236. Similarly, multilingual text is far more token-intensive than English because tokenizers trained primarily on English data fragment non-English words into more pieces. Three Chinese characters forming a simple greeting might require six tokens in older models, making Chinese-language inference two to three times more expensive than equivalent English. Arithmetic errors are also partly a tokenization artifact: numbers are often split across token boundaries in ways that undermine numerical reasoning. Newer models address this partly by enlarging vocabularies and training on more diverse data, but tokenization means that model behavior will always reflect the frequency distribution of its training text. Every token is a compressed judgment about what patterns appeared most often, and that shapes what the model finds easy and what it must work harder at."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "How BPE Builds a Tokenizer Vocabulary",
+        "code": "graph TD\n  A[Raw Training Text] --> B[Start: individual bytes or characters]\n  B --> C[Count all adjacent pairs in corpus]\n  C --> D[Merge most frequent pair into new token]\n  D --> E{Vocabulary target reached?}\n  E -->|No| C\n  E -->|Yes| F[Final vocabulary: 32K to 256K tokens]\n  F --> G[Use learned merges to tokenize new text]"
+      },
+      "sources": [
+        {
+          "name": "Hugging Face -- BPE Tokenization Explained",
+          "url": "https://huggingface.co/learn/llm-course/en/chapter6/5"
+        },
+        {
+          "name": "Medium -- LLM Tokenization Internals",
+          "url": "https://saurabhnativeblog.medium.com/llm-internals-understanding-tokenization-using-byte-pair-encoding-2c0393900496"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "Pre-Columbian Venezuela: Indigenous Peoples Before 1498",
+        "angle": "The Timoto-Cuica, Carib, and Arawak peoples -- their distinct cultures and political organization, and what the absence of a centralized state meant for the Spanish conquest"
+      },
+      "summary": [
+        "When Spanish ships reached Venezuela's coast in 1498, they found a territory inhabited for at least 15,000 years, home to an estimated one million people organized into dozens of distinct linguistic and cultural groups. Three peoples dominated the historical record. In the Andes -- the Merida highlands and surrounding valleys -- lived the Timoto-Cuica, the most sophisticated civilization in the region. Their villages were permanent, pre-planned settlements surrounded by irrigated terraced fields that sustained dense populations in rugged mountain terrain. They built aqueducts and underground water storage tanks, cultivated potatoes, ullucos, and maize, and organized themselves into chiefdoms. They were not a militarized society; the Timoto-Cuica traded with neighbors and largely avoided the raiding cycles that defined life elsewhere. Their peak period ran roughly from 1000 to 1500 CE.",
+        "Along the coasts and in the Orinoco lowlands, two very different groups shaped the landscape. The Arawak-speaking peoples -- the largest linguistic family in the Americas, stretching from Florida to Argentina -- were farmers and fishers who built stable villages and organized kinship-based communities. In Venezuela they occupied coastal zones and inland river systems. The Carib peoples, expanding rapidly out of the Orinoco basin in the centuries before Spanish arrival, were more aggressive in pursuing territory. Their maritime skill made them the dominant force in the Caribbean archipelago, and their reputation for violence -- which Spanish colonizers would later amplify with deliberate exaggeration -- became the default pretext for enslavement under the legal formula that allowed war against 'cannibals.' Caribs and Arawaks traded, intermarried, and fought one another in shifting patterns; the Timoto-Cuica traded with both.",
+        "What distinguishes pre-Columbian Venezuela from the great empires that drew European attention is the absence of a centralized state. There was no equivalent of Tenochtitlan or Cusco to conquer, no single administration to decapitate, no imperial tax system to inherit. Power was organized into village chiefdoms, kinship networks, and regional trade relationships. This had profound consequences for the conquest: Spanish forces could not neutralize resistance with a single decisive battle. Every chiefdom had to be subdued separately, and many were not fully brought under colonial administration for generations. The Carib peoples in particular continued raiding Spanish settlements well into the 17th century. This political fragmentation also meant there was no indigenous administrative structure to co-opt -- unlike Mexico, where Cortes could govern through existing Aztec bureaucratic networks. In Venezuela the Spanish had to build from scratch, which helps explain why the colony developed more slowly and why the extraction-without-institution-building pattern established in the earliest decades proved so durable."
+      ],
+      "sources": [
+        {
+          "name": "Ancient Origins -- Timoto-Cuica Culture",
+          "url": "https://www.ancient-origins.net/ancient-places-americas/timoto-cuica-0012414"
+        },
+        {
+          "name": "History Rise -- Venezuela Pre-Columbian Era",
+          "url": "https://historyrise.com/venezuela-in-the-pre-columbian-era-indigenous-cultures-and-societies/"
+        },
+        {
+          "name": "Wikipedia -- Timoto-Cuica People",
+          "url": "https://en.wikipedia.org/wiki/Timoto%E2%80%93Cuica_people"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 4 -- The Rise of Private Equity (1980s LBOs to today)",
+        "weekOf": "2026-08-17",
+        "angle": "The carried interest tax provision: how PE's 20% profit share became the most persistently lobbied line in the tax code"
+      },
+      "summary": [
+        "Private equity managers typically receive two forms of compensation: a management fee -- usually 2% of committed capital, taxed as ordinary income -- and carried interest, a share almost always set at 20% of the profits generated by a fund. In the United States, that 20% cut has been taxed not at the ordinary income rate (37% at the top bracket) but at the long-term capital gains rate (15-20%), on the argument that fund managers are risking their human capital the way investors risk their financial capital. Critics have found this framing unconvincing: managers typically contribute little or no actual money to the fund, and the same services performed by a salaried employee at any other firm would be taxed at income rates. Congressional interest dates to 2007, when the House passed H.R. 3996 to tax carried interest as ordinary income; the Senate stripped the provision. It reappeared in the Build Back Better Act (2021), was included in the original Manchin-Schumer framework for the Inflation Reduction Act (2022) -- projected to raise $14 billion over ten years -- and was then stripped again by Senator Kyrsten Sinema, whose vote was essential for passage. The 2017 Tax Cuts and Jobs Act extended the required holding period from one to three years, a partial change that preserved the preferential rate.",
+        "The provision's political durability is not accidental. The private equity industry has spent more than $25 million on direct lobbying since 2020 and more than $500 million in campaign contributions over the prior decade. Its influence has been bipartisan: while Democrats have repeatedly proposed closing the gap, individual members of both parties -- particularly those representing financial centers like New York, Connecticut, and Illinois -- have benefited from PE contributions and found reasons to oppose changes at critical moments. The tax treatment also extends to venture capital and real estate funds, which broadens the coalition opposing reform well beyond PE alone. The carried interest debate illuminates something broader about how PE's political power operates: the industry rarely needs to win a positive vote. It only needs to prevent legislation from passing, and in a system where a single senator can block a bill, distributing contributions widely is a relatively cheap form of insurance. The $14 billion over ten years that closing the loophole would recover is, by the accounting of the industry's political investment, an amount that has proven affordable to protect indefinitely."
+      ],
+      "sources": [
+        {
+          "name": "CNBC -- Carried Interest Cut from Inflation Reduction Act",
+          "url": "https://www.cnbc.com/2022/08/08/what-carried-interest-is-and-how-it-benefits-high-income-taxpayers.html"
+        },
+        {
+          "name": "Bloomberg Tax -- Carried Interest Loophole Survives IRA",
+          "url": "https://news.bloombergtax.com/tax-insights-and-commentary/carried-interest-loophole-survives-the-inflation-reduction-act"
+        },
+        {
+          "name": "Americans for Financial Reform -- Carried Interest Fact Sheet",
+          "url": "https://ourfinancialsecurity.org/resources/close-the-carried-interest-loophole-that-is-a-tax-dodge-for-super-rich-private-equity-executives/"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-08-16",
   "displayDate": "Sunday, August 16, 2026",
   "title": "Morning Briefing",
