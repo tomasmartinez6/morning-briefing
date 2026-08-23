@@ -1,3 +1,97 @@
+## 2026-08-23 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-23
+
+**AI & Technology** -- Nvidia struck a $6B non-exclusive license for Poolside's "Model Factory" (internal platform behind Laguna coding models; found 1,000+ real security bugs); separate $1B investment at $12B Poolside valuation; 109 Poolside engineers received Nvidia job offers; founders stay. Google A2A Protocol moving to Agentic AI Foundation (neutral home alongside Anthropic MCP). Salesforce: average enterprise runs 13 AI agents (up from 5 in early 2025); 70%+ customer-service sessions handled autonomously.
+
+**Stock Market & US Economy** -- 30-year Treasury yield hit highest in nearly two decades, rattling equities before partial Friday recovery (Dow +264 pts/+0.5%, S&P +0.4%). Bitcoin $72K (+23% wk). Week ahead: July PCE Wednesday; Nvidia earnings; Jackson Hole Aug 27-29 (Fed Chair Warsh keynote Friday Aug 28, his first as chair; theme: "Financial Innovation: Implications for Payments and Policy").
+
+**World / Geopolitics** -- Philippines filed UN extended continental shelf claim July 29 (350 nmi west/north of Palawan, covers Spratly seabed; legal ratchet strategy); separately deposited Scarborough Shoal baseline chart. China called both moves "illegal and invalid" / "flagrantly infringing." Japan announced it is building first central intelligence agency since WWII.
+
+**Venezuela** -- 131 political prisoners released Aug 15 under "Program for Peace and Democratic Coexistence" (Foro Penal independently verified ~40; Vente Venezuela: 43; Rubio: "crucial step"). Oil Minister Henea to Houston investors: Venezuela ready for production-sharing contracts and output ramp. Scorecard of post-Maduro deliverables: US control of oil proceeds; amnesty law; rollback of Cuba/Iran ties; Tren de Aragua leader killed.
+
+**Learning Series** -- Category: Agentic & AI Workflows. Topic: Context Windows -- Why Position in the Context Matters. Covered: context window = model working memory; transformer self-attention is quadratic (100K tokens = 10B pairwise comparisons); RoPE distance decay reduces attention on distant pairs; attention sinks boost early tokens; "Lost in the Middle" (Stanford 2023) -- U-shaped accuracy curve across six model families, 30+ percentage point accuracy drop in middle vs beginning/end; practical implications: put important retrieved content first or last; short context (dense attention) vs long context (sparse, middle-degraded) produce genuinely different behaviors.
+
+**Venezuelan History** -- Period: "Late Colonial Venezuela, 1797-1799." Angle: Gual y Espana Conspiracy -- first organized independence movement in Spanish America. Manuel Gual (infantry captain) + Jose Maria Espana (Macuto lieutenant of justice) + four Spanish republican prisoners (Juan Bautista Picornell et al.) from La Guaira vaults. Goals: independence, republic, abolition of slavery, free trade, abolition of racial distinctions. Discovered July 13 1797; 49 Creoles and 21 Spaniards arrested; Gual/Espana fled to Trinidad. Espana returned 1799, arrested, tortured/hanged/beheaded/quartered Plaza Mayor May 8 1799. Gual poisoned in Trinidad 1800 by Spanish spy. Documents circulated across Spanish America; shaped independence-era constitutions. Participants cross-class (not elite only): merchants, engineers, treasury officials, parish priest, artisans, mixed-race soldiers.
+
+**American Business History** -- Era 4: Rise of Private Equity. Week of 2026-08-17. Angle: PE and public pensions -- the CalPERS alignment-of-interest paradox. CalPERS: $500B+ AUM, ~$111B PE (18% portfolio), largest US public pension. Underperformed benchmark in 3 of 4 time horizons (1, 5, 10, 20 yr) despite growing allocations. Structural pressure: 6.5-7.5% actuarial target; J-curve accounting flatters PE short-term. Transparency problem: CalPERS declines to release alternative investment records (CA state law exemption). Public money for public workers deployed into least transparent corner of capital markets.
+
+---
+
+## Series continuity trackers (updated 2026-08-23)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-23):
+"Nvidia $6B Poolside Model Factory license + $1B investment ($12B valuation); 109 Poolside engineers receive Nvidia job offers; founders stay, company independent. Google A2A Protocol to Agentic AI Foundation (neutral alongside Anthropic MCP). Salesforce: 13 agents/org avg (up from 5 in early 2025); 70%+ customer-service sessions autonomous."
+- Last 7 angles:
+  - 2026-08-23: Nvidia $6B Poolside license + $1B investment; Google A2A to Agentic AI Foundation; Salesforce 13 agents/org avg
+  - 2026-08-17: Anthropic Q2 $11.5B / $47B run rate / first operating profit; surpasses OpenAI; Nvidia cuts Ohio data center commitment; GPT-5.6 Sol Ultrafast preview
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-23):
+"30-yr Treasury yield at highest in nearly two decades; equities rattled then partially recovered Friday (Dow +264/+0.5%, S&P +0.4%). Bitcoin $72K (+23% wk). Week ahead: July PCE Wednesday; Nvidia earnings; Jackson Hole Aug 27-29; Warsh keynote Friday Aug 28 (his first as Fed Chair)."
+- Last 7 angles:
+  - 2026-08-23: 30-yr Treasury at near-20yr high; Friday recovery; Bitcoin $72K; Jackson Hole preview (Warsh keynote Aug 28)
+  - 2026-08-17: July CPI 3.4%/0.1%; retail sales -0.6% miss; Sept hike odds 42%; S&P flat 7,778
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+
+**World / Geopolitics** -- Most recent angle (2026-08-23):
+"Philippines UN extended continental shelf claim (350 nmi, Spratly seabed) + Scarborough Shoal baseline deposit; China: 'illegal and invalid' / 'flagrantly infringing.' Japan building first intelligence agency since WWII."
+- Last 7 angles:
+  - 2026-08-23: Philippines South China Sea ECS claim + Scarborough Shoal baseline; China rejects; Japan first intel agency since WWII
+  - 2026-08-17: Ukraine strikes Novorossiysk grain terminals; Ukraine offers Black Sea truce; Iraq militia Sept 30 ultimatum / Badr civil war warning / Quds Force Baghdad visit
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+
+**Venezuela** -- Most recent angle (2026-08-23):
+"131 political prisoners released Aug 15 (Foro Penal verified ~40); Rubio: 'crucial step.' Oil Minister Henea to Houston investors: ready for production-sharing contracts. Post-Maduro scorecard: US controls oil proceeds; amnesty law; Cuba/Iran rollback; Tren de Aragua leader killed."
+- Last 7 angles:
+  - 2026-08-23: 131 political prisoners released Aug 15; Venezuela oil deals pitch in Houston; post-Maduro scorecard of US-extracted deliverables
+  - 2026-08-17: First round concluded Aug 13; judicial reform + frozen assets agreement; elections not addressed; second round expected
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-23.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]; Context Windows: Why Position in the Context Matters [Agentic & AI Workflows]
+- Next issue: Pick from underrepresented categories. Good options:
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - How cloud compute works: VMs, bare metal, spot instances, serverless [Infrastructure & Internet]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - Attention mechanisms deep dive: cross-attention, multi-head, grouped-query [AI/ML Concepts]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-23.
+- Period: "Late Colonial Venezuela, 1797-1799"
+- Angle covered: "Gual y Espana Conspiracy (1797-1799): first organized independence movement in Spanish America. Gual + Espana + Spanish republican prisoners (Picornell et al.) from La Guaira vaults. Goals: independence, republic, abolition of slavery, free trade, racial equality. Discovered July 13 1797; 49 Creoles/21 Spaniards arrested; Gual/Espana fled to Trinidad. Espana returned 1799, executed Plaza Mayor May 8 1799. Gual poisoned in Trinidad 1800. Documents shaped later independence constitutions. Participants cross-class (not elite only)."
+- Prior angles: Gual y Espana Conspiracy 1797-1799 (this issue); Pre-Columbian Indigenous Peoples before 1498; First European Contact/Conquest 1498-1521; German Welsers 1528-1546; Encomienda/Cacao 16th-17th c; Guipuzcoan Company 1728-1784; Venezuelan Independence/First Republic 1810-1812; Paez Era 1830-1848; Federal War 1859-1863; Guzman Blanco 1870-1888; Gomez Era 1908-1935; 1945 October Revolution; 1948 Military Coup; Caracazo 1989; Chavez-Maduro succession/2013; Chavez cancer/2012 re-election; April 2002 coup; PDVSA oil lockout/recall; Feb 4 1992 coup; Viernes Negro 1983; Punto Fijo 1958
+- Next issue: Good options: (1) Francisco de Miranda -- the Venezuelan precursor who spent decades in European and US exile organizing independence, communicated with Gual in Trinidad, launched an invasion in 1806 and again in 1810, only to be imprisoned and handed over to Spain; OR (2) The Cacao economy in depth -- how the Guipuzcoan Company's control of cacao exports created Creole resentment that fueled both Gual y Espana and the 1810 independence movement. Do NOT repeat any prior angle.
+
+**American Business History** (`american-business-history`) -- Most recent entry: 2026-08-23.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-17
+- Angles covered this week:
+  - 2026-08-17: "The carried interest tax provision: 20% profit share taxed at capital gains not income rate; history of failed reforms (2007, Build Back Better 2021, IRA 2022/Sinema strip, 2017 TCJA partial); PE lobbying $25M+/decade; bipartisan protection; $14B/10yr at stake."
+  - 2026-08-23: "PE and public pensions -- CalPERS alignment-of-interest paradox: $500B+ AUM, ~$111B PE (18%); underperformed benchmark 3 of 4 horizons; 2 and 20 fee model; J-curve accounting flatters short-term; actuarial return pressure (6.5-7.5%); transparency problem (CA law exemption from public records). Public money for public workers in least-transparent corner of capital markets."
+- Next entry: New week begins Monday Aug 24 -- advance to Era 1: The Gilded Age & J.P. Morgan. Good first angle: the Panic of 1893 and Morgan's railroad reorganizations ("Morganization") -- how a private banker with no government mandate restructured the US rail network and extracted permanent control in exchange.
+
 ## 2026-08-17 -- Monday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-17
