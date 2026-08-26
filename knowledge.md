@@ -1,3 +1,97 @@
+## 2026-08-26 -- Wednesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-26
+
+**AI & Technology** -- Nvidia reports fiscal Q2 2027 earnings tonight after the close; analysts expect ~$91-92B revenue (+95% YoY), adj. EPS $2.09; Q1 was $82B ($75B data center, +92%); options pricing ~9% move. Report is a direct test of whether AI infrastructure spending is sustaining pace or beginning to decelerate. Prior several quarters: revenue beats on each.
+
+**Stock Market & US Economy** -- July core PCE +3.3% YoY (in line, unchanged from June -- sticky); S&P futures -0.1%, Nasdaq -0.4%, Dow flat. Two market-moving events in next 36 hrs: Nvidia earnings tonight + Fed Chair Warsh keynote Friday at Jackson Hole (Aug 27-29; theme: Financial Innovation; his first major address as chair). 30-yr Treasury near two-decade high last week.
+
+**World / Geopolitics** -- Iran/Hormuz concrete new developments: Trump declared strait demined by U.S. Navy; warned any ship laying new mines will be 'immediately and systematically destroyed'; Space Force watching 'every square inch.' Hours later: unidentified projectile hit tanker near Oman (crew safe, no claim). Treasury 'economic D-Day' sanctions: ~60 people/companies/ships in Iran's covert oil network. Iran: 2-yr plan to ride out sanctions; tankers at ~25% pre-war volume. Iran-Oman discussing joint temporary navigational corridor. Rubio: no new U.S. strikes 'for now.'
+
+**Venezuela** -- Second round of talks: harder deliverables now in focus. Opposition pressing for CNE (National Electoral Council) reform by November and TSJ re-institutionalization by end of 2026. Neither agreed yet. Chatham House: core problem is parties at table (Rodriguez/Figuera) have contested legitimacy; Machado/Gonzalez Urrutia -- figures with actual public support -- remain outside process. World Politics Review: first round achievable (immediate wins for both sides); second round requires giving up something real. Elections not yet on agenda.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: How Database Transactions Work: ACID, Locks, and MVCC. Covered: transaction = unit of work (all-or-nothing); ACID four properties (Atomicity, Consistency, Isolation, Durability); isolation spectrum (Read Uncommitted -> Read Committed -> Repeatable Read -> Serializable); naive locking vs SSI (Serializable Snapshot Isolation); MVCC (multi-version concurrency control) -- keeps multiple row versions so reads never block writes; old versions cleaned up by VACUUM (Postgres); result: highly concurrent system that can be fully serializable when needed.
+
+**Venezuelan History (education)** -- Period: "Late Colonial Venezuela -- Francisco de Miranda (1750-1816)." Angle: Miranda's 35 years of Atlantic exile; fought in American Revolution and French Revolutionary Wars (Arc de Triomphe); lobbied Pitt, Jefferson, Hamilton, Catherine the Great for independence support; called his project 'Colombia'; 63-volume personal archive survives in Caracas. 1806 first invasion attempt (Ocumare landing, retreat; Coro landing, no popular uprising, withdrew to Trinidad); catalyst came 1810 (Napoleon invades Spain, Caracas cabildo deposes captain-general); Miranda returned, elected to congress, pushed for full independence (declared July 5 1811, first in continental Spanish America). First Republic lasted 14 months; Miranda surrendered July 1812; Bolivar helped hand him to Spanish; died Cadiz prison 1816. Legacy: demonstrated independence required transatlantic networks + broad coalition, not just a seaborne landing.
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. Week of 2026-08-24. Angle: Panic of 1893 (Philadelphia & Reading Railroad bankruptcy May 1893; 500 banks failed; unemployment 17-19%; one-fourth of U.S. railroads bankrupt in two years -- 41,000 miles of track; Union Pacific, Northern Pacific, Erie among them; Treasury gold reserves near collapse) + Morganization (Morgan restructures bankrupt lines by converting short-term debt to long-term bonds; terms: 5-10yr voting trust giving Morgan board control, professional management accountable to Morgan, elimination of rate wars; reorganized Southern Railway, Erie, Northern Pacific; 'Morganization' = private banker restructuring national economic backbone as condition of refinancing; critics: Bryan -- monopoly; defenders: only available mechanism).
+
+---
+
+## Series continuity trackers (updated 2026-08-26)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-26):
+"Nvidia fiscal Q2 2027 earnings tonight (est. $91-92B rev, +95% YoY, adj EPS $2.09); Q1 was $82B/$75B data center; options ~9% move; test of AI infrastructure spending pace amid rising long-term yields."
+- Last 7 angles:
+  - 2026-08-26: Nvidia Q2 FY2027 earnings tonight (est $91-92B, +95% YoY); options 9% move; AI capex sustainability test
+  - 2026-08-23: Nvidia $6B Poolside Model Factory license + $1B investment; Google A2A to Agentic AI Foundation; Salesforce 13 agents/org avg
+  - 2026-08-17: Anthropic Q2 $11.5B / $47B run rate / first operating profit; surpasses OpenAI; Nvidia cuts Ohio data center; GPT-5.6 Sol Ultrafast preview
+  - 2026-08-16: Google HEIR (FHE compiler for private AI inference); Meta Muse Glimmer 30B multimodal Apache 2.0
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-26):
+"July core PCE +3.3% YoY (in line, sticky, unchanged from June); S&P -0.1%, Nasdaq -0.4%, Dow flat; Nvidia earnings tonight + Warsh Jackson Hole keynote Friday (his first as chair; theme: Financial Innovation); 30-yr near two-decade high."
+- Last 7 angles:
+  - 2026-08-26: July PCE +3.3% sticky (in line); Nvidia earnings + Jackson Hole Warsh keynote in next 36 hrs; 30-yr near two-decade high
+  - 2026-08-23: 30-yr Treasury at near-20yr high; Friday partial recovery; Bitcoin $72K; Jackson Hole preview (Warsh keynote Aug 28)
+  - 2026-08-17: July CPI 3.4%/0.1%; retail sales -0.6% miss; Sept hike odds 42%; S&P flat 7,778
+  - 2026-08-16: July CPI +3.4% in-line; retail -0.6% miss; Fed hold 60% Sept; three-data softening streak
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+
+**World / Geopolitics** -- Most recent angle (2026-08-26):
+"Iran/Hormuz: Trump declares strait demined by U.S. Navy; zero-tolerance warning on new mines; Treasury 'economic D-Day' sanctions (~60 targets, covert oil network); tanker hit by projectile near Oman (crew safe, no claim); Iran: 2-yr plan to ride out; traffic ~25% pre-war; Iran-Oman discussing joint navigational corridor; Rubio: no new U.S. strikes for now."
+- Last 7 angles:
+  - 2026-08-26: Iran/Hormuz: Trump declares strait demined; new Treasury sanctions 60+ targets; tanker hit near Oman; Iran 2-yr plan; Rubio no new strikes
+  - 2026-08-23: Philippines South China Sea ECS claim + Scarborough Shoal baseline; China rejects; Japan first intel agency since WWII
+  - 2026-08-17: Ukraine strikes Novorossiysk grain terminals; Ukraine offers Black Sea truce; Iraq militia Sept 30 ultimatum / Badr civil war warning / Quds Force Baghdad visit
+  - 2026-08-16: Ukraine war: Russian advance rate halved (13 sq mi vs 31 sq mi prior 4 wks); drone campaign Moscow; cumulative losses 1.47M
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+- Next: Watch Warsh Jackson Hole speech (Friday Aug 28) for Fed signal; Iran/Hormuz -- follow tanker incident attribution + whether corridor deal progresses; Iraq militia Sept 30 deadline approaching.
+
+**Venezuela** -- Most recent angle (2026-08-26):
+"Second-round deliverables in focus: CNE reform by November + TSJ re-institutionalization by end-2026 (opposition demands, not yet agreed). Chatham House: contested legitimacy of negotiating parties; Machado/Gonzalez outside process = elections without full legitimacy. World Politics Review: first round = easy wins; second round requires real concessions."
+- Last 7 angles:
+  - 2026-08-26: CNE November target + TSJ year-end target not yet agreed; Machado/Gonzalez outside process = legitimacy problem for any election outcome
+  - 2026-08-23: 131 political prisoners released Aug 15; Venezuela oil deals pitch in Houston; post-Maduro scorecard of US-extracted deliverables
+  - 2026-08-17: First round concluded Aug 13; judicial reform + frozen assets agreement; elections not addressed; second round expected
+  - 2026-08-16: First dialogue cycle concludes with TSJ overhaul agreement + frozen reserves access deal; Machado/Gonzalez out
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-26.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]; Context Windows: Why Position in the Context Matters [Agentic & AI Workflows]; How Database Transactions Work: ACID, Locks, and MVCC [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - How cloud compute works: VMs, bare metal, spot instances, serverless [Infrastructure & Internet]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - Attention mechanisms deep dive: cross-attention, multi-head, grouped-query [AI/ML Concepts]
+  - How load balancers and reverse proxies work [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-26.
+- Period: "Late Colonial Venezuela -- Francisco de Miranda (1750-1816)"
+- Angle covered: "Miranda's 35 years of Atlantic exile; fought in American Revolution + French Revolutionary Wars (Arc de Triomphe); lobbied Pitt/Jefferson/Hamilton/Catherine the Great; archive of 63 volumes survives. 1806: two invasion attempts (Ocumare + Coro), both failed -- no popular uprising. Returned 1810 when Napoleon's Spain invasion caused Caracas cabildo to depose captain-general. Elected to congress; independence declared July 5 1811 (first in continental Spanish America). First Republic lasted 14 months; Miranda surrendered July 1812; Bolivar handed him to Spanish; died Cadiz prison 1816. Legacy: demonstrated independence required transatlantic networks, not just a landing party."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian Indigenous Peoples before 1498; Gual y Espana Conspiracy 1797-1799; Francisco de Miranda 1750-1816
+- Next issue: Good options: (1) Simon Bolivar's early life and the beginning of his military campaigns (1810-1812) -- the contrast with Miranda's approach; OR (2) The role of the llaneros (plains cowboys) in the independence wars -- how Boves's royalist llanero cavalry destroyed the First Republic and how Paez's patriot llanero cavalry later helped win it. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-26.
+- Era: "Era 1 -- The Gilded Age & J.P. Morgan"
+- Week of: 2026-08-24
+- Angles covered this week:
+  - 2026-08-26: "Panic of 1893 (Reading Railroad bankruptcy; 500 banks failed; 17-19% unemployment; 41,000 mi of track in bankruptcy) + Morganization (voting trust 5-10 yrs board control; eliminate rate wars; reorganized Southern Railway, Erie, Northern Pacific; private banker restructuring national economy as condition of refinancing; critics: Bryan/monopoly; defenders: only available mechanism)"
+- Next entry: Stay in Era 1 (week of 2026-08-24 -- more angles to cover). Good options: The 1895 gold crisis -- when Treasury gold reserves hit near-zero and Morgan organized a private syndicate to sell $65M in gold bonds to rescue the U.S. government, extracting $7M in profit and infuriating the public; OR Morgan's consolidation of U.S. Steel in 1901 ($1.4B -- first billion-dollar corporation in American history). Do NOT repeat the 1893 Panic/Morganization angle.
+
 ## 2026-08-23 -- Sunday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-23
