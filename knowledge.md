@@ -1,3 +1,97 @@
+## 2026-08-29 -- Saturday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-29
+
+**AI & Technology** -- Nvidia Q2 FY2027: $96.22B revenue (+106% YoY, beat $92.17B est); data center $89B (+117%); EPS $2.22 (beat $2.10); Q3 guide $108B; CEO Huang forecasts ~70% FY2028 growth (nearly 2x analyst estimates). Stock -1.3% after-hours, then +7.4% Thursday. Gross margin 75.0% in Q2; expected to compress to 71-72% by Q4 FY27 on memory costs -- first sustained margin headwind flagged.
+
+**Stock Market & US Economy** -- Warsh's first Jackson Hole keynote (Aug 28, his 100th day as chair): "inflation still too high," "more work to do," explicitly avoided forward guidance or reaction function -- signals return to pre-GFC opacity. S&P -0.3%, Nasdaq -0.5% on Friday. 2-yr yield +6bps to 4.298%. Sept rate hike odds: 35% pre-speech → 48-57% post-speech. Week ended: Nvidia surge Thursday offset by hawkish-Fed Friday selloff.
+
+**World / Geopolitics** -- Iraq militia Sept 30 deadline unraveling: NSA Qasim al-Araji walked back the hard deadline this week ("Sept 30 = coalition departure date, not weapons handover"). Only 3 of Iraq's Iran-backed armed groups have agreed to integrate into official security forces. Badr Organisation: forced disarmament = civil war. Iran's Quds Force commander visited Baghdad seeking a settlement that lets militias keep weapons. Enforcement mechanism: absent.
+
+**Venezuela** -- Trump announced Aug 28 a sweeping oil deal with Venezuela (negotiated by Rubio, Hegseth, Rodriguez): US + unnamed private partner get 100-year development rights to 17 fields / 65 billion barrels; 55% effective output stake; would be second-largest corporate reserves holder after Saudi Aramco. Projected $100B investment, $209B in taxes for Caracas. Still aspirational -- gap between announcement and what Rodriguez can deliver is large. Reframes the negotiation: oil development may now outrank political reform as the US priority.
+
+**Learning Series (education)** -- Category: Infrastructure & Internet. Topic: How Cloud Compute Works -- VMs, Bare Metal, Containers, Serverless, and Spot Instances. Covered: virtualization (hypervisor slices physical server into isolated VMs); bare metal (dedicated physical server, no hypervisor, max performance); containers (share OS kernel, faster/lighter than VMs, Docker/Kubernetes); serverless (write function, pay per millisecond, no server management -- AWS Lambda etc.); spot/preemptible instances (surplus capacity at 60-90% discount, can be reclaimed). Progression: bare metal → VM → container → serverless trades control/isolation for ease/elasticity/cost.
+
+**Venezuelan History (education)** -- Period: "Venezuelan Independence Wars -- Boves and the Llanero Terror (1813-1814)." Angle: Bolivar's Campaña Admirable (1813) reconquers Caracas, declares Second Republic. Jose Tomas Boves -- Spanish-born trader fluent in llanero life -- raises royalist llanero cavalry by promising them the estates of the Creole elite (class warfare dressed as royalism). "Legion of Hell." Feb 1814: defeats Bolivar at La Puerta. May 1814: wins at Carabobo. June 15: Second Battle of La Puerta, republicans shattered. July 7: 20,000+ civilians flee Caracas in mass exodus. July 16: Boves takes Caracas, Second Republic collapses. Boves dies Dec 1814 at Urica. Lesson: independence war required winning the llaneros -- same social force that destroyed the republic later helped win it under Paez with a different offer (land titles + integration).
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. Week of 2026-08-24. Angle: The 1895 Gold Crisis -- Treasury gold reserves nearly exhausted (down to $9M vs $12M in outstanding warrants = technical default). Cleveland summons Morgan; Morgan's syndicate + Rothschild provide 3.5M oz gold for $62.3M in 30-yr 4% bonds; syndicate commits to prevent re-export of gold (closing the arbitrage drain). Crisis averted Feb 8, 1895. Morgan refused to reveal profits (est. $3-7M+); public backlash; Bryan's "cross of gold" speech drew directly on this episode; Cleveland did not seek re-nomination. Significance: Morgan performing central bank function 18 years before the Fed existed -- private banker as lender of last resort to the US government.
+
+---
+
+## Series continuity trackers (updated 2026-08-29)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-29):
+"Nvidia Q2 FY2027: $96.22B revenue (+106% YoY, beat); data center $89B (+117%); Q3 guide $108B; FY2028 growth guide ~70% (2x analyst estimates); stock +7.4% Thursday. Gross margin 75% Q2, forecast to compress 71-72% by Q4 FY27 on memory costs."
+- Last 7 angles:
+  - 2026-08-29: Nvidia Q2 FY2027 results $96.22B (+106%); Q3 guide $108B; FY2028 +70% guide; stock +7.4%; margin compression warning
+  - 2026-08-26: Nvidia Q2 FY2027 earnings tonight (est $91-92B, +95% YoY); options 9% move; AI capex sustainability test
+  - 2026-08-23: Nvidia $6B Poolside Model Factory license + $1B investment; Google A2A to Agentic AI Foundation; Salesforce 13 agents/org avg
+  - 2026-08-17: Anthropic Q2 $11.5B / $47B run rate / first operating profit; surpasses OpenAI; Nvidia cuts Ohio data center; GPT-5.6 Sol Ultrafast preview
+  - 2026-08-16: Google HEIR (FHE compiler for private AI inference); Meta Muse Glimmer 30B multimodal Apache 2.0
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-29):
+"Warsh Jackson Hole keynote (Aug 28, day 100 as chair): inflation too high, more work to do, no forward guidance -- return to pre-GFC opacity. 2-yr yield +6bps to 4.298%; Sept hike odds 35% → 48-57%. S&P -0.3%, Nasdaq -0.5% Friday. Week: Nvidia +7.4% Thursday vs hawkish Fed Friday."
+- Last 7 angles:
+  - 2026-08-29: Warsh Jackson Hole (inflation too high, no forward guidance, pre-GFC opacity); Sept hike odds spike; 2-yr +6bps; S&P -0.3% on week
+  - 2026-08-26: July PCE +3.3% sticky (in line); Nvidia earnings + Jackson Hole Warsh keynote in next 36 hrs; 30-yr near two-decade high
+  - 2026-08-23: 30-yr Treasury at near-20yr high; Friday recovery; Bitcoin $72K; Jackson Hole preview (Warsh keynote Aug 28)
+  - 2026-08-17: July CPI 3.4%/0.1%; retail sales -0.6% miss; Sept hike odds 42%; S&P flat 7,778
+  - 2026-08-16: July CPI +3.4% in-line; retail -0.6% miss; Fed hold 60% Sept; three-data softening streak
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+
+**World / Geopolitics** -- Most recent angle (2026-08-29):
+"Iraq militia Sept 30 deadline unraveling: NSA al-Araji reframed Sept 30 as coalition departure, not disarmament date; only 3 groups integrating; Badr warns civil war; Quds Force commander in Baghdad seeking settlement. Enforcement mechanism absent."
+- Last 7 angles:
+  - 2026-08-29: Iraq militia deadline unraveling (NSA walked back hard date; Badr civil war threat; Quds Force in Baghdad; 3 groups integrating only)
+  - 2026-08-26: Iran/Hormuz: Trump declares strait demined; new Treasury sanctions 60+ targets; tanker hit near Oman; Iran 2-yr plan; Rubio no new strikes
+  - 2026-08-23: Philippines South China Sea ECS claim + Scarborough Shoal baseline; China rejects; Japan first intel agency since WWII
+  - 2026-08-17: Ukraine strikes Novorossiysk grain terminals; Ukraine offers Black Sea truce; Iraq militia Sept 30 ultimatum / Badr civil war warning / Quds Force Baghdad visit
+  - 2026-08-16: Ukraine war: Russian advance rate halved (13 sq mi vs 31 sq mi prior 4 wks); drone campaign Moscow; cumulative losses 1.47M
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+
+**Venezuela** -- Most recent angle (2026-08-29):
+"Trump announces Aug 28 sweeping oil deal: 65B barrels, 17 fields, 100-yr development rights, 55% US effective output stake, $100B projected investment, $209B in taxes for Caracas -- would be second-largest corporate reserves holder after Saudi Aramco. Still aspirational. Reframes negotiation: oil development may outrank political reform as US priority."
+- Last 7 angles:
+  - 2026-08-29: Trump oil deal announced: 65B barrels, 17 fields, 100-yr rights, 55% US stake -- aspirational but reframes US priorities
+  - 2026-08-26: CNE November target + TSJ year-end target not yet agreed; Machado/Gonzalez outside process = legitimacy problem for any election outcome
+  - 2026-08-23: 131 political prisoners released Aug 15; Venezuela oil deals pitch in Houston; post-Maduro scorecard of US-extracted deliverables
+  - 2026-08-17: First round concluded Aug 13; judicial reform + frozen assets agreement; elections not addressed; second round expected
+  - 2026-08-16: First dialogue cycle concludes with TSJ overhaul agreement + frozen reserves access deal; Machado/Gonzalez out
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-29.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]; Context Windows: Why Position in the Context Matters [Agentic & AI Workflows]; How Database Transactions Work: ACID, Locks, and MVCC [Software Architecture]; How Cloud Compute Works: VMs, Bare Metal, Containers, Serverless, and Spot Instances [Infrastructure & Internet]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - Attention mechanisms deep dive: cross-attention, multi-head, grouped-query [AI/ML Concepts]
+  - How load balancers and reverse proxies work [Infrastructure & Internet]
+  - How vector databases work (indexing, ANN search, HNSW) [AI/ML Concepts]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-29.
+- Period: "Venezuelan Independence Wars -- Boves and the Llanero Terror (1813-1814)"
+- Angle covered: "Bolivar's Campaña Admirable 1813 reconquers Caracas; Boves raises royalist llanero cavalry by promising estates of Creole elite (class warfare as royalism); Legion of Hell; battles of La Puerta (Feb 1814), Carabobo (May 1814), Second La Puerta (June 1814); Caracas Exodus July 7 (20,000+ flee); Boves takes Caracas July 16, Second Republic dead. Boves dies Dec 1814 Urica. Key insight: llaneros who destroyed republic later helped win independence under Paez -- same social force, different offer."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian Indigenous Peoples before 1498; Gual y Espana Conspiracy 1797-1799; Francisco de Miranda 1750-1816; Boves and the Llanero Terror 1813-1814
+- Next issue: Good options: (1) Simon Bolivar's campaigns in exile and return -- after Second Republic collapse, Bolivar goes to Jamaica/Haiti, writes the Jamaica Letter (1815), returns 1816-1817 with Haitian support and begins building the llanero coalition under Paez; OR (2) The Battle of Boyaca 1819 -- Bolivar's crossing of the Andes and decisive defeat of royalists in New Granada that turned the war permanently.
+
+**American Business History** (`american-business-history`) -- Most recent entry: 2026-08-29.
+- Era: "Era 1 -- The Gilded Age & J.P. Morgan"
+- Week of: 2026-08-24
+- Angles covered this week:
+  - 2026-08-26: "Panic of 1893 + Morganization (Reading Railroad bankruptcy; 500 banks failed; 17-19% unemployment; 41,000 mi track in bankruptcy; Morgan restructures via voting trust 5-10 yrs board control; eliminates rate wars; reorganized Southern Railway, Erie, Northern Pacific)"
+  - 2026-08-29: "1895 Gold Crisis (Treasury at $9M vs $12M outstanding warrants = technical default); Morgan syndicate + Rothschild: 3.5M oz gold for $62.3M in 30-yr 4% bonds; anti-re-export commitment closes arbitrage drain; crisis averted Feb 8 1895. Morgan refused to reveal profits; public backlash; Bryan 'cross of gold' speech; Cleveland did not seek re-nomination. Morgan = de facto lender of last resort 18 years before the Fed."
+- Next entry: New week begins Monday Aug 31 -- advance to Era 2: Rockefeller & Standard Oil. Good first angle: the formation of the Standard Oil Trust in 1882 and the mechanics of how Rockefeller used the trust structure to circumvent state anti-monopoly laws.
+
 ## 2026-08-26 -- Wednesday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-26
