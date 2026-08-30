@@ -1,3 +1,96 @@
+## 2026-08-30 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-30
+
+**AI & Technology** -- Nvidia fiscal Q2 2027 results (Aug 26): revenue $96.2B (+106% YoY, +18% QoQ), EPS $2.22 (doubled YoY); shares +9% next session, +$440B market cap. Anthropic Q2 2026: first operating profit $559M on $10.9B revenue (+130% YoY), two years ahead of schedule. OpenAI S-1 expected on SEC EDGAR imminently.
+
+**Stock Market & US Economy** -- Jackson Hole: Fed Gov. Warsh says inflation not decelerating, pledges continued tightening; September rate hike bets increase. S&P 500 at 7,712 (-0.25% Aug 28, +19% YoY). Post-Nvidia session: Alphabet +1.5%, MSFT +1.7%, Amazon +4.0%, Meta +1.2%; Broadcom -0.7%, AMD -2.3%. Macro: sticky inflation + negative real wage growth + rising energy costs squeezing households.
+
+**World / Geopolitics** -- Iran/Hormuz: only 236 ships transited first 19 days of August (vs ~130/day pre-war); IEA warns stockpiles depleting; oil ~$94 (Trump threatens "economic warfare"); UAE suspended all trade/financial transactions with Iran (first Gulf state to break ranks); Iran-Oman provisional deal for temporary shipping corridor under negotiation; 500-sq-mile oil spill off Oman coast. US-Lebanon: Trump met Lebanese President Aoun at White House, restored direct commercial flights (decades-long ban lifted).
+
+**Venezuela** -- Oil deal confirmed Aug 28: US gains majority control of 65B barrels proven reserves (world's largest reserve base); Oil Minister Henao in Houston prior week signaling production-sharing openness. 131 political prisoners freed mid-August (Rubio: "crucial step for reconciliation"). Maduro ~8 months in US custody. Humanitarian crisis continues from double earthquake (6,000+ dead).
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Caching Strategies -- Redis, CDN Caching, and Cache Invalidation. Covered: caching layers (browser, CDN, application/Redis); Redis as dominant in-memory key-value store (LRU eviction, millions of ops/sec, distributed clusters); CDN caching via Cache-Control/ETag headers; cache invalidation strategies: TTL (simple, imprecise), write-through (sync, latency cost), write-back (async, crash risk), event-driven invalidation (most precise, via message queue). Phil Karlton quote on two hard things. Production systems layer all three approaches.
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela (before 1498)." Angle: Three main pre-Columbian peoples -- Carib (coastal, reputation as cannibals largely fabricated for legal enslavement pretext; word "cannibal" from Columbus's "Canibales"/"Carib"); Arawak/Lokono (settled, manioc agriculture, raised-field farming in llanos, gave world hammock/canoa/barbacoa); Timoto-Cuica of western Andes (most complex, terraced agriculture, irrigation, ceramics, no centralized empire, local caciques). Pre-contact population 300K-1M+; reduced 80-90% within a century of 1498 by disease, forced labor, violence.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-08-24. Angle: Carried interest tax provision -- PE managers pay capital gains (~23.8%) not income tax (37%) on carry; $100M carry saves ~$13M; industry defense (risk capital at hurdle rate) vs critics (deferred compensation for services). History: Obama tried to close it, 2022 IRA extended hold period to 5 years (marginal impact since most holds already 5+ years). $1.4B lobbying 2010-2024; cross-party committee giving; revolving door (Blackstone/KKR/Carlyle alums at Treasury/OMB). Political durability lesson: concentrated benefit + diffuse cost = incumbent wins.
+
+---
+
+## Series continuity trackers (updated 2026-08-30)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-30):
+"Nvidia Q2 FY2027: $96.2B revenue (+106% YoY), EPS $2.22 doubled; shares +9%, +$440B market cap. Anthropic first operating profit $559M on $10.9B revenue (+130% YoY). OpenAI S-1 imminent."
+- Last 7 angles:
+  - 2026-08-30: Nvidia $96.2B Q2 FY2027 (+106%); Anthropic first profit $559M; OpenAI S-1 imminent
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-30):
+"Jackson Hole: Warsh -- inflation not decelerating, September hike bets up. S&P 7,712 (-0.25%, +19% YoY). Post-Nvidia: Alphabet +1.5%, MSFT +1.7%, Amazon +4.0%, Meta +1.2%; Broadcom -0.7%, AMD -2.3%. Sticky inflation + negative real wages + energy costs."
+- Last 7 angles:
+  - 2026-08-30: Jackson Hole/Warsh hawkish; S&P 7,712; Nvidia-driven hyperscaler rally; chipmaker profit-taking; negative real wages
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-08-30):
+"Iran/Hormuz: 236 ships in 19 days (vs 130/day pre-war); IEA stockpile warning; oil ~$94; UAE suspends Iran trade; Iran-Oman corridor deal pending; 500-sq-mile oil spill Oman coast. US-Lebanon: Trump meets Aoun, restores commercial flights."
+- Last 7 angles:
+  - 2026-08-30: Iran/Hormuz traffic collapse (236 ships/19 days); UAE breaks ranks; Iran-Oman corridor deal pending; US-Lebanon flights restored
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+
+**Venezuela** -- Most recent angle (2026-08-30):
+"Oil deal confirmed Aug 28: US majority control of 65B barrels proven reserves. 131 political prisoners freed mid-August. Maduro ~8 months US custody. Humanitarian crisis from double earthquake continues."
+- Last 7 angles:
+  - 2026-08-30: US-Venezuela oil deal (US majority control 65B barrels); 131 prisoners freed; earthquake humanitarian crisis ongoing
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-30.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies: Redis, CDN Caching, and Cache Invalidation [Software Architecture]
+- Next issue: Good options from underrepresented categories:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - How cloud compute works: VMs, serverless, spot instances [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-30.
+- Period: "Pre-Columbian Venezuela (before 1498)"
+- Angle covered: "Three main pre-Columbian peoples: Carib (coastal, cannibal label fabricated for enslavement pretext; 'cannibal' from Columbus's 'Carib'); Arawak/Lokono (settled, manioc/raised-field agriculture, gave world hammock/canoa/barbacoa); Timoto-Cuica of Andes (most complex, terraced agriculture, irrigation, ceramics, no empire, local caciques). Pop. 300K-1M+, reduced 80-90% within a century of 1498."
+- Prior angles: First European Contact 1498-1521; German Welsers 1528-1546; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Federal War 1859-1863; Guzman Blanco 1870-1888; Gomez Era 1908-1935; 1945 October Revolution; 1948 Military Coup; Caracazo 1989; Chavez-Maduro succession 2013; Chavez cancer/2012 re-election; April 2002 coup; PDVSA oil lockout/recall; Feb 4 1992 coup; Viernes Negro 1983; Punto Fijo 1958; Pre-Columbian 1498-
+- Next issue: Now that pre-Columbian and the full arc through 2026 are covered, consider zooming in on: (1) The 1797 La Guaira Conspiracy -- Francisco de Miranda's precursor revolutionary cells, first organized independence plot; OR (2) A specific Gomez-era moment not yet covered in depth, such as the discovery of oil at Zumaque in 1914 and how it transformed Venezuela's political economy.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-08-30.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-08-24
+- Angles covered this week:
+  - 2026-08-30: "Carried interest tax provision -- PE managers pay cap gains (~23.8%) not income (37%) on carry; $13M difference per $100M; Obama/Trump/Biden all tried and failed to close it; 2022 IRA 5-yr hold period marginal; $1.4B lobbying 2010-2024; revolving door Blackstone/KKR/Carlyle at Treasury/OMB; political durability lesson: concentrated benefit + diffuse cost = incumbent wins."
+- Next entry: Continue Era 4 this week OR advance to a new topic. Suggested new angles for Era 4: (a) The PE secondaries market -- how LP stakes are now traded like securities, creating liquidity in an illiquid asset class; (b) PE in retail/restaurant chains: Toys R Us, Sears, Red Lobster -- the debate over whether PE caused or accelerated their failures.
+
 ## 2026-08-29 -- Saturday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-29
