@@ -1,3 +1,96 @@
+## 2026-08-31 -- Monday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-31
+
+**AI & Technology** -- DeepSeek closing ~50B yuan ($7.4B) funding round at ~500B yuan ($74B) pre-money valuation by end of August; earmarked for model research and compute ahead of targeted 2026 STAR Market IPO filing / 2027 debut. Valuation trajectory: $10B (Jan) -> $20B (Apr) -> $45B (May) -> $74B (Aug). Largest Chinese AI company valuation outside US; competitive two-country AI race dynamic established.
+
+**Stock Market & US Economy** -- Monday open: S&P 500 closed Friday at 7,712 (+19% YoY); Sept rate hike odds 35% pre-Jackson Hole -> 57% post-Warsh speech. Oil +2% overnight (US struck Iranian rocket launchers near Hormuz). July core PCE 3.3% YoY unchanged from June; personal spending +0.2% (stalling). September historically weakest equity month (avg -0.7%, gains <50% of years over past 50yr). Energy + hawkish Fed + seasonal headwind into Sept.
+
+**World / Geopolitics** -- Ukraine-Russia: talks in "deep pause" (Kremlin, Aug 28); Skibitskyi says Russia shows no ceasefire readiness (Aug 18); Russia gained only 37.85 sq km in July across 1,000km+ front. Ukraine compensating with deep-strike logistics and infrastructure attacks rather than counteroffensives. Budanov (Aug 27): bilateral/trilateral talks involving US could resume September, possibly around UN General Assembly.
+
+**Venezuela** -- Rodriguez oil deal clarification: 25 years (not 100-yr as Trump framed); 17 fields; 1.5 mbpd target; $19/barrel to Venezuelan state -> ~$209B lifetime at $65 benchmark. Venezuela retains "ownership and sovereignty." Bloomberg frames as echoing 19th-century concession model. NPR: won't lower US gas prices (crude enters global market at global prices). Trump frames deal as correcting Chavez-era seizures of American-owned assets.
+
+**Learning Series (education)** -- Category: Infrastructure & Internet. Topic: How Load Balancers and Reverse Proxies Work. Covered: reverse proxy terminates client connection, handles TLS, caching, compression, rate limiting on behalf of backends (Nginx dominant); load balancer distributes across backend pool using round-robin / least-connections / consistent hashing, operates L4 (TCP) or L7 (HTTP-aware) (HAProxy for high-throughput). Production stack layers: DNS/anycast -> regional LB -> reverse proxy -> app pool. Separation of concerns: each layer optimized independently. AWS equivalents: CloudFront, ALB, NLB.
+
+**Venezuelan History (education)** -- Period: "Venezuelan Independence Wars -- Bolivar in Exile (1814-1816)." Angle: After Second Republic collapse, Bolivar flees to Jamaica; writes Jamaica Letter (Sept 6, 1815) -- vision for autonomous republics, Gran Colombia under strong executive, lobbying Britain (who declined). Haiti's Petion provides 6,000 rifles, press, money with condition to abolish slavery. First Los Cayos expedition (March 31, 1816, ~250 men, 14 ships): lands Margarita, emancipates slaves who join; stalls at Ocumare; returns to Haiti. Second expedition Dec 1816 to Orinoco basin. Haitian support reshaped independence from Creole revolt to broader coalition; expeditions led Bolivar to Paez and the llanero alliance.
+
+**American Business History (education)** -- Era 2: Rockefeller & Standard Oil. Week of 2026-08-31. Angle: "Standard Oil Trust of 1882 -- attorney Samuel Dodd invents trust structure to circumvent state anti-monopoly laws prohibiting cross-state stock ownership; Jan 2, 1882: 40 companies' shareholders transfer stock to 9 trustees led by Rockefeller; receive 'trust certificates'; centralized control of 90-95% US refining, 4,000 mi pipeline, 100K workers, world's lamp kerosene. Template adopted across industries; drove Sherman Antitrust Act 1890. Ohio SC orders dissolution 1892; reconstituted as NJ holding company (NJ liberalized corporate law to attract). Supreme Court orders 34-way breakup 1911 -> ExxonMobil, Chevron, BP America, ConocoPhillips ancestors. Lesson: legal structure is competitive strategy."
+
+---
+
+## Series continuity trackers (updated 2026-08-31)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-08-31):
+"DeepSeek $7.4B round closing at $74B valuation, end of August; targeting 2026 STAR Market IPO filing / 2027 debut. Valuation ran $10B->$20B->$45B->$74B across 2026."
+- Last 7 angles:
+  - 2026-08-31: DeepSeek $7.4B/$74B round closing; STAR Market IPO 2026 filing target / 2027 debut; two-country AI race
+  - 2026-08-30: Nvidia Q2 FY2027 $96.2B (+106%); Anthropic first profit $559M on $10.9B revenue (+130% YoY); OpenAI S-1 imminent
+  - 2026-08-29: Nvidia Q2 FY2027 $96.22B (+106%, beat); Q3 guide $108B; FY2028 +70% guide; +7.4% stock; margin compression warning
+  - 2026-08-26: Nvidia Q2 FY2027 earnings preview (est $91-92B); options 9% move; AI capex sustainability test
+  - 2026-08-23: Nvidia $6B Poolside Model Factory; Google A2A to Agentic AI Foundation; Salesforce 13 agents/org avg
+  - 2026-08-17: Anthropic Q2 $11.5B / $47B run rate / first operating profit; surpasses OpenAI; Nvidia cuts Ohio DC; GPT-5.6 Sol Ultrafast
+  - 2026-08-16: Google HEIR (FHE compiler); Meta Muse Glimmer 30B multimodal Apache 2.0
+
+**Stock Market & US Economy** -- Most recent angle (2026-08-31):
+"Monday open: S&P 7,712 from Friday; Sept hike odds 57%; oil +2% on US military strike of Iranian launchers; July PCE 3.3% unchanged, spending stalling; September historically weakest equity month (-0.7% avg)."
+- Last 7 angles:
+  - 2026-08-31: Monday open -- Sept hike 57%; oil +2% on Hormuz military action; PCE 3.3% sticky; spending stalling; September seasonality headwind
+  - 2026-08-30: Jackson Hole/Warsh hawkish; S&P 7,712; Nvidia-driven hyperscaler rally; chipmaker profit-taking; negative real wages
+  - 2026-08-29: Warsh Jackson Hole (no forward guidance, pre-GFC opacity); Sept hike 35%->48-57%; 2-yr +6bps; S&P -0.3%
+  - 2026-08-26: July PCE 3.3% sticky in-line; Nvidia earnings + Warsh keynote in next 36hrs; 30-yr near two-decade high
+  - 2026-08-23: 30-yr Treasury near 20-yr high; Friday recovery; Bitcoin $72K; Jackson Hole preview
+  - 2026-08-17: July CPI 3.4%/0.1%; retail -0.6% miss; Sept hike odds 42%; S&P flat 7,778
+  - 2026-08-16: July CPI +3.4% in-line; retail -0.6% miss; Fed hold 60% Sept; three-data softening streak
+
+**World / Geopolitics** -- Most recent angle (2026-08-31):
+"Ukraine-Russia: talks 'deep pause' (Kremlin Aug 28); Russia only 37.85 sq km gained in July; Ukraine deep-strike infrastructure focus; Budanov signals US-involved talks possible in September around UNGA."
+- Last 7 angles:
+  - 2026-08-31: Ukraine-Russia talks deep pause; Russia 37.85 sq km/July advance; Ukraine deep-strike strategy; Budanov: Sept talks possible, UNGA timing
+  - 2026-08-30: Iran/Hormuz: 236 ships/19 days traffic; UAE suspends Iran trade; Iran-Oman corridor pending; US-Lebanon flights restored
+  - 2026-08-29: Iraq militia Sept 30 deadline unraveling (NSA walked back; Badr civil war threat; Quds Force Baghdad; 3 groups integrating only)
+  - 2026-08-26: Iran/Hormuz: US declares strait demined; 60+ Treasury targets; tanker hit near Oman; Iran 2-yr plan; no new US strikes
+  - 2026-08-23: Philippines SCS baseline / Scarborough Shoal; Taiwan drone program; Japan first intel agency since WWII
+  - 2026-08-17: Ukraine strikes Novorossiysk grain terminals; Black Sea truce offer; Iraq militia ultimatum / Badr / Quds
+  - 2026-08-16: Ukraine Russian advance rate halved; drone campaign Moscow; cumulative losses 1.47M
+
+**Venezuela** -- Most recent angle (2026-08-31):
+"Rodriguez clarifies oil deal: 25 years; 17 fields; 1.5 mbpd; $19/barrel to Venezuela; $209B lifetime estimate. Bloomberg: echoes 19th-century concession model. NPR: won't lower US gas prices."
+- Last 7 angles:
+  - 2026-08-31: Rodriguez oil deal details: 25 years; 1.5 mbpd; $19/barrel to Venezuela; $209B lifetime; sovereignty claims; Bloomberg/NPR critical framing
+  - 2026-08-30: US-Venezuela oil deal confirmed: 65B barrels; 17 fields; US majority control; 131 prisoners freed; earthquake crisis ongoing
+  - 2026-08-29: Trump announces oil deal: 65B barrels, 17 fields, 100-yr rights, 55% US stake -- aspirational; reframes US priorities oil > political reform
+  - 2026-08-26: CNE November + TSJ year-end targets not agreed; Machado/Gonzalez outside process = legitimacy gap
+  - 2026-08-23: 131 prisoners released Aug 15; Venezuela oil pitch in Houston; post-Maduro US-extracted deliverables scorecard
+  - 2026-08-17: First round concluded Aug 13; judicial reform + frozen assets; elections not addressed; second round expected
+  - 2026-08-16: First dialogue: TSJ overhaul + frozen reserves access; Machado/Gonzalez out
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-08-31.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]; Context Windows: Why Position in the Context Matters [Agentic & AI Workflows]; How Database Transactions Work: ACID, Locks, and MVCC [Software Architecture]; How Cloud Compute Works: VMs, Bare Metal, Containers, Serverless, and Spot Instances [Infrastructure & Internet]; How Load Balancers and Reverse Proxies Work [Infrastructure & Internet]
+- Next issue: Good options from underrepresented categories:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - Attention mechanisms deep dive: cross-attention, multi-head, grouped-query [AI/ML Concepts]
+  - How vector databases work: indexing, ANN search, HNSW [AI/ML Concepts]
+  - How OAuth and authentication protocols work [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-08-31.
+- Period: "Venezuelan Independence Wars -- Bolivar in Exile (1814-1816)"
+- Angle covered: "After Second Republic collapse, Bolivar to Jamaica; Jamaica Letter Sept 6 1815 (vision for autonomous republics, Gran Colombia strong executive, lobbying Britain who declined). Haiti's Petion: 6,000 rifles, press, money, condition to abolish slavery. First Cayos expedition March 31 1816 (~250 men, 14 ships): lands Margarita, emancipates slaves who join army; stalls Ocumare; returns Haiti. Second expedition Dec 1816 to Orinoco basin. Haitian support transformed independence from Creole revolt to broader coalition; expeditions led Bolivar to Paez/llanero alliance."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian Indigenous Peoples before 1498; Gual y Espana Conspiracy 1797-1799; Francisco de Miranda 1750-1816; Boves and the Llanero Terror 1813-1814; Bolivar in Exile / Jamaica Letter / Los Cayos 1814-1816
+- Next issue: Good options: (1) Battle of Boyaca 1819 -- Bolivar crosses the Andes, defeats royalists in New Granada, turning point; OR (2) The Paez-Bolivar alliance 1817-1819: how Bolivar won over the llanero caudillos and what promises (land, rank, integration) made the military coalition work this time when Boves's different promise had worked against them.
+
+**American Business History** (`american-business-history`) -- Most recent entry: 2026-08-31.
+- Era: "Era 2 -- Rockefeller & Standard Oil"
+- Week of: 2026-08-31
+- Angles covered this week:
+  - 2026-08-31: "Standard Oil Trust of 1882 -- Dodd invents trust structure; 40 companies -> 9 trustees; 90-95% US refining control; 4,000 mi pipeline; 100K workers. Template for era; drove Sherman Antitrust 1890. Ohio SC dissolves 1892; reconstituted NJ holding company; Supreme Court 34-way breakup 1911 -> ExxonMobil/Chevron/BP America/ConocoPhillips. Lesson: legal structure is competitive strategy."
+- Next entry: Continue Era 2 this week. Good next angles: (a) The railroad rebate system -- how Rockefeller extracted secret discounts and drawbacks from railroads, using volume to force preferential rates that crushed competitors; OR (b) Ida Tarbell's 1904 'The History of Standard Oil' -- the investigative journalism that turned public opinion and provided the evidentiary basis for the 1911 antitrust case.
+
 ## 2026-08-30 -- Sunday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-08-30
