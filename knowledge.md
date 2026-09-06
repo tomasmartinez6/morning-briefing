@@ -1,3 +1,96 @@
+## 2026-09-06 -- Sunday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-06
+
+**AI & Technology** -- Congressional AI governance bill includes provision requiring federal inventory of AI agents operating without continuous human oversight (prompted by GPT-6 Astra 'Critical' cyber rating, Sept 3). Microsoft MAI-Transcribe-2: speech recognition at $0.10/audio-hr (-72%), through year-end. Crusoe AI cloud compute: $30B valuation in new funding. KAUST (Saudi Arabia): 428B-parameter Arabic LM on Chinese weights -- first frontier-scale model from Arabian Peninsula; two-country framing increasingly incomplete. Tesla Cybercabs on Austin streets; federal safety probe opened.
+
+**Stock Market & US Economy** -- August nonfarm payrolls: 162K actual vs. 53K consensus (strongest since March); unemployment 4.1% steady. Markets sold off: S&P -0.38% to 7,719; Dow -0.51% to 53,414; Nasdaq -0.29% to 26,507; 10-yr yield 4.789%. September FOMC rate-hike odds jumped above 60% (reverses Waller dovish drift). Big tech led declines; energy held up. FOMC blackout period begins.
+
+**World / Geopolitics** -- Trump envoys Witkoff and Kushner in Moscow Sept 5: 3-hour Kremlin meeting + dinner with Putin; carrying "fresh concrete proposal to end the war." Russia/Ukraine paused strikes during visit. Envoys heading to Kyiv Sunday. Kremlin tone less optimistic than Trump. Reported framework: ceasefire along current lines of contact, territorial status deferred. Whether Zelensky accepts terms short of full withdrawal remains central obstacle.
+
+**Venezuela** -- National Assembly formally ratified oil deal framework; NABEP (Betancourt): 100-yr concession, 17 fields, 65B barrels, $100B investment pledge, $19/bbl to Caracas. TSJ overhaul passed unanimously Sept 1 (US-extracted deliverable). Rodriguez on elections: "without a doubt" will happen "when the country is ready" -- no timeline given.
+
+**Learning Series (education)** -- Category: Agentic & AI Workflows. Topic: Prompt Engineering Patterns for Production Systems. Covered: system prompt vs. user turn separation (untrusted input discipline); few-shot examples as output-distribution narrowing; chain-of-thought for reasoning tasks; structured output (JSON schema) to reduce hallucination; role prompting for domain register; prompt versioning + eval sets (50-200 labeled examples); temperature by task type; cost engineering via prompt caching (75-90% savings on repeated prefixes); escape-hatch pattern (CANNOT_ANSWER) for graceful failure.
+
+**Venezuelan History (education)** -- Period: "Venezuelan Independence Wars -- Congress of Angostura and Gran Colombia 1819-1820." Angle: Bolivar convenes Congress Feb 15 1819; Angostura Address argues centralism over US-style federalism (colonial institutions = no civic habits for self-governance); constitution ratified Aug 15 1819 (strong president, lifetime senate, provisional); Gran Colombia declared Dec 17 1819; Santander governs, Bolivar campaigns; underlying federalist-centralist tension not resolved -- resurfaces as La Cosiata 1826 and Gran Colombia dissolution 1830. Bolivar dies Dec 17 1830 exact anniversary.
+
+**American Business History (education)** -- Era 3: Carnegie & the steel industry. Week of 2026-09-07. Angle: "Carnegie's early life and the Bessemer bet: bobbin boy $1.20/wk -> Pennsylvania Railroad (Scott mentor) -> Adams Express + Woodruff Sleeping Car passive income -> 1872 England Bessemer converter tour -> Edgar Thomson Steel Works 1875 (opened in recession deliberately; construction costs lowest when capital retreats) -> most productive Bessemer mill in the world within 2 years. Core logic: own the technology transition by moving first and running the mills hard."
+
+---
+
+## Series continuity trackers (updated 2026-09-06)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-06):
+"Congressional AI agent inventory bill; KAUST 428B Arabic model (Chinese weights); Microsoft MAI-Transcribe-2 $0.10/hr (-72%); Crusoe $30B valuation; Tesla Cybercabs Austin + federal probe."
+- Last 7 angles:
+  - 2026-09-06: Congressional rogue-AI agent inventory bill; KAUST 428B Arabic LM; MAI-Transcribe-2 -72%; Crusoe $30B; Tesla Cybercabs probe
+  - 2026-09-04: GPT-6 Astra Critical cyber threshold; Fable 5.1/Mythos 5.1 + Gemini Flash Cyber; three labs simultaneously; safety framework adequacy
+  - 2026-08-31: DeepSeek $7.4B/$74B round closing; STAR Market IPO 2026 filing target / 2027 debut; two-country AI race
+  - 2026-08-30: Nvidia Q2 FY2027 $96.2B (+106%); Anthropic first profit $559M on $10.9B revenue (+130% YoY); OpenAI S-1 imminent
+  - 2026-08-29: Nvidia Q2 FY2027 $96.22B (+106%, beat); Q3 guide $108B; FY2028 +70% guide; +7.4% stock; margin compression warning
+  - 2026-08-26: Nvidia Q2 FY2027 earnings preview (est $91-92B); options 9% move; AI capex sustainability test
+  - 2026-08-23: Nvidia $6B Poolside Model Factory; Google A2A to Agentic AI Foundation; Salesforce 13 agents/org avg
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-06):
+"August NFP 162K vs 53K consensus; S&P -0.38% to 7,719; 10-yr yield 4.789%; Sept FOMC hike odds >60%; big tech led declines; energy held; FOMC blackout begins."
+- Last 7 angles:
+  - 2026-09-06: August NFP 162K vs 53K consensus; S&P 7,719 -0.38%; 10-yr 4.789%; FOMC hike odds >60%; tech led declines
+  - 2026-09-04: S&P 7,747; Dow +1.2%; Nasdaq +1.4%; yields retreat; Waller dovish; FOMC Sept 15-16 countdown; September seasonality headwind
+  - 2026-08-31: Monday open -- Sept hike 57%; oil +2% on Hormuz military action; PCE 3.3% sticky; spending stalling; September seasonality headwind
+  - 2026-08-30: Jackson Hole/Warsh hawkish; S&P 7,712; Nvidia-driven hyperscaler rally; chipmaker profit-taking; negative real wages
+  - 2026-08-29: Warsh Jackson Hole (no forward guidance, pre-GFC opacity); Sept hike 35%->48-57%; 2-yr +6bps; S&P -0.3%
+  - 2026-08-26: July PCE 3.3% sticky in-line; Nvidia earnings + Warsh keynote in next 36hrs; 30-yr near two-decade high
+  - 2026-08-23: 30-yr Treasury near 20-yr high; Friday recovery; Bitcoin $72K; Jackson Hole preview
+
+**World / Geopolitics** -- Most recent angle (2026-09-06):
+"Witkoff/Kushner Moscow Sept 5: 3-hr Kremlin meeting + dinner with Putin; concrete peace proposal; both sides paused strikes; Kyiv visit Sunday; Kremlin less optimistic; reported framework: ceasefire along current lines."
+- Last 7 angles:
+  - 2026-09-06: Witkoff/Kushner Moscow -> Kyiv; 3-hr Putin meeting; concrete peace proposal; strikes paused; ceasefire-along-lines-of-contact reported framework
+  - 2026-09-04: BRICS Summit New Delhi Sept 12-13; 11 members; India chairing; fracture over Iran/US strikes; UNGA Sept 22 follows
+  - 2026-08-31: Ukraine-Russia talks deep pause; Russia 37.85 sq km/July advance; Ukraine deep-strike strategy; Budanov: Sept talks possible, UNGA timing
+  - 2026-08-30: Iran/Hormuz: 236 ships/19 days traffic; UAE suspends Iran trade; Iran-Oman corridor pending; US-Lebanon flights restored
+  - 2026-08-29: Iraq militia Sept 30 deadline unraveling (NSA walked back; Badr civil war threat; Quds Force Baghdad)
+  - 2026-08-26: Iran/Hormuz: US declares strait demined; 60+ Treasury targets; tanker hit near Oman; Iran 2-yr plan
+  - 2026-08-23: Philippines SCS baseline / Scarborough Shoal; Taiwan drone program; Japan first intel agency since WWII
+
+**Venezuela** -- Most recent angle (2026-09-06):
+"National Assembly ratified oil deal framework; NABEP 100-yr concession / 65B barrels / $100B pledge / $19/bbl. TSJ overhaul passed unanimously Sept 1. Rodriguez: elections 'when Venezuela is ready' -- no timeline."
+- Last 7 angles:
+  - 2026-09-06: NA ratifies oil deal; NABEP 100-yr/65B barrels/$100B pledge; TSJ overhaul unanimous Sept 1; Rodriguez elections no-timeline
+  - 2026-09-04: Sept 2 Chevron/Eni signing at Miraflores; Chevron $7B/600K bpd target; Eni Junin 5 $1.5B; OFAC producers displaced; Machado questions legitimacy
+  - 2026-08-31: Rodriguez clarifies oil deal: 25 years; 1.5 mbpd; $19/barrel to Venezuela; $209B lifetime; sovereignty claims; Bloomberg/NPR critical framing
+  - 2026-08-30: US-Venezuela oil deal confirmed: 65B barrels; 17 fields; US majority control; 131 prisoners freed; earthquake crisis ongoing
+  - 2026-08-29: Trump announces oil deal: 65B barrels, 17 fields, 100-yr rights, 55% US stake -- aspirational; reframes US priorities oil > political reform
+  - 2026-08-26: CNE November + TSJ year-end targets not agreed; Machado/Gonzalez outside process = legitimacy gap
+  - 2026-08-23: 131 prisoners released Aug 15; Venezuela oil pitch in Houston; post-Maduro US-extracted deliverables scorecard
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-06.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization -- How LLMs See Text [AI/ML Concepts]; Caching Strategies: Cache-Aside, Write-Through, TTL, and Cache Invalidation [Software Architecture]; Context Windows: Why Position in the Context Matters [Agentic & AI Workflows]; How Database Transactions Work: ACID, Locks, and MVCC [Software Architecture]; How Cloud Compute Works: VMs, Bare Metal, Containers, Serverless, and Spot Instances [Infrastructure & Internet]; How Load Balancers and Reverse Proxies Work [Infrastructure & Internet]; How Vector Databases Work: Embeddings, ANN Search, and HNSW [AI/ML Concepts]; Prompt Engineering Patterns for Production Systems [Agentic & AI Workflows]
+- Next issue: Good options from underrepresented categories:
+  - Attention mechanisms deep dive: cross-attention, multi-head, grouped-query [AI/ML Concepts]
+  - How OAuth and authentication protocols work [Infrastructure & Internet]
+  - Tool use and function calling in LLMs [Agentic & AI Workflows]
+  - Database sharding and horizontal scaling [Software Architecture]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-06.
+- Period: "Venezuelan Independence Wars -- Congress of Angostura and Gran Colombia 1819-1820"
+- Angle covered: "Bolivar convenes Congress Feb 15 1819; Angostura Address argues centralism over US-style federalism; constitution ratified Aug 15 1819 (strong president, lifetime senate, provisional); Gran Colombia declared Dec 17 1819; Santander governs, Bolivar campaigns; federalist-centralist tension resurfaces as La Cosiata 1826 and Gran Colombia dissolution 1830. Bolivar dies Dec 17 1830."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian Indigenous Peoples before 1498; Gual y Espana Conspiracy 1797-1799; Francisco de Miranda 1750-1816; Boves and the Llanero Terror 1813-1814; Bolivar in Exile / Jamaica Letter / Los Cayos 1814-1816; Paez-Bolivar Alliance / Apure Campaign / Boyaca 1817-1819; Congress of Angostura / Gran Colombia 1819-1820
+- Next issue: Good options: (1) La Cosiata 1826 -- Paez's rebellion against Gran Colombia, the fracture of the Bolivar-Paez alliance, and Venezuela's path to formal separation from the federation; OR (2) Venezuelan independence consolidation: Battle of Carabobo 1821 -- the decisive battle that ended Spanish rule in Venezuela proper.
+
+**American Business History** (`american-business-history`) -- Most recent entry: 2026-09-06.
+- Era: "Era 3 -- Carnegie & the steel industry"
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-06: "Carnegie's early life and Bessemer bet: bobbin boy -> Pennsylvania Railroad / Tom Scott mentorship -> Adams Express / Woodruff Sleeping Car passive income -> 1872 England Bessemer tour -> Edgar Thomson Works 1875 (opened in recession deliberately) -> most productive Bessemer mill in world within 2 years. Core logic: run the mills hard; own the technology transition."
+- Next entry: Continue Era 3 this week. Good next angles: (a) Carnegie's vertical integration strategy -- how he moved from owning mills to owning coke (Frick), ore (Minnesota mines), and railroads to eliminate dependence on suppliers; OR (b) The Homestead Strike 1892 -- Carnegie's absence in Scotland, Frick's lockout, the Pinkerton battle, and what it revealed about the gap between Carnegie's public philanthropy and his labor practices.
+
 ## 2026-09-04 -- Friday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-04
