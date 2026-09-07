@@ -259,6 +259,176 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-09-07",
+  "displayDate": "Monday, September 7, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 1980,
+  "readMinutes": 10,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "Sony Music and Warner Music Group filed separate copyright suits against Anthropic last week, alleging that Claude was trained on and reproduces song lyrics without authorization. The complaints, filed in federal court, seek statutory damages under copyright law and cite instances where the model reproduced song text verbatim when prompted. The suits follow similar litigation against OpenAI and Meta, making Anthropic the latest frontier-AI company to face music-industry legal action. Anthropic has not yet filed a public response. Separately, OpenAI disclosed that ChatGPT's advertising product has reached a $1 billion annualized revenue run rate since launching earlier this year. The company is now opening its Ads Manager platform to advertisers in India, Europe, the Middle East, and North Africa. The milestone signals OpenAI's push to reduce reliance on subscription revenue as competition among AI providers intensifies across every market segment."
+      ],
+      "sources": [
+        {
+          "name": "AI Update, September 4, 2026 -- MarketingProfs",
+          "url": "https://www.marketingprofs.com/opinions/2026/55792/ai-update-september-4-2026-ai-news-and-views-from-the-past-week"
+        },
+        {
+          "name": "Latest AI News September 2026 -- AIToolsRecap",
+          "url": "https://aitoolsrecap.com/Blog/AINewsSeptember2026.aspx"
+        }
+      ]
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "August nonfarm payrolls came in at 162,000 -- more than three times the 53,000 economists expected -- sharply reversing July's -23,000 shock. The unemployment rate held steady at 4.1%. The report landed Friday and immediately repriced Federal Reserve expectations: fed funds futures are now pricing a 58% chance of a rate hike at the September 17 FOMC meeting. The S&P 500 closed at 7,666 Thursday, up 0.46%, though stocks have been under pressure from rising Treasury yields as traders anticipate tighter policy. Federal Reserve officials have acknowledged early signs of disinflation but say inflation remains sticky, with elevated energy prices and AI-related capital expenditure adding to core services inflation. The September meeting is now genuinely uncertain -- the first in months where the hiking-or-holding question does not have an obvious answer before the meeting begins."
+      ],
+      "sources": [
+        {
+          "name": "Stock market news, Sept. 4, 2026 -- CNBC",
+          "url": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "How many jobs will the U.S. economy add in September -- Barchart",
+          "url": "https://www.barchart.com/story/news/35164863/how-many-jobs-will-the-u-s-economy-add-in-september"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "Nonfarm Payrolls: July vs August 2026",
+        "labels": [
+          "Jul 2026 (actual)",
+          "Aug 2026 (consensus est.)",
+          "Aug 2026 (actual)"
+        ],
+        "data": [
+          -23,
+          53,
+          162
+        ],
+        "unit": "K jobs",
+        "sourceNote": "BLS via CNBC, Dow Jones survey"
+      }
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "Chinese rare-earth suppliers have been quietly declining to ship to American buyers since August, after Beijing sanctioned the Responsible Business Alliance -- a US supply-chain auditing organization. Firms wary of punishment from Beijing for participating in its affiliated audit framework have cut off exports of yttrium, indium phosphide, tungsten, and other materials critical to aerospace, semiconductors, and defense. Prices of these specialty materials remain near record highs. US officials have put the issue on the agenda for President Xi's planned September 24 Washington visit, hoping to revive commitments made in the Busan and Beijing meetings over the past year. The episode is a pointed reminder that China controls roughly 85-90% of global rare-earth refining capacity and retains the ability to weaponize that position even in periods of nominal diplomatic engagement. The halt follows China's April 2025 export restrictions on a broader list of materials and shows that leverage being applied selectively rather than lifted."
+      ],
+      "sources": [
+        {
+          "name": "China rare earth firms halt some US shipments -- Reuters / MINING.COM",
+          "url": "https://www.mining.com/web/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say"
+        },
+        {
+          "name": "China Rare Earth Firms Halt Some US Shipments -- US News",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-09-04/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "President Trump announced on August 28 what he called the biggest oil deal in world history. Under the agreement, North American Blue Energy Partners (NABEP) -- a privately held firm controlled by Venezuelan businessman Alejandro Betancourt -- received 100-year concessions to operate 17 Venezuelan oil fields with proven reserves of roughly 65 billion barrels, expanding US territorial proven reserves from about 46 billion to over 110 billion barrels. In exchange, the US Office of Strategic Capital took a 35% equity stake in NABEP's corporate parent. Venezuela's National Assembly ratified the deal on September 2; under its terms, Caracas receives $19 per barrel sold to the US. Separately, President Rodriguez told supporters that elections would occur 'without a doubt' when Venezuela 'is ready' -- declining to name a date, a formulation that satisfied neither the opposition nor Washington's stated transition demands."
+      ],
+      "sources": [
+        {
+          "name": "U.S. has entered deal with Venezuela to take control of 65 billion barrels -- NBC News",
+          "url": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966"
+        },
+        {
+          "name": "Days after Trump announces Venezuela oil deal -- NPR",
+          "url": "https://www.npr.org/2026/09/01/g-s1-141351/us-venezuelan-oil-deal"
+        },
+        {
+          "name": "Rodriguez Vows Elections Will Happen When Venezuela 'Is Ready' -- Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-02/rodriguez-vows-elections-will-happen-when-venezuela-is-ready"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "Software Architecture",
+        "topic": "Caching Strategies: Redis, CDN Caching, and Cache Invalidation"
+      },
+      "summary": [
+        "At its core, a cache is a fast, temporary storage layer that saves the result of an expensive operation so the next request can skip the work. The expensive operation might be a database query that takes 200 milliseconds, an API call to a third-party service, or a computation that runs on every page load. A cache intercepts subsequent requests and returns the stored answer in microseconds. The performance difference is dramatic -- a Redis lookup takes roughly 0.1 milliseconds; a PostgreSQL query joining several tables might take 50-200ms. At scale, that gap translates directly into infrastructure cost: fewer database servers, lower compute bills, faster page loads. But caches introduce a fundamental tradeoff: the stored answer might be stale. Managing that staleness -- knowing when to trust the cached value and when to throw it out -- is what cache invalidation is about, and it is notoriously hard to get right. Netscape engineer Phil Karlton captured it cleanly: there are only two hard problems in computer science, cache invalidation and naming things.",
+        "Redis is the dominant in-memory cache. It sits between your application and your database, storing key-value pairs in RAM. A user requests their profile: the app checks Redis first (a cache hit), finds it, and returns in under a millisecond. If the key is absent (a cache miss), the app queries the database, returns the result, and writes it to Redis for next time. Redis also supports sorted sets, lists, and pub/sub channels, making it useful for session storage, leaderboards, rate limiting, and job queues beyond plain caching. You set a TTL (time to live) on each key: after 60 seconds or 24 hours, depending on your data, the key expires and the next request refreshes from source. Short TTLs mean fresher data but more cache misses and more database load. Long TTLs mean better performance but higher staleness risk. The right balance depends on how often the underlying data changes and how much it matters to the user if they see a value that is a few seconds old.",
+        "CDN caching operates at a different layer: instead of caching database results, it caches entire HTTP responses at servers physically close to users. When you load a webpage, its images, CSS, and JavaScript are often served from an edge node in your city rather than from a data center thousands of miles away. The latency difference -- say, 5ms vs. 120ms for a single file -- is invisible for one asset but significant when a page loads 40-80 of them. CDNs also absorb traffic spikes: during a product launch, millions of requests hit edge nodes rather than battering the origin server. Cache-Control headers tell both the CDN and the user's browser how long to store each asset. Cache invalidation at the CDN level is the hardest part: once an asset is cached at edge nodes globally, propagating a deletion takes time -- seconds to minutes depending on the provider. That is why smart teams use content-addressed filenames, embedding a hash of the file's contents in the URL. When the file changes, the URL changes, and the old cache entry becomes irrelevant on its own. In Redis, cache invalidation strategies include TTL-based expiration (passive, simple), write-through eviction (actively delete the cache key whenever the source data changes), and cache-aside with manual invalidation (the application manages the cache explicitly). None is universally correct. The right choice depends on your read-to-write ratio, your consistency requirements, and how much complexity you can absorb in the application layer."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "Cache Hit vs. Cache Miss Flow",
+        "code": "graph LR\n    A[User Request] --> B{In Cache?}\n    B -- Hit --> C[Return in under 1ms]\n    B -- Miss --> D[Query Database]\n    D --> E[Write Result to Cache]\n    E --> F[Return to User]"
+      },
+      "sources": [
+        {
+          "name": "Redis Documentation -- redis.io",
+          "url": "https://redis.io/docs/"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "Pre-Columbian Venezuela (before 1498)",
+        "angle": "The Carib, Arawak, and Timoto-Cuica peoples: agricultural systems, trade networks, social organization, and cosmologies before European contact"
+      },
+      "summary": [
+        "Before Columbus glimpsed the Orinoco delta in 1498, Venezuela was home to dozens of distinct peoples organized across three ecological zones: the coastal lowlands, the interior plains known as the llanos, and the Andean highlands. Arawak-speaking groups -- among them the Caquetios and Jirajara -- dominated the northwest coast and the Lake Maracaibo basin. They were largely sedentary, building villages of thatched houses on wooden piles over shallow water. It was precisely these stilt villages near Maracaibo that led Ojeda and Vespucci to name the region Venezziuola in 1499. The Caribs controlled the Caribbean coastline, the northeastern lowlands, and much of the island arc. Spanish colonizers labeled them cannibals -- a charge applied strategically, since Spanish law permitted enslaving professed cannibals but not peaceful peoples. Actual Carib society centered on long-distance raiding by canoe and the ritual incorporation of captives; the cannibalism accusation was as much a legal instrument as a factual description.",
+        "The Timoto-Cuica confederation of the Venezuelan Andes represented the most agriculturally sophisticated society in pre-Columbian Venezuela. They built terraced hillside gardens to extend cultivation onto steep slopes, dug irrigation channels to manage highland water, and maintained stone granaries for year-round food security at altitude. Their staples included potatoes, maize, and native tubers. Unlike lowland groups, the Timoto-Cuica lived in permanent stone-walled villages organized around extended kin groups. Archaeological evidence documents trade routes moving obsidian, shell beads, cotton, and dried fish across hundreds of kilometers between highland and lowland communities -- evidence of an integrated regional economy rather than isolated village subsistence. Power was distributed among elders rather than concentrated in a warrior or priestly class, which made these communities resilient against raiding but difficult to unite politically when the Spanish arrived.",
+        "The vast Orinoco basin, covering the southern third of the territory, was home to dozens of smaller groups -- Piaroa, Yanomami, Maquiritare, and others -- many of whom maintained only loose contact with coastal and Andean peoples. The Orinoco itself functioned as a trade highway: canoes moved turtle oil, palm fiber, ceramic vessels, and cured meats hundreds of miles along its tributaries. Spiritual life across all these groups centered on shamanism -- specialists who mediated between the human and spirit worlds through plant-induced trance, rhythmic music, and collective ritual. Among Arawak communities, ancestor remains were sometimes kept in ceramic urns and consulted at moments of communal decision. Carib groups marked agricultural cycles and warfare with elaborate ceremonial dances. The Timoto-Cuica revered lunar and water deities tied to their irrigation systems. None of these peoples had writing, so cosmologies were carried in oral tradition and material culture -- which meant that when Spanish missionaries arrived in the sixteenth century, they encountered not an empty spiritual landscape but rich, competing belief systems that required active suppression rather than simple displacement. Many lowland groups were never fully converted, and communities deep in the Orinoco basin maintained pre-contact religious practices well into the nineteenth century. Pre-Columbian Venezuela was not a single civilization awaiting discovery; it was a continent of civilizations in miniature, varied and self-sustaining."
+      ],
+      "sources": [
+        {
+          "name": "The Cambridge History of the Native Peoples of the Americas, Vol. III",
+          "url": "https://www.cambridge.org/core/books/cambridge-history-of-the-native-peoples-of-the-americas/"
+        },
+        {
+          "name": "Venezuelanalysis -- Venezuela background and history",
+          "url": "https://venezuelanalysis.com/"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 1 -- The Gilded Age & J.P. Morgan",
+        "weekOf": "2026-09-07",
+        "angle": "The Panic of 1907: how Morgan stabilized the US banking system single-handedly and made the case for a central bank"
+      },
+      "summary": [
+        "In October 1907, a failed scheme to corner the copper market triggered cascading bank runs across New York. Trust companies -- less regulated than commercial banks -- were hit hardest; the Knickerbocker Trust, one of the city's largest, collapsed after its president was linked to the manipulation. Within days, lines stretched around the block at banks across Manhattan. Credit froze. The stock market fell nearly 50% from its peak. The United States had no central bank -- Andrew Jackson had killed the Second Bank of the United States in 1836 -- leaving no lender of last resort. Into that vacuum stepped Junius Pierpont Morgan, then 70 years old, running the most powerful private bank in the country. He convened the leading bank presidents in his private library on East 36th Street and, over a series of all-night sessions, did what a central bank would have done: organized emergency liquidity, directed solvent institutions to prop up failing ones, and personally guaranteed the funds needed to rescue the New York Stock Exchange clearinghouse.",
+        "What is remarkable about 1907 is not just that Morgan succeeded -- the panic subsided within weeks -- but that a private citizen possessed both the financial resources and the personal authority to make it work. By 1907, Morgan had spent three decades consolidating American industry: he had restructured the railroads in the 1880s and 1890s (his so-called Morganization imposed financial discipline on a chaotic sector), created U.S. Steel in 1901 (the first billion-dollar corporation), and in 1895 personally organized a gold syndicate to replenish the US Treasury when Grover Cleveland's government was days from insolvency. That track record meant the other bankers trusted his word in a way they would never have trusted a government official. The panic ended. But it left a pointed question: what happens when the next crisis comes and Morgan is no longer available? The answer arrived six years later. Congress, shaken by its dependence on one man's goodwill, commissioned the Aldrich Commission to study European central banking; that work fed into the Pujo Committee hearings and eventually the Federal Reserve Act of 1913. Morgan died in Rome in March 1913, nine months before the Fed was signed into law -- narrowly missing the institutional successor his own dominance had made necessary."
+      ],
+      "sources": [
+        {
+          "name": "The House of Morgan -- Ron Chernow",
+          "url": "https://www.penguinrandomhouse.com/books/159860/the-house-of-morgan-by-ron-chernow/"
+        },
+        {
+          "name": "Panic of 1907 -- Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/panic-of-1907"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-09-06",
   "displayDate": "Sunday, September 6, 2026",
   "title": "Morning Briefing",

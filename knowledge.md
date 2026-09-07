@@ -1,3 +1,96 @@
+## 2026-09-07 -- Monday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-07
+
+**AI & Technology** -- Sony Music and Warner Music Group filed copyright suits against Anthropic alleging Claude trained on and reproduces song lyrics verbatim; seeks statutory damages; Anthropic has not yet responded publicly. OpenAI disclosed ChatGPT Ads hit $1B annualized revenue run rate; expanding Ads Manager to India, Europe, Middle East, North Africa. Broader AI trend: shift from chat to agentic task-execution (research partners, workflow operators, robotics).
+
+**Stock Market & US Economy** -- August nonfarm payrolls +162,000 (vs 53K estimate); unemployment steady 4.1%; massive reversal from July -23K shock. Fed September rate hike now 58% priced by futures. S&P 500 at 7,666 (+0.46% Thursday). Treasury yields elevated; stocks pressured. Fed officials see early disinflation but core services inflation sticky (energy + AI capex). September 17 FOMC genuinely uncertain.
+
+**World / Geopolitics** -- Chinese rare-earth suppliers declining US shipments since August after Beijing sanctioned US supply-chain auditor Responsible Business Alliance; yttrium, tungsten, indium phosphide near record price highs; US officials put on agenda for Xi-Trump Sept 24 Washington summit; China controls ~85-90% global rare-earth refining capacity. Story illustrates continued economic leverage use alongside diplomatic engagement.
+
+**Venezuela** -- Trump announced "biggest oil deal in world history" Aug 28: NABEP (Alejandro Betancourt) gets 100-year concessions on 17 Venezuelan oil fields (65 billion barrels proven reserves); US Office of Strategic Capital gets 35% equity stake; $19/barrel to Caracas. National Assembly ratified Sept 2. Rodriguez vowed elections when Venezuela "is ready" with no date given. Story pivots from earthquake/dialogue coverage.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Caching Strategies: Redis, CDN Caching, and Cache Invalidation. Covered: cache as fast temporary storage layer between app and database; Redis in-memory cache (0.1ms vs 50-200ms DB query); cache hit vs miss flow; TTL-based expiration; CDN caching for HTTP assets at edge nodes close to users; content-addressed filenames for cache invalidation; write-through vs cache-aside invalidation strategies; Phil Karlton's "two hard problems" quote.
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela (before 1498)." Angle: Carib, Arawak, and Timoto-Cuica peoples; Arawak stilt villages near Lake Maracaibo (origin of name Venezziuola); Carib long-distance raiding and cannibalism label as legal instrument for enslavement; Timoto-Cuica terraced gardens, irrigation, stone granaries, kin-based polity, multi-hundred-km trade routes; Orinoco basin peoples (Piaroa, Yanomami, Maquiritare); shamanism and ancestor veneration; oral cosmological traditions actively suppressed by missionaries; pre-Columbian Venezuela as a continent of civilizations in miniature.
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. Week of 2026-09-07. Angle: Panic of 1907 -- failed copper corner triggered Knickerbocker Trust collapse and cascading bank runs; US had no central bank (Jackson killed Second Bank 1836); Morgan convened bank presidents in his private library, organized emergency liquidity, guaranteed NYSE clearinghouse; panic ended within weeks. Morgan's authority built on Morganization (railroads), US Steel 1901 (first billion-dollar corp), 1895 Treasury gold rescue. Question of succession: Congress commissioned Aldrich Commission; findings led to Federal Reserve Act 1913. Morgan died March 1913 -- nine months before the Fed he made necessary was signed into law.
+
+---
+
+## Series continuity trackers (updated 2026-09-07)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-07):
+"Sony Music + Warner Music sue Anthropic for song lyric copyright infringement (statutory damages). OpenAI ChatGPT Ads: $1B ARR, expanding to India/Europe/MENA. AI shifting from chat to agentic workflow execution."
+- Last 7 angles:
+  - 2026-09-07: Sony/Warner vs Anthropic copyright suits; ChatGPT Ads $1B ARR; AI agentic shift
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-07):
+"August payrolls +162K (vs 53K est); unemployment 4.1%; Sept Fed hike 58% priced. S&P 7,666. Treasury yields elevated, sticky core services inflation (energy + AI capex). Sept 17 FOMC genuinely uncertain."
+- Last 7 angles:
+  - 2026-09-07: August payrolls +162K shock beat; Sept hike 58% priced; S&P 7,666; FOMC Sept 17 uncertain
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-09-07):
+"China rare-earth suppliers halting US shipments since August (Beijing sanctioned RBA auditing body); yttrium/tungsten/indium phosphide near record highs; on agenda for Xi-Trump Sept 24 Washington summit; China ~85-90% global rare-earth refining capacity."
+- Last 7 angles:
+  - 2026-09-07: China rare-earth suppliers halting US shipments; RBA sanctions; Xi-Trump Sept 24 summit agenda
+  - 2026-08-11: Iran/Hormuz MOU collapse (Iran attacked tankers); PGSA; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+
+**Venezuela** -- Most recent angle (2026-09-07):
+"Trump oil deal: NABEP (Betancourt) 100-year concessions 17 fields, 65B barrels proven reserves; US Office of Strategic Capital 35% equity; $19/barrel to Caracas; National Assembly ratified Sept 2. Rodriguez: elections when Venezuela 'is ready' -- no date."
+- Last 7 angles:
+  - 2026-09-07: Trump/NABEP oil deal (65B barrels, 100-yr concessions); Rodriguez elections vow with no date
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-07.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies: Redis, CDN Caching, and Cache Invalidation [Software Architecture]
+- Next issue: Good options (avoid Software Architecture for 1 run):
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture -- skip next run]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - The OSI model and how packets travel across the internet [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-07.
+- Period: "Pre-Columbian Venezuela (before 1498)"
+- Angle covered: "Carib (long-distance raiding, cannibalism label as enslavement instrument), Arawak (stilt villages, Venezziuola name origin), Timoto-Cuica (terraced agriculture, irrigation, stone granaries, kin-based polity, regional trade routes); Orinoco basin peoples (Piaroa, Yanomami, Maquiritare); shamanism and oral cosmological traditions; Spanish suppression; pre-Columbian Venezuela as continent of civilizations in miniature."
+- Prior angles: First European Contact and Conquest 1498-1521; German Welsers 1528-1546; Encomienda and Cacao Economy 16th-17th century; Guipuzcoan Company 1728-1784; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Federal War 1859-1863; Guzman Blanco 1870-1888; Gomez Era 1908-1935; 1945 October Revolution; 1948 Military Coup; Caracazo 1989; Chavez-Maduro succession/2013 election; Chavez cancer/2012 re-election; April 2002 coup; PDVSA oil lockout/recall; Feb 4 1992 coup; Viernes Negro 1983; Punto Fijo 1958
+- Next issue: Pre-Columbian series can go deeper, OR pivot to a specific colonial-era story not yet covered. Good options: (1) The 1797 La Guaira Conspiracy -- Francisco de Miranda's precursor revolutionary cells; (2) Deeper into pre-Columbian: the specific cosmological and governance systems of the Timoto-Cuica vs Carib vs Arawak in more granular detail; (3) The Capuchin and Dominican missionary campaigns in the 18th century -- how they reordered indigenous communities into reducciones. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-09-07.
+- Era: "Era 1 -- The Gilded Age & J.P. Morgan"
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-07: "Panic of 1907: Knickerbocker Trust collapse, cascading bank runs, no central bank, Morgan's all-night library sessions organizing emergency liquidity and NYSE clearinghouse guarantee; panic resolved within weeks; Aldrich Commission --> Federal Reserve Act 1913; Morgan died March 1913 nine months before the Fed was signed."
+- Next entry: Stay in Era 1 (The Gilded Age & J.P. Morgan) this week. New angle: Morgan's Morganization of the railroads in the 1880s-1890s -- how he imposed financial discipline on the chaotic post-Civil War railroad sector, created railroad trusts, and became the target of Theodore Roosevelt's antitrust campaign. Do NOT repeat the 1907 Panic angle.
+
 ## 2026-09-06 -- Sunday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-06
