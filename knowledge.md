@@ -1,3 +1,96 @@
+## 2026-09-08 -- Tuesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-08
+
+**AI & Technology** -- Mistral AI closed EUR 3B Series D (Samsung-led, EUR 21B+ valuation, largest ever European tech equity round); co-leads Scaleup Europe/EQT + PSG Equity; new investors BlackRock, Advent, Luxembourg; returning: a16z, Nvidia, ASML. Framed as sovereign AI play (frontier capability without US/Chinese hyperscaler dependency). US pushing G20 on fair-use AI training copyright frameworks. Sony Music Publishing + Warner Chappell file 48-page suit against Anthropic + founders personally ($150K/song). Apple confirms John Ternus as new CEO (first without frontier AI model).
+
+**Stock Market & US Economy** -- August nonfarm payrolls +162K (vs consensus ~54K; July was -23K; strong beat). Fed rate hike September probability raised to ~58%. 10-yr yield 4.78%. S&P 500 -0.15% to 7,707. Houthi strikes on Saudi energy facilities pushed WTI to ~$93, Brent to ~$99. Dow lower, Nasdaq slightly positive. Dual pressure: hot labor market + oil shock puts Fed in difficult position ahead of September meeting.
+
+**World / Geopolitics** -- Houthi attacks on 4 Saudi cities + energy facilities (73 civilians injured; production halted temporarily); Brent touched $99; Saudi Arabia invoked Mecca Joint Defense Agreement (Turkey-Pakistan-Saudi pact, Aug 7). Witkoff + Kushner in Moscow Sep 5 for Ukraine talks; Zelenskyy called for air strike halt; Moscow silent. Xi-Trump summit expected September. UN General Assembly imminent -- all three crises (US-Iran war, Ukraine, US-China trade) converging.
+
+**Venezuela** -- Rodriguez press conference Sep 2: elections "when Venezuela is ready" -- no timeline, "I don't set the date." 131 political prisoners released mid-August (800+ total since Jan 2026); 391 still detained as of Aug 10. Machado + Gonzalez excluded from amnesty. Rodriguez-Figuera talks ongoing. US military presence in southern Caribbean continues.
+
+**Learning Series (education)** -- Category: AI/ML Concepts. Topic: Tokenization: How LLMs See Text. Covered: LLMs see integer token IDs, not words; tokenization is translation layer between text and model input; BPE (Byte Pair Encoding) is de facto standard (GPT-2 to GPT-4, Llama 3, Mistral); BPE algorithm: start with 256 bytes, count adjacent pairs, merge most frequent, repeat to target vocab size (~32K-100K tokens); results in efficient subword representation; practical implications: quadratic attention scaling rewards token efficiency; cross-language inequality (English efficient, others not); number blindness from erratic numeric splitting; "128K context" is tokens not words (~75-90 English words per 100 tokens for prose).
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela -- The Indigenous Peoples Before Conquest." Angle: Three groups: Arawak (Orinoco basin origins, manioc agriculture, matrilineal, long-range canoe trade to Caribbean/Guiana); Carib (eastern coast/Guiana Shield, martial reputation exaggerated by Spanish for enslavement justification, canoe warfare, slash-and-burn); Timoto-Cuica (Venezuelan Andes, most complex: permanent stone villages, terracing, irrigation, maize/potato/cacao cultivation, hierarchical chiefs, trade networks to Caribbean and Amazonia, worshipped Ches/sun and Ia/moon). Pre-contact population ~1M. Timoto-Cuica infrastructure most readily absorbed into encomienda system.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-09-07. Angle: Carried interest tax provision: 20% carry taxed at capital gains rate (20%) not ordinary income (37%); $17M annual savings per $100M carry vs wage earner; legal rationale = 1-2% capital contribution makes it "return on capital"; Obama 2009 failed to close; Trump 2016 promised to close, 2017 TCJA kept it (added 3-yr hold); 2022 IRA Sinema defection killed closure after Manchin agreed; PE spent $600M+ campaign contributions last decade, $25M+ lobbying since 2020; both parties, pension fund management, 12M claimed employees = political durability.
+
+---
+
+## Series continuity trackers (updated 2026-09-08)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-08):
+"Mistral EUR 3B Series D (Samsung-led, EUR 21B+ valuation, largest EU tech round); sovereign AI framing; US pushing G20 fair-use AI copyright; Sony/Warner Chappell sue Anthropic + founders ($150K/song); Apple John Ternus new CEO (no frontier model)."
+- Last 7 angles:
+  - 2026-09-08: Mistral EUR 3B Series D Samsung-led; US G20 fair-use AI copyright push; Sony/Warner vs Anthropic; Apple John Ternus new CEO
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 live; C2PA watermarking; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain; Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-08):
+"August payrolls +162K (~3x consensus; July was -23K); Fed hike probability September ~58%; 10-yr 4.78%; S&P 7,707 (-0.15%); Houthi Saudi strikes push WTI ~$93/Brent ~$99; Dow lower, Nasdaq slightly positive; hot labor market + oil shock dual pressure."
+- Last 7 angles:
+  - 2026-09-08: August payrolls +162K (massive beat); WTI $93/Brent $99 on Saudi attacks; Fed hike probability 58%; S&P 7,707
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel; Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-09-08):
+"Houthi attacks on 4 Saudi cities + energy facilities (concrete new development: 73 injured, production halts, Brent $99); Saudi invokes Mecca JDA (Turkey-Pakistan-Saudi pact); Witkoff/Kushner Moscow Sep 5 (Ukraine talks); Zelenskyy calls for air halt; Xi-Trump summit expected September; UNGA imminent."
+- Last 7 angles:
+  - 2026-09-08: Houthi Saudi strikes (concrete); Brent $99; Saudi invokes Mecca JDA; Witkoff/Kushner Moscow Ukraine talks; Xi-Trump summit September
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes; MSF suspension; cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+
+**Venezuela** -- Most recent angle (2026-09-08):
+"Rodriguez Sep 2 press conference: elections 'when Venezuela is ready' -- no timeline; 391 prisoners still detained (Aug 10); 131 released mid-August (800+ total since Jan); Machado/Gonzalez excluded from amnesty; Rodriguez-Figuera talks ongoing; US military Caribbean presence continues."
+- Last 7 angles:
+  - 2026-09-08: Rodriguez: elections "when ready" no timeline (Sep 2); 391 still detained; 131 released mid-Aug; Machado/Gonzalez excluded
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-08.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Tokenization: How LLMs See Text [AI/ML Concepts]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Caching strategies (Redis, CDN caching, cache invalidation) [Software Architecture]
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - How graph databases work (Neo4j, property graphs, use cases) [Software Architecture]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-08.
+- Period: "Pre-Columbian Venezuela -- The Indigenous Peoples Before Conquest"
+- Angle covered: "Three groups: Arawak (Orinoco basin, manioc, matrilineal, long-range canoe trade); Carib (eastern coast/Guiana Shield, maritime warfare, 'cannibal' label as Spanish enslavement pretext); Timoto-Cuica (Venezuelan Andes, most complex: permanent stone villages, terracing/irrigation, maize/potato/cacao, hierarchical chiefs, sun/moon worship, trade to Caribbean + Amazonia). Pre-contact population ~1M. Timoto-Cuica infrastructure most readily absorbed into encomienda system. Crops (maize, potato, cacao) persist as Venezuelan staples."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian indigenous peoples (Arawak, Carib, Timoto-Cuica)
+- Next issue: We have now reached the pre-Columbian layer. Options: (1) The 1797 La Guaira Conspiracy -- Francisco de Miranda's precursor revolutionary cells, the first organized independence plot, Manuel Gual and Jose Maria Espana; OR (2) Zoom in deeper on the Timoto-Cuica specifically -- their terracing, their trade, what the archaeology reveals about their society. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-09-08.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-08: "Carried interest tax provision: 20% carry taxed at capital gains (20%) not ordinary income (37%); $17M savings per $100M carry; legal rationale = 1-2% capital contribution; Obama 2009 failed; Trump 2016 promised/2017 TCJA kept it (3-yr hold only); 2022 IRA Sinema defection killed closure; $600M+ campaign contributions last decade; $25M+ lobbying since 2020; both parties, pension mgmt, 12M claimed employees = most durable provision in tax code"
+- Next entry: New week (2026-09-14). All major Era 4 angles now covered (1980s LBO origins/RJR, 1990s institutionalization, post-2008 ZIRP boom, PE in 2020s democratization/healthcare, carried interest political durability). Advance to Era 5. Suggested: Era 5 -- The Rise of Silicon Valley (1950s-1990s): Shockley Semiconductor, Fairchild, Intel, the venture capital model, the HP Way, and how Stanford became the engine of the tech economy. Begin with Shockley's 1956 arrival in Palo Alto and the Traitorous Eight.
+
 ## 2026-09-07 -- Monday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-07
