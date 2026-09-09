@@ -259,6 +259,188 @@
 /* NEWSLETTER_DATA_START */
 const newsletters = [
 {
+  "date": "2026-09-09",
+  "displayDate": "Wednesday, September 9, 2026",
+  "title": "Morning Briefing",
+  "wordCount": 2180,
+  "readMinutes": 11,
+  "sections": [
+    {
+      "topic": "AI & Technology",
+      "kind": "news",
+      "summary": [
+        "Mistral AI, Paris's answer to the American frontier labs, closed a record €3 billion ($3.5 billion) Series D led by Samsung Electronics at a €21 billion valuation — nearly double its valuation from twelve months ago and the largest equity fundraising in European tech history. Samsung was joined by the EU-backed Scaleup Europe Fund and existing investor PSG Equity. CEO Arthur Mensch said the capital will expand data centers in France and Sweden that Mistral can rent to governments and enterprises seeking AI compute outside US jurisdiction — a direct pitch to sovereign AI demand, particularly among EU governments wary of dependence on US infrastructure. Separately, Sony Music Publishing and Warner Chappell filed a federal lawsuit in the Northern District of California naming Anthropic, CEO Dario Amodei, and co-founder Benjamin Mann personally, alleging a \"brazen campaign\" of illegal torrenting and scraping of copyrighted songs to train Claude, and seeking up to $150,000 per infringed work. All three major music publishers now have active suits against Anthropic."
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg: Mistral AI raises at €21B valuation",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-08/mistral-ai-raises-at-21-billion-valuation-in-samsung-led-round"
+        },
+        {
+          "name": "TechCrunch: Sony Music and Warner sue Anthropic",
+          "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+        }
+      ]
+    },
+    {
+      "topic": "Stock Market & US Economy",
+      "kind": "news",
+      "summary": [
+        "August closed as a solid month for US equities: the S&P 500 gained 2.6%, the Nasdaq rose 3.9%, and the Dow extended its winning streak to five consecutive months. The S&P sits near 7,681 Wednesday morning. The August jobs report offered relief after July's -23,000 shock: nonfarm payrolls rose 162,000 and the unemployment rate held at 4.1%. Fed Governor Christopher Waller said recent data show \"some signs of disinflation\" and signaled a lean toward holding rates at the next meeting — but Fed funds futures still price in a 68% probability of a rate hike, reflecting how far inflation remains above the Fed's 2% target. Long-term Treasury yields stay elevated, and the oil price spike from Middle East tensions is working against disinflation in energy and transportation costs."
+      ],
+      "sources": [
+        {
+          "name": "CNBC: Stock market news September 4, 2026",
+          "url": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "MRA Advisory: September 2026 Market Outlook",
+          "url": "https://mraadvisory.com/news/investing/september-2026-market-outlook"
+        }
+      ],
+      "chart": {
+        "type": "bar",
+        "title": "August 2026 Index Returns",
+        "labels": [
+          "S&P 500",
+          "Nasdaq",
+          "Dow Jones"
+        ],
+        "data": [
+          2.6,
+          3.9,
+          1.1
+        ],
+        "unit": "%",
+        "sourceNote": "August 2026 monthly performance, CNBC"
+      }
+    },
+    {
+      "topic": "World / Geopolitics",
+      "kind": "news",
+      "summary": [
+        "The US-Canada trade dispute escalated to its sharpest point yet. On September 8, Ottawa activated retaliatory tariffs on more than 700 American goods worth about $20 billion — mirroring the 50% levies Trump imposed on a broad swathe of Canadian exports including wine, cement, dairy, and hockey equipment. Canada doubled its duties on US steel and aluminum to 50% and targeted US paper products, construction materials, home appliances, and agricultural goods in return. Prime Minister Mark Carney dispensed with diplomatic language: \"You\\'re at war when you get attacked. We got attacked.\" The timing is pointed — the tariffs land weeks before US midterm elections and hit swing-state industries directly: Wisconsin cheese, Maine seafood, and Kentucky appliances now face Canadian duties. Analysts note Canada\\'s retaliatory package was designed to maximize political pain inside the US rather than economic damage in Canada."
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera: Canada to hit US with retaliatory tariffs",
+          "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"
+        },
+        {
+          "name": "Fortune: Canada tariffs target swing states",
+          "url": "https://fortune.com/2026/09/07/canada-retaliatory-tariffs-swing-states-midterms/"
+        },
+        {
+          "name": "CNBC: Canada unveils retaliatory tariffs on $20B of US goods",
+          "url": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuela",
+      "kind": "news",
+      "summary": [
+        "Acting President Delcy Rodríguez said this week that a presidential election will happen in Venezuela \"without a doubt\" — then declined to offer any timeline, telling reporters: \"I don\\'t set the date.\" The statement reflects the government\\'s posture in the ongoing dialogue: incremental gestures rather than firm commitments. Since January, more than 800 political prisoners have been freed under a general amnesty law; human rights group Foro Penal counted roughly 382 still detained as of early August. Negotiations between Rodríguez\\'s government (represented by her brother, National Assembly president Jorge Rodríguez) and opposition leader Dinorah Figuera continue in Norway-facilitated talks. María Corina Machado and Edmédo González have so far rejected the dialogue, demanding free elections with full international monitoring and the release of all remaining political prisoners before any formal participation."
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg: Rodriguez vows elections when Venezuela 'is ready'",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-02/rodriguez-vows-elections-will-happen-when-venezuela-is-ready"
+        },
+        {
+          "name": "Al Jazeera: Venezuela says 131 political prisoners freed",
+          "url": "https://www.aljazeera.com/news/2026/8/15/venezuela-says-131-political-prisoners-freed-amid-post-maduro-talks"
+        }
+      ]
+    },
+    {
+      "topic": "Learning Series",
+      "kind": "learning",
+      "seriesKey": "learning-series",
+      "seriesMeta": {
+        "category": "Software Architecture",
+        "topic": "Caching Strategies: Redis, CDN Caching, and Cache Invalidation"
+      },
+      "summary": [
+        "Every time a server fetches data from a database or calls another service, there is a cost: time and processing power. If the same data will be requested again moments later by a different user, repeating the full lookup is wasteful. Caching solves this by storing a copy of the result somewhere fast — usually in memory — so future requests can retrieve it in microseconds instead of milliseconds. That gap matters at scale: a query that takes 50ms might be fine once, but at 10,000 requests per second it becomes the bottleneck that takes a service down. Caching is not just an optimization; at internet scale, it is what makes applications feasible. The tradeoff is consistency: a cache is a second copy of data, and the moment that data changes at the source, the cached copy is stale. How you manage that staleness is where the real design decisions live.",
+        "Redis is the dominant in-memory cache in production today. It stores data as key-value pairs entirely in RAM — no disk I/O, which is why reads are extremely fast. Redis supports multiple data structures: sorted sets for leaderboards, hashes for user sessions, lists for queues, pub/sub for real-time messaging. The three main patterns for using a cache alongside a database are: cache-aside (the application checks the cache first; on a miss, it fetches from the database and writes to the cache — the most common pattern and the one shown in the diagram below); write-through (every write goes to both cache and database simultaneously, keeping the cache current at the cost of write latency); and write-behind (writes go to the cache first and asynchronously flush to the database — fastest writes, but risks data loss if the cache crashes before flushing). Every cached key carries a TTL (time to live) — a countdown after which it expires and must be refreshed. TTL is the first-pass solution to staleness.",
+        "CDN caching applies the same logic at the network edge. A content delivery network stores copies of your assets — images, CSS, JavaScript, and even full HTML pages — at servers geographically close to users. When a user in London requests your site, the CDN serves the cached response from Frankfurt instead of routing to your US origin. CDNs use HTTP headers (like Cache-Control: max-age=3600) to decide how long to retain a copy. Cache invalidation — knowing when to discard a stale cached copy — is famously hard. The saying, attributed to Phil Karlton, goes: \"There are only two hard things in computer science: cache invalidation and naming things.\" The difficulty is coordination: the cache, the database, and potentially dozens of downstream services must agree on what \"current\" means. Common approaches are TTL expiration (accept some staleness), event-driven invalidation (when data changes, explicitly purge the cache key — more accurate, more complex), and stale-while-revalidate (serve the stale copy immediately while fetching a fresh one in the background). One failure mode unique to caches is the cache stampede: when a popular key expires, hundreds of simultaneous requests hit the database before the cache is rebuilt. The fix is probabilistic early expiration (refresh slightly before TTL ends) or a distributed lock allowing only one request to rebuild while others wait."
+      ],
+      "diagram": {
+        "type": "mermaid",
+        "title": "Cache-Aside Pattern (Most Common)",
+        "code": "graph LR\n  A[User Request] --> B{Cache Hit?}\n  B -- Yes --> C[Return Cached Data]\n  B -- No --> D[Query Database]\n  D --> E[Write to Cache]\n  E --> F[Return Data to User]\n  C --> F"
+      },
+      "sources": [
+        {
+          "name": "Redis Documentation",
+          "url": "https://redis.io/docs/"
+        },
+        {
+          "name": "AWS: Caching patterns",
+          "url": "https://aws.amazon.com/caching/best-practices/"
+        }
+      ]
+    },
+    {
+      "topic": "Venezuelan History",
+      "kind": "education",
+      "seriesKey": "venezuela-history",
+      "seriesMeta": {
+        "period": "Pre-Columbian Venezuela (before 1498)",
+        "angle": "The Timoto-Cuica, Arawak (Lokono), and Carib (Kalina) peoples: settlement, agriculture, trade, and the world Columbus encountered"
+      },
+      "summary": [
+        "When Columbus sighted the Orinoco delta in 1498, he arrived on a continent that had been continuously inhabited for at least 15,000 years. Venezuela\\'s pre-Columbian population is estimated at roughly one million people, organized into dozens of groups speaking different languages and living in radically different ways. Geography determined culture as sharply here as anywhere on earth. The Andes in the west produced a sedentary agricultural society; the Orinoco basin and Caribbean coast produced others built around water, mobility, and trade. The three most significant groups were the Timoto-Cuica of the western Andes, the Arawak-speaking Lokono of the Orinoco basin and coastal lowlands, and the Carib (Kalina) of the eastern coast and islands. These groups were not isolated — they traded, competed, and periodically absorbed one another — but their ways of life were shaped by environments so different they might have been separate worlds.",
+        "The Timoto-Cuica represent the most organizationally complex society in pre-Columbian Venezuela. Closely related linguistically and culturally to the Muisca of Colombia — the people the Spanish would mythologize as El Dorado — the Timoto-Cuica built permanent stone settlements and terraced Andean hillsides to create farmland at altitude. Their agriculture was sophisticated: they cultivated maize, potatoes, yuca, cacao, and cotton using irrigation systems that redirected Andean snowmelt across multiple elevation zones. Food was stored in communal storehouses as a buffer against the thin margins of high-altitude farming. They maintained a ritual calendar, produced fine ceramics and textiles, and organized their political life around a chieftain-priest. The Inca Empire, which perfected similar logic further south, never extended into Venezuelan territory — but the Timoto-Cuica\\'s terracing and vertical-zone agriculture suggests an independent convergence on the same solution to Andean geography.",
+        "The Arawak-speaking Lokono occupied the Orinoco basin and coastal regions and left a cultural fingerprint that runs through the entire Caribbean. The Arawak are credited with the agricultural innovation that made dense tropical lowland settlement possible: the domestication and processing of bitter manioc (yuca). Raw manioc contains hydrocyanic acid — it is toxic. The Arawak developed a multi-step technique involving grating, pressing in a woven sleeve, and baking to neutralize the poison and produce the flatbread that became the dietary staple of the tropical Americas. Their trade networks stretched from the Orinoco to the Caribbean islands, and Arawak-speaking peoples were the first people Columbus encountered in 1492. The Carib were relative newcomers to the coast — expanding out of South America into the Caribbean roughly 1,000 years before European contact, gradually displacing Arawak communities. They were accomplished boat builders and feared raiders. The word \"cannibal\" likely derives from a corruption of \"Carib,\" and Spanish colonizers weaponized the association: a royal decree permitted the enslavement of any group labeled cannibal, making the accusation itself a legal instrument of conquest. What this pre-Columbian landscape shows is not a pristine wilderness but a set of functioning, complex societies that had, each in their own way, solved the problem of living in one of the most demanding environments on earth. What the Spanish disrupted was not primitive life but deep adaptation, built over millennia."
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia: Pre-Columbian period in Venezuela",
+          "url": "https://en.wikipedia.org/wiki/Pre-Columbian_period_in_Venezuela"
+        },
+        {
+          "name": "Wikipedia: Timoto-Cuica people",
+          "url": "https://en.wikipedia.org/wiki/Timoto%E2%80%93Cuica_people"
+        },
+        {
+          "name": "nolam.org: Ancient History of Venezuela",
+          "url": "https://nolam.org/en/blog/the-ancient-history-of-venezuela-indigenous-civilizations-before-european-contact"
+        }
+      ]
+    },
+    {
+      "topic": "American History Through Business",
+      "kind": "education",
+      "seriesKey": "american-business-history",
+      "seriesMeta": {
+        "era": "Era 4 -- The Rise of Private Equity (1980s LBOs to today)",
+        "weekOf": "2026-09-07",
+        "angle": "The carried interest tax provision: twenty years of failed reform and the political durability of a single line in the tax code"
+      },
+      "summary": [
+        "Private equity fund managers earn money two ways: a management fee (typically 2% of assets per year) and \"carried interest\" — their share, usually 20%, of the fund\\'s investment profits above a minimum return threshold. The management fee is straightforward pay. Carried interest is different. Because it is structured as a share of investment returns rather than as wages, it is taxed at the long-term capital gains rate — around 20% — rather than as ordinary income, which tops out at 37%. The practical effect is that a PE manager earning tens of millions in carry pays a lower marginal rate on that income than a schoolteacher pays on her salary. The industry\\'s defense is that carry is genuinely at risk — managers only receive it if the fund produces returns above the hurdle rate — and therefore resembles a capital gain rather than a salary. Critics, including Warren Buffett, have pointed out that the \"risk\" borne by a fund manager is the loss of potential profits, not actual invested capital, since PE managers rarely put their own money into the funds they run.",
+        "The effort to close the carried interest provision has lasted nearly twenty years and accomplished almost nothing. Congressional hearings began in 2007 when the Blackstone Group\\'s IPO put private equity compensation on the front page. Barack Obama proposed taxing carry as ordinary income in multiple budget requests; the proposals never survived committee. Donald Trump, as a candidate, promised to eliminate it, saying fund managers were \"getting away with murder.\" When the 2017 Tax Cuts and Jobs Act passed, the provision survived — modified only to require a three-year holding period instead of one. The most striking defeat came in 2022: the Inflation Reduction Act was drafted to tax carried interest as ordinary income. Senator Kyrsten Sinema of Arizona, whose vote Democrats needed, agreed to support the bill only after the carried interest provision was stripped out. Sinema had received significant campaign contributions from PE firms. The industry\\'s lobbying apparatus, anchored by the American Investment Council, maintains relationships on both sides of the aisle and has deployed three durable arguments: that PE-backed companies create jobs, that the provision incentivizes long-term capital commitment, and that eliminating it would harm pension funds that invest in PE. The political durability of a single tax line through five presidential administrations and multiple reform supermajorities is a case study in how a narrow financial interest, properly organized, can make itself appear too dangerous to touch."
+      ],
+      "sources": [
+        {
+          "name": "Americans for Financial Reform: Carried interest fact sheet",
+          "url": "https://ourfinancialsecurity.org/resources/fact-sheet-the-carried-interest-loophole-is-a-tax-dodge-for-super-rich-private-equity-executives/"
+        },
+        {
+          "name": "Congress.gov: Taxation of Carried Interest",
+          "url": "https://www.congress.gov/crs-product/R46447"
+        },
+        {
+          "name": "Fortune: Private equity lobbying carried interest",
+          "url": "https://www.fortune.com/2021/06/30/private-equity-lobbying-tax-break-carried-interest"
+        }
+      ]
+    }
+  ]
+},
+{
   "date": "2026-09-08",
   "displayDate": "Tuesday, September 8, 2026",
   "title": "Morning Briefing",

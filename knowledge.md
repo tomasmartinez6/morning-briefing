@@ -1,3 +1,100 @@
+## 2026-09-09 -- Wednesday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-09
+
+**AI & Technology** -- Mistral AI closed record €3B ($3.5B) Series D led by Samsung at €21B valuation (largest European tech equity raise ever; Samsung + EU Scaleup Europe Fund + PSG Equity; CEO Mensch: capital funds France/Sweden data centers for sovereign AI demand). Sony Music Publishing and Warner Chappell filed federal suit against Anthropic naming Dario Amodei and Benjamin Mann personally; allege illegal torrenting/scraping of tens of thousands of songs to train Claude; seek up to $150K per infringed work; all three major music publishers now suing Anthropic.
+
+**Stock Market & US Economy** -- August: S&P +2.6%, Nasdaq +3.9%, Dow 5th consecutive monthly gain. S&P near 7,681 Sep 9. August payrolls +162K (recovery from July -23K shock); unemployment 4.1% steady. Fed Governor Waller: "signs of disinflation," leans toward hold. Fed funds futures: 68% probability rate hike next FOMC. Long-term Treasury yields elevated; oil prices adding to inflation picture.
+
+**World / Geopolitics** -- US-Canada trade war escalation: Canada activated Sep 8 retaliatory tariffs on 700+ US goods worth ~$20B (mirrors Trump's 50% levy on Canadian wine, cement, dairy, hockey equipment). Canada doubled steel/aluminum duties to 50%. PM Carney: "You're at war when you get attacked. We got attacked." Tariffs targeted at swing-state US industries (Wisconsin cheese, Maine seafood, Kentucky appliances) ahead of US midterms.
+
+**Venezuela** -- Rodriguez vowed elections will happen "without a doubt" but gave no timeline ("I don't set the date"). 800+ political prisoners released since January under amnesty law; ~382 still detained as of early August (Foro Penal). Norway-facilitated talks between Jorge Rodriguez and Dinorah Figuera continuing. Machado/González boycotting dialogue, demanding full electoral guarantees and all prisoner releases first.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Caching Strategies -- Redis, CDN Caching, and Cache Invalidation. Covered: why caching exists (cost of repeated DB queries at scale); Redis patterns (cache-aside, write-through, write-behind); TTL as first-pass staleness solution; CDN caching via HTTP Cache-Control headers; cache invalidation hardness ("two hard things in CS"); approaches (TTL, event-driven invalidation, stale-while-revalidate); cache stampede and fixes (probabilistic early expiration, distributed lock). Diagram: cache-aside pattern flow.
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela (before 1498)." Angle: Timoto-Cuica (Andean, permanent stone settlements, terracing/irrigation, maize/potatoes/cacao/cotton, communal storehouses, related to Muisca/Colombia, vertical-zone agriculture); Arawak/Lokono (Orinoco basin + coast, manioc domestication + toxic-processing technique, trade networks to Caribbean, first people Columbus met 1492); Carib/Kalina (South American origin, expanded Caribbean ~1000 years pre-contact, seafarers and raiders, "cannibal" etymology weaponized by Spanish for enslavement decree). Pre-contact population ~1M. Geography (Andes/lowlands) determined cultural divergence.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-09-07. Angle: Carried interest tax provision -- what it is (20% of fund profits taxed at ~20% capital gains rate not ~37% income rate); political survival story: 2007 Congressional hearings (Blackstone IPO); Obama proposals died in committee; Trump campaign promise vs 2017 TCJA (provision survived with 3-yr holding period modification); 2022 IRA most striking defeat (Sinema removed carried interest provision as price of her vote); AIC lobbying; bipartisan donor relationships; three durable industry arguments (jobs, long-term capital, pension fund impact).
+
+---
+
+## Series continuity trackers (updated 2026-09-09)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-09):
+"Mistral AI €3B Samsung-led Series D (€21B valuation, largest European tech equity raise); sovereign AI data centers France/Sweden. Sony Music Publishing + Warner Chappell sue Anthropic naming Amodei/Mann personally; $150K/song; all 3 major music publishers now suing Anthropic over Claude training data."
+- Last 7 angles:
+  - 2026-09-09: Mistral Samsung €3B Series D; Sony/Warner sue Anthropic (all 3 majors now suing)
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA global watermarking standard; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B, fastest 18 quarters); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees, Amodei endorses); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-09):
+"August: S&P +2.6%, Nasdaq +3.9%, Dow 5th consecutive monthly gain. S&P 7,681. August payrolls +162K (recovery from July -23K); unemployment 4.1%. Waller 'signs of disinflation' / leans hold but 68% futures probability of rate hike. Long-term yields elevated; oil adding to inflation."
+- Last 7 angles:
+  - 2026-09-09: August: S&P +2.6%/Nasdaq +3.9%/Dow 5-month streak; payrolls +162K recovery; 68% rate hike probability; Waller disinflation signs
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel (-8.6%); Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-09-09):
+"US-Canada trade war escalation: Canada Sep 8 retaliatory tariffs on 700+ goods/$20B (mirror Trump's 50% on Canadian wine/cement/dairy/hockey); Canada doubled steel/aluminum to 50%; Carney 'at war' rhetoric; swing-state targeting ahead of US midterms."
+- Last 7 angles:
+  - 2026-09-09: US-Canada trade war escalation -- Canada $20B retaliatory tariffs Sep 8; Carney "at war"; swing-state targeting
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4: RSF drone strikes El-Obeid, MSF Zalingei suspension, cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture: Italy suspends with Spain; 22 leaders demand emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced (Israel silent)
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+- Next: Iran/Hormuz -- watch for ceasefire or new escalation; UN Secretary-General search (Guterres term ends Dec 31); Gaza deal implementation; Xi-Trump summit.
+
+**Venezuela** -- Most recent angle (2026-09-09):
+"Rodriguez 'elections without a doubt' but no timeline ('I don't set the date'). 800+ prisoners released since Jan; ~382 still held. Norway talks Rodriguez/Figuera continuing. Machado/González boycotting, demanding full electoral guarantees + all prisoner releases."
+- Last 7 angles:
+  - 2026-09-09: Rodriguez elections vow, no timeline; 382 still detained; Norway talks continuing; Machado/González boycott
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-09.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies -- Redis, CDN Caching, and Cache Invalidation [Software Architecture]
+- Next issue: Good options from underrepresented categories:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - How cloud compute works: VMs, spot instances, autoscaling [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-09.
+- Period: "Pre-Columbian Venezuela (before 1498)"
+- Angle covered: "Timoto-Cuica (Andean, terracing/irrigation, maize/potatoes/cacao, communal storehouses, related to Muisca, vertical-zone agriculture); Arawak/Lokono (Orinoco basin, manioc domestication and toxin-removal technique, Caribbean trade networks, first people Columbus met); Carib/Kalina (seafarers, South American origin, expanded Caribbean ~1000 yrs pre-contact, 'cannibal' etymology weaponized by Spanish for enslavement). Pre-contact population ~1M."
+- Prior angles: [all prior angles from previous knowledge entries remain]
+- Next issue: Zoom in on a specific pre-Columbian story not yet told -- e.g., the Orinoco as a continental highway: how Arawak and Carib trade networks functioned, what goods moved (cacao, feathers, gold dust, pigments), and how those routes shaped the early Spanish exploration of the interior. OR: a specific Timoto-Cuica site or ritual in more depth. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-09-09.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-09: "Carried interest tax provision -- 20% of fund profits taxed at capital gains rate (~20%) not income rate (~37%); political survival: 2007 Congressional hearings/Blackstone IPO; Obama proposals died in committee; Trump 2017 TCJA preserved it (3-yr holding period modification only); 2022 IRA -- Sinema removed provision as price of her vote; AIC lobbying; bipartisan donor relationships; jobs/long-term capital/pension fund arguments."
+- Next entry: Stay in Era 4 for the week of 2026-09-07. New angle: PE and the distressed debt playbook -- how firms like Apollo, Oaktree, and Cerberus specialize in buying debt (not equity) of companies in financial distress, converting it to ownership through bankruptcy, then exiting at a profit. The mechanics of a credit-to-equity conversion, and the controversy when that strategy is applied to hospitals, newspapers, or retailers (Sears, Toys R Us, Tribune Media). Distinct from the healthcare democratization and carried interest angles already covered.
+
+
+---
+
 ## 2026-09-08 -- Tuesday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-08
