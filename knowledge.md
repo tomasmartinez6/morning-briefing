@@ -1,3 +1,95 @@
+## 2026-09-10 -- Thursday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-10
+
+**AI & Technology** -- OpenAI released GPT-6 Astra on September 3-4; trained on 100,000+ GPUs at Stargate (Texas), largest pretraining run ever; 1,050,000-token context window; 128K max output; API $10/$50 per million tokens (in/out); Greg Brockman calls it "generational leap" / potential AGI arrival (contested by outside researchers). Separately: Sony Music Publishing + Warner Chappell filed combined copyright lawsuit against Anthropic + founders personally, up to $150K per song.
+
+**Stock Market & US Economy** -- Thursday sell-off: Dow -405 (-0.8%) to 52,380; S&P -0.5% to 7,636; Nasdaq -0.6% to 26,253. 10-yr Treasury yield 4.845% (highest since Nov 2023). Rising oil prices (Hormuz Day 192, ~6 transits vs 85/day baseline) drove energy cost concern. July CPI 3.5% YoY; Q2 GDP 1.5%. Midterm elections 8 weeks away; Trump approval on cost of living mid-20s; economy top voter concern.
+
+**World / Geopolitics** -- DRC Ebola outbreak (Bundibugyo strain, no approved vaccine/treatment): 6,686 cases / 3,226 deaths as of Sep 7; fastest-growing outbreak on record (10 weeks to surpass all prior DRC outbreaks); Ituri 5,365 cases / 2,426 deaths; North Kivu 1,039 / 681; WHO + DRC drafting 6-month framework. Xi-Trump summit expected Sep 24 at White House: agenda covers AI governance, trade, Taiwan, Iran war.
+
+**Learning Series (education)** -- Category: Software Architecture. Topic: Caching Strategies -- Redis, CDN Caching, and Cache Invalidation. Covered: cache as fast temporary storage near the requester; hot-set principle; cache layers (in-memory Redis/Memcached, CDN edge, DB buffer pool, browser HTTP cache); Redis (key-value in RAM, sub-ms, rich data structures); CDN caching (Cloudflare/Fastly edge nodes, 200ms -> 20ms latency); HTTP cache-control max-age; cache invalidation as the hard problem; TTL vs event-based; write-through / write-back / write-around patterns; cache stampede (thundering herd) + solutions (probabilistic early expiration, mutex locks).
+
+**Venezuelan History (education)** -- Period: "Pre-Columbian Venezuela -- the Carib, Arawak, and Timoto-Cuica Peoples (before 1498)." Angle: Three indigenous traditions at contact: Carib (coastal maritime raiders, canoe mobility, resisted subordination; "cannibal exception" pretext for enslavement disputed); Arawak/Lokono (agricultural river communities, manioc/maize/tobacco, cacique governance, Orinoco trade networks); Timoto-Cuica (Andean highlands 1,500-4,000m, stone-walled villages, terrace agriculture, irrigation, potato/quinoa, copper/gold ornaments, no writing but sophisticated oral traditions). Population 300K-1M+; no large domesticables or metal tools at scale; ecological diversity; 90% population loss from Old World disease within 50 years.
+
+**American Business History (education)** -- Era 4: Rise of Private Equity. Week of 2026-09-07. Angle: PE political power and carried interest tax provision: carry (20% of profits) taxed at capital gains (~20%) not income (~37%) despite being payment for management services; dates to 1950s-60s LP structure; $14-18B foregone revenue over 10 years (JCT estimate); PE lobbying $600M+ 2010-2024 (bipartisan); TCJA 2017 extended hold period to 3 years but preserved cap gains treatment; 2022 IRA near-miss (Sinema stripped the provision as condition of vote); durability = concentrated industry benefit vs diffuse public cost.
+
+---
+
+## Series continuity trackers (updated 2026-09-10)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-10):
+"OpenAI GPT-6 Astra released Sep 3-4 (100K+ GPUs Stargate TX; 1.05M context; $10/$50 per M tokens; Brockman calls it 'generational leap'/possible AGI); Sony Music + Warner Chappell copyright lawsuit vs Anthropic ($150K/song)"
+- Last 7 angles:
+  - 2026-09-10: GPT-6 Astra launch (1.05M context, Stargate 100K+ GPU, AGI claim); Sony/Warner copyright suit vs Anthropic
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD; three AI layer test
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA watermarking; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain (largest ever); Meta FCF -91%; AI ROI divergence
+  - 2026-07-31: Amazon AWS 37% ($42.2B); Pentagon-OpenAI classified network
+  - 2026-07-30: Pacing the Frontier letter (1,200+ employees); Nvidia $5B SSI; FCC Chinese robot ban
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-10):
+"Thursday sell-off: Dow -405 (-0.8%) 52,380; S&P -0.5% 7,636; Nasdaq -0.6% 26,253; 10-yr yield 4.845% (highest since Nov 2023); rising oil (Hormuz Day 192) driving energy costs; July CPI 3.5% YoY; Q2 GDP 1.5%; midterms 8 weeks; Trump cost-of-living approval mid-20s"
+- Last 7 angles:
+  - 2026-09-10: Thursday sell-off (Dow -0.8%, S&P -0.5%, Nasdaq -0.6%); 10-yr yield 4.845% (Nov 2023 high); Hormuz/oil driving costs; midterm economy anxiety
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday; NFIB 99.8
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders; July payrolls Friday (est 87.5K)
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel; Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+  - 2026-07-31: S&P +1.66%/Nasdaq +2.78% on Amazon AWS; Apple -7.8%; Q2 GDP 1.5%; June core PCE 3.29%
+  - 2026-07-30: July 29 selloff S&P -1.52%/Dow -2.19%; Fed holds 3.50-3.75%; 30-yr Treasury 5.2%
+
+**World / Geopolitics** -- Most recent angle (2026-09-10):
+"DRC Ebola (Bundibugyo strain, no vaccine/treatment): 6,686 cases / 3,226 deaths Sep 7; fastest-growing on record (10 weeks); Ituri 5,365 cases; North Kivu 1,039 cases; WHO 6-month framework. Xi-Trump summit Sep 24 White House: AI governance, trade, Taiwan, Iran."
+- Last 7 angles:
+  - 2026-09-10: DRC Ebola crisis (Bundibugyo, 6,686 cases / 3,226 deaths, fastest-growing, no vaccine); Xi-Trump summit Sep 24
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent 'deal in sight'; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4; RSF drone strikes; MSF suspension; cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture; Italy suspends with Spain; 22 leaders emergency meeting; Ceuta 60K migrants
+  - 2026-07-31: Spain-Ceuta crisis (60K migrants, 34 dead); Gaza Hamas disarmament deal announced
+  - 2026-07-30: Japan M7.1 earthquake Kumamoto (25 dead); Ukraine cabinet reshuffle; France wildfire Bordeaux
+- Next: Xi-Trump summit Sep 24 outcome; DRC Ebola trajectory; Iran/Hormuz (watch only for concrete new developments); Ukraine (Russia demanding sanctions eased before talks).
+
+**Venezuela** -- Most recent angle (2026-09-10):
+"131 political prisoners released Aug 15 (cumulative 621+; 500+ remain per Foro Penal); Rodriguez-Figuera talks ongoing (Norway facilitation; elections not yet on agenda); PDVSA oil output 1.1-1.25M bpd (declining); Rubio three-stage framework + oil conditionality still active"
+- Last 7 angles:
+  - 2026-09-10: 131 prisoners released Aug 15 (621 total); Rodriguez-Figuera talks; oil output 1.1-1.25M bpd declining; Rubio framework
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected that week; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+  - 2026-07-31: Aug 1 dialogue opens; Rodriguez-Figuera formal talks; Rubio phase-one; Machado rejects
+  - 2026-07-30: Dual protests ahead of Aug 1; incompatible legitimacy claims
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-10.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies: Redis, CDN Caching, and Cache Invalidation [Software Architecture]
+- Next issue: Pick from underrepresented categories. Good options:
+  - Prompt engineering patterns for production systems [Agentic & AI Workflows]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - How cloud compute works: VMs, bare metal, spot instances, reserved capacity [Infrastructure & Internet]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-10.
+- Period: "Pre-Columbian Venezuela -- the Carib, Arawak, and Timoto-Cuica Peoples (before 1498)"
+- Angle covered: "Three indigenous traditions at contact: Carib (coastal maritime raiders, canoe mobility, 'cannibal exception' pretext for enslavement disputed by modern historians); Arawak/Lokono (agricultural river communities, cacique governance, Orinoco trade networks); Timoto-Cuica (Andean highlands, stone-walled villages, terrace agriculture, irrigation, some copper/gold, sophisticated oral traditions). Population 300K-1M+; no large domesticables or metal tools at scale; 90% population loss from Old World disease within 50 years of contact."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian peoples (Carib, Arawak, Timoto-Cuica)
+- Next issue: We have now reached the true beginning. Options: (1) zoom into a specific pre-Columbian detail not yet covered -- e.g., the Pemón and the tepui sacred geography of the Gran Sabana; OR (2) pivot forward and zoom in on an underexplored moment in the colonial or independence period -- e.g., the 1797 La Guaira Conspiracy (Francisco de Miranda's precursor revolutionary cells, the first organized independence plot). Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-09-10.
+- Era: "Era 4 -- The Rise of Private Equity (1980s LBOs to today)"
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-10: "PE political power + carried interest tax provision: carry taxed at cap gains (~20%) not income (~37%) despite being management fee in substance; dates to 1950s-60s LP structure; $14-18B foregone revenue (JCT); PE lobbying $600M+ 2010-2024 (bipartisan); TCJA 2017 extended hold to 3 years but preserved cap gains treatment; 2022 IRA near-miss (Sinema stripped provision); concentrated vs diffuse interest dynamic"
+- Next entry: Stay in Era 4 OR advance. Era 4 has been covered across: 1980s Milken/junk bonds/RJR Nabisco; 1990s-2000s institutionalization (pension LPs, Blackstone/Apollo/Carlyle); 2007 mega-deals; post-2008 ZIRP boom (KKR/Apollo/Carlyle IPOs, Blackstone $1T AUM); 2020s democratization + healthcare wave; carried interest lobbying. Reasonable to advance to Era 1 (new cycle) or introduce Era 5: The Rise of Venture Capital and Tech Startups (1970s-today). If starting fresh cycle, begin Era 1: The Gilded Age & J.P. Morgan -- new angle not yet covered.
+
 ## 2026-09-09 -- Wednesday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-09
