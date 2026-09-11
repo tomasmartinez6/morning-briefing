@@ -1,3 +1,99 @@
+## 2026-09-11 -- Friday
+
+**Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-11
+
+**AI & Technology** -- Microsoft plans to triple global data center capacity from ~12GW to 38GW by 2032 (Bloomberg, Sep 10); expansion adds 26GW of AI-focused compute; equivalent to Netherlands national grid. Positron raises $875M at $5B valuation for memory-first inference chip (Asimov, TSMC N3P, H2 2027 production); thesis: memory bandwidth, not compute, is the binding constraint for large AI models.
+
+**Stock Market & US Economy** -- August CPI released 8:30 ET (expected +0.4% MoM / +3.4% YoY, core slightly lower). Thursday pre-report: S&P -0.6%, Dow -0.4%, Nasdaq 100 -1.3%. Brent crude above $107 (highest in months) on Houthi/Hormuz; 10-yr Treasury yield at highest since Nov 2023. Hormuz disruption Day 192 (transits ~6/day vs 85 baseline). ~67% futures probability of Sept Fed rate hike.
+
+**World / Geopolitics** -- Houthis seize Mokha port (Yemen, Sep 11): biggest territorial gain since 2022 truce; 75km north of Bab el-Mandeb strait. MBS called Trump twice requesting US strikes on Houthis; Trump declined both times; US providing intelligence/targeting data only, ~200 non-kinetic personnel in Saudi Arabia. Brent crossed $107 on news.
+
+**Venezuela** -- NABEP (North American Blue Energy Partners) oil deal detail: US-backed firm gets 100-year concessions on 17 Venezuelan oil fields (est. 65B barrels), $100B investment pledge; announced Aug 31; Chevron and Eni also separately expanding. Deal raises questions about Rubio framework revenue conditionality. Venezuela producing 1.1-1.25M bpd (peak 3M in late 1990s).
+
+**Learning Series (education)** -- Category: Agentic & AI Workflows. Topic: Prompt Engineering Patterns for Production Systems. Covered: role+task+format as foundation; few-shot prompting (demonstrate vs describe); chain-of-thought (intermediate tokens = more compute on hard problems); self-consistency (majority vote across runs); LLM-as-judge (second model evaluates first, routes to human review); prompt decomposition (break complex tasks into verifiable steps -- what multi-agent frameworks operationalize); negative instruction (what NOT to do is often more reliable); context placement (top and bottom of prompt attended most reliably). Core thesis: production prompt engineering = pipelines with the right shape, not magic words.
+
+**Venezuelan History (education)** -- Period: "The Gual and Espana Conspiracy (1797) -- Venezuela's First Independence Plot." Angle: Manuel Gual and Jose Maria Espana organize the first republican independence movement in Spanish South America; Derechos del Pueblo demands full independence + racial equality + abolition of slavery + free trade; French colonel Picornell smuggles manifesto from prison; discovered July 13 1797; Espana executed Caracas May 1799 (body quartered at city gates); Gual dies in Trinidad exile ~1800; Miranda learns of plot; wealthy creoles ambivalent (feared social revolution from below); predates 1810 by 13 years.
+
+**American Business History (education)** -- Era 1: The Gilded Age & J.P. Morgan. FRESH CYCLE. Week of 2026-09-07. Angle: Morganization -- railroad reorganization campaigns 1885-1900: 1885 mediation of NYC-Pennsylvania rate war; voting trusts + board seats as control mechanism; reorganized 1/3 of all US railroad mileage (~50,000 miles) by 1900 (Chesapeake & Ohio, Erie, Northern Pacific, Southern Railway); invention of investment banking as relationship/trust monetization not capital lending; Morgan guarantee = European investor premium; legal forms (voting trusts, holding companies, interlocking directorates) later challenged by Progressive Era antitrust.
+
+---
+
+## Series continuity trackers (updated 2026-09-11)
+
+### News continuity
+
+**AI & Technology** -- Most recent angle (2026-09-11):
+"Microsoft 38GW data center capacity by 2032 (from 12GW, +26GW AI compute, Bloomberg); Positron $875M/$5B valuation memory-first chip (Asimov, TSMC N3P, H2 2027); memory bandwidth as binding constraint thesis"
+- Last 7 angles:
+  - 2026-09-11: Microsoft 38GW data centers by 2032 (+26GW AI); Positron $875M memory-first chip raise
+  - 2026-09-10: GPT-6 Astra launch (1.05M context, Stargate 100K+ GPU, AGI claim); Sony/Warner copyright suit vs Anthropic
+  - 2026-09-09: Mistral Samsung EUR 3B Series D; Sony/Warner sue Anthropic (all 3 majors now suing)
+  - 2026-08-11: Anthropic Theseus Infrastructure JV (Macquarie/GIC); EU DMA Google Android Claude/ChatGPT access by Aug 2027
+  - 2026-08-04: SpaceX first earnings (preview); Palantir Q2 +93%/US commercial +149%; AMD
+  - 2026-08-02: EU AI Act Article 50 + CA SB 942 go live; C2PA watermarking; US EO 14409 deadlines missed
+  - 2026-08-01: Microsoft Azure $100B/+43%; MSFT +$492B single-day gain; Meta FCF -91%; AI ROI divergence
+
+**Stock Market & US Economy** -- Most recent angle (2026-09-11):
+"August CPI released 8:30 ET (expected +0.4% MoM / +3.4% YoY); Thursday sell-off: S&P -0.6%, Dow -0.4%, Nasdaq 100 -1.3%; Brent above $107 (Houthi/Hormuz); 10-yr yield highest since Nov 2023; ~67% Sept rate hike probability"
+- Last 7 angles:
+  - 2026-09-11: August CPI day (expected +3.4% YoY); Thursday sell-off S&P -0.6%/Nasdaq -1.3%; Brent $107+; 10-yr yield Nov 2023 high; 67% Sept hike probability
+  - 2026-09-10: Thursday sell-off (Dow -0.8%, S&P -0.5%, Nasdaq -0.6%); 10-yr yield 4.845% (Nov 2023 high); Hormuz/oil driving costs; midterm economy anxiety
+  - 2026-09-09: August: S&P +2.6%/Nasdaq +3.9%/Dow 5-month streak; payrolls +162K recovery; 68% rate hike probability; Waller disinflation signs
+  - 2026-08-11: July payrolls -23K shock; May+June -103K revision; participation 61.4% (5yr low); CPI Wednesday
+  - 2026-08-04: Monday reversal S&P +1.57% record Dow; megacap AI rally; trade/factory orders
+  - 2026-08-02: Apple Q3 services/iPad miss + guidance decel; Big Tech capex $730B split verdict
+  - 2026-08-01: June payrolls 57K miss; participation 61.5% (March 2021 low); April-May -74K revision
+
+**World / Geopolitics** -- Most recent angle (2026-09-11):
+"Houthis seize Mokha port Yemen (Sep 11): biggest gain since 2022 truce, 75km north Bab el-Mandeb; MBS called Trump twice for US strikes; Trump declined both; US providing intel/targeting/~200 non-kinetic personnel in Saudi; Brent $107+"
+- Last 7 angles:
+  - 2026-09-11: Houthis seize Mokha (biggest gain since 2022 truce, 75km from Bab el-Mandeb); Trump declines MBS request for US strikes; Brent $107+
+  - 2026-09-10: DRC Ebola crisis (Bundibugyo, 6,686 cases / 3,226 deaths, fastest-growing, no vaccine); Xi-Trump summit Sep 24
+  - 2026-09-09: US-Canada trade war escalation -- Canada $20B retaliatory tariffs Sep 8; Carney "at war"; swing-state targeting
+  - 2026-08-11: Iran/Hormuz MOU collapse; PGSA control demand; Brent $87.72 (+5%); Syria Assad in absentia sentencing; Turkey-Pakistan-Saudi pact
+  - 2026-08-04: Iran/Hormuz: Trump confirms talks; Bessent "deal in sight"; Oman managed lane; oil fell
+  - 2026-08-02: Sudan SAF-RSF year 4; RSF drone strikes; cholera; 24.6M hungry
+  - 2026-08-01: EU Schengen fracture; Italy suspends with Spain; 22 leaders emergency meeting; Ceuta 60K migrants
+- Next: Xi-Trump summit Sep 24 (AI governance, trade, Taiwan, Iran); DRC Ebola trajectory; Houthi/Red Sea escalation watch; Iran/Hormuz watch for concrete new development only.
+
+**Venezuela** -- Most recent angle (2026-09-11):
+"NABEP deal: US-backed firm gets 100-year concessions on 17 oil fields (est. 65B barrels), $100B pledge; announced Aug 31; Chevron/Eni separately expanding; Rubio framework revenue conditionality questions; Venezuela 1.1-1.25M bpd (peak 3M)"
+- Last 7 angles:
+  - 2026-09-11: NABEP 100-year deal on 17 fields (65B barrels, $100B pledge); Chevron/Eni also expanding; revenue/Rubio framework tension
+  - 2026-09-10: 131 prisoners released Aug 15 (621 total); Rodriguez-Figuera talks; oil output 1.1-1.25M bpd declining; Rubio framework
+  - 2026-09-09: Rodriguez vows elections "without a doubt" (no timeline); 800+ prisoners released since Jan; ~382 remain (Foro Penal); Machado/Gonzalez boycotting
+  - 2026-08-11: First in-person talks Aug 6; Claver-Carone departure; earthquake 6,125 dead; US military buildup Caribbean
+  - 2026-08-04: First in-person meeting expected; earthquake/political rights agenda; Machado/Gonzalez boycott
+  - 2026-08-02: Aug 1 dialogue = phone call; three working groups; in-person next week Caracas; Norway facilitating
+  - 2026-08-01: Talks launched; Rodriguez-Figuera Caracas; parallel protests; elections not addressed
+
+---
+
+### Series continuity trackers
+
+**Learning Series** (`learning-series`) -- Most recent entry: 2026-09-11.
+- Topics covered: RAG [Agentic & AI Workflows]; SQL vs NoSQL [Software Architecture]; How DNS Works [Infrastructure & Internet]; Message Queues and Event-Driven Architecture [Software Architecture]; What Are Embeddings [AI/ML Concepts]; How Neural Networks Learn: Backpropagation and Gradient Descent [AI/ML Concepts]; Containers, Docker, and Kubernetes [Infrastructure & Internet]; How the Transformer Architecture Works [AI/ML Concepts]; APIs: REST vs GraphQL vs gRPC [Software Architecture]; Multi-Agent Systems [Agentic & AI Workflows]; Reinforcement Learning from Human Feedback (RLHF) [AI/ML Concepts]; How CDNs and Edge Computing Work [Infrastructure & Internet]; How Diffusion Models Work [AI/ML Concepts]; Microservices Architecture [Software Architecture]; How TCP/IP and the Internet Protocol Stack Work [Infrastructure & Internet]; Fine-tuning vs RAG vs Prompting -- When to Use Each [AI/ML Concepts]; Caching Strategies: Redis, CDN Caching, and Cache Invalidation [Software Architecture]; Prompt Engineering Patterns for Production Systems [Agentic & AI Workflows]
+- Next issue: Good options (avoid covered topics):
+  - Tokenization -- how LLMs see text [AI/ML Concepts]
+  - How databases handle transactions: ACID, locks, MVCC [Software Architecture]
+  - How cloud compute works: VMs, bare metal, spot instances, reserved capacity [Infrastructure & Internet]
+  - The context window: why it matters and how models use it [AI/ML Concepts]
+
+**Venezuelan History** (`venezuela-history`) -- Most recent entry: 2026-09-11.
+- Period: "The Gual and Espana Conspiracy (1797) -- Venezuela's First Independence Plot"
+- Angle covered: "Manuel Gual + Jose Maria Espana organize first republican independence movement in Spanish South America; Derechos del Pueblo (independence + racial equality + abolition of slavery + free trade + no Indian tribute); French colonel Picornell smuggles manifesto from prison; discovered July 13 1797; Espana executed Caracas May 1799 (body quartered at city gates); Gual dies Trinidad exile ~1800; Miranda learns of plot in Trinidad; wealthy creoles fear social revolution; predates 1810 uprisings by 13 years."
+- Prior angles: Punto Fijo 1958; Viernes Negro 1983; Feb 4 1992 coup; PDVSA oil lockout/recall; April 2002 coup; Chavez cancer/2012 re-election; Chavez-Maduro succession/2013 election; Caracazo 1989; 1948 Military Coup; 1945 October Revolution; Gomez Era 1908-1935; Guzman Blanco 1870-1888; Federal War 1859-1863; Paez Era 1830-1848; Venezuelan Independence/First Republic 1810-1812; Guipuzcoan Company 1728-1784; Encomienda and Cacao Economy 16th-17th century; German Welsers 1528-1546; First European Contact and Conquest 1498-1521; Pre-Columbian peoples (Carib, Arawak, Timoto-Cuica); Gual and Espana Conspiracy 1797
+- Next issue: Options: (1) Francisco de Miranda's 1806 invasion attempts (the Leander expeditions -- two failed military landings on Venezuela's coast, first armed attempt at independence by a Venezuelan); OR (2) zoom in on the Caracas Cabildo of April 19, 1810 -- the moment the creole elite finally moved, the political maneuvering behind the scenes, who was in the room. Do NOT repeat any prior angle.
+
+**American History Through Business** (`american-business-history`) -- Most recent entry: 2026-09-11.
+- Era: "Era 1 -- The Gilded Age & J.P. Morgan" (NEW CYCLE -- Era 4 complete)
+- Week of: 2026-09-07
+- Angles covered this week:
+  - 2026-09-11: "Morganization -- railroad reorganization 1885-1900: 1885 NYC-Pennsylvania rate war mediation; voting trusts + board seats; 50,000 miles reorganized; invention of investment banking as relationship/trust business; Morgan guarantee = European investor premium; legal forms later challenged by Progressive Era antitrust"
+- Next entry: Stay in Era 1 (Gilded Age & J.P. Morgan), same week of 2026-09-07. New angle: The 1895 Gold Crisis -- how Morgan privately rescued the US Treasury from gold reserve collapse (the $62M bond syndication with Rothschilds); Cleveland government hemmed in by Congress; Morgan's terms; the political backlash and Bryan's "cross of gold" speech as a direct response to the Morgan deal. Do NOT repeat the railroad/Morganization angle.
+
+
+
 ## 2026-09-10 -- Thursday
 
 **Full issue:** https://tomasmartinez6.github.io/morning-briefing/#2026-09-10
